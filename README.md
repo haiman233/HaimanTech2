@@ -1,0 +1,2 @@
+# HaimanTech2
+海曼科技院是通过SlimeCustomizer插件写成的一份配置文件，旨在完善粘液科技线，拓展新的原版玩法
