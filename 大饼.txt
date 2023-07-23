@@ -10,6 +10,7 @@
 上锁机（包括信标）
 压缩粘液书
 补充遗迹搜寻机的战利品箱
+头饰
 
 立式音响头颅
 /give haiman minecraft:player_head{BlockEntityTag:{note_block_sound:"minecraft:music.game"}}
