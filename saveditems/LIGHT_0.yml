@@ -1,0 +1,9 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2865
+  type: LIGHT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    BlockStateTag:
+      level: '0'
