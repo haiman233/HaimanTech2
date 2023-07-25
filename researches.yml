@@ -1,0 +1,964 @@
+# 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Researches
+rou:
+  id: 110000000
+  name: "更多肉"
+  cost: 10
+  items:
+    - GHAST_ROU
+    - BAT_ROU
+    - CAT_ROU
+    - DONKEY_ROU
+    - HORSE_ROU
+    - MULE_ROU
+    - FOX_ROU
+    - PARROT_ROU
+    - SQUID_ROU
+    - STRIDER_ROU
+    - VILLAGER_ROU
+    - WANDERING_TRADER_ROU
+    - TURTLE_ROU
+    - GIANT_ROU
+modikeji:
+  id: 110000002
+  name: "末地科技拓展"
+  cost: 30
+  items:
+    - ZOT_INGOT
+zishuijingfen:
+  id: 110000003
+  name: "当水晶破碎的时候"
+  cost: 16
+  items:
+    - HAIMAN_AMETHYST_DUST
+gongye:
+  id: 110000004
+  name: "工业基础"
+  cost: 32
+  items:
+    - FUHEBAN
+renzaocailiao:
+  id: 110000005
+  name: "人造高级材料"
+  cost: 50
+  items:
+    - ARTIFICIAL_SILICON_BASED_MATERIALS
+    - MINECRAFT_SOURCE_STONE
+    - ANCIENT_ITEM
+fenzi_1:
+  id: 110000006
+  name: "分子重组仪入门"
+  cost: 40
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_I
+fenzi_2:
+  id: 110000007
+  name: "分子重组仪2"
+  cost: 55
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_II
+fenzi_3:
+  id: 110000008
+  name: "海曼的新型高科技物品"
+  cost: 80
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_III
+fenzi_4:
+  id: 110000009
+  name: "重组仪...4?"
+  cost: 104
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+    - MINECRAFT_DEAD_BUSH_GHOST
+    - HAIMAN_INFINITY_CONSTRUCTOR_2
+fenzi_5:
+  id: 110000010
+  name: "脚步并不止于此"
+  cost: 150
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_V
+    - HT_MODULE_1
+fenzi_32767:
+  id: 110000011
+  name: "分子仪的玩笑"
+  cost: 35
+  items:
+    - MOLECULAR_RECOMBINATION_INSTRUMENT_32767
+    - MOLECULAR_CHANGER
+    - MAGIC_SWEET_POTATO
+    - DOGE
+    - HAIMAN_TEA
+    - FKS
+zhongjimada:
+  id: 110000012
+  name: "终极能源马达"
+  cost: 45
+  items:
+    - ULTIMATE_ENERGY_MOTOR
+yijidingwei:
+  id: 110000013
+  name: "遗迹定位"
+  cost: 88
+  items:
+    - YJ_DINGWEI_QI
+    - BZ_TCQ
+    - HAIMAN_YJ_SX_MACHINE
+doumao:
+  id: 110000014
+  name: "嘿嘿嘿...猫猫"
+  cost: 40
+  items:
+    - DOUMAOBANG
+    - HAIMAN_LU_CAT_MACHINE
+zuozhe:
+  id: 110000016
+  name: "带恶人"
+  cost: 30
+  items:
+    - HAIMAN
+    - YITOUDAIDAI
+    - YH_MC
+haimantech_fuel:
+  id: 110000017
+  name: "高级燃料"
+  cost: 45
+  items:
+    - H_FUEL
+    - HD_FUEL
+    - HDB_FUEL
+    - HDBU_FUEL
+dangaopi:
+  id: 110000020
+  name: "生日快乐！"
+  cost: 15
+  items:
+    - HM_CAKE_BREAD
+    - HAIMAN_DANGAO_HONGBEI
+    - HAIMAN_BIRTHDAY_CAKE_1
+kongqiumoban:
+  id: 110000021
+  name: "波兰球模版"
+  cost: 35
+  items:
+    - HM_EMPTY_COUNTRY_BALL
+hunian:
+  id: 110000022
+  name: "新年快乐!"
+  cost: 120
+  items:
+    - HAIMAN_CHINESE_DRAGON_1
+    - HAIMAN_TIGER_1
+    - HAIMAN_CHINA_1
+    - HAIMAN_CHINESE_LANTERN_1
+    - HAIMAN_TIGER_FURRY_1
+    - HAIMAN_NEW_YEAR_PIECE_1
+    - HAIMAN_NEW_YEAR_1
+    - HAIMAN_TIGER_STICK_1
+    - HAIMAN_TIGER_DUN_1
+    - HAIMAN_TIGER_AXE_1
+miaosha:
+  id: 110000023
+  name: "秒杀神器"
+  cost: 66
+  items:
+    - HAIMAN_XIONGSHILAOFANG
+guang:
+  id: 110000024
+  name: "隐形光源"
+  cost: 90
+  items:
+    - LIGHT_0
+    - LIGHT_1
+    - LIGHT_2
+    - LIGHT_3
+    - LIGHT_4
+    - LIGHT_5
+    - LIGHT_6
+    - LIGHT_7
+    - LIGHT_8
+    - LIGHT_9
+    - LIGHT_10
+    - LIGHT_11
+    - LIGHT_12
+    - LIGHT_13
+    - LIGHT_14
+    - HAIMAN_LIGHT_PRODUCER
+    - HAIMAN_LIGHT_UPDATER
+jichujiqi:
+  id: 110000025
+  name: "压块机"
+  cost: 20
+  items:
+    - COMPRESSION_BLOCK_MACHINE
+dianzu:
+  id: 110000026
+  name: "电力过多的烦恼"
+  cost: 35
+  items:
+    - HAIMAN_RESISTANCE
+jichuheshuaibian:
+  id: 110000027
+  name: "基础核衰变"
+  cost: 40
+  items:
+    - NUCLEAR_DECAY_MACHINE
+nongyeyiti:
+  id: 110000028
+  name: "农业一体机"
+  cost: 40
+  items:
+    - MILK_HONEY_MACHINE
+canhaishengchan:
+  id: 110000029
+  name: "残骸自动化"
+  cost: 46
+  items:
+    - ANCIENT_DEBRIS_MACHINE
+minlingfangkuairanse:
+  id: 110000030
+  name: "阻止你的是什么？"
+  cost: 88
+  items:
+    - COMMAND_BLOCK_DYE_MACHINE
+    - HAIMAN_DEBUG_MACHINE
+zaipeiji:
+  id: 110000031
+  name: "无土栽培"
+  cost: 62
+  items:
+    - HAIMAN_MUSHROOM_MACHINE
+    - HAIMAN_FLOWER_MACHINE
+    - HAIMAN_PLANT_MACHINE
+    - HAIMAN_CORAL_PRODUCER
+wubiaoqian:
+  id: 110000032
+  name: "当它们脱去标签时"
+  cost: 36
+  items:
+    - NONE_NBT_MACHINE
+xiajienianye:
+  id: 110000033
+  name: "下界粘液!!"
+  cost: 35
+  items:
+    - STRANGE_NETHER_GOO_MACHINE
+lianyefenzi:
+  id: 110000034
+  name: "莲叶能源"
+  cost: 42
+  items:
+    - LILY_PAD_MACHINE
+    - LILY_PAD_GENERATOR
+renzaotiantichubu:
+  id: 110000035
+  name: "人造天体初步"
+  cost: 32
+  items:
+    - MAN_MADE_MOON
+wujinyiti1:
+  id: 110000036
+  name: "无尽锭一体入门"
+  cost: 500
+  items:
+    - INFINITY_ALL_IN_ONE_MACHINE_1
+wujinyiti2:
+  id: 110000037
+  name: "自动化之神"
+  cost: 600
+  items:
+    - INFINITY_ALL_IN_ONE_MACHINE_2
+2jichujiqi:
+  id: 110000038
+  name: "懒狗之神"
+  cost: 700
+  items:
+    - INFINITY_ALL_IN_ONE_MACHINE_3
+riyongjiqi:
+  id: 110000039
+  name: "日用机器"
+  cost: 128
+  items:
+    - HAIMAN_WASHING_MACHINE
+    - HAIMAN_SUGAR_PRODUCER_MACHINE
+    - HAIMAN_FISH_MACHINE
+    - HAIMAN_FOOD_FERMENTATION_MACHINE
+    - HAIMAN_LEARHER_CHANGER
+    - HAIMAN_CRAFTING_TABLE
+    - HAIMAN_MINECART_MACHINE
+    - HAIMAN_BOOK_MACHINE
+    - HAIMAN_COFFEE_MAKER
+tiezhenjiqi:
+  id: 110000040
+  name: "铁砧的离与合"
+  cost: 38
+  items:
+    - HAIMAN_ANVIL_BROKER
+    - HAIMAN_ANVIL_FIXER
+zhongqijiqi:
+  id: 110000041
+  name: "中期过渡机器"
+  cost: 40
+  items:
+    - HAIMAN_GRAVEL_CREATER
+modimenjiqi:
+  id: 110000042
+  name: "想去末地了？"
+  cost: 50
+  items:
+    - HAIMAN_END_PORTAL_FRAME_CREATER
+3jichujiqi:
+  id: 110000043
+  name: "压块机"
+  cost: 20
+  items:
+    - COMPRESSION_BLOCK_MACHINE
+gaizaoji:
+  id: 110000044
+  name: "方块改造"
+  cost: 110
+  items:
+    - HAIMAN_WOOD_PEELER
+    - INFESTED_MACHINE
+    - SOIL_CHANGER
+    - GRASS_WOOD_CHANGER
+    - CORAL_DEAD_MACHINE
+    - HAIMAN_STONE_CHANGER
+    - HAIMAN_CARPET_MACHINE
+wujinyoubeng:
+  id: 110000045
+  name: "石油！源源不断的石油！"
+  cost: 252
+  items:
+    - HAIMAN_INFINITY_OIL_PUMP
+jinyiti:
+  id: 110000046
+  name: "金一体化"
+  cost: 80
+  items:
+    - 4K_GOLD_INTEGRATED_MACHINE
+    - 4K_GOLD_INTEGRATED_MACHINE_2
+    - 4K_GOLD_INTEGRATED_MACHINE_3
+    - HAIMAN_12K_GOLD_PRODUCER
+    - HAIMAN_24K_GOLD_PRODUCER
+xukongyiti:
+  id: 110000047
+  name: "虚空一体机"
+  cost: 160
+  items:
+    - HAIMAN_VOID_INGOT_PRODUCER
+shiyinyiti:
+  id: 110000948
+  name: "石英一体机"
+  cost: 160
+  items:
+    - HAIMAN_QUARTZ_PRODUCER_1
+    - HAIMAN_QUARTZ_PRODUCER_2
+    - HAIMAN_QUARTZ_PRODUCER_3
+uuyiti:
+  id: 110000848
+  name: "UU物质一体机"
+  cost: 255
+  items:
+    - HAIMAN_UU_MACHINE
+sfbookyiti:
+  id: 110001848
+  name: "源源不断的粘液书！"
+  cost: 200
+  items:
+    - HAIMAN_SFBOOK_MACHINE
+yuanbanyiti:
+  id: 110000048
+  name: "原版物品一体机"
+  cost: 300
+  items:
+    - HAIMAN_CLAY_BALL_INGOT_PRODUCER
+    - HAIMAN_DIRT_PRODUCER
+    - HAIMAN_DEEPSLATE_PRODUCER
+    - RAIL_INTEGRATED_MACHINE
+    - HAIMAN_RAIL_MACHINE_1
+    - HAIMAN_SHULKER_BOX_MACHINE
+    - HAIMAN_NETHERITE_INGOT_MACHINE
+    - HAIMAN_MAGMA_BLOCK_MACHINE
+    - HAIMAN_TOTEM_EXPLORER
+    - SAPLING_INTEGRATED_MACHINE
+    - CONCRETE_FORMING_MACHINE
+    - HAIMAN_YINSHI_PRODUCER
+zhaguozhi:
+  id: 110000049
+  name: "榨果汁"
+  cost: 32
+  items:
+    - HAIMAN_AUTO_JUICER
+kuangfenzhuanhuan:
+  id: 110000050
+  name: "矿粉转换"
+  cost: 65
+  items:
+    - HAIMAN_COPPER_DUST_PRODUCER
+    - HAIMAN_IRON_DUST_PRODUCER
+jieyaji:
+  id: 1100000517
+  name: "解压机"
+  cost: 88
+  items:
+    - HAIMAN_DECOMPRESSOR_MACHINE_1
+    - HAIMAN_DECOMPRESSOR_MACHINE_2
+renzaogailiang:
+  id: 110000052
+  name: "人造改良机"
+  cost: 66
+  items:
+    - SYNTHETIC_CHANGER
+jichukeyin:
+  id: 110000053
+  name: "刻印类机器"
+  cost: 88
+  items:
+    - HAIMAN_BANNER_PATTERN_PRODUCER
+    - MUSIC_DISC_PRODUCER
+    - HAIMAN_HORSE_ARMOR_PRODUCER
+jiejinyiti:
+  id: 110000054
+  name: "结晶一体"
+  cost: 77
+  items:
+    - HAIMAN_LUMP_PRODUCER
+ranfang:
+  id: 110000055
+  name: "染坊!!"
+  cost: 150
+  items:
+    - HAIMAN_CONCRETE_DYING
+    - HAIMAN_WOOL_DYING
+    - HAIMAN_GLASS_DYING
+    - HAIMAN_TERRACOTTA_DYING
+    - HAIMAN_SHULKER_BOX_DYING
+    - HAIMAN_CANDLE_DYING
+    - HAIMAN_ADVANCE_DYING
+yiqijiqi:
+  id: 110000056
+  name: "1.17机器"
+  cost: 160
+  items:
+    - HAIMAN_POWDER_SNOW_MACHINE
+    - HAIMAN_RAW_INGOT_CHANGER
+    - HAIMAN_ORE_CHANGER
+    - HAIMAN_GLOWER
+    - HAIMAN_COPPER_INGOT_CHANGER
+tula:
+  id: 110000057
+  name: "涂蜡？打蜡？"
+  cost: 40
+  items:
+    - HAIMAN_WAX_ON_MACHINE
+    - HAIMAN_WAX_OFF_MACHINE
+    - HAIMAN_OXIDIZED_MACHINE
+    - HAIMAN_RUST_REMOVAL_MACHINE
+gaojiyuanban:
+  id: 110000058
+  name: "更高级的原版机器"
+  cost: 150
+  items:
+    - HAIMAN_ELECTRIC_INGOT_FACTORY_4
+    - HAIMAN_ELECTRIC_INGOT_FACTORY_5
+    - HAIMAN_CARBON_PRESS_4
+    - HAIMAN_CARBON_PRESS_5
+nianyeyiti:
+  id: 110000059
+  name: "粘液机器"
+  cost: 77
+  items:
+    - HAIMAN_BASIC_PRODUCER
+ranliaoyehua:
+  id: 110000060
+  name: "燃料液化机"
+  cost: 92
+  items:
+    - HAIMAN_FUEL_MACHINE
+qiangheyiti1:
+  id: 110000061
+  name: "强合一体1"
+  cost: 500
+  items:
+    - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1
+qiangheyiti2:
+  id: 110000062
+  name: "强合一体2"
+  cost: 1000
+  items:
+    - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2
+qiangheyiti3:
+  id: 110000063
+  name: "强合一体3"
+  cost: 2000
+  items:
+    - HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+gongyezidonghua:
+  id: 110000064
+  name: "工业附属自动化"
+  cost: 155
+  items:
+    - HAIMAN_JINGLIANLU
+    - GJJLL
+    - JINSHUJGC
+    - SHOUMOJGC
+zhuanhuanji:
+  id: 1100000657
+  name: "物品转换机"
+  cost: 88
+  items:
+    - HAIMAN_MEAT_CHANGER
+    - HAIMAN_BOTTLE_CHANGER
+shuji:
+  id: 110000066
+  name: "书本转换"
+  cost: 32
+  items:
+    - HAIMAN_WRITTEN_BOOK_CHANGER
+    - HAIMAN_WRITTEN_BOOK_CHANGERNEW
+    - BOOK_1
+    - BOOK_2
+    - BOOK_3
+    - BOOK_4
+yinxingji:
+  id: 110000067
+  name: "物品隐形"
+  cost: 42
+  items:
+    - HAIMAN_YINGXING_MACHINE
+xszpzp:
+  id: 110000967
+  name: "学识之瓶的装配"
+  cost: 58
+  items:
+    - XUESHIZHIPINGZHUANGPEIJI
+kwcs:
+  id: 110000968
+  name: "矿物催生器"
+  cost: 62
+  items:
+    - KUANGWUCUISHENGQI
+    - MEITANZHONGZI
+    - TIEZHONGZI
+    - JINZHONGZI
+    - LVBAOSHIZHONGZI
+    - ZUANSHIZHONGZI
+    - SHIYINGZHONGZI
+    - QINGJINSHIZHONGZI
+    - HONGSHISHIZHONGZI
+jiaoyiji:
+  id: 110000068
+  name: "成交！"
+  cost: 78
+  items:
+    - HAIMAN_ZLJY_MACHINE
+    - HAIMAN_CMLW_MACHINE
+diandongduanzao:
+  id: 110000069
+  name: "电动锻造机"
+  cost: 34
+  items:
+    - HAIMAN_DUANZAO_MACHINE
+hedianzhan:
+  id: 110000072
+  name: "核电站！"
+  cost: 320
+  items:
+    - HEDIANZHAN_1
+    - HEDIANZHAN_2
+    - HELIEBIAN_3
+kongjianjiqi:
+  id: 110000073
+  name: "空间模拟机器"
+  cost: 240
+  items:
+    - HAIMAN_CAVE_MACHINE
+    - DIYUKONGJIAN
+    - MODIKONGJIAN
+    - MIJINGHUAYUAN
+    - JIHANZHIDI
+xukongdiaoyu:
+  id: 110000075
+  name: "鱼到碗里来!"
+  cost: 66
+  items:
+    - DIAOYUJI
+wanneng:
+  id: 110000076
+  name: "万能石头工厂"
+  cost: 150
+  items:
+    - WANNENGGONGCHANG
+    - SHITOUGONGCHANG
+diancitie1:
+  id: 110000079
+  name: "电磁铁爆发仪基础"
+  cost: 1300
+  items:
+    - ELECTRO_MAGNET_INTEGRATED_MACHINE_1
+diancitie2:
+  id: 110000080
+  name: "电磁铁之王"
+  cost: 2600
+  items:
+    - ELECTRO_MAGNET_INTEGRATED_MACHINE_2
+diancitie3:
+  id: 110000081
+  name: "天上掉电磁铁了！"
+  cost: 5000
+  items:
+    - ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+fulifadian:
+  id: 110000084
+  name: "福利发电机"
+  cost: 4
+  items:
+    - HAIMAN_EXAMPLE_GENERATOR
+    - VAGETABLE_SOLAR_GENERATOR
+renzaoxiaotaiyang:
+  id: 110000085
+  name: "人造小太阳"
+  cost: 320
+  items:
+    - MAN_MADE_SUN
+renzaoyinhexi:
+  id: 110000086
+  name: "人造银河系"
+  cost: 680
+  items:
+    - MAN_MADE_GALAXY
+renzaoheidong:
+  id: 110000087
+  name: "人造黑洞"
+  cost: 1080
+  items:
+    - MAN_MADE_BLACK_HOLE
+renzaoyuzhou:
+  id: 110000088
+  name: "...人造宇宙..."
+  cost: 1880
+  items:
+    - MAN_MADE_UNIVERSE
+zhongjifadianji:
+  id: 110000089
+  name: "中级发电机"
+  cost: 135
+  items:
+    - HAIMAN_ELEMENT_GENERATOR
+    - HAIMAN_EARTH_GENERATOR
+    - HAIMAN_SEND_CACTUS_GENERATOR
+    - HAIMAN_END_GENERATOR
+
+gaojihefanyingdui:
+  id: 110000090
+  name: "高级核反应堆"
+  cost: 58
+  items:
+    - ADVANCED_NUCLEAR_REACTOR
+fangshexingfadianji:
+  id: 110000091
+  name: "放射性同位素热电机"
+  cost: 72
+  items:
+    - RADIOISOTOPE_THERMOELECTRIC_MACHINE_T
+dianwangdianxian:
+  id: 110000092
+  name: "电线与电网"
+  cost: 20
+  items:
+    - HIGH_VOLTAGE_TRANSMISSION_LINES
+    - HAIMAN_POWER_NET
+bolanqiu:
+  id: 110000094
+  name: "波兰球"
+  cost: 88
+  items:
+    - CHINA_TAIWAN_BALL
+    - CHINA_XIANGGANG_BALL
+    - CHINA_AOMEN_BALL
+    - CHINA_BALL
+    - CX_BALL
+    - XJP_BALL
+    - YM_BALL
+    - LG_BALL
+    - TG_BALL
+    - YSL_BALL
+    - FLB_BALL
+    - AFH_BALL
+    - BJST_BALL
+    - MJLG_BALL
+    - BALIN_BALL
+    - ASBJ_BALL
+    - AEZH_BALL
+    - YMNY_BALL
+    - RIBEN_BALL
+    - WZBKST_BALL
+    - ALBLHQZG_BALL
+    - TKMST_BALL
+    - TJKST_BALL
+    - XLY_BALL
+    - HANGUO_BALL
+    - DTJST_BALL
+    - STALB_BALL
+    - HSKST_BALL
+    - YDNXY_BALL
+    - ABHQY_BALL
+    - WENLAI_BALL
+    - BUDAN_BALL
+    - DDF_BALL
+    - SPLS_BALL
+    - JPZ_BALL
+    - GLJY_BALL
+    - MIANDIAN_BALL
+    - MENGGU_BALL
+    - MEDF_BALL
+    - MLXY_BALL
+    - LBN_BALL
+    - JEJSST_BALL
+    - KWT_BALL
+    - YUEDAN_BALL
+    - YLK_BALL
+    - YILANG_BALL
+    - INDIA_BALL
+    - KATAER_BALL
+    - BLST_BALL
+    - AMSD_BALL
+    - NBE_BALL
+    - NAST_BALL
+    - YUENAN_BALL
+    - TUERQI_BALL
+    - ASEAN_BALL
+    - SHAE_BALL
+    - SULIAN_BALL
+    - RUSSIA_BALL
+    - PTY_BALL
+    - BLS_BALL
+    - YDL_BALL
+    - MET_BALL
+    - UK_BALL
+    - FG_BALL
+    - XL_BALL
+    - DG_BALL
+    - PLSDG_BALL
+    - MNG_BALL
+    - JIEKE_BALL
+    - AEL_BALL
+    - LTW_BALL
+    - RS_BALL
+    - WKL_BALL
+    - DANMAI_BALL
+    - BOLAN_BALL
+    - LTWY_BALL
+    - ASNY_BALL
+    - BELS_BALL
+    - ADL_BALL
+    - XYL_BALL
+    - LMNY_BALL
+    - SLWNY_BALL
+    - BLLTW_BALL
+    - SEWY_BALL
+    - HELAN_BALL
+    - SLFK_BALL
+    - KLDY_BALL
+    - FENLAN_BALL
+    - SMLN_BALL
+    - BINGDAO_BALL
+    - NUOWEI_BALL
+    - RUIDIAN_BALL
+    - JTLNY_BALL
+    - AEBNY_BALL
+    - ADE_BALL
+    - BJLY_BALL
+    - XBY_BALL
+    - BSNYHHSGWN_BALL
+    - HS_BALL
+    - MEDW_BALL
+    - LZDSD_BALL
+    - FDG_BALL
+    - DNSTHDAGHG_BALL
+    - LSB_BALL
+    - MSWEJQD_BALL
+    - NSLF_BALL
+    - AXDG_BALL
+    - LBL_BALL
+    - JKSLFK_BALL
+    - DD_BALL
+    - SKSGG_BALL
+    - OM_BALL
+    - HY_BALL
+    - AJ_BALL
+    - ASEBY_BALL
+    - WGD_BALL
+    - SLLA_BALL
+    - SNJE_BALL
+    - LWD_BALL
+    - MLQS_BALL
+    - 1MLTNY_BALL
+    - MDJSJ_BALL
+    - NRLY_BALL
+    - NRE_BALL
+    - MLG_BALL
+    - AEJLY_BALL
+    - BCWN_BALL
+    - AGL_BALL
+    - BLD_BALL
+    - BJNFS_BALL
+    - BN_BALL
+    - SWSL_BALL
+    - ELTLY_BALL
+    - CDJNY_BALL
+    - JBT_BALL
+    - KTDW_BALL
+    - GGGHG_BALL
+    - GGMZGHG_BALL
+    - KML_BALL
+    - ZFGHG_BALL
+    - KAMAILONG_BALL
+    - FDJ_BALL
+    - JNYBS_BALL
+    - JNY_BALL
+    - JN_BALL
+    - JP_BALL
+    - MSBK_BALL
+    - MLTNY_BALL
+    - MLW_BALL
+    - LBY_BALL
+    - KBLY_BALL
+    - LST_BALL
+    - NNW_BALL
+    - KNY_BALL
+    - GBY_BALL
+    - NMBY_BALL
+    - SD_BALL
+    - NSD_BALL
+    - NF_BALL
+    - SMLL_BALL
+    - SML_BALL
+    - SSE_BALL
+    - SDMHPLXB_BALL
+    - ALBSHLMZGHG_BALL
+    - JBBW_BALL
+    - ZBY_BALL
+    - TNS_BALL
+    - DUOGE_BALL
+    - TSNY_BALL
+    - KEDST_BALL
+    - MMLKSD_BALL
+    - ML_BALL
+    - ZD_BALL
+    - JNL_BALL
+    - FM_BALL
+    - USA_BALL
+    - JND_BALL
+    - BNM_BALL
+    - BAXI_BALL
+    - AGT_BALL
+    - BLWY_BALL
+    - GLBY_BALL
+    - HAIDI_BALL
+    - BILU_BALL
+    - MXG_BALL
+    - WLG_BALL
+    - EEDG_BALL
+    - ZL_BALL
+    - ADGHBBD_BALL
+    - BBDS_BALL
+    - BHM_BALL
+    - BLZ_BALL
+    - SEWD_BALL
+    - DMNJ_BALL
+    - DMNK_BALL
+    - GUBA_BALL
+    - GSDLJ_BALL
+    - GYN_BALL
+    - GLND_BALL
+    - YMJ_BALL
+    - HDLS_BALL
+    - BLG_BALL
+    - NJLG_BALL
+    - SLN_BALL
+    - SWSTHGLNT_BALL
+    - SLXY_BALL
+    - SJZHNWS_BALL
+    - WNRL_BALL
+    - DLNDHDBG_BALL
+    - SPAEHMKL_BALL
+    - GLL_BALL
+    - FSGYN_BALL
+    - WDML_BALL
+    - BY_BALL
+    - ADLY_BALL
+    - FIJI_BALL
+    - MKLNXY_BALL
+    - MSEQD_BALL
+    - JLBS_BALL
+    - BBYXJNY_BALL
+    - PL_BALL
+    - NIUAI_BALL
+    - XXL_BALL
+    - NAOLU_BALL
+    - SLMQD_BALL
+    - SMYQD_BALL
+    - WNAT_BALL
+    - TWL_BALL
+    - TJ_BALL
+    - XKLDNY_BALL
+    - NFKD_BALL
+    - NANJI_BALL
+biaoqin:
+  id: 6000000001
+  name: "趣味表情"
+  cost: 36
+  items:
+    - DOGE
+    - EMOJI_HAPPY
+    - EMOJI_NERVOUS
+    - EMOJI_ANGRY
+    - EMOJI_ICE
+    - EMOJI_ZZZ
+    - EMOJI_OU
+    - EMOJI_LAUGH
+    - EMOJI_LAUGHING_CRYING
+    - EMOJI_SAD
+    - EMOJI_CRY
+    - EMOJI_SHIT
+    - EMOJI_WOW
+    - EMOJI_CRAZY
+    - EMOJI_LOVE
+    - EMOJI_LUE
+    - EMOJI_CONFIDENCE
+    - EMOJI_DEAD
+    - EMOJI_SPIKE
+    - EMOJI_THINKING
+    - EMOJI_BEARD
+    - EMOJI_COOL
+    - EMOJI_BIG_MOUTH_CRYING
+    - EMOJI_XOK
+    - EMOJI_EMOTICON_EYES
+chaopindianluban:
+  id: 110001000
+  name: "超频！超频！"
+  cost: 1000
+  items:
+    - HM_CHAOPING_CIRCUIT_BOARD
+yasuonianyeshu:
+  id: 110001001
+  name: "压缩粘液书"
+  cost: 38
+  items:
+    - YASUO_SFBOOK
+    - YASUO_YASUO_SFBOOK
+yuanyoujiang:
+  id: 110101001
+  name: "原油浆"
+  cost: 400
+  items:
+    - YUANYOUJIANG_1
+    - YUANYOUJIANG_2
+    - YUANYOUJIANG_3
+jixiaodianrong:
+  id: 110101002
+  name: "极小电容"
+  cost: 18
+  items:
+    - CHOU_CAPACITOR
+    - FEI_CAPACITOR

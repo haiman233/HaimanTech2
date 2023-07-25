@@ -1,0 +1,1176 @@
+# 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Material-Generators
+INFINITY_ALL_IN_ONE_MACHINE_1:
+  category: slime_customizer_yitihua
+  machine-name: '&9&l无尽锭一体机 &7- &eI'
+  machine-lore:
+  - '&8唔，终于...做出来了'
+  - '&764s/item'
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  item-amount: 1
+  stats:
+    energy-consumption: 4000
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: NETHERSTAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_V
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+  output:
+    tick-rate: 120
+    type: SLIMEFUN
+    id: INFINITE_INGOT
+    amount: 1
+INFINITY_ALL_IN_ONE_MACHINE_2:
+  category: slime_customizer_yitihua
+  machine-name: '&9&l无尽锭一体机 &7- &6II'
+  machine-lore:
+  - '&8经过改良后的一体机似乎变得更快了'
+  - '&732s/item'
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  item-amount: 1
+  stats:
+    energy-consumption: 3800
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+  output:
+    tick-rate: 32
+    type: SLIMEFUN
+    id: INFINITE_INGOT
+    amount: 1
+INFINITY_ALL_IN_ONE_MACHINE_3:
+  category: slime_customizer_yitihua
+  machine-name: '&9&l无尽锭一体机 &7- &cIII'
+  machine-lore:
+  - '&8估计没人能做到这一步吧'
+  - '&712s/item'
+  block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
+  item-amount: 1
+  stats:
+    energy-consumption: 3500
+    energy-buffer: 850000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: STRUCTURE_BLOCK
+      amount: 1
+    '2':
+      type: VANILLA
+      id: COMMAND_BLOCK
+      amount: 1
+    '3':
+      type: VANILLA
+      id: JIGSAW
+      amount: 1
+    '4':
+      type: VANILLA
+      id: REPEATING_COMMAND_BLOCK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_ALL_IN_ONE_MACHINE_2
+      amount: 1
+    '6':
+      type: VANILLA
+      id: CHAIN_COMMAND_BLOCK
+      amount: 1
+    '7':
+      type: VANILLA
+      id: STRUCTURE_VOID
+      amount: 1
+    '8':
+      type: VANILLA
+      id: BEDROCK
+      amount: 1
+    '9':
+      type: VANILLA
+      id: BARRIER
+      amount: 1
+  output:
+    tick-rate: 10
+    type: SLIMEFUN
+    id: INFINITE_INGOT
+    amount: 1
+HAIMAN_CLAY_BALL_INGOT_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l黏土球一体机'
+  machine-lore:
+  - '&7全自动一体化生产黏土球'
+  block-type: SKULLdaa55391ef89b2a534a58d0150f1621175310ea87735601aebe8d6b1d7c568bb
+  item-amount: 1
+  stats:
+    energy-consumption: 40
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STONE_CHUNK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STONE_CHUNK
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: CLAY_BALL
+    amount: 12
+HAIMAN_DIRT_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&2&l泥土一体机'
+  machine-lore:
+  - '&7一体化泥土'
+  - '&7（玩家们的玩笑罢了ovo）'
+  block-type: SKULL1a2bf1747a61bb7c6d0576c8e33f170314cba0cbeb90bd5076e1abd42e19b51
+  item-amount: 1
+  stats:
+    energy-consumption: 2
+    energy-buffer: 20
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '7':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '8':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '9':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: DIRT
+    amount: 8
+ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
+  category: slime_customizer
+  machine-name: '&b电磁铁爆发仪 I'
+  machine-lore:
+  - '&e无尽的电磁铁向你涌来'
+  - '&7但是这个等级的机器'
+  - '&7似乎并不是很完善'
+  block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
+  item-amount: 1
+  stats:
+    energy-consumption: 320000
+    energy-buffer: 320000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITE_PANEL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_COBBLE_GEN
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: INFINITY_DUST_EXTRACTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_INGOT_FORMER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: INFINITY_CONSTRUCTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 1
+  output:
+    tick-rate: 70
+    type: SLIMEFUN
+    id: ELECTRO_MAGNET
+    amount: 1
+ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
+  category: slime_customizer
+  machine-name: '&b电磁铁爆发仪 II'
+  machine-lore:
+  - '&f组装加速'
+  block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
+  item-amount: 1
+  stats:
+    energy-consumption: 150000
+    energy-buffer: 150000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: INFINITE_PANEL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET_INTEGRATED_MACHINE_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+  output:
+    tick-rate: 40
+    type: SLIMEFUN
+    id: ELECTRO_MAGNET
+    amount: 1
+ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
+  category: slime_customizer
+  machine-name: '&b电磁铁爆发仪 III'
+  machine-lore:
+  - '&f终极产线的核心'
+  block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
+  item-amount: 1
+  stats:
+    energy-consumption: 70000
+    energy-buffer: 90000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET_INTEGRATED_MACHINE_2
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MAN_MADE_SUN
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET_INTEGRATED_MACHINE_2
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3_BUTCHER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: INFINITY_CAPACITOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+  output:
+    tick-rate: 10
+    type: SLIMEFUN
+    id: ELECTRO_MAGNET
+    amount: 1
+HAIMAN_BASIC_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&b&l基础电路板一体机'
+  machine-lore:
+  - '&7用于制造基础电路板'
+  block-type: SKULL7ef9e286fcd0b289d96a10443bda188cb05096de7985a3e788a1068c9cc02c39
+  item-amount: 1
+  stats:
+    energy-consumption: 240
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  output:
+    tick-rate: 2
+    type: SLIMEFUN
+    id: BASIC_CIRCUIT_BOARD
+    amount: 1
+HAIMAN_DEEPSLATE_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l深板岩一体机'
+  machine-lore:
+  - '&7用于制造深板岩'
+  block-type: SKULL8ba12fe73b3451ed78881deb0874fca694fc4baf816eedc388345938bf5d15a8
+  item-amount: 1
+  stats:
+    energy-consumption: 8
+    energy-buffer: 120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '2':
+      type: VANILLA
+      id: DEEPSLATE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: DEEPSLATE
+    amount: 6
+HAIMAN_QUARTZ_PRODUCER_1:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l石英一体机 &7- &eI'
+  machine-lore:
+  - '&7自动生产石英'
+  block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
+  item-amount: 1
+  stats:
+    energy-consumption: 8
+    energy-buffer: 120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: QUARTZ
+    amount: 1
+HAIMAN_QUARTZ_PRODUCER_2:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l石英一体机 &7- &6II'
+  machine-lore:
+  - '&7自动生产石英'
+  block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
+  item-amount: 1
+  stats:
+    energy-consumption: 60
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_QUARTZ_PRODUCER_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: QUARTZ
+    amount: 16
+HAIMAN_QUARTZ_PRODUCER_3:
+  category: slime_customizer_yitihua
+  machine-name: '&8&l石英一体机 &7- &6III'
+  machine-lore:
+  - '&7自动生产石英'
+  block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_QUARTZ_PRODUCER_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: QUARTZ
+    amount: 64
+HAIMAN_NETHERITE_INGOT_MACHINE:
+  category: slime_customizer_yitihua
+  machine-name: '&c&l下界合金一体机'
+  machine-lore:
+  - '&7用于自动生产下界合金'
+  block-type: SKULL8976aba47b5b6781915568100e99112467141ad35237557fff014c0275770cdc
+  item-amount: 1
+  stats:
+    energy-consumption: 60
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_DEBRIS_MACHINE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_DEBRIS_MACHINE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANCIENT_DEBRIS_MACHINE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANCIENT_DEBRIS_MACHINE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  output:
+    tick-rate: 3
+    type: VANILLA
+    id: NETHERITE_INGOT
+    amount: 1
+HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
+  category: slime_customizer_yitihua
+  machine-name: '&a&l强和一体机 &7- &eI'
+  machine-lore:
+  - '&8用于自动生产强化合金锭'
+  - '&712s/item'
+  block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
+  item-amount: 1
+  stats:
+    energy-consumption: 2400
+    energy-buffer: 12000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  output:
+    tick-rate: 12
+    type: SLIMEFUN
+    id: REINFORCED_ALLOY_INGOT
+    amount: 1
+HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
+  category: slime_customizer_yitihua
+  machine-name: '&a&l强和一体机 &7- &6II'
+  machine-lore:
+  - '&8用于自动生产强化合金锭'
+  - '&76s/item'
+  block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
+  item-amount: 1
+  stats:
+    energy-consumption: 3600
+    energy-buffer: 24000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  output:
+    tick-rate: 6
+    type: SLIMEFUN
+    id: REINFORCED_ALLOY_INGOT
+    amount: 1
+HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
+  category: slime_customizer_yitihua
+  machine-name: '&a&l强和一体机 &7- &cIII'
+  machine-lore:
+  - '&8用于自动生产强化合金锭'
+  - '&70.5s/item'
+  block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
+  item-amount: 1
+  stats:
+    energy-consumption: 4800
+    energy-buffer: 36000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: REINFORCED_ALLOY_INGOT
+    amount: 2
+HAIMAN_YINSHI_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&e&l荧石粉一体机 &7- &eI'
+  machine-lore:
+  - '&7自动生产荧石粉'
+  block-type: SKULL8ecfcfb4b71fb1ca5ee5cbbe6623b2251f781cfd11eabded8a6cdc85a6f5baf3
+  item-amount: 1
+  stats:
+    energy-consumption: 8
+    energy-buffer: 120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: GLOWSTONE_DUST
+    amount: 8
+HAIMAN_UU_MACHINE:
+  category: slime_customizer_yitihua
+  machine-name: '&5&lUU物质一体机'
+  machine-lore:
+  - '&8自动生产UU物质'
+  block-type: SKULLdc244a4e306fd147405eba6bf67021d50b815d107cc15d97b802b785210099e6
+  item-amount: 1
+  stats:
+    energy-consumption: 3600
+    energy-buffer: 24000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LEAD_SINGULARITY
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MAGNESIUM_SINGULARITY
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: LAPIS_SINGULARITY
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3_FISHERMAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: REDSTONE_SINGULARITY
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: UU_MATTER
+    amount: 4
+HAIMAN_TOTEM_EXPLORER:
+  category: slime_customizer_yitihua
+  machine-name: '&c&l图腾爆发仪'
+  machine-lore:
+  - '&7无尽的图腾向你涌来'
+  block-type: SKULL5e809128a0e5a44c2e39532e6bbc68252cb8c9d5ecd246e5965077c147c795e7
+  item-amount: 1
+  stats:
+    energy-consumption: 28000
+    energy-buffer: 500000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '4':
+      type: VANILLA
+      id: TOTEM_OF_UNDYING
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '6':
+      type: VANILLA
+      id: TOTEM_OF_UNDYING
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HDB_FUEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+  output:
+    tick-rate: 16
+    type: VANILLA
+    id: TOTEM_OF_UNDYING
+    amount: 4
+HAIMAN_SHULKER_BOX_MACHINE:
+  category: slime_customizer_yitihua
+  machine-name: '&9&l潜影盒爆发仪'
+  machine-lore:
+  - '&7无数的潜影盒向你涌来...'
+  block-type: SKULLfebf003cff088e4d5899e472a4e79da1a5c527aad55110bcd7240c2544910c21
+  item-amount: 1
+  stats:
+    energy-consumption: 8000
+    energy-buffer: 800000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: VANILLA
+      id: SHULKER_BOX
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+  output:
+    tick-rate: 7
+    type: VANILLA
+    id: SHULKER_BOX
+    amount: 1
+HAIMAN_SFBOOK_MACHINE:
+  category: slime_customizer_yitihua
+  machine-name: '&a&l粘液书爆发仪'
+  machine-lore:
+  - '&7无数的粘液书向你涌来...'
+  block-type: SKULL4eb810b0e357101a673132fa40b748a45376d4f13f0bca66a62179021792b2ac
+  item-amount: 1
+  stats:
+    energy-consumption: 600
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: CHAIN_COMMAND_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YASUO_YASUO_SFBOOK
+      amount: 1
+    '9':
+      type: VANILLA
+      id: REPEATING_COMMAND_BLOCK
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SAVEDITEM
+    id: SFBOOK
+    amount: 1

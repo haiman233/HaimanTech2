@@ -1,0 +1,342 @@
+#READ THE WIKI BEFORE CREATING A MACHINE! https://github.com/NCBPFluffyBear/SlimeCustomizer/blob/master/README.md
+VAGETABLE_SOLAR_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: "&b&l新手太阳能发电机"
+  generator-lore:
+  - "&7为新手提供福利,并且能在白天和夜晚发电!"
+  block-type: DAYLIGHT_DETECTOR
+  stats:
+    energy-production:
+      day: 2
+      night: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: BLAZE_POWDER
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: VANILLA
+      id: BLAZE_POWDER
+      amount: 1
+    4:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    8:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+HAIMAN_EARTH_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: "&9&l地球发电机"
+  generator-lore:
+  - "&7运用地球自身的能量进行发电"
+  - "&b必须用水包围"
+  - "&b上方不能有非透明方块遮挡"
+  block-type: TUBE_CORAL
+  stats:
+    energy-production:
+      day: 880
+      night: 900
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_EARTH
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: STEEL_PLATE
+      amount: 1
+HAIMAN_SEND_CACTUS_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: "&9&l沙漠发电机"
+  generator-lore:
+  - "&7运用沙漠的能量进行发电"
+  - "&e必须放置在沙子上"
+  - "&e四周不能放置方块"
+  - "&e头顶需要放置透明方块"
+  block-type: CACTUS
+  stats:
+    energy-production:
+      day: 620
+      night: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_AIR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: REINFORCED_PLATE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: REINFORCED_PLATE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+HAIMAN_END_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: "&b&l末地发电机"
+  generator-lore:
+  - "&7从末地石中汲取能量发电"
+  - "&d必须放置在末地石上上"
+  - "&d上方不能有非透明方块遮挡"
+  block-type: CHORUS_PLANT
+  stats:
+    energy-production:
+      day: 85
+      night: 750
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    4:
+      type: VANILLA
+      id: END_STONE_BRICKS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    6:
+      type: VANILLA
+      id: END_STONE_BRICKS
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+HIGH_VOLTAGE_TRANSMISSION_LINES:
+  category: slime_customizer_zhuangshi
+  generator-name: "&f&l高压输电线"
+  generator-lore:
+  - "&7这是一根可以为你供电的高压线"
+  block-type: CHAIN
+  stats:
+    energy-production:
+      day: 2
+      night: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+HAIMAN_POWER_NET:
+  category: slime_customizer_zhuangshi
+  generator-name: "&b&l海曼牌电网"
+  generator-lore:
+  - "&7这是一个可以爬在墙上发电的电网"
+  block-type: VINE
+  stats:
+    energy-production:
+      day: 6
+      night: 2
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ALUMINUM_INGOT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+FUZHU_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: "&f腐竹专用发电机"
+  generator-lore:
+  block-type: SKULL65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  stats:
+    energy-production:
+      day: 2147483647
+      night: 2147483647
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: NONE
+      amount: 1
+    2:
+      type: NONE
+      id: NONE
+      amount: 1
+    3:
+      type: NONE
+      id: NONE
+      amount: 1
+    4:
+      type: NONE
+      id: NONE
+      amount: 1
+    5:
+      type: NONE
+      id: NONE
+      amount: 1
+    6:
+      type: NONE
+      id: NONE
+      amount: 1
+    7:
+      type: NONE
+      id: NONE
+      amount: 1
+    8:
+      type: NONE
+      id: NONE
+      amount: 1
+    9:
+      type: NONE
+      id: NONE
