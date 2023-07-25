@@ -1,0 +1,22 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2860
+  type: PLAYER_HEAD
+  meta:
+    ==: ItemMeta
+    meta-type: SKULL
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"人造银河系"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"当一个银河系的能量被集中于此..."}],"text":""}'
+    - '{"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Generator"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"120,000,000
+      J Buffer"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"⇨
+      "},{"italic":false,"color":"yellow","text":"⚡ "},{"italic":false,"color":"gray","text":"18,750,000
+      J/t"}],"text":""}'
+    internal: H4sIAAAAAAAA/02PMU+DQBiGP01N8Ozk/zCBVjCN6dAApkfg8IDDlg3K1UKPtqFQPTZn/4qDu6M/yM1ZRscnz5M3eREAgmG4bYV4rPfrQnAFBiStOCAzvDH3NXeLDAHq5YHXTcGPl6A0/LVpa35EAHCmwEWcipbDB5eOmiw2ar5wxEpio+coVIWPy8Md3sUyM7GBq97PZ4YrJ/9avUmfdLEcO5tkR9usilV3HAg+D7RVxU4+o11gYc2zmSTMMalqdzRaSrplGi3JQ1DOJFUTizI8Cmxi045KYj3fEtvTaZTbhBHLj2Kr33nBO22yptMpwBWc47w/MPj+yoc/b6P3z/vs2tO0X4A/ju83IhUBAAA=
+    PublicBukkitValues:
+      slimefun:slimefun_item: MAN_MADE_GALAXY
+    skull-owner: CS-CoreLib
