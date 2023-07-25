@@ -1,8 +1,8 @@
 # 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Material-Generators
 INFINITY_ALL_IN_ONE_MACHINE_1:
   category: slime_customizer_yitihua
-  machine-name: '&9&l无尽锭一体机 &7- &eI'
-  machine-lore:
+  item-name: '&9&l无尽锭一体机 &7- &eI'
+  item-lore:
   - '&8唔，终于...做出来了'
   - '&764s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
@@ -55,8 +55,8 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
     amount: 1
 INFINITY_ALL_IN_ONE_MACHINE_2:
   category: slime_customizer_yitihua
-  machine-name: '&9&l无尽锭一体机 &7- &6II'
-  machine-lore:
+  item-name: '&9&l无尽锭一体机 &7- &6II'
+  item-lore:
   - '&8经过改良后的一体机似乎变得更快了'
   - '&732s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
@@ -109,8 +109,8 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
     amount: 1
 INFINITY_ALL_IN_ONE_MACHINE_3:
   category: slime_customizer_yitihua
-  machine-name: '&9&l无尽锭一体机 &7- &cIII'
-  machine-lore:
+  item-name: '&9&l无尽锭一体机 &7- &cIII'
+  item-lore:
   - '&8估计没人能做到这一步吧'
   - '&712s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
@@ -163,8 +163,8 @@ INFINITY_ALL_IN_ONE_MACHINE_3:
     amount: 1
 HAIMAN_CLAY_BALL_INGOT_PRODUCER:
   category: slime_customizer_yitihua
-  machine-name: '&8&l黏土球一体机'
-  machine-lore:
+  item-name: '&8&l黏土球一体机'
+  item-lore:
   - '&7全自动一体化生产黏土球'
   block-type: SKULLdaa55391ef89b2a534a58d0150f1621175310ea87735601aebe8d6b1d7c568bb
   item-amount: 1
@@ -216,8 +216,8 @@ HAIMAN_CLAY_BALL_INGOT_PRODUCER:
     amount: 12
 HAIMAN_DIRT_PRODUCER:
   category: slime_customizer_yitihua
-  machine-name: '&2&l泥土一体机'
-  machine-lore:
+  item-name: '&2&l泥土一体机'
+  item-lore:
   - '&7一体化泥土'
   - '&7（玩家们的玩笑罢了ovo）'
   block-type: SKULL1a2bf1747a61bb7c6d0576c8e33f170314cba0cbeb90bd5076e1abd42e19b51
@@ -270,8 +270,8 @@ HAIMAN_DIRT_PRODUCER:
     amount: 8
 ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
   category: slime_customizer
-  machine-name: '&b电磁铁爆发仪 I'
-  machine-lore:
+  item-name: '&b电磁铁爆发仪 I'
+  item-lore:
   - '&e无尽的电磁铁向你涌来'
   - '&7但是这个等级的机器'
   - '&7似乎并不是很完善'
@@ -325,8 +325,8 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
     amount: 1
 ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
   category: slime_customizer
-  machine-name: '&b电磁铁爆发仪 II'
-  machine-lore:
+  item-name: '&b电磁铁爆发仪 II'
+  item-lore:
   - '&f组装加速'
   block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
   item-amount: 1
@@ -378,8 +378,8 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
     amount: 1
 ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
   category: slime_customizer
-  machine-name: '&b电磁铁爆发仪 III'
-  machine-lore:
+  item-name: '&b电磁铁爆发仪 III'
+  item-lore:
   - '&f终极产线的核心'
   block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
   item-amount: 1
@@ -431,8 +431,8 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
     amount: 1
 HAIMAN_BASIC_PRODUCER:
   category: slime_customizer_yitihua
-  machine-name: '&b&l基础电路板一体机'
-  machine-lore:
+  item-name: '&b&l基础电路板一体机'
+  item-lore:
   - '&7用于制造基础电路板'
   block-type: SKULL7ef9e286fcd0b289d96a10443bda188cb05096de7985a3e788a1068c9cc02c39
   item-amount: 1
@@ -484,8 +484,8 @@ HAIMAN_BASIC_PRODUCER:
     amount: 1
 HAIMAN_DEEPSLATE_PRODUCER:
   category: slime_customizer_yitihua
-  machine-name: '&8&l深板岩一体机'
-  machine-lore:
+  item-name: '&8&l深板岩一体机'
+  item-lore:
   - '&7用于制造深板岩'
   block-type: SKULL8ba12fe73b3451ed78881deb0874fca694fc4baf816eedc388345938bf5d15a8
   item-amount: 1
@@ -537,8 +537,8 @@ HAIMAN_DEEPSLATE_PRODUCER:
     amount: 6
 HAIMAN_QUARTZ_PRODUCER_1:
   category: slime_customizer_yitihua
-  machine-name: '&8&l石英一体机 &7- &eI'
-  machine-lore:
+  item-name: '&8&l石英一体机 &7- &eI'
+  item-lore:
   - '&7自动生产石英'
   block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
   item-amount: 1
@@ -590,8 +590,8 @@ HAIMAN_QUARTZ_PRODUCER_1:
     amount: 1
 HAIMAN_QUARTZ_PRODUCER_2:
   category: slime_customizer_yitihua
-  machine-name: '&8&l石英一体机 &7- &6II'
-  machine-lore:
+  item-name: '&8&l石英一体机 &7- &6II'
+  item-lore:
   - '&7自动生产石英'
   block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
   item-amount: 1
@@ -643,8 +643,8 @@ HAIMAN_QUARTZ_PRODUCER_2:
     amount: 16
 HAIMAN_QUARTZ_PRODUCER_3:
   category: slime_customizer_yitihua
-  machine-name: '&8&l石英一体机 &7- &6III'
-  machine-lore:
+  item-name: '&8&l石英一体机 &7- &6III'
+  item-lore:
   - '&7自动生产石英'
   block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
   item-amount: 1
@@ -696,8 +696,8 @@ HAIMAN_QUARTZ_PRODUCER_3:
     amount: 64
 HAIMAN_NETHERITE_INGOT_MACHINE:
   category: slime_customizer_yitihua
-  machine-name: '&c&l下界合金一体机'
-  machine-lore:
+  item-name: '&c&l下界合金一体机'
+  item-lore:
   - '&7用于自动生产下界合金'
   block-type: SKULL8976aba47b5b6781915568100e99112467141ad35237557fff014c0275770cdc
   item-amount: 1
@@ -749,8 +749,8 @@ HAIMAN_NETHERITE_INGOT_MACHINE:
     amount: 1
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
   category: slime_customizer_yitihua
-  machine-name: '&a&l强和一体机 &7- &eI'
-  machine-lore:
+  item-name: '&a&l强和一体机 &7- &eI'
+  item-lore:
   - '&8用于自动生产强化合金锭'
   - '&712s/item'
   block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
@@ -803,8 +803,8 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
     amount: 1
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
   category: slime_customizer_yitihua
-  machine-name: '&a&l强和一体机 &7- &6II'
-  machine-lore:
+  item-name: '&a&l强和一体机 &7- &6II'
+  item-lore:
   - '&8用于自动生产强化合金锭'
   - '&76s/item'
   block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
@@ -857,8 +857,8 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
     amount: 1
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   category: slime_customizer_yitihua
-  machine-name: '&a&l强和一体机 &7- &cIII'
-  machine-lore:
+  item-name: '&a&l强和一体机 &7- &cIII'
+  item-lore:
   - '&8用于自动生产强化合金锭'
   - '&70.5s/item'
   block-type: SKULL883dd0f90df05fe6a09aaccaf54bc043e455e1c865bda1fd272e3f47fb9bb910
@@ -911,8 +911,8 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
     amount: 2
 HAIMAN_YINSHI_PRODUCER:
   category: slime_customizer_yitihua
-  machine-name: '&e&l荧石粉一体机 &7- &eI'
-  machine-lore:
+  item-name: '&e&l荧石粉一体机 &7- &eI'
+  item-lore:
   - '&7自动生产荧石粉'
   block-type: SKULL8ecfcfb4b71fb1ca5ee5cbbe6623b2251f781cfd11eabded8a6cdc85a6f5baf3
   item-amount: 1
@@ -964,8 +964,8 @@ HAIMAN_YINSHI_PRODUCER:
     amount: 8
 HAIMAN_UU_MACHINE:
   category: slime_customizer_yitihua
-  machine-name: '&5&lUU物质一体机'
-  machine-lore:
+  item-name: '&5&lUU物质一体机'
+  item-lore:
   - '&8自动生产UU物质'
   block-type: SKULLdc244a4e306fd147405eba6bf67021d50b815d107cc15d97b802b785210099e6
   item-amount: 1
@@ -1017,8 +1017,8 @@ HAIMAN_UU_MACHINE:
     amount: 4
 HAIMAN_TOTEM_EXPLORER:
   category: slime_customizer_yitihua
-  machine-name: '&c&l图腾爆发仪'
-  machine-lore:
+  item-name: '&c&l图腾爆发仪'
+  item-lore:
   - '&7无尽的图腾向你涌来'
   block-type: SKULL5e809128a0e5a44c2e39532e6bbc68252cb8c9d5ecd246e5965077c147c795e7
   item-amount: 1
@@ -1070,8 +1070,8 @@ HAIMAN_TOTEM_EXPLORER:
     amount: 1
 HAIMAN_SHULKER_BOX_MACHINE:
   category: slime_customizer_yitihua
-  machine-name: '&9&l潜影盒爆发仪'
-  machine-lore:
+  item-name: '&9&l潜影盒爆发仪'
+  item-lore:
   - '&7无数的潜影盒向你涌来...'
   block-type: SKULLfebf003cff088e4d5899e472a4e79da1a5c527aad55110bcd7240c2544910c21
   item-amount: 1
@@ -1123,8 +1123,8 @@ HAIMAN_SHULKER_BOX_MACHINE:
     amount: 1
 HAIMAN_SFBOOK_MACHINE:
   category: slime_customizer_yitihua
-  machine-name: '&a&l粘液书爆发仪'
-  machine-lore:
+  item-name: '&a&l粘液书爆发仪'
+  item-lore:
   - '&7无数的粘液书向你涌来...'
   block-type: SKULL4eb810b0e357101a673132fa40b748a45376d4f13f0bca66a62179021792b2ac
   item-amount: 1
