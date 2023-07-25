@@ -6,12 +6,30 @@
 
 小建议：腐竹限制玩家所能创建的小号个数，限制实体个数 （强烈建议但不妨碍安装并游玩海曼科技院）
 
+## 前置插件需求
+必须：
+- Slimefun
+- GuizhanLibPlugin
+- SlimeCustomizer
+- FoxyMachines
+- InfinityExpansion
+- LiteXpansion
+- TranscEndence
+- DynaTech
+- Gastronomicon
+
+非必须：
+- SlimefunAdvancements 
+
 ## 关于海曼科技院的前世今生
 海曼科技院是由海曼重新接手的海曼科技2.0，保留了1.0中的机器并将拓展更多玩法，海曼科技院会在明年高考结束后进行频繁更新
 
 海曼不再维护海曼科技1.0和天璇工艺
 
-海曼科技院适配版本
+海曼科技BETA-1.0适配版本
+Minecraft版本：1.18+
+
+未来海曼科技院适配版本
 Minecraft版本:1.20+
 最新的SlimeCustomizer版本
 
