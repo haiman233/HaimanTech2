@@ -1067,7 +1067,7 @@ HAIMAN_TOTEM_EXPLORER:
     tick-rate: 16
     type: VANILLA
     id: TOTEM_OF_UNDYING
-    amount: 4
+    amount: 1
 HAIMAN_SHULKER_BOX_MACHINE:
   category: slime_customizer_yitihua
   machine-name: '&9&l潜影盒爆发仪'
