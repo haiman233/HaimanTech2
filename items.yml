@@ -1131,6 +1131,53 @@ ULTIMATE_ENERGY_MOTOR:
       type: SLIMEFUN
       id: IRIDIUM_PLATE
       amount: 1
+JITANCHENZHOU:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&8&l献祭祭坛承轴"
+  item-lore:
+  - "&7支撑祭坛运行的装置"
+  item-id: SKULLa9f3c8f48321e668ccac5300d7dc9b92a3fbe3deca2a38dd8191c68d251a4014
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_SOUL_TORCH
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: SACRIFICIAL_ALTAR_SOUL_TORCH
+      amount: 1
 YJ_DINGWEI_QI:
   category: slime_customizer_material
   item-type: CUSTOM
@@ -1333,7 +1380,7 @@ HM_CHAOPING_CIRCUIT_BOARD:
   crafting-recipe:
     1:
       type: SLIMEFUN
-      id: BUCKET_OF_BLOOD
+      id: NUCLEAR_SALT
       amount: 1
     2:
       type: SLIMEFUN

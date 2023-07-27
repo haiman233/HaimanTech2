@@ -269,7 +269,7 @@ HAIMAN_DIRT_PRODUCER:
     id: DIRT
     amount: 8
 ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
-  category: slime_customizer
+  category: slime_customizer_yitihua
   item-name: '&b电磁铁爆发仪 I'
   item-lore:
   - '&e无尽的电磁铁向你涌来'
@@ -319,12 +319,12 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
       id: INFINITY_SINGULARITY
       amount: 1
   output:
-    tick-rate: 70
+    tick-rate: 20
     type: SLIMEFUN
     id: ELECTRO_MAGNET
-    amount: 1
+    amount: 2
 ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
-  category: slime_customizer
+  category: slime_customizer_yitihua
   item-name: '&b电磁铁爆发仪 II'
   item-lore:
   - '&f组装加速'
@@ -372,12 +372,12 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
       id: ANCIENT_ITEM
       amount: 1
   output:
-    tick-rate: 40
+    tick-rate: 15
     type: SLIMEFUN
     id: ELECTRO_MAGNET
-    amount: 1
+    amount: 6
 ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
-  category: slime_customizer
+  category: slime_customizer_yitihua
   item-name: '&b电磁铁爆发仪 III'
   item-lore:
   - '&f终极产线的核心'
@@ -425,10 +425,10 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
       id: ANCIENT_ITEM
       amount: 1
   output:
-    tick-rate: 10
+    tick-rate: 5
     type: SLIMEFUN
     id: ELECTRO_MAGNET
-    amount: 1
+    amount: 12
 HAIMAN_BASIC_PRODUCER:
   category: slime_customizer_yitihua
   item-name: '&b&l基础电路板一体机'
@@ -671,7 +671,7 @@ HAIMAN_QUARTZ_PRODUCER_3:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: HAIMAN_QUARTZ_PRODUCER_1
+      id: HAIMAN_QUARTZ_PRODUCER_2
       amount: 1
     '6':
       type: SLIMEFUN
@@ -800,7 +800,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
     tick-rate: 12
     type: SLIMEFUN
     id: REINFORCED_ALLOY_INGOT
-    amount: 1
+    amount: 2
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
   category: slime_customizer_yitihua
   item-name: '&a&l强和一体机 &7- &6II'
@@ -854,7 +854,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
     tick-rate: 6
     type: SLIMEFUN
     id: REINFORCED_ALLOY_INGOT
-    amount: 1
+    amount: 6
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   category: slime_customizer_yitihua
   item-name: '&a&l强和一体机 &7- &cIII'
@@ -908,10 +908,10 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
     tick-rate: 1
     type: SLIMEFUN
     id: REINFORCED_ALLOY_INGOT
-    amount: 2
+    amount: 8
 HAIMAN_YINSHI_PRODUCER:
   category: slime_customizer_yitihua
-  item-name: '&e&l荧石粉一体机 &7- &eI'
+  item-name: '&e&l荧石粉一体机'
   item-lore:
   - '&7自动生产荧石粉'
   block-type: SKULL8ecfcfb4b71fb1ca5ee5cbbe6623b2251f781cfd11eabded8a6cdc85a6f5baf3
@@ -1121,9 +1121,62 @@ HAIMAN_SHULKER_BOX_MACHINE:
     type: VANILLA
     id: SHULKER_BOX
     amount: 1
+HAIMAN_SFBOOK_MACHINE_1:
+  category: slime_customizer_yitihua
+  item-name: '&a&l粘液书爆发仪 &7- &eI'
+  item-lore:
+  - '&7无数的粘液书向你涌来...'
+  block-type: SKULL4eb810b0e357101a673132fa40b748a45376d4f13f0bca66a62179021792b2ac
+  item-amount: 1
+  stats:
+    energy-consumption: 300
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: REINFORCED_CLOTH
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: COMMAND_BLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: YASUO_YASUO_SFBOOK
+      amount: 1
+    '9':
+      type: VANILLA
+      id: COMMAND_BLOCK
+      amount: 1
+  output:
+    tick-rate: 3
+    type: SAVEDITEM
+    id: SFBOOK
+    amount: 1
 HAIMAN_SFBOOK_MACHINE:
   category: slime_customizer_yitihua
-  item-name: '&a&l粘液书爆发仪'
+  item-name: '&a&l粘液书爆发仪 &7- &aII'
   item-lore:
   - '&7无数的粘液书向你涌来...'
   block-type: SKULL4eb810b0e357101a673132fa40b748a45376d4f13f0bca66a62179021792b2ac
@@ -1163,7 +1216,7 @@ HAIMAN_SFBOOK_MACHINE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: YASUO_YASUO_SFBOOK
+      id: HAIMAN_SFBOOK_MACHINE_1
       amount: 1
     '9':
       type: VANILLA

@@ -1093,7 +1093,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 21600
+      speed-in-seconds: 16600
       input:
         '1':
           type: VANILLA
@@ -1113,7 +1113,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 20000
+      speed-in-seconds: 14000
       input:
         '1':
           type: VANILLA
@@ -1133,7 +1133,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 14400
+      speed-in-seconds: 12400
       input:
         '1':
           type: VANILLA
@@ -1153,7 +1153,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 14400
+      speed-in-seconds: 12400
       input:
         '1':
           type: VANILLA
@@ -1167,26 +1167,6 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: JIGSAW
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '5':
-      speed-in-seconds: 3000
-      input:
-        '1':
-          type: VANILLA
-          id: CHAIN
-          amount: 6
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: SPAWNER
           amount: 1
         '2':
           type: NONE
@@ -15506,7 +15486,7 @@ HAIMAN_ELECTRIC_INGOT_FACTORY_5:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: ULTIMATE_ENERGY_MOTOR
       amount: 1
     '9':
       type: SLIMEFUN
@@ -15879,7 +15859,7 @@ HAIMAN_CARBON_PRESS_5:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: ULTIMATE_ENERGY_MOTOR
       amount: 1
     '3':
       type: SLIMEFUN
@@ -19019,7 +18999,7 @@ HAIMAN_YJ_SX_MACHINE:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: BZ_TCQ
+      id: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
     '9':
       type: SLIMEFUN
@@ -20124,7 +20104,7 @@ HAIMAN_DUANZAO_MACHINE:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: SMALL_CAPACITOR
+      id: LARGE_CAPACITOR
       amount: 1
     '6':
       type: SLIMEFUN
@@ -20132,15 +20112,15 @@ HAIMAN_DUANZAO_MACHINE:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: COPPER_WIRE
+      id: ZOT_INGOT
       amount: 1
     '8':
-      type: VANILLA
-      id: SMITHING_TABLE
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
       amount: 1
     '9':
       type: SLIMEFUN
-      id: COPPER_WIRE
+      id: ZOT_INGOT
       amount: 1
   recipes:
     '1':
@@ -22899,87 +22879,87 @@ DIAOYUJI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 40
+      speed-in-seconds: 4
       input:
         '1':
           type: SLIMEFUN
-          id: BASIC_STRAINER
+          id: HM_CAKE_BREAD
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BAGEL
-          amount: 4
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: VANILLA
           id: COD
-          amount: 4
+          amount: 16
         '2':
           type: NONE
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 20
+      speed-in-seconds: 4
       input:
         '1':
-          type: SLIMEFUN
-          id: ADVANCED_STRAINER
-          amount: 1
+          type: VANILLA
+          id: POTATO
+          amount: 4
         '2':
-          type: SLIMEFUN
-          id: BAGEL
-          amount: 8
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: VANILLA
-          id: COD
+          id: SALMON
           amount: 8
         '2':
           type: NONE
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 12
+      speed-in-seconds: 4
       input:
         '1':
-          type: SLIMEFUN
-          id: REINFORCED_STRAINER
-          amount: 1
+          type: VANILLA
+          id: CARROT
+          amount: 4
         '2':
-          type: SLIMEFUN
-          id: BAGEL
-          amount: 16
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: VANILLA
-          id: COD
-          amount: 16
+          id: PUFFERFISH
+          amount: 4
         '2':
           type: NONE
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 60
+      speed-in-seconds: 4
       input:
         '1':
           type: VANILLA
-          id: FISHING_ROD
-          amount: 1
+          id: BEETROOT
+          amount: 4
         '2':
-          type: SLIMEFUN
-          id: BAGEL
-          amount: 2
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: VANILLA
-          id: COD
-          amount: 2
+          id: TROPICAL_FISH
+          amount: 4
         '2':
           type: NONE
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 12
+      speed-in-seconds: 16
       input:
         '1':
           type: SLIMEFUN
@@ -24378,4 +24358,253 @@ CONCRETE_FORMING_MACHINE:
         '2':
           type: NONE
           id: N/A
+          amount: 1
+HAIMAN_FOXY_PRODUCER:
+  category: slime_customizer_yitihua
+  machine-name: '&c&l生物献祭机'
+  machine-lore:
+  - '&7在虚无中献祭生物'
+  block-type: SKULL72de8ed72148b79600f5cbbc6b2b6344d7c141c3a482ab7c82cdeae80371a06f
+  progress-bar-item: NETHERITE_SWORD
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 12000
+  crafting-recipe-type: ANCIENT_ALTAR
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: JITANCHENZHOU
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BUCKET
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLOOD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CURSED_RABBIT_PAW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HUMAN_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: TROPICAL_FISH
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TROPICAL_FISH_SCALE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: SWEET_BERRIES
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: POLAR_FOX_HIDE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: MAGMA_CREAM
+          amount: 24
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGMA_ESSENCE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 64
+        '2':
+          type: VANILLA
+          id: FEATHER
+          amount: 16
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PARROT_FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: POSEIDONS_BLESSING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 180
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CELESTIAL_SWORD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CELESTIAL_SWORD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CELESTIAL_SHARD
+          amount: 1
+    '9':
+      speed-in-seconds: 180
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CURSED_SWORD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CURSED_SWORD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CURSED_SHARD
           amount: 1

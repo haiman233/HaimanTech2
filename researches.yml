@@ -94,6 +94,26 @@ zhongjimada:
   cost: 45
   items:
     - ULTIMATE_ENERGY_MOTOR
+xingchenfensui:
+  id: 110000812
+  name: "你见过星尘粉碎的样子吗？"
+  cost: 255
+  items:
+    - HAIMAN_GALAXY_PIECE
+    - HAIMAN_BLACK_HOLE_PIECE
+haimanxingchen:
+  id: 110000814
+  name: "星空会铭记你的名字"
+  cost: 60
+  items:
+    - HAIMAN_STAR_DUST
+suipian:
+  id: 110000813
+  name: "当科学来到神秘学"
+  cost: 320
+  items:
+    - JITANCHENZHOU
+    - HAIMAN_FOXY_PRODUCER
 yijidingwei:
   id: 110000013
   name: "遗迹定位"
