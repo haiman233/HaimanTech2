@@ -384,6 +384,7 @@ sfbookyiti:
   name: "源源不断的粘液书！"
   cost: 200
   items:
+    - HAIMAN_SFBOOK_MACHINE_1
     - HAIMAN_SFBOOK_MACHINE
 yuanbanyiti:
   id: 110000048

@@ -270,7 +270,7 @@ HAIMAN_DIRT_PRODUCER:
     amount: 8
 ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
   category: slime_customizer_yitihua
-  item-name: '&b电磁铁爆发仪 I'
+  item-name: '&b&l电磁铁爆发仪 &7- &eI'
   item-lore:
   - '&e无尽的电磁铁向你涌来'
   - '&7但是这个等级的机器'
@@ -325,7 +325,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
     amount: 2
 ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
   category: slime_customizer_yitihua
-  item-name: '&b电磁铁爆发仪 II'
+  item-name: '&b&l电磁铁爆发仪 &7- &aII'
   item-lore:
   - '&f组装加速'
   block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
@@ -378,7 +378,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
     amount: 6
 ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
   category: slime_customizer_yitihua
-  item-name: '&b电磁铁爆发仪 III'
+  item-name: '&b&l电磁铁爆发仪 &7- &4III'
   item-lore:
   - '&f终极产线的核心'
   block-type: SKULLa76fa636c54e36085fe2fa46dc966215c15722bb764a2eee84cfe8476caf71
@@ -643,7 +643,7 @@ HAIMAN_QUARTZ_PRODUCER_2:
     amount: 16
 HAIMAN_QUARTZ_PRODUCER_3:
   category: slime_customizer_yitihua
-  item-name: '&8&l石英一体机 &7- &6III'
+  item-name: '&8&l石英一体机 &7- &4III'
   item-lore:
   - '&7自动生产石英'
   block-type: SKULL2146d7b2cf9a21784f36f4592151dfc55aa7c6ef9af4a430abd86de0f08b224d
