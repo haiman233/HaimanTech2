@@ -13,6 +13,9 @@
 粘液书转换机
 补充遗迹搜寻机的战利品箱
 监守者掉落物
+无法破坏刷子
+0级附魔书
+水桶岩浆桶奶桶爆发仪
 
 用材料发生器堆叠不可堆叠物品
 
@@ -20,6 +23,12 @@
 
 立式音响头颅
 /give haiman minecraft:player_head{BlockEntityTag:{note_block_sound:"minecraft:music.game"}}
+环境音响
+未使用音效
+/playsound minecraft:entity.ghast.scream master @a播放“Ghast affectionate scream”声音。
+/playsound minecraft:entity.player.breath master @a播放“Breath”声音。
+/playsound minecraft:entity.wolf.howl master @a播放“Howl”声音。
+/playsound minecraft:entity.silverfish.step master @a播放“Silverfish walking”声音。
 
 更多矿车
 /give @p minecraft:cow_spawn_egg{EntityTag:{CustomDisplayTile:1b,DisplayState:{Name:"minecraft:structure_block"},id:"minecraft:minecart",DisplayOffset:6}} 1
@@ -41,6 +50,14 @@
 转换马
 兔——杀手兔
 卫道士——Johnny卫道士
+转换美西螈种类
+（羊驼的强度）
+地毯强化机（强化装备在羊驼身上的地毯）
+僵尸马——驯服的僵尸马
+骷髅马——驯服的骷髅马
+末影水晶——有底座的末影水晶
+
+运输工具悬浮机（浮空船，矿车）
 
 泰坦机（改变生物大小）
 
