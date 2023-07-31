@@ -4,7 +4,6 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
   item-name: '&9&l无尽锭一体机 &7- &eI'
   item-lore:
   - '&8唔，终于...做出来了'
-  - '&764s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
   item-amount: 1
   stats:
@@ -49,7 +48,7 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
       id: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
   output:
-    tick-rate: 120
+    tick-rate: 20
     type: SLIMEFUN
     id: INFINITE_INGOT
     amount: 1
@@ -58,7 +57,6 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
   item-name: '&9&l无尽锭一体机 &7- &6II'
   item-lore:
   - '&8经过改良后的一体机似乎变得更快了'
-  - '&732s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
   item-amount: 1
   stats:
@@ -103,16 +101,15 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
       id: ANCIENT_ITEM
       amount: 1
   output:
-    tick-rate: 32
+    tick-rate: 15
     type: SLIMEFUN
     id: INFINITE_INGOT
-    amount: 1
+    amount: 2
 INFINITY_ALL_IN_ONE_MACHINE_3:
   category: slime_customizer_yitihua
   item-name: '&9&l无尽锭一体机 &7- &cIII'
   item-lore:
   - '&8估计没人能做到这一步吧'
-  - '&712s/item'
   block-type: SKULLc41265d57d3706c0b428f1b243044d50d8414926acb3752b8cb9f5b85bcdd096
   item-amount: 1
   stats:
@@ -160,7 +157,7 @@ INFINITY_ALL_IN_ONE_MACHINE_3:
     tick-rate: 10
     type: SLIMEFUN
     id: INFINITE_INGOT
-    amount: 1
+    amount: 4
 HAIMAN_CLAY_BALL_INGOT_PRODUCER:
   category: slime_customizer_yitihua
   item-name: '&8&l黏土球一体机'
@@ -857,7 +854,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
     amount: 6
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   category: slime_customizer_yitihua
-  item-name: '&a&l强和一体机 &7- &cIII'
+  item-name: '&a&l强和一体机 &7- &4III'
   item-lore:
   - '&8用于自动生产强化合金锭'
   - '&70.5s/item'
@@ -1176,7 +1173,7 @@ HAIMAN_SFBOOK_MACHINE_1:
     amount: 1
 HAIMAN_SFBOOK_MACHINE:
   category: slime_customizer_yitihua
-  item-name: '&a&l粘液书爆发仪 &7- &aII'
+  item-name: '&a&l粘液书爆发仪 &7- &6II'
   item-lore:
   - '&7无数的粘液书向你涌来...'
   block-type: SKULL4eb810b0e357101a673132fa40b748a45376d4f13f0bca66a62179021792b2ac
@@ -1227,3 +1224,57 @@ HAIMAN_SFBOOK_MACHINE:
     type: SAVEDITEM
     id: SFBOOK
     amount: 1
+MAN_MADE_MOON:
+  category: slime_customizer_xingji
+  item-name: '&e&l人造月球'
+  item-lore:
+  - '&7自动生产月球上的矿物'
+  block-type: SKULL7e8c8ff196730b5ec177745d3f32a6fc2a6f99cad55766ab0313b843676a6c9f
+  progress-bar-item: DIAMOND_PICKAXE
+  item-amount: 1
+  stats:
+    energy-consumption: 1200
+    energy-buffer: 10000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: MUSIC_DISC_11
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: POWER_UNIT
+      amount: 1
+    '3':
+      type: VANILLA
+      id: MUSIC_DISC_11
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_CABLE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_CABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: END_STONE
+    amount: 64

@@ -23,6 +23,7 @@ modikeji:
   name: "末地科技拓展"
   cost: 30
   items:
+    - RAINBOW_ZOT
     - ZOT_INGOT
 zishuijingfen:
   id: 110000003
@@ -983,3 +984,15 @@ jixiaodianrong:
   items:
     - CHOU_CAPACITOR
     - FEI_CAPACITOR
+haimanyasuoji:
+  id: 110101003
+  name: "杂七杂八的压缩"
+  cost: 40
+  items:
+    - HAIMAN_YASUOJI
+diandongnamigongzuot:
+  id: 110101004
+  name: "末地科技自动化"
+  cost: 48
+  items:
+    - HAIMAN_NAMI_CRAFTING_TABLE
