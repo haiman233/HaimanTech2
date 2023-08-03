@@ -22375,7 +22375,7 @@ JINSHUJGC:
       output:
         '1':
           type: SLIMEFUN
-          id: CARBON_PLATE
+          id: ADVANCED_MACHINE_BLOCK
           amount: 1
         '2':
           type: NONE
