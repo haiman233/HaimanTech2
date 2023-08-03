@@ -519,6 +519,7 @@ gongyezidonghua:
   name: "工业附属自动化"
   cost: 155
   items:
+    - HEJINDING_YUANPEI
     - HAIMAN_JINGLIANLU
     - GJJLL
     - JINSHUJGC

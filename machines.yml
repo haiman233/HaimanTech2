@@ -15,8 +15,8 @@ COMPRESSION_BLOCK_MACHINE:
       id: IRON_BLOCK
       amount: 1
     '2':
-      type: NONE
-      id: N/A
+      type: VANILLA
+      id: IRON_BLOCK
       amount: 1
     '3':
       type: VANILLA
@@ -22305,9 +22305,9 @@ JINSHUJGC:
       speed-in-seconds: 1
       input:
         '1':
-          type: SLIMEFUN
-          id: REFINED_IRON
-          amount: 8
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -22386,12 +22386,12 @@ JINSHUJGC:
       input:
         '1':
           type: SLIMEFUN
-          id: REFINED_IRON
-          amount: 3
+          id: HEJINDING_YUANPEI
+          amount: 1
         '2':
-          type: SLIMEFUN
-          id: BRONZE_INGOT
-          amount: 3
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -24683,6 +24683,46 @@ HAIMAN_YASUOJI:
         '1':
           type: SLIMEFUN
           id: DEMONIC_PLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SPONGE
+          amount: 24
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: COMPRESSED_SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: PURIFIED_BONE
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PURE_BONE_DUST
           amount: 1
         '2':
           type: NONE
