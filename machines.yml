@@ -24579,7 +24579,7 @@ HAIMAN_FOXY_PRODUCER:
           type: SLIMEFUN
           id: CELESTIAL_SHARD
           amount: 1
-    '9':
+    '10':
       speed-in-seconds: 180
       input:
         '1':
