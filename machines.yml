@@ -718,7 +718,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
       input:
         '1':
           type: VANILLA
-          id: BONE
+          id: CARROT
           amount: 1
         '2':
           type: NONE
@@ -887,7 +887,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
       input:
         '1':
           type: VANILLA
-          id: EGG
+          id: TURTLE_EGG
           amount: 1
         '2':
           type: NONE
@@ -987,7 +987,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
       input:
         '1':
           type: VANILLA
-          id: COD
+          id: BEEF
           amount: 1
         '2':
           type: NONE
@@ -1267,7 +1267,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
       input:
         '1':
           type: VANILLA
-          id: BONE
+          id: CARROT
           amount: 1
         '2':
           type: NONE
@@ -1437,7 +1437,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       input:
         '1':
           type: VANILLA
-          id: EGG
+          id: TURTLE_EGG
           amount: 1
         '2':
           type: NONE
@@ -1537,7 +1537,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       input:
         '1':
           type: VANILLA
-          id: COD
+          id: BEEF
           amount: 1
         '2':
           type: NONE
@@ -1817,7 +1817,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       input:
         '1':
           type: VANILLA
-          id: BONE
+          id: CARROT
           amount: 1
         '2':
           type: NONE
@@ -2066,7 +2066,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       input:
         '1':
           type: VANILLA
-          id: EGG
+          id: TURTLE_EGG
           amount: 1
         '2':
           type: NONE
@@ -2166,7 +2166,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       input:
         '1':
           type: VANILLA
-          id: COD
+          id: BEEF
           amount: 1
         '2':
           type: NONE
@@ -2446,7 +2446,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       input:
         '1':
           type: VANILLA
-          id: BONE
+          id: CARROT
           amount: 1
         '2':
           type: NONE
@@ -2626,8 +2626,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       input:
         '1':
           type: VANILLA
-          id: STRUCTURE_BLOCK
-          amount: 1
+          id: JIGSAW
+          amount: 2
         '2':
           type: NONE
           id: N/A
@@ -2755,7 +2755,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       input:
         '1':
           type: VANILLA
-          id: EGG
+          id: TURTLE_EGG
           amount: 1
         '2':
           type: NONE
@@ -2855,7 +2855,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       input:
         '1':
           type: VANILLA
-          id: COD
+          id: BEEF
           amount: 1
         '2':
           type: NONE
@@ -3135,7 +3135,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       input:
         '1':
           type: VANILLA
-          id: BONE
+          id: CARROT
           amount: 1
         '2':
           type: NONE
@@ -3315,8 +3315,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       input:
         '1':
           type: VANILLA
-          id: STRUCTURE_BLOCK
-          amount: 1
+          id: JIGSAW
+          amount: 2
         '2':
           type: NONE
           id: N/A

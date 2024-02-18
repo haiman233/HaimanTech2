@@ -1148,8 +1148,8 @@ MINECRAFT_DEAD_BUSH_GHOST:
       amount: 1
     2:
       type: VANILLA
-      id: STRUCTURE_BLOCK
-      amount: 1
+      id: JIGSAW
+      amount: 2
     3:
       type: SLIMEFUN
       id: ZHANWEIFU
