@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bBETA-1.4"
+    - "&bBETA-1.5"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1

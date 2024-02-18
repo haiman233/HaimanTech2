@@ -336,7 +336,7 @@ MILK_HONEY_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 5
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
@@ -356,12 +356,12 @@ MILK_HONEY_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 100
+      speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: GLASS_BOTTLE
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -370,7 +370,7 @@ MILK_HONEY_MACHINE:
         '1':
           type: VANILLA
           id: HONEY_BOTTLE
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -1042,6 +1042,326 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
           type: NONE
           id: N/A
           amount: 1
+    '10':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 50
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 13
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 40
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 80
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 16
+      input:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 9
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: STRING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 16
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 7
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 40
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &6III'
@@ -1093,6 +1413,506 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       amount: 1
   recipes:
     '1':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 500
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 12
+      input:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 55
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 220
+      input:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCUTE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 28
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CREEPER_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 23
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 20
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: STRING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
       speed-in-seconds: 16600
       input:
         '1':
@@ -1112,7 +1932,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: NONE
           id: N/A
           amount: 1
-    '2':
+    '27':
       speed-in-seconds: 14000
       input:
         '1':
@@ -1132,7 +1952,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: NONE
           id: N/A
           amount: 1
-    '3':
+    '28':
       speed-in-seconds: 12400
       input:
         '1':
@@ -1152,7 +1972,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: NONE
           id: N/A
           amount: 1
-    '4':
+    '29':
       speed-in-seconds: 12400
       input:
         '1':
@@ -1222,6 +2042,586 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       amount: 1
   recipes:
     '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 50
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCUTE
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CREEPER_HEAD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 25
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 15
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: STRING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 10
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 15
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_SHELL
+          amount: 5
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 6000
+      input:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 3000
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_FUNGUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_VOID
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '28':
+      speed-in-seconds: 2550
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '29':
+      speed-in-seconds: 2550
+      input:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: JIGSAW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
       speed-in-seconds: 16688
       input:
         '1':
@@ -1241,7 +2641,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           type: NONE
           id: N/A
           amount: 1
-    '2':
+    '31':
       speed-in-seconds: 16688
       input:
         '1':
@@ -1261,7 +2661,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           type: NONE
           id: N/A
           amount: 1
-    '3':
+    '32':
       speed-in-seconds: 80
       input:
         '1':
@@ -1331,7 +2731,647 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 10000
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_STAR
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_EGG
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_HEAD
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCUTE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CREEPER_HEAD
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 22
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 22
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NAUTILUS_SHELL
+          amount: 22
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+        '2':
+          type: VANILLA
+          id: MUSIC_DISC_PIGSTEP
+          amount: 1
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: EXPERIENCE_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRAGON_BREATH
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PHANTOM_MEMBRANE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_FOOT
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: STRING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COBWEB
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_SHELL
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 230
+      input:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 500
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_FUNGUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_VOID
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '28':
+      speed-in-seconds: 250
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '29':
+      speed-in-seconds: 250
+      input:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: JIGSAW
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
+      speed-in-seconds: 3000
+      input:
+        '1':
+          type: VANILLA
+          id: STRUCTURE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MINECRAFT_DEAD_BUSH_GHOST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '31':
+      speed-in-seconds: 2800
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_SINGULARITY
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAIMAN_INFINITY_CONSTRUCTOR_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '32':
+      speed-in-seconds: 30
+      input:
+        '1':
+          type: SAVEDITEM
+          id: 0
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAIMAN_GALAXY_PIECE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '33':
+      speed-in-seconds: 4000
       input:
         '1':
           type: VANILLA
@@ -1350,8 +3390,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: NONE
           id: N/A
           amount: 1
-    '2':
-      speed-in-seconds: 10000
+    '34':
+      speed-in-seconds: 4000
       input:
         '1':
           type: VANILLA
@@ -1370,8 +3410,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: NONE
           id: N/A
           amount: 1
-    '3':
-      speed-in-seconds: 11000
+    '35':
+      speed-in-seconds: 3000
       input:
         '1':
           type: SLIMEFUN
@@ -1390,8 +3430,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: NONE
           id: N/A
           amount: 1
-    '4':
-      speed-in-seconds: 16080
+    '36':
+      speed-in-seconds: 5000
       input:
         '1':
           type: SLIMEFUN
@@ -1410,8 +3450,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: NONE
           id: N/A
           amount: 1
-    '5':
-      speed-in-seconds: 20
+    '37':
+      speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
@@ -1425,7 +3465,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: ENCHANTED_GOLDEN_APPLE
-          amount: 1
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -1441,7 +3481,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
   stats:
     energy-consumption: 32767
     energy-buffer: 114514
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe-type: NONE
   crafting-recipe:
     '1':
       type: NONE
@@ -1460,8 +3500,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
       id: N/A
       amount: 1
     '5':
-      type: VANILLA
-      id: DEBUG_STICK
+      type: SLIMEFUN
+      id: HAIMAN_INFO_FENZI_GAIZHUANG
       amount: 1
     '6':
       type: NONE
@@ -1679,7 +3719,7 @@ COMMAND_BLOCK_DYE_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1800
+      speed-in-seconds: 30
       input:
         '1':
           type: VANILLA
@@ -1699,7 +3739,7 @@ COMMAND_BLOCK_DYE_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 1800
+      speed-in-seconds: 30
       input:
         '1':
           type: VANILLA
@@ -1719,7 +3759,7 @@ COMMAND_BLOCK_DYE_MACHINE:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 1800
+      speed-in-seconds: 30
       input:
         '1':
           type: VANILLA
@@ -1734,6 +3774,115 @@ COMMAND_BLOCK_DYE_MACHINE:
           type: VANILLA
           id: COMMAND_BLOCK
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+COMMAND_BLOCK_DYE_MACHINE_2:
+  category: slime_customizer
+  machine-name: '&c&l命令方块浸染机'
+  machine-lore:
+  - '&7更快的给命令方块染色的机器'
+  block-type: SKULL6d0f4061bfb767a7f922a6ca7176f7a9b20709bd0512696beb15ea6fa98ca55c
+  progress-bar-item: IRON_AXE
+  stats:
+    energy-consumption: 1500
+    energy-buffer: 6000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COMMAND_BLOCK_DYE_MACHINE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REPEATING_COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: REPEATING_COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHAIN_COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: CHAIN_COMMAND_BLOCK
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COMMAND_BLOCK
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -20469,7 +22618,7 @@ KUANGWUCUISHENGQI:
   machine-name: '&a&l矿物催生器'
   machine-lore:
   - '&7能够将一个矿石种子催化成熟'
-  - '&7似乎做起来很便宜的样子'
+  - '&7想制造它非常容易'
   block-type: SKULLda88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
   progress-bar-item: WATER_BUCKET
   stats:
@@ -21430,7 +23579,7 @@ DIYUKONGJIAN:
   machine-name: '&3&l地狱空间'
   machine-lore:
   - '&7&l 秘境世界!'
-  block-type: SKULLda88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
+  block-type: SKULL584d7d2d1cf8e05a28a6be12fdf3eac20bbf5c2364c400f6466566778f548eba
   progress-bar-item: FLINT_AND_STEEL
   stats:
     energy-consumption: 200000
@@ -21724,16 +23873,16 @@ MODIKONGJIAN:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 3000
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
           id: EGG
           amount: 16
         '2':
-          type: VANILLA
-          id: EGG
-          amount: 16
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: VANILLA
@@ -24599,6 +26748,26 @@ HAIMAN_FOXY_PRODUCER:
           type: SLIMEFUN
           id: CURSED_SHARD
           amount: 1
+    '11':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 64
+        '2':
+          type: VANILLA
+          id: BONE
+          amount: 64
+      output:
+        '1':
+          type: SLIMEFUN
+          id: UNHOLY_WITHER_SKELETON_BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_YASUOJI:
   category: slime_customizer
   machine-name: '&f&l海曼压缩机'
@@ -24883,7 +27052,7 @@ HAIMAN_NAMI_CRAFTING_TABLE:
       input:
         '1':
           type: SLIMEFUN
-          id: ZOT_RIGHT
+          id: QUIRP_RIGHT
           amount: 8
         '2':
           type: SLIMEFUN
