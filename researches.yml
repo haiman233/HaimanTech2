@@ -1015,7 +1015,7 @@ diandongnamigongzuot:
     - HAIMAN_NAMI_CRAFTING_TABLE
 youbaofa:
   id: 110101005
-  name: "铀啊！无穷去尽的铀啊！"
+  name: "铀啊！无穷无尽的铀啊！"
   cost: 166
   items:
     - HAIMAN_U_GENERATOR
