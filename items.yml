@@ -17185,8 +17185,8 @@ VR_INFO:
   item-type: CUSTOM
   item-name: "&b&l1.RV-Pre1版本提示"
   item-lore:
-    - "&7请在启动器其中下载愚人节版本1.RV-Pre1"
-    - "&7下载完以后启动游戏并登陆服务器"
+    - "&7请在启动器中下载愚人节版本：1.RV-Pre1"
+    - "&7下载完成后启动游戏并登陆服务器"
     - "&7即可使用本分类中物品"
   item-id: PAPER
   item-amount: 1
