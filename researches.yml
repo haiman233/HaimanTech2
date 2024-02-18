@@ -38,43 +38,48 @@ gongye:
   items:
     - FUHEBAN
 renzaocailiao:
-  id: 110000005
+  id: 110050005
   name: "人造高级材料"
   cost: 50
   items:
     - ARTIFICIAL_SILICON_BASED_MATERIALS
     - MINECRAFT_SOURCE_STONE
     - ANCIENT_ITEM
-fenzi_1:
-  id: 110000006
-  name: "分子重组仪入门"
-  cost: 40
+fenzi1:
+  id: 110050006
+  name: "分子学入门"
+  cost: 100
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_I
-fenzi_2:
-  id: 110000007
-  name: "分子重组仪2"
-  cost: 55
+fenzi2:
+  id: 110050007
+  name: "炉火纯青的分子学"
+  cost: 200
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_II
-fenzi_3:
-  id: 110000008
-  name: "海曼的新型高科技物品"
-  cost: 80
+fenzi3:
+  id: 110050008
+  name: "新型高科技物品"
+  cost: 400
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_III
-fenzi_4:
-  id: 110000009
-  name: "重组仪...4?"
-  cost: 104
+fenzi4:
+  id: 110050009
+  name: "还可以突破一下"
+  cost: 800
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+chongzucailiao:
+  id: 110060009
+  name: "重组材料"
+  cost: 105
+  items:
     - MINECRAFT_DEAD_BUSH_GHOST
     - HAIMAN_INFINITY_CONSTRUCTOR_2
-fenzi_5:
-  id: 110000010
-  name: "脚步并不止于此"
-  cost: 150
+fenzi5:
+  id: 110050010
+  name: "科学的脚步并不止于此"
+  cost: 1600
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_V
     - HT_MODULE_1
@@ -234,13 +239,24 @@ canhaishengchan:
   cost: 46
   items:
     - ANCIENT_DEBRIS_MACHINE
-minlingfangkuairanse:
+debugji:
   id: 110000030
   name: "阻止你的是什么？"
+  cost: 68
+  items:
+    - HAIMAN_DEBUG_MACHINE
+minlingfangkuairanse:
+  id: 118000030
+  name: "高级的染色技巧"
   cost: 88
   items:
     - COMMAND_BLOCK_DYE_MACHINE
-    - HAIMAN_DEBUG_MACHINE
+gjminlingfangkuairanse:
+  id: 118000030
+  name: "更高级的染色技巧"
+  cost: 188
+  items:
+    - COMMAND_BLOCK_DYE_MACHINE_2
 zaipeiji:
   id: 110000031
   name: "无土栽培"
@@ -658,7 +674,7 @@ renzaoheidong:
 renzaoyuzhou:
   id: 110000088
   name: "...人造宇宙..."
-  cost: 1880
+  cost: 2380
   items:
     - MAN_MADE_UNIVERSE
 zhongjifadianji:
@@ -997,3 +1013,39 @@ diandongnamigongzuot:
   cost: 48
   items:
     - HAIMAN_NAMI_CRAFTING_TABLE
+youbaofa:
+  id: 110101005
+  name: "铀啊！无穷去尽的铀啊！"
+  cost: 166
+  items:
+    - HAIMAN_U_GENERATOR
+jiqirenyiti:
+  id: 110101006
+  name: "巨量机器人"
+  cost: 1685
+  items:
+    - HAIMAN_ROBOT_GENERATOR
+gjjiqirenyiti:
+  id: 110101007
+  name: "巨量高级机器人"
+  cost: 2100
+  items:
+    - HAIMAN_GAOJI_ROBOT_GENERATOR
+fangjieshiqun:
+  id: 110101008
+  name: "方解石群"
+  cost: 50
+  items:
+    - CALCITE_MACHINE
+zishuijinqun:
+  id: 110101009
+  name: "紫水晶矿簇"
+  cost: 88
+  items:
+    - ZISHUJIN_MACHINE
+moyingzhenzhuji:
+  id: 110101010
+  name: "压榨小黑"
+  cost: 76
+  items:
+    - MYZHENZHU_MACHINE

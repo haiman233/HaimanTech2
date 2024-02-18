@@ -1278,3 +1278,324 @@ MAN_MADE_MOON:
     type: VANILLA
     id: END_STONE
     amount: 64
+CALCITE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l方解石爆发仪'
+  item-lore:
+  - '&7自动生产方解石'
+  block-type: SKULLc496d770db8e99550417f904a39bc15589084004888715c76133c45e5eac991c
+  progress-bar-item: DIAMOND_PICKAXE
+  item-amount: 1
+  stats:
+    energy-consumption: 40
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_CABLE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_CABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: CALCITE
+    amount: 64
+ZISHUJIN_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&5&l紫水晶爆发仪'
+  item-lore:
+  - '&7自动生产紫水晶'
+  block-type: SKULL1da032511d2aa6467615b5c2d4364d738e1cbd475dcb2080cee64011e65d35df
+  progress-bar-item: DIAMOND_PICKAXE
+  item-amount: 1
+  stats:
+    energy-consumption: 80
+    energy-buffer: 1600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ORGANIC_FOOD_BEETROOT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ORGANIC_FOOD_BEETROOT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BOOSTED_URANIUM
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: AMETHYST_SHARD
+    amount: 16
+MYZHENZHU_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l末影珍珠爆发仪'
+  item-lore:
+  - '&7自动生产末影珍珠'
+  block-type: SKULL54d48ac7e65b91467904f2f4d154556776ffa9cd2d526b12a0499bb59cc656c7
+  progress-bar-item: DIAMOND_PICKAXE
+  item-amount: 1
+  stats:
+    energy-consumption: 25
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COPPER_CABLE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_CABLE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_CABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SYNTHETIC_SHULKER_SHELL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SYNTHETIC_SHULKER_SHELL
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: ENDER_PEARL
+    amount: 16
+HAIMAN_U_GENERATOR:
+  category: slime_customizer_yitihua
+  item-name: '&a&l铀爆发仪'
+  item-lore:
+  - '&7无尽的铀向你涌来'
+  block-type: SKULLcc583f71509d0262e3dc3f1d1a4c6a1fa604ec17cc20865d8a6d7b9c6a48ae0a
+  item-amount: 1
+  stats:
+    energy-consumption: 6000
+    energy-buffer: 60000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HDB_FUEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: URANIUM
+    amount: 48
+HAIMAN_ROBOT_GENERATOR:
+  category: slime_customizer_yitihua
+  item-name: '&6&l可编程式机器人爆发仪'
+  item-lore:
+  - '&7无尽的机器人向你涌来'
+  block-type: SKULL2216aeea684760c53e41c2de9e34927266d64c86665b0b69ac425e5f49810147
+  item-amount: 1
+  stats:
+    energy-consumption: 10000
+    energy-buffer: 100000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_FARMER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HDBU_FUEL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HDBU_FUEL
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: PROGRAMMABLE_ANDROID
+    amount: 2
+HAIMAN_GAOJI_ROBOT_GENERATOR:
+  category: slime_customizer_yitihua
+  item-name: '&4&l高级可编程式机器人爆发仪'
+  item-lore:
+  - '&7无尽的高级机器人向你涌来'
+  block-type: SKULLd121f7c21122b5e289e1d34dd0f547570934299e8631a1c762b5cede7b141203
+  item-amount: 1
+  stats:
+    energy-consumption: 20000
+    energy-buffer: 200000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_2_BUTCHER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_ROBOT_GENERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HDBU_FUEL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HDBU_FUEL
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: PROGRAMMABLE_ANDROID_2
+    amount: 2
