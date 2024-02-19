@@ -26676,9 +26676,9 @@ HAIMAN_FOXY_PRODUCER:
           id: FEATHER
           amount: 64
         '2':
-          type: VANILLA
-          id: FEATHER
-          amount: 16
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -26756,9 +26756,9 @@ HAIMAN_FOXY_PRODUCER:
           id: BONE
           amount: 64
         '2':
-          type: VANILLA
-          id: BONE
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
