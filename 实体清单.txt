@@ -31,9 +31,5 @@ Beta（冒险更新1）： 鱿鱼squid、蠹虫silverfish、末影人enderman、
 1.21： 犰狳armadillo、沼骸bogged、旋风人breeze、风弹wind_charge、旋风人风弹breeze_wind_charge
 
 
-
-
-
-
-
-马匹驯服机
+马匹驯服机 电动织布机（灾厄旗帜、制作旗帜材料需求更少）万箭齐发弩（一次性，看b站收藏）
+1.20.3 grass改成了short_grass
