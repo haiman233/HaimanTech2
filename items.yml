@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bBETA-1.5"
+    - "&bBETA-1.6"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -753,6 +753,53 @@ HEJINDING_YUANPEI:
     9:
       type: SLIMEFUN
       id: TIN_INGOT
+      amount: 1
+HERANLIAOYJ:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&a&l核燃料原浆"
+  item-lore:
+  - "&7未经处理的核燃料"
+  item-id: SKULL4af1cc886574cd587f974c757c7fc18ed15998ac283e5ea10877899a90a9e149
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: URANIUM
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PLUTONIUM
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
       amount: 1
 RAINBOW_ZOT:
   category: slime_customizer_material
@@ -17558,3 +17605,4 @@ BOOK_4:
       type: NONE
       id: N/A
       amount: 1
+

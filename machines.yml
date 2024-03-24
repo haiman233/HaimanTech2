@@ -449,6 +449,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
   machine-name: '&b&l分子重组仪 &7- &aI'
   machine-lore:
   - '&8用来重组最基本的物品'
+  - '&7输入材料少但是重组时间长'
   block-type: SKULLeb308694c5b01e815d498535f4c3db5827b4cc45f12a33717ad0ca9fe24509c0
   progress-bar-item: IRON_SHOVEL
   stats:
@@ -494,7 +495,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 450
       input:
         '1':
           type: VANILLA
@@ -514,7 +515,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 100
+      speed-in-seconds: 450
       input:
         '1':
           type: VANILLA
@@ -534,7 +535,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 25
+      speed-in-seconds: 500
       input:
         '1':
           type: VANILLA
@@ -554,7 +555,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 75
+      speed-in-seconds: 600
       input:
         '1':
           type: VANILLA
@@ -574,7 +575,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 60
+      speed-in-seconds: 650
       input:
         '1':
           type: VANILLA
@@ -594,7 +595,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 20
+      speed-in-seconds: 420
       input:
         '1':
           type: VANILLA
@@ -614,7 +615,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '7':
-      speed-in-seconds: 120
+      speed-in-seconds: 1200
       input:
         '1':
           type: VANILLA
@@ -634,7 +635,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '8':
-      speed-in-seconds: 8
+      speed-in-seconds: 380
       input:
         '1':
           type: VANILLA
@@ -654,7 +655,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '9':
-      speed-in-seconds: 12
+      speed-in-seconds: 420
       input:
         '1':
           type: VANILLA
@@ -674,7 +675,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '10':
-      speed-in-seconds: 28
+      speed-in-seconds: 800
       input:
         '1':
           type: VANILLA
@@ -694,7 +695,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '11':
-      speed-in-seconds: 16
+      speed-in-seconds: 720
       input:
         '1':
           type: VANILLA
@@ -714,7 +715,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '12':
-      speed-in-seconds: 40
+      speed-in-seconds: 480
       input:
         '1':
           type: VANILLA
@@ -734,7 +735,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '13':
-      speed-in-seconds: 12
+      speed-in-seconds: 520
       input:
         '1':
           type: VANILLA
@@ -754,7 +755,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '14':
-      speed-in-seconds: 16
+      speed-in-seconds: 260
       input:
         '1':
           type: VANILLA
@@ -774,7 +775,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '15':
-      speed-in-seconds: 16
+      speed-in-seconds: 260
       input:
         '1':
           type: VANILLA
@@ -794,7 +795,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           id: N/A
           amount: 1
     '16':
-      speed-in-seconds: 75
+      speed-in-seconds: 900
       input:
         '1':
           type: VANILLA
@@ -818,6 +819,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
   machine-name: '&b&l分子重组仪 &7- &eII'
   machine-lore:
   - '&8用来重组较为高级的物品'
+  - '&7输入材料多但是重组时间较短'
   block-type: SKULLa44c5ce2eb643f8671c667e8802c9317ad8cc6af680d4ef671d8c0c63277900a
   progress-bar-item: NETHERITE_PICKAXE
   stats:
@@ -868,7 +870,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: COBWEB
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -888,7 +890,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: TURTLE_EGG
-          amount: 1
+          amount: 35
         '2':
           type: NONE
           id: N/A
@@ -908,7 +910,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: SKELETON_SKULL
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -928,7 +930,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: WITHER_SKELETON_SKULL
-          amount: 1
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -948,7 +950,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: NAUTILUS_SHELL
-          amount: 1
+          amount: 64
         '2':
           type: NONE
           id: N/A
@@ -968,7 +970,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: SLIME_BALL
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -988,7 +990,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: BEEF
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1008,7 +1010,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: GUNPOWDER
-          amount: 2
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1028,7 +1030,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: BONE
-          amount: 2
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1048,7 +1050,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: SUGAR_CANE
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1068,7 +1070,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: POPPY
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1088,7 +1090,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: CHORUS_FRUIT
-          amount: 1
+          amount: 25
         '2':
           type: NONE
           id: N/A
@@ -1108,7 +1110,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: EGG
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1128,7 +1130,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: COD
-          amount: 1
+          amount: 25
         '2':
           type: NONE
           id: N/A
@@ -1148,7 +1150,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: SUGAR
-          amount: 1
+          amount: 25
         '2':
           type: NONE
           id: N/A
@@ -1188,7 +1190,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: CACTUS
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1208,7 +1210,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: GLASS_BOTTLE
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1228,7 +1230,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: EXPERIENCE_BOTTLE
-          amount: 1
+          amount: 36
         '2':
           type: NONE
           id: N/A
@@ -1248,7 +1250,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: FEATHER
-          amount: 1
+          amount: 30
         '2':
           type: NONE
           id: N/A
@@ -1268,7 +1270,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: CARROT
-          amount: 1
+          amount: 25
         '2':
           type: NONE
           id: N/A
@@ -1288,7 +1290,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: STRING
-          amount: 1
+          amount: 40
         '2':
           type: NONE
           id: N/A
@@ -1308,7 +1310,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: BLUE_DYE
-          amount: 1
+          amount: 22
         '2':
           type: NONE
           id: N/A
@@ -1328,7 +1330,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: CHORUS_PLANT
-          amount: 1
+          amount: 10
         '2':
           type: NONE
           id: N/A
@@ -1348,7 +1350,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: CHORUS_FLOWER
-          amount: 1
+          amount: 35
         '2':
           type: NONE
           id: N/A
@@ -1367,7 +1369,6 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   machine-name: '&b&l分子重组仪 &7- &6III'
   machine-lore:
   - '&8海曼的新型高科技'
-  - '&7每重组一个物品都要耗费4~6小时'
   block-type: SKULL5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
   progress-bar-item: NETHERITE_HOE
   stats:
@@ -1418,7 +1419,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: COBWEB
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1438,7 +1439,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: TURTLE_EGG
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1458,7 +1459,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: SKELETON_SKULL
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1478,7 +1479,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: WITHER_SKELETON_SKULL
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1498,7 +1499,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: NAUTILUS_SHELL
-          amount: 1
+          amount: 48
         '2':
           type: NONE
           id: N/A
@@ -1518,7 +1519,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: SLIME_BALL
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1538,7 +1539,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: BEEF
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1558,7 +1559,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: GUNPOWDER
-          amount: 2
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1578,7 +1579,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: BONE
-          amount: 2
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1598,7 +1599,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: SUGAR_CANE
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1618,7 +1619,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: POPPY
-          amount: 1
+          amount: 25
         '2':
           type: NONE
           id: N/A
@@ -1638,7 +1639,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: CHORUS_FRUIT
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1658,7 +1659,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: EGG
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -1678,7 +1679,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: COD
-          amount: 1
+          amount: 18
         '2':
           type: NONE
           id: N/A
@@ -1698,7 +1699,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: SUGAR
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1738,7 +1739,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: CACTUS
-          amount: 1
+          amount: 24
         '2':
           type: NONE
           id: N/A
@@ -1758,7 +1759,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: GLASS_BOTTLE
-          amount: 1
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -1778,7 +1779,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: EXPERIENCE_BOTTLE
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -1798,7 +1799,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: FEATHER
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1818,7 +1819,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: CARROT
-          amount: 1
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -1838,7 +1839,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: STRING
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -1858,7 +1859,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: BLUE_DYE
-          amount: 1
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -1878,7 +1879,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: CHORUS_PLANT
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -1898,7 +1899,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: VANILLA
           id: CHORUS_FLOWER
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -2047,7 +2048,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: COBWEB
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2067,7 +2068,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: TURTLE_EGG
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -2087,7 +2088,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: SKELETON_SKULL
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2107,7 +2108,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: WITHER_SKELETON_SKULL
-          amount: 1
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -2127,7 +2128,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: NAUTILUS_SHELL
-          amount: 1
+          amount: 32
         '2':
           type: NONE
           id: N/A
@@ -2147,7 +2148,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: SLIME_BALL
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2167,7 +2168,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: BEEF
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2187,7 +2188,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: GUNPOWDER
-          amount: 2
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2207,7 +2208,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: BONE
-          amount: 2
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2227,7 +2228,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: SUGAR_CANE
-          amount: 1
+          amount: 48
         '2':
           type: NONE
           id: N/A
@@ -2247,7 +2248,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: POPPY
-          amount: 1
+          amount: 20
         '2':
           type: NONE
           id: N/A
@@ -2267,7 +2268,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: CHORUS_FRUIT
-          amount: 1
+          amount: 15
         '2':
           type: NONE
           id: N/A
@@ -2287,7 +2288,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: EGG
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2307,7 +2308,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: COD
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2327,7 +2328,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: SUGAR
-          amount: 1
+          amount: 12
         '2':
           type: NONE
           id: N/A
@@ -2367,7 +2368,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: CACTUS
-          amount: 1
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -2387,7 +2388,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: GLASS_BOTTLE
-          amount: 1
+          amount: 10
         '2':
           type: NONE
           id: N/A
@@ -2407,7 +2408,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: EXPERIENCE_BOTTLE
-          amount: 1
+          amount: 12
         '2':
           type: NONE
           id: N/A
@@ -2427,7 +2428,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: FEATHER
-          amount: 1
+          amount: 12
         '2':
           type: NONE
           id: N/A
@@ -2447,7 +2448,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: CARROT
-          amount: 1
+          amount: 6
         '2':
           type: NONE
           id: N/A
@@ -2467,7 +2468,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: STRING
-          amount: 1
+          amount: 10
         '2':
           type: NONE
           id: N/A
@@ -2487,7 +2488,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: BLUE_DYE
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2507,7 +2508,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: CHORUS_PLANT
-          amount: 1
+          amount: 15
         '2':
           type: NONE
           id: N/A
@@ -2527,7 +2528,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: CHORUS_FLOWER
-          amount: 1
+          amount: 5
         '2':
           type: NONE
           id: N/A
@@ -2562,7 +2563,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '27':
-      speed-in-seconds: 3000
+      speed-in-seconds: 3100
       input:
         '1':
           type: VANILLA
@@ -2582,7 +2583,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '28':
-      speed-in-seconds: 2550
+      speed-in-seconds: 2650
       input:
         '1':
           type: VANILLA
@@ -2602,7 +2603,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '29':
-      speed-in-seconds: 2550
+      speed-in-seconds: 2650
       input:
         '1':
           type: VANILLA
@@ -2662,7 +2663,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '32':
-      speed-in-seconds: 80
+      speed-in-seconds: 300
       input:
         '1':
           type: SAVEDITEM
@@ -2736,7 +2737,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: COBWEB
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2756,7 +2757,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: TURTLE_EGG
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2776,7 +2777,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: SKELETON_SKULL
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2796,7 +2797,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: WITHER_SKELETON_SKULL
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2816,7 +2817,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: NAUTILUS_SHELL
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2836,7 +2837,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: SLIME_BALL
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2856,7 +2857,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: BEEF
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2876,7 +2877,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: GUNPOWDER
-          amount: 2
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2896,7 +2897,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: BONE
-          amount: 2
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2916,7 +2917,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: SUGAR_CANE
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2936,7 +2937,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: POPPY
-          amount: 1
+          amount: 10
         '2':
           type: NONE
           id: N/A
@@ -2956,7 +2957,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: CHORUS_FRUIT
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -2976,7 +2977,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: EGG
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -2996,7 +2997,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: COD
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3016,7 +3017,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: SUGAR
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3056,7 +3057,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: CACTUS
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3076,7 +3077,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: GLASS_BOTTLE
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3096,7 +3097,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: EXPERIENCE_BOTTLE
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3116,7 +3117,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: FEATHER
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3136,7 +3137,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: CARROT
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -3156,7 +3157,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: STRING
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3176,7 +3177,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: BLUE_DYE
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -3196,7 +3197,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: CHORUS_PLANT
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3216,7 +3217,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: VANILLA
           id: CHORUS_FLOWER
-          amount: 1
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -3231,12 +3232,12 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '26':
-      speed-in-seconds: 230
+      speed-in-seconds: 500
       input:
         '1':
           type: VANILLA
           id: DEAD_BUSH
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3251,12 +3252,12 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '27':
-      speed-in-seconds: 500
+      speed-in-seconds: 700
       input:
         '1':
           type: VANILLA
           id: CRIMSON_FUNGUS
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3271,12 +3272,12 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '28':
-      speed-in-seconds: 250
+      speed-in-seconds: 520
       input:
         '1':
           type: VANILLA
           id: PURPUR_BLOCK
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3291,12 +3292,12 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '29':
-      speed-in-seconds: 250
+      speed-in-seconds: 520
       input:
         '1':
           type: VANILLA
           id: STRUCTURE_BLOCK
-          amount: 1
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -3311,7 +3312,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '30':
-      speed-in-seconds: 3000
+      speed-in-seconds: 3800
       input:
         '1':
           type: VANILLA
@@ -3331,7 +3332,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '31':
-      speed-in-seconds: 2800
+      speed-in-seconds: 3100
       input:
         '1':
           type: SLIMEFUN
@@ -3351,7 +3352,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '32':
-      speed-in-seconds: 30
+      speed-in-seconds: 180
       input:
         '1':
           type: SAVEDITEM
@@ -3371,7 +3372,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '33':
-      speed-in-seconds: 4000
+      speed-in-seconds: 4200
       input:
         '1':
           type: VANILLA
@@ -3391,7 +3392,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '34':
-      speed-in-seconds: 4000
+      speed-in-seconds: 4200
       input:
         '1':
           type: VANILLA
@@ -3411,7 +3412,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '35':
-      speed-in-seconds: 3000
+      speed-in-seconds: 3200
       input:
         '1':
           type: SLIMEFUN
@@ -3431,7 +3432,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '36':
-      speed-in-seconds: 5000
+      speed-in-seconds: 5100
       input:
         '1':
           type: SLIMEFUN
@@ -3451,12 +3452,12 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '37':
-      speed-in-seconds: 3
+      speed-in-seconds: 4
       input:
         '1':
           type: VANILLA
           id: GOLDEN_APPLE
-          amount: 2
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -5567,6 +5568,66 @@ NONE_NBT_MACHINE:
         '1':
           type: VANILLA
           id: FILLED_MAP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TIPPED_ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: FIREWORK_STAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FIREWORK_ROCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BOWL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUSPICIOUS_STEW
           amount: 1
         '2':
           type: NONE
@@ -23278,12 +23339,12 @@ HELIEBIAN_3:
       input:
         '1':
           type: SLIMEFUN
-          id: PLUTONIUM
+          id: HERANLIAOYJ
           amount: 16
         '2':
-          type: SLIMEFUN
-          id: URANIUM
-          amount: 16
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -24276,6 +24337,26 @@ MIJINGHUAYUAN:
         '1':
           type: VANILLA
           id: PEONY
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ALLIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ALLIUM
           amount: 64
         '2':
           type: NONE
@@ -27062,6 +27143,96 @@ HAIMAN_NAMI_CRAFTING_TABLE:
         '1':
           type: SLIMEFUN
           id: ZOT_RIGHT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+ERDIAOZHUANGPEI:
+  category: slime_customizer
+  machine-name: '&6&l饵料装配机'
+  machine-lore:
+  - '&7为钓鱼竿装配饵料'
+  - '&7但是优化了钓鱼竿'
+  block-type: SKULLfbf5ae88f656aff4a91c64800951455e12222c310583ca28f93ce5148b73832b
+  progress-bar-item: FISHING_ROD
+  stats:
+    energy-consumption: 20
+    energy-buffer: 40
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: FISHING_ROD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: VANILLA
+      id: FISHING_ROD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: VANILLA
+      id: CARROT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: COD
+      amount: 1
+    '8':
+      type: VANILLA
+      id: COOKED_COD
+      amount: 1
+    '9':
+      type: VANILLA
+      id: COD
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CARROT_ON_A_STICK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_FUNGUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_FUNGUS_ON_A_STICK
           amount: 1
         '2':
           type: NONE

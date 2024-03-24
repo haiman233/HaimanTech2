@@ -1049,3 +1049,87 @@ moyingzhenzhuji:
   cost: 76
   items:
     - MYZHENZHU_MACHINE
+heranliao:
+  id: 110101011
+  name: "核燃料原浆"
+  cost: 32
+  items:
+    - HERANLIAOYJ
+erliaozhuangpei:
+  id: 110101012
+  name: "饵料装配机"
+  cost: 22
+  items:
+    - ERDIAOZHUANGPEI
+moyingzhiyanyiti:
+  id: 110101013
+  name: "末影之眼爆发仪"
+  cost: 88
+  items:
+    - MYZHIYAN_MACHINE
+xianyiti:
+  id: 110101014
+  name: "线爆发仪"
+  cost: 60
+  items:
+    - STRING_MACHINE
+kuqiheiyaoshiyiti:
+  id: 110101015
+  name: "哭泣的黑曜石爆发仪"
+  cost: 74
+  items:
+    - KQHYS_MACHINE
+yangmaoyiti:
+  id: 110101016
+  name: "羊毛爆发仪"
+  cost: 68
+  items:
+    - YANGMAO_MACHINE
+shizhongyiti:
+  id: 110101017
+  name: "时钟爆发仪"
+  cost: 40
+  items:
+    - ZHONG_MACHINE
+ydyanjiangkuaiyiti:
+  id: 110101018
+  name: "用电式岩浆块爆发仪"
+  cost: 105
+  items:
+    - GLYANJIANGKUAI_MACHINE
+kuijiajiayiti:
+  id: 110101019
+  name: "盔甲架爆发仪"
+  cost: 38
+  items:
+    - KUIJIAJIA_MACHINE
+tiziyiti:
+  id: 110101020
+  name: "梯子爆发仪"
+  cost: 28
+  items:
+    - TIZI_MACHINE
+zhijiantaiyiti:
+  id: 110101021
+  name: "制箭台爆发仪"
+  cost: 32
+  items:
+    - ZHIJIANTAI_MACHINE
+huapenyiti:
+  id: 110101022
+  name: "花盆爆发仪"
+  cost: 25
+  items:
+    - HUAPEN_MACHINE
+yingwuluoyiti:
+  id: 110101023
+  name: "鹦鹉螺爆发仪"
+  cost: 76
+  items:
+    - YINGWULUO_MACHINE
+kongqiyiti:
+  id: 110101024
+  name: "空气爆发仪"
+  cost: 1
+  items:
+    - AIR_HA_MACHINE
