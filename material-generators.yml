@@ -1542,7 +1542,7 @@ HAIMAN_ROBOT_GENERATOR:
       id: HDBU_FUEL
       amount: 1
   output:
-    tick-rate: 1
+    tick-rate: 2
     type: SLIMEFUN
     id: PROGRAMMABLE_ANDROID
     amount: 2
@@ -1595,7 +1595,644 @@ HAIMAN_GAOJI_ROBOT_GENERATOR:
       id: HDBU_FUEL
       amount: 1
   output:
-    tick-rate: 1
+    tick-rate: 2
     type: SLIMEFUN
     id: PROGRAMMABLE_ANDROID_2
     amount: 2
+# beta-1.6
+MYZHIYAN_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l末影之眼爆发仪'
+  item-lore:
+  - '&7自动生产末影之眼'
+  block-type: SKULLc6e5d93ff41bded5762093bf81a3273db079aa457b8dbf482754870af4b0f0a9
+  item-amount: 1
+  stats:
+    energy-consumption: 25
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_CABLE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MYZHENZHU_MACHINE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_CABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SYNTHETIC_SHULKER_SHELL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SYNTHETIC_SHULKER_SHELL
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: ENDER_EYE
+    amount: 8
+STRING_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l线爆发仪'
+  item-lore:
+  - '&7自动生产线'
+  block-type: SKULLe533c9975afe1a5f0d40f190dd3a39c9341ca0582d43d0c4be32faba6e3d2b60
+  item-amount: 1
+  stats:
+    energy-consumption: 80
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_EARTH
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIN_CABLE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: GOLD_CABLE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ESSENCE_OF_AFTERLIFE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_EARTH
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ESSENCE_OF_AFTERLIFE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: STRING
+    amount: 8
+KQHYS_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l哭泣的黑曜石爆发仪'
+  item-lore:
+  - '&7自动生产哭泣的黑曜石'
+  block-type: SKULLa86d81805c176f711b44b315b4f9c0c3b0b7496de89db7a9744994ea182ff88a
+  item-amount: 1
+  stats:
+    energy-consumption: 160
+    energy-buffer: 1600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_ENDER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '5':
+      type: VANILLA
+      id: CRYING_OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_ENDER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: CRYING_OBSIDIAN
+    amount: 2
+YANGMAO_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l羊毛爆发仪'
+  item-lore:
+  - '&7自动生产羊毛'
+  block-type: SKULLbb1c5a93bb03b348f863a9dc6319de2c8058fe6e56a2b91b55e3ca866a1c1df6
+  item-amount: 1
+  stats:
+    energy-consumption: 65
+    energy-buffer: 650
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COOLER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_RAINBOW
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COOLER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL_XMAS
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL_HALLOWEEN
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: RAINBOW_WOOL_VALENTINE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: WHITE_WOOL
+    amount: 6
+ZHONG_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&e&l时钟爆发仪'
+  item-lore:
+  - '&7自动生产时钟'
+  block-type: SKULL85fa0a3a2d62d7d1171d48b3ae8fcb551f6faccc70cee40f44c767c3da7b785f
+  item-amount: 1
+  stats:
+    energy-consumption: 65
+    energy-buffer: 650
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUCT_TAPE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: CLOCK
+    amount: 1
+GLYANJIANGKUAI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l用电式岩浆块爆发仪'
+  item-lore:
+  - '&7自动生产岩浆块'
+  block-type: SKULL9ebeec5cefd4fac3d2585748ebca98b334c99b29315e4f6283138fb13e3f38
+  item-amount: 1
+  stats:
+    energy-consumption: 80
+    energy-buffer: 800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: COOLER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_LIGHTNING
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: COOLER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_MAGMA_BLOCK_MACHINE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_FIRE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_FIRE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_FIRE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: MAGMA_BLOCK
+    amount: 8
+KUIJIAJIA_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&e&l盔甲架爆发仪'
+  item-lore:
+  - '&7自动生产盔甲架'
+  block-type: SKULL56d7fdb50f14c731c727b0e0d189b6a874319fc0d79c8a099acfc77c7b2d9196
+  item-amount: 1
+  stats:
+    energy-consumption: 120
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: ARMOR_STAND
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: ARMOR_STAND
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GRANDMAS_WALKING_STICK
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_VILLAGERS
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_VILLAGERS
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: ARMOR_STAND
+    amount: 1
+TIZI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&6&l梯子爆发仪'
+  item-lore:
+  - '&7自动生产梯子'
+  block-type: SKULLb5f2a32afc1dfffb677f18e7dd108dcd91dfa80306ab2939ba26bbfb4151f30c
+  item-amount: 1
+  stats:
+    energy-consumption: 20
+    energy-buffer: 200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: LADDER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: LADDER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GRAPPLING_HOOK
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: TAPE_MEASURE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: TAPE_MEASURE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: LADDER
+    amount: 6
+ZHIJIANTAI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l制箭台爆发仪'
+  item-lore:
+  - '&7自动生产制箭台'
+  block-type: SKULL2b1a6be4f0cae746753d0f525dd541a63e15a47e61affa8c7c70dd8f29fc39a4
+  item-amount: 1
+  stats:
+    energy-consumption: 20
+    energy-buffer: 200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: FLETCHING_TABLE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: FLETCHING_TABLE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: BANDAGE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: SPECTRAL_ARROW
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '9':
+      type: VANILLA
+      id: SPECTRAL_ARROW
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: FLETCHING_TABLE
+    amount: 1
+HUAPEN_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&a&l花盆爆发仪'
+  item-lore:
+  - '&7自动生产花盆'
+  block-type: SKULL98c7a451c2ef3156eb302246643dd3d776b19590adadbcd943dec18f0a10849f
+  item-amount: 1
+  stats:
+    energy-consumption: 15
+    energy-buffer: 75
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: FLOWER_POT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: FLOWER_POT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: AZURE_BLUET
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '9':
+      type: VANILLA
+      id: AZURE_BLUET
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: FLOWER_POT
+    amount: 2
+YINGWULUO_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&c&l鹦鹉螺爆发仪'
+  item-lore:
+  - '&7自动生产鹦鹉螺'
+  block-type: SKULL32805e4a7982e706ebd2ea6c8209402cd7c1cf9cc08b7aace3a8af7718cca7dc
+  item-amount: 1
+  stats:
+    energy-consumption: 250
+    energy-buffer: 2500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: NAUTILUS_SHELL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: NAUTILUS_SHELL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: WATER_TALISMAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: NAUTILUS_SHELL
+    amount: 2
+AIR_HA_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l空气爆发仪'
+  item-lore:
+  - '&7自动生产空气'
+  block-type: SKULL366a5c98928fa5d4b5d5b8efb490155b4dda3956bcaa9371177814532cfc
+  item-amount: 1
+  stats:
+    energy-consumption: 1
+    energy-buffer: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: CAN
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_ELECTRIC_ENERGY
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: NONE
+      id: N/A
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: AIR
+    amount: 1
