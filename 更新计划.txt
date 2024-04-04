@@ -22,4 +22,7 @@ haimantech的readme添加使用前说明
 
 
 未来
-minecraft迭代芯片（符文装备唱片等）
+minecraft迭代芯片（符文装备唱片等）用于制作造刷怪蛋的机器
+[ver:x.xx]MC实体培育箱
+精英受卵机
+因子复合机
