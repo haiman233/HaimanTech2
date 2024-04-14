@@ -1,0 +1,29 @@
+function onUse(event) {
+    var sf = "creeper_spawn_egg{EntityTag:{id:\"minecraft:iron_golem\"}}"; // 材质+铁傀儡
+    var player = event.getPlayer();
+    var inv = player.getInventory();
+    var itemInMainHand = inv.getItemInMainHand();
+
+    if (itemInMainHand != null && itemInMainHand.getAmount() > 0) {
+        var amount = itemInMainHand.getAmount();
+        itemInMainHand.setAmount(0);
+        runOpCommand(player, "give " + player.getName() + " " + sf + " " + amount);
+    }
+}
+
+上面的是右键不会消耗
+
+function onUse(event) {
+    var mob = "creeper_spawn_egg{EntityTag:{id:\"minecraft:iron_golem\"}}"; // 材质+铁傀儡
+    var player = event.getPlayer();
+    var inv = player.getInventory();
+    var itemInMainHand = inv.getItemInMainHand();
+
+    if (itemInMainHand != null && itemInMainHand.getAmount() > 0) {
+        var amount = itemInMainHand.getAmount();
+        itemInMainHand.setAmount(itemInMainHand.getAmount() - 1);
+        runOpCommand(player, "give " + player.getName() + " " + mob + " " + amount);
+    }
+}
+
+指令中id后的/"代表转义，因为外面还有一层双引号，双引号内的所有双引号都得用/"
