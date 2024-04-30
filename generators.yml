@@ -1096,7 +1096,7 @@ HAIMAN_FDTIAODIAN_MAHCINE_G:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 0
+      time-in-seconds: 1
       input:
         type: VANILLA
         id: REDSTONE
@@ -1155,7 +1155,7 @@ HAIMAN_FDTIAODIAN_MAHCINE_S:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 0
+      time-in-seconds: 1
       input:
         type: VANILLA
         id: REDSTONE
@@ -1214,7 +1214,7 @@ HAIMAN_FDTIAODIAN_MAHCINE_B:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 0
+      time-in-seconds: 1
       input:
         type: VANILLA
         id: REDSTONE
@@ -1273,7 +1273,7 @@ HAIMAN_FDTIAODIAN_MAHCINE_Q:
       amount: 1
   recipes:
     '1':
-      time-in-seconds: 0
+      time-in-seconds: 1
       input:
         type: VANILLA
         id: REDSTONE
