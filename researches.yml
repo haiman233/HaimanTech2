@@ -944,7 +944,7 @@ bolanqiu:
     - NFKD_BALL
     - NANJI_BALL
 biaoqin:
-  id: 6000000001
+  id: 60000001
   name: "趣味表情"
   cost: 36
   items:
@@ -1223,7 +1223,7 @@ mmpyitiji:
   cost: 130
   items:
     - MINGMINPAI_MACHINE
-mmpyitiji:
+mnyitiji:
   id: 110101038
   name: "墨囊一体机"
   cost: 56
