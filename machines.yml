@@ -108,7 +108,7 @@ COMPRESSION_BLOCK_MACHINE:
           id: N/A
           amount: 1
 HAIMAN_RESISTANCE:
-  category: slime_customizer
+  category: slime_customizer_huanbao
   machine-name: '&4&l海曼牌电阻'
   machine-lore:
   - '&7是否觉得你的电太多了？'
@@ -7334,6 +7334,26 @@ SOIL_CHANGER:
           type: NONE
           id: N/A
           amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MOSSY_COBBLESTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_12K_GOLD_PRODUCER:
   category: slime_customizer_yitihua
   machine-name: '&e&l12k金一体机'
@@ -7592,7 +7612,7 @@ HAIMAN_AUTO_JUICER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7612,7 +7632,7 @@ HAIMAN_AUTO_JUICER:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7631,8 +7651,8 @@ HAIMAN_AUTO_JUICER:
           type: NONE
           id: N/A
           amount: 1
-    '3':
-      speed-in-seconds: 3
+    '0':
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7652,7 +7672,7 @@ HAIMAN_AUTO_JUICER:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7672,7 +7692,7 @@ HAIMAN_AUTO_JUICER:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7692,7 +7712,7 @@ HAIMAN_AUTO_JUICER:
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -7706,6 +7726,26 @@ HAIMAN_AUTO_JUICER:
         '1':
           type: SLIMEFUN
           id: GOLDEN_APPLE_JUICE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GLOW_BERRIES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GLOW_BERRY_JUICE
           amount: 1
         '2':
           type: NONE
@@ -10235,6 +10275,26 @@ HAIMAN_LEARHER_CHANGER:
         '1':
           type: VANILLA
           id: RABBIT_HIDE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 250
+      input:
+        '1':
+          type: SLIMEFUN
+          id: ANCIENT_RUNE_RAINBOW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_LEATHER
           amount: 4
         '2':
           type: NONE
@@ -15923,7 +15983,7 @@ HAIMAN_COPPER_INGOT_CHANGER:
   block-type: SKULL415e470805d5fc611c44b87c39e7e4dfd474049b24f3f6bba230e250f9b4b87c
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-consumption: 45
+    energy-consumption: 2000
     energy-buffer: 4500
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
@@ -15965,47 +16025,7 @@ HAIMAN_COPPER_INGOT_CHANGER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
-      input:
-        '1':
-          type: VANILLA
-          id: COPPER_INGOT
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SLIMEFUN
-          id: COPPER_INGOT
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '2':
-      speed-in-seconds: 12
-      input:
-        '1':
-          type: VANILLA
-          id: COPPER_INGOT
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SLIMEFUN
-          id: COPPER_INGOT
-          amount: 16
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '3':
-      speed-in-seconds: 24
+      speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
@@ -16020,26 +16040,6 @@ HAIMAN_COPPER_INGOT_CHANGER:
           type: SLIMEFUN
           id: COPPER_INGOT
           amount: 32
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '4':
-      speed-in-seconds: 36
-      input:
-        '1':
-          type: VANILLA
-          id: COPPER_INGOT
-          amount: 64
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: SLIMEFUN
-          id: COPPER_INGOT
-          amount: 64
         '2':
           type: NONE
           id: N/A
@@ -19602,18 +19602,18 @@ HAIMAN_POWER_STORAGER_3:
           id: HAIMAN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
           id: HAIMAN_ELECTRIC_UNIT_FULL
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_FULL
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
     '2':
       speed-in-seconds: 1
       input:
@@ -19622,9 +19622,9 @@ HAIMAN_POWER_STORAGER_3:
           id: KULUN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: KULUN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -19633,7 +19633,7 @@ HAIMAN_POWER_STORAGER_3:
         '2':
           type: NONE
           id: N/A
-          amount: 64
+          amount: 1
     '3':
       speed-in-seconds: 1
       input:
@@ -19712,18 +19712,18 @@ HAIMAN_POWER_STORAGER_4:
           id: HAIMAN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
           id: HAIMAN_ELECTRIC_UNIT_FULL
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_FULL
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
     '2':
       speed-in-seconds: 1
       input:
@@ -19732,18 +19732,18 @@ HAIMAN_POWER_STORAGER_4:
           id: KULUN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: KULUN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
           id: KULUN_ELECTRIC_UNIT_FULL
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: KULUN_ELECTRIC_UNIT_FULL
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
     '3':
       speed-in-seconds: 1
       input:
@@ -19842,18 +19842,18 @@ HAIMAN_POWER_STORAGER_5:
           id: HAIMAN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
           id: HAIMAN_ELECTRIC_UNIT_FULL
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: HAIMAN_ELECTRIC_UNIT_FULL
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
     '2':
       speed-in-seconds: 1
       input:
@@ -19862,18 +19862,18 @@ HAIMAN_POWER_STORAGER_5:
           id: KULUN_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: KULUN_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
           id: KULUN_ELECTRIC_UNIT_FULL
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: KULUN_ELECTRIC_UNIT_FULL
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
     '3':
       speed-in-seconds: 1
       input:
@@ -19882,9 +19882,9 @@ HAIMAN_POWER_STORAGER_5:
           id: LEIYI_ELECTRIC_UNIT_EMPTY
           amount: 64
         '2':
-          type: SLIMEFUN
-          id: LEIYI_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          type: NONE
+          id: N/A
+          amount: 1
       output:
         '1':
           type: SLIMEFUN
@@ -19892,8 +19892,8 @@ HAIMAN_POWER_STORAGER_5:
           amount: 64
         '2':
           type: NONE
-          id: LEIYI_ELECTRIC_UNIT_EMPTY
-          amount: 64
+          id: N/A
+          amount: 1
     '4':
       speed-in-seconds: 1
       input:
@@ -27234,6 +27234,530 @@ ERDIAOZHUANGPEI:
           type: VANILLA
           id: WARPED_FUNGUS_ON_A_STICK
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+#BETA-1.7
+HAIMAN_LOW_RESISTANCE:
+  category: slime_customizer_huanbao
+  machine-name: '&b&l海曼牌小电阻'
+  machine-lore:
+  - '&7是否觉得你的电太多了？'
+  block-type: SKULLd83ed217dfd497539e86ab5b898b7b3bf5a186492e24f8b37a634a7947d1180
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 25000
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: VANILLA
+      id: COOKED_COD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: VANILLA
+      id: COOKED_COD
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1200
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_TIAODIAN_MAHCINE_G:
+  category: slime_customizer_huanbao
+  machine-name: '&e&l个位耗电式调电仪'
+  machine-lore:
+  - '&7校准电量'
+  block-type: SKULLa0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1
+    energy-buffer: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_TIAODIAN_MAHCINE_S:
+  category: slime_customizer_huanbao
+  machine-name: '&e&l十位耗电式调电仪'
+  machine-lore:
+  - '&7校准电量'
+  block-type: SKULLa0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 10
+    energy-buffer: 10
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_TIAODIAN_MAHCINE_G
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_TIAODIAN_MAHCINE_B:
+  category: slime_customizer_huanbao
+  machine-name: '&e&l百位耗电式调电仪'
+  machine-lore:
+  - '&7校准电量'
+  block-type: SKULLa0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 100
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_TIAODIAN_MAHCINE_S
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_TIAODIAN_MAHCINE_Q:
+  category: slime_customizer_huanbao
+  machine-name: '&e&l千位耗电式调电仪'
+  machine-lore:
+  - '&7校准电量'
+  block-type: SKULLa0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_TIAODIAN_MAHCINE_S
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+FENGCGZ_MACHINE:
+  category: slime_customizer
+  machine-name: '&a&l蜂巢构造机'
+  machine-lore:
+  - '&7将蜂箱构造成蜂巢'
+  block-type: SKULL20342dc9c2ad886acfe3ca2e987b7e28a87c774ca5f3d8cb2bfabe131cafe8
+  progress-bar-item: IRON_SHOVEL
+  stats:
+    energy-consumption: 500
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: VANILLA
+      id: BEEHIVE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: VANILLA
+      id: BEEHIVE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: VANILLA
+      id: BEEHIVE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: BEEHIVE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BEE_NEST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: BEE_NEST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BEEHIVE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+JINFTZ_MACHINE:
+  category: slime_customizer
+  machine-name: '&e&l金粉调制机'
+  machine-lore:
+  - '&7将金粉熔炼成原版金锭'
+  block-type: SKULL226381f0db48004b4369e125b5e7569d951d2930cef0d75f8b033c1c00b5ed1e
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 85
+    energy-buffer: 8500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_SMELTERY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BLISTERING_INGOT_2
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_DUST
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: GOLD_4K
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 32
         '2':
           type: NONE
           id: N/A

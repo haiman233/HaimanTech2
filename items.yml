@@ -760,7 +760,7 @@ HERANLIAOYJ:
   item-name: "&a&l核燃料原浆"
   item-lore:
   - "&7未经处理的核燃料"
-  item-id: SKULL4af1cc886574cd587f974c757c7fc18ed15998ac283e5ea10877899a90a9e149
+  item-id: SKULL9c64568adebf2844df824332dc27e4c66a8a9af6b4d752782f610db61d065
   item-amount: 1
   placeable: true
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -1554,6 +1554,53 @@ HM_CHAOPING_CIRCUIT_BOARD:
     9:
       type: SLIMEFUN
       id: FORCEFIELD_STABILIZER
+      amount: 1
+DUIDIEYUANJIAN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&5&l强制堆叠元件"
+  item-lore:
+  - "&7打破规则，坍缩空间"
+  item-id: SKULLecfd26d73f44b14713e8decb924ea10dc359e687f8f71b57612c35ac7c8492d
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ARMOR_FORGE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: YASUOKONGJIAN
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: DERULE_BUG
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: FEIXIANXINGSW
+      amount: 1
+    4:
+      type: VANILLA
+      id: KNOWLEDGE_BOOK
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: DUIDIETEZHEN
+      amount: 1
+    6:
+      type: VANILLA
+      id: COMMAND_BLOCK_MINECART
+      amount: 1
+    7:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    8:
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    9:
+      type: SAVEDITEM
+      id: HM_DEBUG_FISH
       amount: 1
 MAGIC_SWEET_POTATO:
   category: slime_customizer_zhuangshi
@@ -5288,7 +5335,7 @@ LIGHT_14:
       id: N/A
       amount: 1
 MEITANZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b煤炭种子"
   item-lore:
@@ -5335,7 +5382,7 @@ MEITANZHONGZI:
       id: COAL_ORE
       amount: 1
 TIEZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b铁种子"
   item-lore:
@@ -5382,7 +5429,7 @@ TIEZHONGZI:
       id: IRON_ORE
       amount: 1
 JINZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b金种子"
   item-lore:
@@ -5429,7 +5476,7 @@ JINZHONGZI:
       id: GOLD_ORE
       amount: 1
 LVBAOSHIZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b绿宝石种子"
   item-lore:
@@ -5476,7 +5523,7 @@ LVBAOSHIZHONGZI:
       id: EMERALD_ORE
       amount: 1
 ZUANSHIZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b钻石种子"
   item-lore:
@@ -5523,7 +5570,7 @@ ZUANSHIZHONGZI:
       id: DIAMOND_ORE
       amount: 1
 SHIYINGZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b石英种子"
   item-lore:
@@ -5570,7 +5617,7 @@ SHIYINGZHONGZI:
       id: NETHER_QUARTZ_ORE
       amount: 1
 QINGJINSHIZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b青金石种子"
   item-lore:
@@ -5617,7 +5664,7 @@ QINGJINSHIZHONGZI:
       id: LAPIS_ORE
       amount: 1
 HONGSHISHIZHONGZI:
-  category: slime_customizer_material
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
   item-name: "&b红石种子"
   item-lore:
@@ -5662,100 +5709,6 @@ HONGSHISHIZHONGZI:
     9:
       type: VANILLA
       id: REDSTONE_ORE
-      amount: 1
-JH_1:
-  category: hunli
-  item-type: SAVEDITEM
-  item-name: "&b婚礼"
-  item-lore:
-  - "&7婚礼"
-  item-id:  JH_1
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    1:
-      type: NONE
-      id: N/A
-      amount: 1
-    2:
-      type: NONE
-      id: N/A
-      amount: 1
-    3:
-      type: NONE
-      id: N/A
-      amount: 1
-    4:
-      type: NONE
-      id: N/A
-      amount: 1
-    5:
-      type: NONE
-      id: N/A
-      amount: 1
-    6:
-      type: NONE
-      id: N/A
-      amount: 1
-    7:
-      type: NONE
-      id: N/A
-      amount: 1
-    8:
-      type: NONE
-      id: N/A
-      amount: 1
-    9:
-      type: NONE
-      id: N/A
-      amount: 1
-JH_2:
-  category: hunli
-  item-type: SAVEDITEM
-  item-name: "&b婚礼"
-  item-lore:
-  - "&7婚礼"
-  item-id:  JH_2
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    1:
-      type: NONE
-      id: N/A
-      amount: 1
-    2:
-      type: NONE
-      id: N/A
-      amount: 1
-    3:
-      type: NONE
-      id: N/A
-      amount: 1
-    4:
-      type: NONE
-      id: N/A
-      amount: 1
-    5:
-      type: NONE
-      id: N/A
-      amount: 1
-    6:
-      type: NONE
-      id: N/A
-      amount: 1
-    7:
-      type: NONE
-      id: N/A
-      amount: 1
-    8:
-      type: NONE
-      id: N/A
-      amount: 1
-    9:
-      type: NONE
-      id: N/A
       amount: 1
 JH_3:
   category: hunli
@@ -5813,7 +5766,7 @@ JH_4:
   item-id:  JH_4
   item-amount: 1
   placeable: false
-  crafting-recipe-type: NONE
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     1:
       type: VANILLA
