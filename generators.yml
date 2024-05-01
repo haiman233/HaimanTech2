@@ -1045,3 +1045,240 @@ RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
         type: NONE
         id: N/A
         amount: 1
+#BETA-1.7
+HAIMAN_FDTIAODIAN_MAHCINE_G:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l个位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 1
+    energy-buffer: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_S:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l十位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 10
+    energy-buffer: 10
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_G
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_B:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l百位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 100
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_S
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_Q:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l千位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 100
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_B
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1

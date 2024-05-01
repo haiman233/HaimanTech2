@@ -8,4 +8,13 @@ HAIMAN_STAR_DUST:
   max-deviation: 1
   environment:
     NORMAL: 1
-
+DERULE_BUG:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l反规则bug"
+  item-lore:
+    - '&7违反逻辑的漏洞'
+  item-id: SKULL4fc6fc2af2c411fa698840dc46311ff26e92153ae2f4f6187b765de2323be2c8
+  max-deviation: 1
+  environment:
+    NETHER: 1

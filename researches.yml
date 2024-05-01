@@ -944,7 +944,7 @@ bolanqiu:
     - NFKD_BALL
     - NANJI_BALL
 biaoqin:
-  id: 6000000001
+  id: 60000001
   name: "趣味表情"
   cost: 36
   items:
@@ -1133,3 +1133,208 @@ kongqiyiti:
   cost: 1
   items:
     - AIR_HA_MACHINE
+duoyangcailiao:
+  id: 110101025
+  name: "无厘头材料"
+  cost: 92
+  items:
+    - DERULE_BUG
+    - YASUOKONGJIAN
+    - FEIXIANXINGSW
+    - DUIDIETEZHEN
+qiangzhiduidie:
+  id: 110101026
+  name: "强制堆叠材料"
+  cost: 108
+  items:
+    - DUIDIEYUANJIAN
+shudianrong:
+  id: 110101027
+  name: "数学电容"
+  cost: 40
+  items:
+    - ZHISHU_CAPACITOR
+    - HESHU_CAPACITOR
+tongyitijidd:
+  id: 110101028
+  name: "桶装一体机"
+  cost: 158
+  items:
+    - WATER_BUCKET_MACHINE
+    - LAVA_BUCKET_MACHINE
+    - MILK_BUCKET_MACHINE
+    - POWDER_SNOW_BUCKET_MACHINE
+tiegaoyitiji:
+  id: 110101029
+  name: "堆叠铁镐"
+  cost: 48
+  items:
+    - IRON_PICKAXE_MACHINE
+xjhjgyitiji:
+  id: 110101030
+  name: "堆叠下界合金镐"
+  cost: 255
+  items:
+    - NETHERITE_PICKAXE_MACHINE
+zsgyitiji:
+  id: 110101031
+  name: "堆叠钻石镐"
+  cost: 128
+  items:
+    - DIAMOND_PICKAXE_MACHINE
+zsgjyitiji:
+  id: 110101032
+  name: "堆叠钻石工具"
+  cost: 202
+  items:
+    - DIAMOND_AXE_MACHINE
+    - DIAMOND_HOE_MACHINE
+    - DIAMOND_SWORD_MACHINE
+ptgjyitiji:
+  id: 110101033
+  name: "堆叠普通工具"
+  cost: 96
+  items:
+    - FLINT_AND_STEEL_MACHINE
+    - FISHING_ROD_MACHINE
+    - SHEARS_MACHINE
+jdyitiji:
+  id: 110101034
+  name: "堆叠鸡蛋"
+  cost: 68
+  items:
+    - EGG_MACHINE
+cpsyyitiji:
+  id: 110101035
+  name: "堆叠11号唱片"
+  cost: 165
+  items:
+    - 11_DISC_MACHINE
+ysgjyitiji:
+  id: 110101036
+  name: "堆叠运输工具"
+  cost: 88
+  items:
+    - BOAT_MACHINE
+    - MINECART_MACHINE
+mmpyitiji:
+  id: 110101037
+  name: "命名牌一体机"
+  cost: 130
+  items:
+    - MINGMINPAI_MACHINE
+mnyitiji:
+  id: 110101038
+  name: "墨囊一体机"
+  cost: 56
+  items:
+    - MONANG_MACHINE
+kbfwyitiji:
+  id: 110101039
+  name: "空白符文一体机"
+  cost: 136
+  items:
+    - KONGBAIFUWEN_MACHINE
+wpscxyitiji:
+  id: 110101040
+  name: "物品输出箱一体机"
+  cost: 77
+  items:
+    - SHUCHUXIANG_MACHINE
+tdyhd:
+  id: 110101041
+  name: "耗电式调电仪"
+  cost: 62
+  items:
+    - HAIMAN_TIAODIAN_MAHCINE_G
+    - HAIMAN_TIAODIAN_MAHCINE_S
+    - HAIMAN_TIAODIAN_MAHCINE_B
+    - HAIMAN_TIAODIAN_MAHCINE_Q
+tdyfd:
+  id: 110101042
+  name: "发电式调电仪"
+  cost: 64
+  items:
+    - HAIMAN_FDTIAODIAN_MAHCINE_G
+    - HAIMAN_FDTIAODIAN_MAHCINE_S
+    - HAIMAN_FDTIAODIAN_MAHCINE_B
+    - HAIMAN_FDTIAODIAN_MAHCINE_Q
+xxdz:
+  id: 110101043
+  name: "小型电阻"
+  cost: 35
+  items:
+    - HAIMAN_LOW_RESISTANCE
+fcgz:
+  id: 110101044
+  name: "转换蜂巢"
+  cost: 40
+  items:
+    - FENGCGZ_MACHINE
+jftz:
+  id: 110101045
+  name: "冶炼金锭"
+  cost: 34
+  items:
+    - JINFTZ_MACHINE
+dhddy:
+  id: 110101046
+  name: "电荷与电单元"
+  cost: 25
+  items:
+    - HAIMAN_ELECTRIC_ENERGY
+    - HAIMAN_ELECTRIC_UNIT_EMPTY
+    - KULUN_ELECTRIC_UNIT_EMPTY
+    - LEIYI_ELECTRIC_UNIT_EMPTY
+    - INFINITE_ELECTRIC_UNIT_EMPTY
+    - LIANGZI_ELECTRIC_UNIT_EMPTY
+    - HAIMAN_ELECTRIC_UNIT_FULL
+    - KULUN_ELECTRIC_UNIT_FULL
+    - LEIYI_ELECTRIC_UNIT_FULL
+    - INFINITE_ELECTRIC_UNIT_FULL
+    - LIANGZI_ELECTRIC_UNIT_FULL
+hmcdj:
+  id: 110101047
+  name: "储电机"
+  cost: 26
+  items:
+    - HAIMAN_POWER_STORAGER_0
+    - HAIMAN_POWER_STORAGER_1
+    - HAIMAN_POWER_STORAGER_2
+    - HAIMAN_POWER_STORAGER_3
+    - HAIMAN_POWER_STORAGER_4
+    - HAIMAN_POWER_STORAGER_5
+hmxdj:
+  id: 110101048
+  name: "电能卸载"
+  cost: 18
+  items:
+    - HAIMAN_POWER_OFF_MACHINE_0
+    - HAIMAN_POWER_OFF_MACHINE_1
+    - HAIMAN_POWER_OFF_MACHINE_2
+    - HAIMAN_POWER_OFF_MACHINE_3
+    - HAIMAN_POWER_OFF_MACHINE_4
+    - HAIMAN_POWER_OFF_MACHINE_5
+dcnytjq:
+  id: 110101049
+  name: "多彩的能源调节器"
+  cost: 24
+  items:
+    - RED_ENERGY
+    - GREEN_ENERGY
+    - YELLOW_ENERGY
+    - PURPLE_ENERGY
+vrbb:
+  id: 110101050
+  name: "VR装置"
+  cost: 16
+  items:
+    - VR_YANJING
+    - DIANZI_JIAOLIAO
+    - ZHINENG_SHOUBIAO
+hysbfy:
+  id: 110101051
+  name: "黑曜石爆发仪"
+  cost: 42
+  items:
+    - HEIYAOSHI_MACHINE

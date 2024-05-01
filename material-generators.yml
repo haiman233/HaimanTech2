@@ -2236,3 +2236,1170 @@ AIR_HA_MACHINE:
     type: VANILLA
     id: AIR
     amount: 1
+#BETA-1.7
+MINGMINPAI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&c&l命名牌爆发仪'
+  item-lore:
+  - '&7自动生产命名牌'
+  block-type: SKULL9b01b6c1866418fb2af91e84ade86e8f7dabad1c6b657bbffe94f9a10d818cc1
+  item-amount: 1
+  stats:
+    energy-consumption: 5500
+    energy-buffer: 15000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: IRON_GOLEM_ASSEMBLER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '5':
+      type: VANILLA
+      id: NAME_TAG
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: IRON_GOLEM_ASSEMBLER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: NAME_TAG
+    amount: 4
+MONANG_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&6&l墨囊爆发仪'
+  item-lore:
+  - '&7自动生产墨囊'
+  block-type: SKULL100b1bf8554985f3decf54886922ad20d144438564ef7a5b52ced71bc9dd04bb
+  item-amount: 1
+  stats:
+    energy-consumption: 500
+    energy-buffer: 1500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '5':
+      type: VANILLA
+      id: INK_SAC
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: INK_SAC
+    amount: 6
+HEIYAOSHI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l黑曜石爆发仪'
+  item-lore:
+  - '&7自动生产黑曜石'
+  block-type: SKULL1a159d9ac2fdb164858b6350e03c1924f17e5aa8611a347d55b6b89820faf094
+  item-amount: 1
+  stats:
+    energy-consumption: 620
+    energy-buffer: 6200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: VANILLA
+      id: OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: OBSIDIAN
+    amount: 2
+KONGBAIFUWEN_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&a&l空白符文爆发仪'
+  item-lore:
+  - '&7自动生产空白符文'
+  block-type: SKULL552d612ebe6c39996b5a905a77f72d28f6def81fe8b97556e262d272f87e9bb0
+  item-amount: 1
+  stats:
+    energy-consumption: 5000
+    energy-buffer: 15000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BLANK_RUNE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: BLANK_RUNE
+    amount: 2
+SHUCHUXIANG_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&6&l物品输出箱爆发仪'
+  item-lore:
+  - '&7自动生产物品输出箱'
+  block-type: SKULL5b236a39e51a39dff9bced39333a73413984bc74db37c1318bfc4a4459f035d2
+  item-amount: 1
+  stats:
+    energy-consumption: 400
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: BIG_CAPACITOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: OUTPUT_CHEST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: OUTPUT_CHEST
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: OUTPUT_CHEST
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT
+      amount: 1
+  output:
+    tick-rate: 1
+    type: SLIMEFUN
+    id: OUTPUT_CHEST
+    amount: 2
+WATER_BUCKET_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l水桶爆发仪'
+  item-lore:
+  - '&7将水桶堆叠至64个'
+  block-type: SKULL1aaefc0dce2e3d940b959341fa20269553111241d1de87e9f29957b7776a16ec
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: WATER_BUCKET
+    amount: 64
+LAVA_BUCKET_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l岩浆桶爆发仪'
+  item-lore:
+  - '&7将岩浆桶堆叠至64个'
+  block-type: SKULLce67df8d715d1f0583c5955a83aa9ea0f13ed9826e1f70622e7a99cc8278e06d
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: LAVA_BUCKET
+    amount: 64
+MILK_BUCKET_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l奶桶爆发仪'
+  item-lore:
+  - '&7将奶桶堆叠至64个'
+  block-type: SKULL1fe2aa4dbf954f29a04d0fc7538e57c350ebd2d8cc91414b71c307f39d7b8144
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: MILK_BUCKET
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: MILK_BUCKET
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: MILK_BUCKET
+    amount: 64
+POWDER_SNOW_BUCKET_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&e&l细雪桶爆发仪'
+  item-lore:
+  - '&7将细雪桶堆叠至64个'
+  block-type: SKULLbb1555f8cbed2ad81cbcbb016a305d0483a1b25c9c00629f0e3878d5ddec67f8
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: POWDER_SNOW_BUCKET
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: POWDER_SNOW_BUCKET
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: POWDER_SNOW_BUCKET
+    amount: 64
+DIAMOND_PICKAXE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l钻石镐爆发仪'
+  item-lore:
+  - '&7将钻石镐堆叠至32个'
+  block-type: SKULLd65f321a89f645b3b4fd25f5ecb9b64f7bd64485024dd4d3c27113b8f749044c
+  item-amount: 1
+  stats:
+    energy-consumption: 32500
+    energy-buffer: 80000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: DIAMOND_PICKAXE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: DIAMOND_PICKAXE
+      amount: 1
+  output:
+    tick-rate: 8
+    type: VANILLA
+    id: DIAMOND_PICKAXE
+    amount: 32
+IRON_PICKAXE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l铁镐爆发仪'
+  item-lore:
+  - '&7将铁镐堆叠至64个'
+  block-type: SKULLb6ea2135838461534372f2da6c862d21cd5f3d2c7119f2bb674bbd42791
+  item-amount: 1
+  stats:
+    energy-consumption: 12500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: IRON_PICKAXE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: IRON_PICKAXE
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: IRON_PICKAXE
+    amount: 64
+NETHERITE_PICKAXE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&5&l下界合金镐爆发仪'
+  item-lore:
+  - '&7将下界合金镐堆叠至20个'
+  block-type: SKULL45ffaaad46907fa05d9751949c0555586945e9704dae12b0b3ee86e5d322e391
+  item-amount: 1
+  stats:
+    energy-consumption: 52500
+    energy-buffer: 525000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: NETHERITE_PICKAXE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: NETHERITE_PICKAXE
+      amount: 1
+  output:
+    tick-rate: 8
+    type: VANILLA
+    id: NETHERITE_PICKAXE
+    amount: 20
+DIAMOND_AXE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l钻石斧爆发仪'
+  item-lore:
+  - '&7将钻石斧堆叠至32个'
+  block-type: SKULLd600f0d2b2ab524b219e0fa808c80b26e7236780681867a0617f73ce3671cd2f
+  item-amount: 1
+  stats:
+    energy-consumption: 32500
+    energy-buffer: 80000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: DIAMOND_AXE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: DIAMOND_AXE
+      amount: 1
+  output:
+    tick-rate: 8
+    type: VANILLA
+    id: DIAMOND_AXE
+    amount: 32
+DIAMOND_HOE_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l钻石锄爆发仪'
+  item-lore:
+  - '&7将钻石锄堆叠至32个'
+  block-type: SKULL4809fae0c129a01a0a40ea3b56e806e962ad2156920b69a508f427af2228906e
+  item-amount: 1
+  stats:
+    energy-consumption: 32500
+    energy-buffer: 80000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: DIAMOND_HOE
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: DIAMOND_HOE
+      amount: 1
+  output:
+    tick-rate: 8
+    type: VANILLA
+    id: DIAMOND_HOE
+    amount: 32
+DIAMOND_SWORD_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&b&l钻石剑爆发仪'
+  item-lore:
+  - '&7将钻石剑堆叠至32个'
+  block-type: SKULL4445a940a297ae88d2f515b498796dd75f5713a7a5f83650e100e9e648f632f6
+  item-amount: 1
+  stats:
+    energy-consumption: 32500
+    energy-buffer: 80000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: DIAMOND_SWORD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: DIAMOND_SWORD
+      amount: 1
+  output:
+    tick-rate: 8
+    type: VANILLA
+    id: DIAMOND_SWORD
+    amount: 32
+FLINT_AND_STEEL_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&c&l打火石爆发仪'
+  item-lore:
+  - '&7将打火石堆叠至64个'
+  block-type: SKULL6f82f0a5a14bf7157389cabcc701edf396234d77f40f934ce879702741e9cdbf
+  item-amount: 1
+  stats:
+    energy-consumption: 12500
+    energy-buffer: 23000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: FLINT_AND_STEEL
+    amount: 64
+FISHING_ROD_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&e&l钓鱼竿爆发仪'
+  item-lore:
+  - '&7将钓鱼竿堆叠至64个'
+  block-type: SKULL3ac2b1193c12459da32777a66e77c33eba8388d9cd516d83f3651b9f7baf0
+  item-amount: 1
+  stats:
+    energy-consumption: 12500
+    energy-buffer: 23000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: FISHING_ROD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: FISHING_ROD
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: FISHING_ROD
+    amount: 64
+SHEARS_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&f&l剪刀爆发仪'
+  item-lore:
+  - '&7将剪刀堆叠至64个'
+  block-type: SKULL89958d6a863799f55bb9eea928c8a0573cdaa5477acd0c9f49b95ab9d28ef931
+  item-amount: 1
+  stats:
+    energy-consumption: 22500
+    energy-buffer: 63000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: SHEARS
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: SHEARS
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: SHEARS
+    amount: 64
+11_DISC_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&a&l11号唱片爆发仪'
+  item-lore:
+  - '&7将11号唱片堆叠至16个'
+  block-type: SKULLca32088e84c88119f0e0d2c9ffa39dbefdfe9d3a623c34ed290e1f5a3ec2833f
+  item-amount: 1
+  stats:
+    energy-consumption: 22500
+    energy-buffer: 63000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: MUSIC_DISC_11
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '9':
+      type: VANILLA
+      id: MUSIC_DISC_11
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: MUSIC_DISC_11
+    amount: 16
+EGG_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&e&l鸡蛋爆发仪'
+  item-lore:
+  - '&7将鸡蛋堆叠至64个'
+  block-type: SKULLbc8b15e85ed225c21c32367da7be244779e36afe7f7563a6a570a717cb5be1b1
+  item-amount: 1
+  stats:
+    energy-consumption: 4000
+    energy-buffer: 40000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: EGG
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '9':
+      type: VANILLA
+      id: EGG
+      amount: 1
+  output:
+    tick-rate: 2
+    type: VANILLA
+    id: EGG
+    amount: 64
+BOAT_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&c&l船爆发仪'
+  item-lore:
+  - '&7将船堆叠至64个'
+  block-type: SKULLafea7dddd176199362e99e4724f7bf87886b0d596914bd1097b475a1d97ebbdb
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: OAK_BOAT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: OAK_BOAT
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: OAK_BOAT
+    amount: 64
+MINECART_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l矿车爆发仪'
+  item-lore:
+  - '&7将矿车堆叠至64个'
+  block-type: SKULL217995a7af2fae701a082cda1d385606c7ccbf0b2186114be900c9138cee690f
+  item-amount: 1
+  stats:
+    energy-consumption: 4500
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: MINECART
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: MINECART
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: MINECART
+    amount: 64

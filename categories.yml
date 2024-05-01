@@ -24,7 +24,7 @@ slime_customizer:
   category-item: SKULL4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
 slime_customizer_huanbao:
   parent: "tianxuangongyi"
-  category-name: "&6&l海曼科技院 &7- &e&l电的循环与利用"
+  category-name: "&6&l海曼科技院 &7- &e&l电力工程与交易"
   category-item: SKULL6b9c49ffdf4ce4c6f5f049efc8ca0e08b9b5bbf3c6a8783dfaaccad77dfc997a
 slime_customizer_fenzi:
   parent: "tianxuangongyi"
@@ -56,7 +56,7 @@ slime_customizer_emoji:
   category-item: SKULL3baabe724eae59c5d13f442c7dc5d2b1c6b70c2f83364a488ce5973ae80b4c3
 slime_customizer_zhuangshi:
   parent: "tianxuangongyi"
-  category-name: "&6&l海曼科技院 &7- &5&l装饰与道具"
+  category-name: "&6&l海曼科技院 &7- &5&l杂项"
   category-item: SKULLdc3cfe7f04e023199b30a9e8791aa5e48dea8cbcbd71a28d12d2562a7d348
 slime_customizer_slimefun_machine:
   parent: "tianxuangongyi"
