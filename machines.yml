@@ -6020,9 +6020,9 @@ HAIMAN_ANVIL_FIXER:
           amount: 1
 HAIMAN_GRAVEL_CREATER:
   category: slime_customizer
-  machine-name: '&8&l砂砾转换机'
+  machine-name: '&8&l沙砾转换机'
   machine-lore:
-  - '&7将一组原石转化成一组砂砾'
+  - '&7将一组原石转化成一组沙砾'
   - '&764items/s'
   block-type: SKULL1ee115656bc220755c6d5bc87260c82141c253a34bc3db2bd72b727befcc0
   progress-bar-item: IRON_PICKAXE
@@ -9954,9 +9954,9 @@ MUSIC_DISC_PRODUCER:
           amount: 1
 HAIMAN_HORSE_ARMOR_PRODUCER:
   category: slime_customizer
-  machine-name: '&6&l马凯打造机'
+  machine-name: '&6&l马铠打造机'
   machine-lore:
-  - '&7自动打造马凯'
+  - '&7自动打造马铠'
   block-type: SKULL1df28744ee147851b9ec2d491a65a47ede1a521000b535106dc3b1fbf6471481
   progress-bar-item: IRON_AXE
   stats:

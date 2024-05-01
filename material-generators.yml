@@ -2343,6 +2343,59 @@ MONANG_MACHINE:
     type: VANILLA
     id: INK_SAC
     amount: 6
+HEIYAOSHI_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l黑曜石爆发仪'
+  item-lore:
+  - '&7自动生产黑曜石'
+  block-type: SKULL1a159d9ac2fdb164858b6350e03c1924f17e5aa8611a347d55b6b89820faf094
+  item-amount: 1
+  stats:
+    energy-consumption: 620
+    energy-buffer: 6200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: VANILLA
+      id: OBSIDIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+  output:
+    tick-rate: 1
+    type: VANILLA
+    id: OBSIDIAN
+    amount: 2
 KONGBAIFUWEN_MACHINE:
   category: slime_customizer_yitihua
   item-name: '&a&l空白符文爆发仪'

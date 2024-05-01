@@ -1277,3 +1277,64 @@ jftz:
   cost: 34
   items:
     - JINFTZ_MACHINE
+dhddy:
+  id: 110101046
+  name: "电荷与电单元"
+  cost: 25
+  items:
+    - HAIMAN_ELECTRIC_ENERGY
+    - HAIMAN_ELECTRIC_UNIT_EMPTY
+    - KULUN_ELECTRIC_UNIT_EMPTY
+    - LEIYI_ELECTRIC_UNIT_EMPTY
+    - INFINITE_ELECTRIC_UNIT_EMPTY
+    - LIANGZI_ELECTRIC_UNIT_EMPTY
+    - HAIMAN_ELECTRIC_UNIT_FULL
+    - KULUN_ELECTRIC_UNIT_FULL
+    - LEIYI_ELECTRIC_UNIT_FULL
+    - INFINITE_ELECTRIC_UNIT_FULL
+    - LIANGZI_ELECTRIC_UNIT_FULL
+hmcdj:
+  id: 110101047
+  name: "储电机"
+  cost: 26
+  items:
+    - HAIMAN_POWER_STORAGER_0
+    - HAIMAN_POWER_STORAGER_1
+    - HAIMAN_POWER_STORAGER_2
+    - HAIMAN_POWER_STORAGER_3
+    - HAIMAN_POWER_STORAGER_4
+    - HAIMAN_POWER_STORAGER_5
+hmxdj:
+  id: 110101048
+  name: "电能卸载"
+  cost: 18
+  items:
+    - HAIMAN_POWER_OFF_MACHINE_0
+    - HAIMAN_POWER_OFF_MACHINE_1
+    - HAIMAN_POWER_OFF_MACHINE_2
+    - HAIMAN_POWER_OFF_MACHINE_3
+    - HAIMAN_POWER_OFF_MACHINE_4
+    - HAIMAN_POWER_OFF_MACHINE_5
+dcnytjq:
+  id: 110101049
+  name: "多彩的能源调节器"
+  cost: 24
+  items:
+    - RED_ENERGY
+    - GREEN_ENERGY
+    - YELLOW_ENERGY
+    - PURPLE_ENERGY
+vrbb:
+  id: 110101050
+  name: "VR装置"
+  cost: 16
+  items:
+    - VR_YANJING
+    - DIANZI_JIAOLIAO
+    - ZHINENG_SHOUBIAO
+hysbfy:
+  id: 110101051
+  name: "黑曜石爆发仪"
+  cost: 42
+  items:
+    - HEIYAOSHI_MACHINE
