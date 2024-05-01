@@ -6022,7 +6022,7 @@ HAIMAN_GRAVEL_CREATER:
   category: slime_customizer
   machine-name: '&8&l沙砾转换机'
   machine-lore:
-  - '&7将一组原石转化成一组沙砾'
+  - '&7将一组圆石转化成一组沙砾'
   - '&764items/s'
   block-type: SKULL1ee115656bc220755c6d5bc87260c82141c253a34bc3db2bd72b727befcc0
   progress-bar-item: IRON_PICKAXE

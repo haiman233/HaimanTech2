@@ -1231,8 +1231,8 @@ HAIMAN_FDTIAODIAN_MAHCINE_Q:
   block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-production: 100
-    energy-buffer: 100
+    energy-production: 1000
+    energy-buffer: 1000
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
