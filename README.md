@@ -1,5 +1,7 @@
 # HaimanTech2
-海曼科技院是通过SlimeCustomizer插件写成的一份配置文件，旨在完善粘液科技线，拓展新的原版玩法
+海曼科技院是通过SlimeCustomizer插件写成的一份配置文件，旨在完善粘液科技线，拓展新的原版玩法  
+
+安装海曼科技需要使用汉化版SlimeCustomizer，非官方版，在此下载[汉化版SlimeCustomizer](https://builds.guizhanss.com/SlimefunGuguProject/SlimeCustomizer/master)
 
 ## 提示
 
