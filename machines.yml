@@ -814,6 +814,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
           type: NONE
           id: N/A
           amount: 1
+    '17':
+      speed-in-seconds: 260
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_CRYSTALS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MOLECULAR_RECOMBINATION_INSTRUMENT_II:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &eII'
@@ -1359,6 +1379,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
         '1':
           type: VANILLA
           id: SHULKER_SHELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_CRYSTALS
           amount: 1
         '2':
           type: NONE
@@ -1989,6 +2029,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: VANILLA
           id: JIGSAW
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_CRYSTALS
+          amount: 2
         '2':
           type: NONE
           id: N/A
@@ -2678,6 +2738,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           type: SLIMEFUN
           id: HAIMAN_GALAXY_PIECE
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '33':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_CRYSTALS
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -3467,6 +3547,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: VANILLA
           id: ENCHANTED_GOLDEN_APPLE
           amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '38':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_CRYSTALS
+          amount: 8
         '2':
           type: NONE
           id: N/A
@@ -27758,6 +27858,95 @@ JINFTZ_MACHINE:
           type: VANILLA
           id: GOLD_INGOT
           amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+JGJ_MACHINE:
+  category: slime_customizer
+  machine-name: '&4&l浆果机'
+  machine-lore:
+  - '&7创造浆果，享受浆果！'
+  block-type: SKULL1819b0a63f7d0d20c2ce4c6651424de0a3b58ac0c647ced8bd218cacf93ea1aa
+  progress-bar-item: WOODEN_HOE
+  stats:
+    energy-consumption: 70
+    energy-buffer: 700
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: MAGNET
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: MAGNET
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: COPPER_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: COPPER_INGOT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SWEET_BERRIES
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLOWSTONE_DUST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLOW_BERRIES
+          amount: 4
         '2':
           type: NONE
           id: N/A
