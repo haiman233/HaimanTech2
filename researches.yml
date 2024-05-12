@@ -1338,3 +1338,9 @@ hysbfy:
   cost: 42
   items:
     - HEIYAOSHI_MACHINE
+jianggj:
+  id: 110101052
+  name: "浆果机"
+  cost: 20
+  items:
+    - JGJ_MACHINE
