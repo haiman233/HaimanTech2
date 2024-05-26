@@ -1,8 +1,0 @@
-item:
-  ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: WRITTEN_BOOK
-  meta:
-    ==: ItemMeta
-    meta-type: BOOK_SIGNED
-    generation: 0

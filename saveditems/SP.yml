@@ -1,8 +1,0 @@
-item:
-  ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: POTION
-  meta:
-    ==: ItemMeta
-    meta-type: POTION
-    potion-type: minecraft:water
