@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bBETA-1.8"
+    - "&bBETA-1.9"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -379,6 +379,53 @@ HAIMAN_INFO_FENZI_YEHUAJI:
       type: SLIMEFUN
       id: ZHANWEIFU
       amount: 1
+HAIMAN_INFO_COFFEE_MACHINE:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: "&c&l咖啡机配方"
+  item-lore:
+  - "&7该物品需要在咖啡机中制作"
+  item-id: SKULL4552f7375672a5737f2ab766e5d1bcbfe8e12913cc9f044b43a2123a35185665
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
 HAIMAN_INFO_HAIMAN_ADVANCE_DYING:
   category: sakurafun_recipe
   item-type: CUSTOM
@@ -661,6 +708,807 @@ HAIMAN_INFO_WRITTEN_BOOK_CHANGER:
       type: SLIMEFUN
       id: ZHANWEIFU
       amount: 1
+# 原版物品展示
+HM_COMMAND_BLOCK:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l命令方块"
+  item-lore:
+  - "&7该物品需要在3级及以上分子重组仪中制作"
+  item-id: COMMAND_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_LS_XH_COMMAND_BLOCK:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l连锁型/循环型命令方块"
+  item-lore:
+  - "&7该物品需要命令方块染色机中制作"
+  item-id: REPEATING_COMMAND_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_JG_PT:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l结构方块/拼图方块"
+  item-lore:
+  - "&7该物品需要在3级及以上分子重组仪中制作"
+  item-id: STRUCTURE_BLOCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_JGKW:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l结构空位"
+  item-lore:
+  - "&7该物品需要在3级及以上分子重组仪中制作"
+  item-id: STRUCTURE_VOID
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_PLHEAD:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l玩家头颅"
+  item-lore:
+  - "&7该物品需要在2级及以上分子重组仪中制作"
+  item-id: PLAYER_HEAD
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_JY_PZ:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l基岩/屏障"
+  item-lore:
+  - "&7该物品需要在5级及以上分子重组仪中制作"
+  item-id: BEDROCK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_MLFKFC:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l命令方块矿车"
+  item-lore:
+  - "&7该物品需要在矿车装配机中制作"
+  item-id: COMMAND_BLOCK_MINECART
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_ZSZZ:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l紫颂植株"
+  item-lore:
+  - "&7该物品需要在1级及以上分子重组仪中制作"
+  item-id: CHORUS_PLANT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_TJ_GT:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l土径/耕土"
+  item-lore:
+  - "&7该物品需要在土质改良机中制作"
+  item-id: DIRT_PATH
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_SHMTJ:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l石化木台阶"
+  item-lore:
+  - "&7该物品需要在石化机中制作"
+  item-id: PETRIFIED_OAK_SLAB
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_CSFK:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l虫蚀方块"
+  item-lore:
+  - "&7该物品需要在虫蚀机中制作"
+  item-id: INFESTED_STONE_BRICKS
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_ZSJMY:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l紫水晶母岩"
+  item-lore:
+  - "&7该物品需要在洞穴环境模拟机中制作"
+  item-id: BUDDING_AMETHYST
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_MDCSMKJ:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l末地传送门框架"
+  item-lore:
+  - "&7该物品需要在末地传送门框架构造机中制作"
+  item-id: END_PORTAL_FRAME
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_SGL:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l刷怪笼"
+  item-lore:
+  - "&7该物品需要在刷怪笼构造机中制作"
+  item-id: SPAWNER
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_ZSZS:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l知识之书/成书"
+  item-lore:
+  - "&7该物品需要在书厂中制作"
+  item-id: KNOWLEDGE_BOOK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_DEBUG:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l调试棒/DEBUG鱼"
+  item-lore:
+  - "&7该物品需要在Debug调试机中制作"
+  item-id: DEBUG_STICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_LIGHT_ZS:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l光源方块"
+  item-lore:
+  - "&7该物品需要在电光聚合机和电光升级机中制作"
+  item-id: LIGHT
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+# 材料
 HAIMAN_AMETHYST_DUST:
   category: slime_customizer_material
   item-type: CUSTOM
@@ -4350,7 +5198,7 @@ HAIMAN_TIGER_FURRY_1:
       id: N/A
       amount: 1
 HAIMAN_NEW_YEAR_PIECE_1:
-  category: slime_customizer_newyear
+  category: slime_customizer_material
   item-type: CUSTOM
   item-name: "&d&l新年碎片"
   item-lore:
@@ -4397,7 +5245,7 @@ HAIMAN_NEW_YEAR_PIECE_1:
       id: GLISTERING_MELON_SLICE
       amount: 1
 HAIMAN_NEW_YEAR_1:
-  category: slime_customizer_newyear
+  category: slime_customizer_material
   item-type: CUSTOM
   item-name: "&d&l新年"
   item-lore:
@@ -8313,7 +9161,7 @@ YUENAN_BALL:
       amount: 1
     2:
       type: VANILLA
-      id: GRASS
+      id: RED_DYE
       amount: 1
     3:
       type: VANILLA
@@ -8337,7 +9185,7 @@ YUENAN_BALL:
       amount: 1
     8:
       type: VANILLA
-      id: GRASS
+      id: RED_DYE
       amount: 1
     9:
       type: VANILLA
@@ -17559,3 +18407,239 @@ BOOK_4:
       id: N/A
       amount: 1
 
+HAIMAN_COFFEE:
+  category: slime_customizer_zhuangshi
+  item-type: SAVEDITEM
+  item-name: "&e&l咖啡"
+  item-lore:
+    - "&7"
+  item-id: COFFEE
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HAIMAN_INFO_COFFEE_MACHINE
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+# BETA-1.9
+HM_SHENQUAN_HEXIN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&e&l神权核心"
+  item-lore:
+  - "&7由各种神权方块拼接而成"
+  item-id: SKULL5b10ed94080a07546a245ec837cfc5814c7658c7ef337be035a11b2e1e03ba16
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ARMOR_FORGE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: JIGSAW
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    3:
+      type: VANILLA
+      id: STRUCTURE_BLOCK
+      amount: 1
+    4:
+      type: VANILLA
+      id: STRUCTURE_VOID
+      amount: 1
+    5:
+      type: VANILLA
+      id: COMMAND_BLOCK_MINECART
+      amount: 1
+    6:
+      type: VANILLA
+      id: BARRIER
+      amount: 1
+    7:
+      type: VANILLA
+      id: KNOWLEDGE_BOOK
+      amount: 1
+    8:
+      type: VANILLA
+      id: DEBUG_STICK
+      amount: 1
+    9:
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+HAIMAN_INGOT:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&b&l海曼锭"
+  item-lore:
+  - "&7一个栩栩如生的...苦力怕？"
+  item-id: SKULL12208e6d30301bb70bf3043ac877b8bddb1590cff752a93ceae7c9d24efd67c9
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HAIMAN_NEW_YEAR_1
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HAIMAN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HAIMAN_NEW_YEAR_1
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: CREEPER_COAL_HEART
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HAIMAN
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+TIANXUAN_MADA:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&a&l天璇马达"
+  item-lore:
+  - "&7由多种马达拆卸后组装而成"
+  item-id: SKULLf6cbd10b609a1ec82be786367e07093b1062a8d49d195d46a0ed8ea70c7793f4
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+HM_HONGMENG_XINPIAN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l鸿蒙芯片"
+  item-lore:
+  - "&7用于制作精密机器"
+  item-id: SKULL33f2b23ba182a67ed9519dc589cc0631df7155f74fbc648a5ace901dbcadbd
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1

@@ -294,6 +294,54 @@ HAIMAN_POWER_NET:
       type: SLIMEFUN
       id: COPPER_WIRE
       amount: 1
+GUANGYUAN_FADIAN:
+  category: slime_customizer_generator
+  generator-name: "&e&l隐形光源发电机"
+  generator-lore:
+  - "&7你完全看不到它在哪里"
+  block-type: LIGHT
+  stats:
+    energy-production:
+      day: 2000
+      night: 3500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    4:
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    5:
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    6:
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
 FUZHU_GENERATOR:
   category: slime_customizer_generator
   generator-name: "&f腐竹专用发电机"

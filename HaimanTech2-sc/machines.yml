@@ -227,7 +227,7 @@ NUCLEAR_DECAY_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 50
+      speed-in-seconds: 4
       input:
         '1':
           type: SLIMEFUN
@@ -247,7 +247,7 @@ NUCLEAR_DECAY_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 50
+      speed-in-seconds: 4
       input:
         '1':
           type: SLIMEFUN
@@ -267,7 +267,7 @@ NUCLEAR_DECAY_MACHINE:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 55
+      speed-in-seconds: 4
       input:
         '1':
           type: SLIMEFUN
@@ -356,7 +356,7 @@ MILK_HONEY_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 6
+      speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
@@ -425,7 +425,7 @@ ANCIENT_DEBRIS_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 30
+      speed-in-seconds: 15
       input:
         '1':
           type: VANILLA
@@ -2070,8 +2070,8 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       id: FUHEBAN
       amount: 1
     '2':
-      type: VANILLA
-      id: JIGSAW
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
       amount: 1
     '3':
       type: SLIMEFUN
@@ -2800,15 +2800,15 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
-      id: ULTIMATE_ENERGY_MOTOR
+      id: TIANXUAN_MADA
       amount: 1
     '9':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
   recipes:
     '1':
@@ -5852,7 +5852,7 @@ LILY_PAD_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 5
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
@@ -6169,7 +6169,7 @@ HAIMAN_GRAVEL_CREATER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -16125,7 +16125,7 @@ HAIMAN_COPPER_INGOT_CHANGER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 3
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -16140,6 +16140,26 @@ HAIMAN_COPPER_INGOT_CHANGER:
           type: SLIMEFUN
           id: COPPER_INGOT
           amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: COPPER_DUST
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COPPER_INGOT
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22839,7 +22859,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: COAL_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22859,7 +22879,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: IRON_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22879,7 +22899,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: GOLD_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22899,7 +22919,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: EMERALD_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22919,7 +22939,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: DIAMOND_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22939,7 +22959,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: NETHER_QUARTZ_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22959,7 +22979,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: LAPIS_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22979,7 +22999,7 @@ KUANGWUCUISHENGQI:
         '1':
           type: VANILLA
           id: REDSTONE_ORE
-          amount: 25
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -27947,6 +27967,454 @@ JGJ_MACHINE:
           type: VANILLA
           id: GLOW_BERRIES
           amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# BETA-1.9
+SHUAGUAILONG_MACHINE:
+  category: slime_customizer
+  machine-name: '&a&l刷怪笼构造机'
+  machine-lore:
+  - '&7构造刷怪笼'
+  block-type: SKULL4faaf642babf93f96e146e2bb7b3cd70a4ec9d17f4a2957a99e2d8ed5bc8306d
+  progress-bar-item: WOODEN_AXE
+  stats:
+    energy-consumption: 60000
+    energy-buffer: 120000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: PICKAXE_OF_CONTAINMENT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: PICKAXE_OF_CONTAINMENT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: PICKAXE_OF_CONTAINMENT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 45
+      input:
+        '1':
+          type: VANILLA
+          id: CHAIN
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPAWNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 45
+      input:
+        '1':
+          type: VANILLA
+          id: SPAWNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BROKEN_SPAWNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 50
+      input:
+        '1':
+          type: SLIMEFUN
+          id: BROKEN_SPAWNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: REINFORCED_SPAWNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+JINKUANGTIQU_MACHINE:
+  category: slime_customizer
+  machine-name: '&e&l金矿提取机'
+  machine-lore:
+  - '&7从各种金矿/粗金中提取更多黄金'
+  block-type: SKULLe7a383cd2d8e3f9a2a9e9e2522dd18cfeed9cdaddf90c5e397973eef932b8bef
+  progress-bar-item: WOODEN_PICKAXE
+  stats:
+    energy-consumption: 40
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: WITHER_PROOF_GLASS
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_GOLD_ORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GILDED_BLACKSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_ORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DEEPSLATE_GOLD_ORE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAW_GOLD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAW_GOLD_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 18
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+GUZHITIQU_MACHINE:
+  category: slime_customizer
+  machine-name: '&f&l骨质提取机'
+  machine-lore:
+  - '&7提取骨粉'
+  block-type: SKULL7c7ffd6a6da16f491644cca321250fc2bee66a87fb7a8537d31dad1204a1b0
+  progress-bar-item: WOODEN_AXE
+  stats:
+    energy-consumption: 50
+    energy-buffer: 500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BONE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_SKELETON_SKULL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 48
         '2':
           type: NONE
           id: N/A
