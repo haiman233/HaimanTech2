@@ -17,7 +17,7 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
       amount: 1
     '2':
       type: SLIMEFUN
-      id: MINECRAFT_DEAD_BUSH_GHOST
+      id: HAIMAN_INGOT
       amount: 1
     '3':
       type: SLIMEFUN
@@ -66,7 +66,7 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: MINECRAFT_DEAD_BUSH_GHOST
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '2':
       type: SLIMEFUN
@@ -74,7 +74,7 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: MINECRAFT_DEAD_BUSH_GHOST
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '4':
       type: SLIMEFUN
@@ -90,7 +90,7 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
@@ -98,7 +98,7 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
   output:
     tick-rate: 15
@@ -118,40 +118,40 @@ INFINITY_ALL_IN_ONE_MACHINE_3:
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
-      type: VANILLA
-      id: STRUCTURE_BLOCK
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
     '2':
-      type: VANILLA
-      id: COMMAND_BLOCK
+      type: SLIMEFUN
+      id: HM_HONGMENG_XINPIAN
       amount: 1
     '3':
-      type: VANILLA
-      id: JIGSAW
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
       amount: 1
     '4':
-      type: VANILLA
-      id: REPEATING_COMMAND_BLOCK
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
       amount: 1
     '5':
       type: SLIMEFUN
       id: INFINITY_ALL_IN_ONE_MACHINE_2
       amount: 1
     '6':
-      type: VANILLA
-      id: CHAIN_COMMAND_BLOCK
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
       amount: 1
     '7':
-      type: VANILLA
-      id: STRUCTURE_VOID
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '8':
-      type: VANILLA
-      id: BEDROCK
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '9':
-      type: VANILLA
-      id: BARRIER
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
       amount: 1
   output:
     tick-rate: 10
@@ -358,7 +358,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
@@ -366,7 +366,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
   output:
     tick-rate: 15
@@ -411,7 +411,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HM_HONGMENG_XINPIAN
       amount: 1
     '8':
       type: SLIMEFUN
@@ -419,7 +419,7 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HM_HONGMENG_XINPIAN
       amount: 1
   output:
     tick-rate: 5
@@ -775,7 +775,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
       amount: 1
     '5':
       type: SLIMEFUN
-      id: ANCIENT_ITEM
+      id: HAIMAN_INGOT
       amount: 1
     '6':
       type: SLIMEFUN
@@ -825,7 +825,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
       amount: 1
     '4':
       type: SLIMEFUN
-      id: COOLING_UNIT
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '5':
       type: SLIMEFUN
@@ -833,7 +833,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
       amount: 1
     '6':
       type: SLIMEFUN
-      id: COOLING_UNIT
+      id: HM_SHENQUAN_HEXIN
       amount: 1
     '7':
       type: SLIMEFUN
@@ -891,7 +891,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HM_HONGMENG_XINPIAN
       amount: 1
     '8':
       type: SLIMEFUN
@@ -899,7 +899,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HM_HONGMENG_XINPIAN
       amount: 1
   output:
     tick-rate: 1
@@ -1061,7 +1061,7 @@ HAIMAN_TOTEM_EXPLORER:
       id: COOLING_UNIT
       amount: 1
   output:
-    tick-rate: 16
+    tick-rate: 40
     type: VANILLA
     id: TOTEM_OF_UNDYING
     amount: 1
@@ -1535,14 +1535,14 @@ HAIMAN_ROBOT_GENERATOR:
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HM_HONGMENG_XINPIAN
       amount: 1
     '9':
       type: SLIMEFUN
       id: HDBU_FUEL
       amount: 1
   output:
-    tick-rate: 2
+    tick-rate: 45
     type: SLIMEFUN
     id: PROGRAMMABLE_ANDROID
     amount: 2
@@ -1584,18 +1584,18 @@ HAIMAN_GAOJI_ROBOT_GENERATOR:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: HDBU_FUEL
+      id: HAIMAN_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HM_HONGMENG_XINPIAN
       amount: 1
     '9':
       type: SLIMEFUN
-      id: HDBU_FUEL
+      id: HAIMAN_INGOT
       amount: 1
   output:
-    tick-rate: 2
+    tick-rate: 45
     type: SLIMEFUN
     id: PROGRAMMABLE_ANDROID_2
     amount: 2

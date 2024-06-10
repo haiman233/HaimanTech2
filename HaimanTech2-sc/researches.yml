@@ -40,7 +40,7 @@ gongye:
 renzaocailiao:
   id: 110050005
   name: "人造高级材料"
-  cost: 50
+  cost: 25
   items:
     - ARTIFICIAL_SILICON_BASED_MATERIALS
     - MINECRAFT_SOURCE_STONE
@@ -72,7 +72,7 @@ fenzi4:
 chongzucailiao:
   id: 110060009
   name: "重组材料"
-  cost: 105
+  cost: 30
   items:
     - MINECRAFT_DEAD_BUSH_GHOST
     - HAIMAN_INFINITY_CONSTRUCTOR_2
@@ -110,20 +110,20 @@ xingchenfensui:
 haimanxingchen:
   id: 110000814
   name: "星空会铭记你的名字"
-  cost: 60
+  cost: 20
   items:
     - HAIMAN_STAR_DUST
 suipian:
   id: 110000813
   name: "当科学来到神秘学"
-  cost: 320
+  cost: 85
   items:
     - JITANCHENZHOU
     - HAIMAN_FOXY_PRODUCER
 yijidingwei:
   id: 110000013
   name: "遗迹定位"
-  cost: 88
+  cost: 42
   items:
     - YJ_DINGWEI_QI
     - BZ_TCQ
@@ -131,7 +131,7 @@ yijidingwei:
 doumao:
   id: 110000014
   name: "嘿嘿嘿...猫猫"
-  cost: 40
+  cost: 22
   items:
     - DOUMAOBANG
     - HAIMAN_LU_CAT_MACHINE
@@ -146,7 +146,7 @@ zuozhe:
 haimantech_fuel:
   id: 110000017
   name: "高级燃料"
-  cost: 45
+  cost: 16
   items:
     - H_FUEL
     - HD_FUEL
@@ -155,7 +155,7 @@ haimantech_fuel:
 dangaopi:
   id: 110000020
   name: "生日快乐！"
-  cost: 15
+  cost: 5
   items:
     - HM_CAKE_BREAD
     - HAIMAN_DANGAO_HONGBEI
@@ -163,24 +163,29 @@ dangaopi:
 kongqiumoban:
   id: 110000021
   name: "波兰球模版"
-  cost: 35
+  cost: 8
   items:
     - HM_EMPTY_COUNTRY_BALL
 hunian:
   id: 110000022
   name: "新年快乐!"
-  cost: 120
+  cost: 60
   items:
     - HAIMAN_CHINESE_DRAGON_1
     - HAIMAN_TIGER_1
     - HAIMAN_CHINA_1
     - HAIMAN_CHINESE_LANTERN_1
     - HAIMAN_TIGER_FURRY_1
-    - HAIMAN_NEW_YEAR_PIECE_1
-    - HAIMAN_NEW_YEAR_1
     - HAIMAN_TIGER_STICK_1
     - HAIMAN_TIGER_DUN_1
     - HAIMAN_TIGER_AXE_1
+hunian2:
+  id: 120000022
+  name: "新年"
+  cost: 30
+  items:
+    - HAIMAN_NEW_YEAR_1
+    - HAIMAN_NEW_YEAR_PIECE_1
 miaosha:
   id: 110000023
   name: "秒杀神器"
@@ -190,7 +195,7 @@ miaosha:
 guang:
   id: 110000024
   name: "隐形光源"
-  cost: 90
+  cost: 50
   items:
     - LIGHT_0
     - LIGHT_1
@@ -311,18 +316,29 @@ wujinyiti2:
     - INFINITY_ALL_IN_ONE_MACHINE_3
 riyongjiqi:
   id: 110000039
-  name: "日用机器"
-  cost: 128
+  name: "日用机器1"
+  cost: 30
   items:
     - HAIMAN_WASHING_MACHINE
     - HAIMAN_SUGAR_PRODUCER_MACHINE
     - HAIMAN_FISH_MACHINE
+riyongjiqi2:
+  id: 120000039
+  name: "日用机器2"
+  cost: 30
+  items:
     - HAIMAN_FOOD_FERMENTATION_MACHINE
     - HAIMAN_LEARHER_CHANGER
     - HAIMAN_CRAFTING_TABLE
+riyongjiqi3:
+  id: 120000040
+  name: "日用机器3"
+  cost: 30
+  items:
     - HAIMAN_MINECART_MACHINE
     - HAIMAN_BOOK_MACHINE
     - HAIMAN_COFFEE_MAKER
+    - COFFEE
 tiezhenjiqi:
   id: 110000040
   name: "铁砧的离与合"
@@ -350,26 +366,31 @@ modimenjiqi:
     - COMPRESSION_BLOCK_MACHINE
 gaizaoji:
   id: 110000044
-  name: "方块改造"
-  cost: 110
+  name: "方块改造1"
+  cost: 42
   items:
     - HAIMAN_WOOD_PEELER
     - INFESTED_MACHINE
     - SOIL_CHANGER
     - GRASS_WOOD_CHANGER
+gaizaoji2:
+  id: 120000044
+  name: "方块改造2"
+  cost: 32
+  items:
     - CORAL_DEAD_MACHINE
     - HAIMAN_STONE_CHANGER
     - HAIMAN_CARPET_MACHINE
 wujinyoubeng:
   id: 110000045
   name: "石油！源源不断的石油！"
-  cost: 252
+  cost: 88
   items:
     - HAIMAN_INFINITY_OIL_PUMP
 jinyiti:
   id: 110000046
   name: "金一体化"
-  cost: 80
+  cost: 66
   items:
     - 4K_GOLD_INTEGRATED_MACHINE
     - 4K_GOLD_INTEGRATED_MACHINE_2
@@ -385,7 +406,7 @@ xukongyiti:
 shiyinyiti:
   id: 110000948
   name: "石英一体机"
-  cost: 160
+  cost: 115
   items:
     - HAIMAN_QUARTZ_PRODUCER_1
     - HAIMAN_QUARTZ_PRODUCER_2
@@ -393,7 +414,7 @@ shiyinyiti:
 uuyiti:
   id: 110000848
   name: "UU物质一体机"
-  cost: 255
+  cost: 200
   items:
     - HAIMAN_UU_MACHINE
 sfbookyiti:
@@ -405,25 +426,40 @@ sfbookyiti:
     - HAIMAN_SFBOOK_MACHINE
 yuanbanyiti:
   id: 110000048
-  name: "原版物品一体机"
-  cost: 300
+  name: "原版物品一体机1"
+  cost: 28
   items:
     - HAIMAN_CLAY_BALL_INGOT_PRODUCER
     - HAIMAN_DIRT_PRODUCER
     - HAIMAN_DEEPSLATE_PRODUCER
+yuanbanyiti2:
+  id: 120000048
+  name: "原版物品一体机2"
+  cost: 40
+  items:
     - RAIL_INTEGRATED_MACHINE
     - HAIMAN_RAIL_MACHINE_1
     - HAIMAN_SHULKER_BOX_MACHINE
+yuanbanyiti3:
+  id: 120000049
+  name: "原版物品一体机3"
+  cost: 45
+  items:
     - HAIMAN_NETHERITE_INGOT_MACHINE
     - HAIMAN_MAGMA_BLOCK_MACHINE
     - HAIMAN_TOTEM_EXPLORER
+yuanbanyiti4:
+  id: 120000050
+  name: "原版物品一体机4"
+  cost: 28
+  items:
     - SAPLING_INTEGRATED_MACHINE
     - CONCRETE_FORMING_MACHINE
     - HAIMAN_YINSHI_PRODUCER
 zhaguozhi:
   id: 110000049
   name: "榨果汁"
-  cost: 32
+  cost: 14
   items:
     - HAIMAN_AUTO_JUICER
 kuangfenzhuanhuan:
@@ -449,7 +485,7 @@ renzaogailiang:
 jichukeyin:
   id: 110000053
   name: "刻印类机器"
-  cost: 88
+  cost: 42
   items:
     - HAIMAN_BANNER_PATTERN_PRODUCER
     - MUSIC_DISC_PRODUCER
@@ -463,7 +499,7 @@ jiejinyiti:
 ranfang:
   id: 110000055
   name: "染坊!!"
-  cost: 150
+  cost: 120
   items:
     - HAIMAN_CONCRETE_DYING
     - HAIMAN_WOOL_DYING
@@ -475,7 +511,7 @@ ranfang:
 yiqijiqi:
   id: 110000056
   name: "1.17机器"
-  cost: 160
+  cost: 50
   items:
     - HAIMAN_POWDER_SNOW_MACHINE
     - HAIMAN_RAW_INGOT_CHANGER
@@ -485,7 +521,7 @@ yiqijiqi:
 tula:
   id: 110000057
   name: "涂蜡？打蜡？"
-  cost: 40
+  cost: 16
   items:
     - HAIMAN_WAX_ON_MACHINE
     - HAIMAN_WAX_OFF_MACHINE
@@ -494,7 +530,7 @@ tula:
 gaojiyuanban:
   id: 110000058
   name: "更高级的原版机器"
-  cost: 150
+  cost: 77
   items:
     - HAIMAN_ELECTRIC_INGOT_FACTORY_4
     - HAIMAN_ELECTRIC_INGOT_FACTORY_5
@@ -533,7 +569,7 @@ qiangheyiti3:
 gongyezidonghua:
   id: 110000064
   name: "工业附属自动化"
-  cost: 155
+  cost: 99
   items:
     - HEJINDING_YUANPEI
     - HAIMAN_JINGLIANLU
@@ -573,7 +609,7 @@ xszpzp:
 kwcs:
   id: 110000968
   name: "矿物催生器"
-  cost: 62
+  cost: 40
   items:
     - KUANGWUCUISHENGQI
     - MEITANZHONGZI
@@ -608,7 +644,7 @@ hedianzhan:
 kongjianjiqi:
   id: 110000073
   name: "空间模拟机器"
-  cost: 240
+  cost: 160
   items:
     - HAIMAN_CAVE_MACHINE
     - DIYUKONGJIAN
@@ -709,7 +745,7 @@ dianwangdianxian:
 bolanqiu:
   id: 110000094
   name: "波兰球"
-  cost: 88
+  cost: 12
   items:
     - CHINA_TAIWAN_BALL
     - CHINA_XIANGGANG_BALL
@@ -946,7 +982,7 @@ bolanqiu:
 biaoqin:
   id: 60000001
   name: "趣味表情"
-  cost: 36
+  cost: 5
   items:
     - DOGE
     - EMOJI_HAPPY
@@ -976,7 +1012,7 @@ biaoqin:
 chaopindianluban:
   id: 110001000
   name: "超频！超频！"
-  cost: 1000
+  cost: 200
   items:
     - HM_CHAOPING_CIRCUIT_BOARD
 yasuonianyeshu:
@@ -1145,7 +1181,7 @@ duoyangcailiao:
 qiangzhiduidie:
   id: 110101026
   name: "强制堆叠材料"
-  cost: 108
+  cost: 46
   items:
     - DUIDIEYUANJIAN
 shudianrong:
@@ -1344,3 +1380,47 @@ jianggj:
   cost: 20
   items:
     - JGJ_MACHINE
+sglgzj:
+  id: 110101053
+  name: "刷怪笼构造机"
+  cost: 112
+  items:
+    - SHUAGUAILONG_MACHINE
+jktqj:
+  id: 110101054
+  name: "金矿提取机"
+  cost: 25
+  items:
+    - JINKUANGTIQU_MACHINE
+gztqj:
+  id: 110101055
+  name: "骨质提取机"
+  cost: 25
+  items:
+    - GUZHITIQU_MACHINE
+hmcl:
+  id: 110101056
+  name: "海曼材料"
+  cost: 34
+  items:
+    - HAIMAN_INGOT
+    - CREEPER_COAL_HEART
+jinjiecl:
+  id: 110101057
+  name: "进阶材料"
+  cost: 40
+  items:
+    - HM_SHENQUAN_HEXIN
+    - TIANXUAN_MADA
+zjcl:
+  id: 110101058
+  name: "终极材料"
+  cost: 140
+  items:
+    - HM_HONGMENG_XINPIAN
+yxgyfdj:
+  id: 110101059
+  name: "隐形光源发电机"
+  cost: 102
+  items:
+    - GUANGYUAN_FADIAN

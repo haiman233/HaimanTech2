@@ -188,3 +188,14 @@ DUIDIETEZHEN:
   mob: SILVERFISH
   chance: 14
   recipe-display-item: SILVERFISH_SPAWN_EGG
+CREEPER_COAL_HEART:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l碳化的心脏"
+  item-lore:
+  - "&7死灰无法复燃"
+  item-id: SKULL2c50e3e6150d07cca09ed707b244043c9437dbd1be98ee08ae0340ccb6d58c89
+  item-amount: 1
+  mob: CREEPER
+  chance: 1
+  recipe-display-item: CREEPER_SPAWN_EGG
