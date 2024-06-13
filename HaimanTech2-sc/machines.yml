@@ -998,7 +998,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
       output:
         '1':
           type: VANILLA
-          id: SCUTE
+          id: TURTLE_SCUTE
           amount: 1
         '2':
           type: NONE
@@ -1567,7 +1567,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       output:
         '1':
           type: VANILLA
-          id: SCUTE
+          id: TURTLE_SCUTE
           amount: 1
         '2':
           type: NONE
@@ -2053,6 +2053,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: NONE
           id: N/A
           amount: 1
+    '31':
+      speed-in-seconds: 1400
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_SINGULARITY
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAIMAN_INFINITY_CONSTRUCTOR_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &cIV'
@@ -2216,7 +2236,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       output:
         '1':
           type: VANILLA
-          id: SCUTE
+          id: TURTLE_SCUTE
           amount: 5
         '2':
           type: NONE
@@ -2703,7 +2723,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '31':
-      speed-in-seconds: 16688
+      speed-in-seconds: 800
       input:
         '1':
           type: SLIMEFUN
@@ -2925,7 +2945,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       output:
         '1':
           type: VANILLA
-          id: SCUTE
+          id: TURTLE_SCUTE
           amount: 32
         '2':
           type: NONE
@@ -4740,7 +4760,7 @@ HAIMAN_PLANT_MACHINE:
       input:
         '1':
           type: VANILLA
-          id: GRASS
+          id: SHORT_GRASS
           amount: 1
         '2':
           type: NONE
@@ -4749,7 +4769,7 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: GRASS
+          id: SHORT_GRASS
           amount: 2
         '2':
           type: NONE
@@ -7877,7 +7897,7 @@ GRASS_WOOD_CHANGER:
       amount: 1
     '4':
       type: VANILLA
-      id: GRASS
+      id: SHORT_GRASS
       amount: 1
     '5':
       type: SLIMEFUN
@@ -7885,7 +7905,7 @@ GRASS_WOOD_CHANGER:
       amount: 1
     '6':
       type: VANILLA
-      id: GRASS
+      id: SHORT_GRASS
       amount: 1
     '7':
       type: SLIMEFUN
@@ -7925,7 +7945,7 @@ GRASS_WOOD_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: GRASS
+          id: SHORT_GRASS
           amount: 1
         '2':
           type: NONE
@@ -25169,7 +25189,6 @@ JIHANZHIDI:
           type: NONE
           id: N/A
           amount: 1
-
 DIAOYUJI:
   category: slime_customizer
   machine-name: '&b&l虚空钓鱼机'
@@ -25782,7 +25801,7 @@ WANNENGGONGCHANG:
       output:
         '1':
           type: VANILLA
-          id: GRASS_BLOCK  
+          id: GRASS_BLOCK
           amount: 16
         '2':
           type: NONE
@@ -27358,7 +27377,6 @@ ERDIAOZHUANGPEI:
           type: NONE
           id: N/A
           amount: 1
-#BETA-1.7
 HAIMAN_LOW_RESISTANCE:
   category: slime_customizer_huanbao
   machine-name: '&b&l海曼牌小电阻'
@@ -27971,7 +27989,6 @@ JGJ_MACHINE:
           type: NONE
           id: N/A
           amount: 1
-# BETA-1.9
 SHUAGUAILONG_MACHINE:
   category: slime_customizer
   machine-name: '&a&l刷怪笼构造机'
