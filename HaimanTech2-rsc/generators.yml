@@ -1,0 +1,1281 @@
+HAIMAN_EXAMPLE_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: '&b&l空岛发电机'
+  generator-lore:
+  - '&7空岛福利型发电机！'
+  block-type: SKULL281cc64b045b18a3a419c595ad658f6ce2c599949477afe42a6b587aa315bf
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 10
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '2':
+      type: NONE
+      id: N/A
+      amount: 1
+    '3':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '4':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COAL_GENERATOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '7':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '8':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    '9':
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 2
+      input:
+        type: VANILLA
+        id: COBBLESTONE
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: N/A
+    '2':
+      time-in-seconds: 12
+      input:
+        type: VANILLA
+        id: ROTTEN_FLESH
+        amount: 2
+      output:
+        type: VANILLA
+        id: DIRT
+        amount: 1
+LILY_PAD_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: '&2&l莲叶发电机'
+  generator-lore:
+  - '&6用莲叶发电'
+  block-type: SKULL40ccf84be049bdc9a988bd274e70d9680381b8a5e8634995bbb876a883b4a4f2
+  progress-bar-item: WOODEN_SHOVEL
+  stats:
+    energy-production: 20000
+    energy-buffer: 1000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: FOOD_FABRICATOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: FOOD_FABRICATOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COAL_GENERATOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: VANILLA
+      id: LILY_PAD
+      amount: 1
+    '8':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '9':
+      type: VANILLA
+      id: LILY_PAD
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 520
+      input:
+        type: VANILLA
+        id: LILY_PAD
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+MAN_MADE_SUN:
+  category: slime_customizer_xingji
+  generator-name: '&4&l人造小太阳'
+  generator-lore:
+  - '&7吼，托卡马克装置，利用核聚变发电'
+  block-type: SKULLb89042082bb7a7618b784ee7605a134c58834e21e374c888937161057f6c7
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 1800050
+    energy-buffer: 12800000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MOLECULAR_RECOMBINATION_INSTRUMENT_III
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 12000
+      input:
+        type: SLIMEFUN
+        id: H_FUEL
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+MAN_MADE_GALAXY:
+  category: slime_customizer_xingji
+  generator-name: '&d&l人造银河系'
+  generator-lore:
+  - '&7当一个银河系的能量被集中于此...'
+  block-type: SKULL9d3d250e25bbca3a62be5b3ef02cfcab6dcdc424884c9a7d5cc95c9d0
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 18750000
+    energy-buffer: 120000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MAN_MADE_SUN
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MAN_MADE_SUN
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 21000
+      input:
+        type: SLIMEFUN
+        id: HD_FUEL
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+MAN_MADE_BLACK_HOLE:
+  category: slime_customizer_xingji
+  generator-name: '&8&l人造黑洞'
+  generator-lore:
+  - '&7黑洞...要来了...'
+  block-type: SKULL65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 225000000
+    energy-buffer: 2000000000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    '3':
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    '7':
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '9':
+      type: VANILLA
+      id: NETHER_STAR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 32000
+      input:
+        type: SLIMEFUN
+        id: HDB_FUEL
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+MAN_MADE_UNIVERSE:
+  category: slime_customizer_xingji
+  generator-name: '&7&l人&8&l造&7&l宇&8&l宙'
+  generator-lore:
+  - '&7它所散发出的能量...溢满了整个宇宙...'
+  block-type: SKULLc6cac59b2aae489aa0687b5d802b2555eb14a40bd62b21eb116fa569cdb756
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 2147483647
+    energy-buffer: 2147483647
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_BLACK_HOLE_PIECE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MAN_MADE_BLACK_HOLE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_SOURCE_STONE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: MAN_MADE_BLACK_HOLE
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 64000
+      input:
+        type: SLIMEFUN
+        id: HDBU_FUEL
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+HAIMAN_ELEMENT_GENERATOR:
+  category: slime_customizer_generator
+  generator-name: '&a&l元素发电机'
+  generator-lore:
+  - '&7用自然土木进行发电'
+  block-type: SKULL3d045ca3e8a29e19931656362e12477633a689c4801d8e21f7da0f80cc59e56b
+  progress-bar-item: WOODEN_HOE
+  stats:
+    energy-production: 75
+    energy-buffer: 9200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: DAMASCUS_STEEL_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: DAMASCUS_STEEL_INGOT
+      amount: 1
+    '4':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: STONE_CHUNK
+        amount: 4
+      output:
+        type: NONE
+        id: N/A
+        amount: N/A
+    '2':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: STONE
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '3':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: CLAY_BALL
+        amount: 2
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '4':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: DIRT
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '5':
+      time-in-seconds: 3
+      input:
+        type: VANILLA
+        id: OAK_LOG
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '6':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: SAND
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '7':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: COBBLESTONE
+        amount: 4
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '8':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: FLINT
+        amount: 2
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '9':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: IRON_NUGGET
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+HAIMAN_MAGMA_BLOCK_MACHINE:
+  category: slime_customizer_yitihua
+  generator-name: '&4&l岩浆块一体机'
+  generator-lore:
+  - '&7既可以生产岩浆块又可以发电'
+  block-type: SKULLa9a5a1e69b4f8105625752bcee25340664b089fa1b2f527fa9143d9066a7aad2
+  progress-bar-item: WOODEN_PICKAXE
+  stats:
+    energy-production: 4
+    energy-buffer: 400
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: DAMASCUS_STEEL_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: DAMASCUS_STEEL_INGOT
+      amount: 1
+    '4':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: LAVA_BUCKET
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 3
+      input:
+        type: VANILLA
+        id: COBBLESTONE
+        amount: 8
+      output:
+        type: VANILLA
+        id: MAGMA_BLOCK
+        amount: 3
+HAIMAN_POWER_OFF_MACHINE_0:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(元电荷)'
+  generator-lore:
+  - '&7从元电荷中卸载电能'
+  block-type: SKULL3a7cda9004fc197d66afbc2b003a5b9ef13cf4600b1fc7490067590f047181e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 1250
+    energy-buffer: 1250
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: VANILLA
+      id: COPPER_ORE
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COPPER_WIRE
+      amount: 1
+    '6':
+      type: VANILLA
+      id: COPPER_ORE
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: HAIMAN_ELECTRIC_ENERGY
+        amount: 5
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+HAIMAN_POWER_OFF_MACHINE_1:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(海曼)'
+  generator-lore:
+  - '&7从海曼电单元中卸载电能'
+  block-type: SKULLcfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 9088
+    energy-buffer: 9088
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: VANILLA
+      id: TUFF
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: TUFF
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: HAIMAN_ELECTRIC_UNIT_FULL
+        amount: 8
+      output:
+        type: SLIMEFUN
+        id: HAIMAN_ELECTRIC_UNIT_EMPTY
+        amount: 8
+HAIMAN_POWER_OFF_MACHINE_2:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(库伦)'
+  generator-lore:
+  - '&7从库伦电单元中卸载电能'
+  block-type: SKULLcfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 81824
+    energy-buffer: 81824
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_POWER_OFF_MACHINE_1
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: KULUN_ELECTRIC_UNIT_FULL
+        amount: 4
+      output:
+        type: SLIMEFUN
+        id: KULUN_ELECTRIC_UNIT_EMPTY
+        amount: 4
+HAIMAN_POWER_OFF_MACHINE_3:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(雷伊)'
+  generator-lore:
+  - '&7从雷伊电单元中卸载电能'
+  block-type: SKULLcfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 6628035
+    energy-buffer: 6628035
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_POWER_OFF_MACHINE_2
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: LEIYI_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: LEIYI_ELECTRIC_UNIT_EMPTY
+        amount: 1
+HAIMAN_POWER_OFF_MACHINE_4:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(无尽)'
+  generator-lore:
+  - '&7从无尽电单元中卸载电能'
+  block-type: SKULLcfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 119304647
+    energy-buffer: 119304647
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_POWER_OFF_MACHINE_3
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: INFINITE_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: INFINITE_ELECTRIC_UNIT_EMPTY
+        amount: 1
+HAIMAN_POWER_OFF_MACHINE_5:
+  category: slime_customizer_huanbao
+  generator-name: '&b&l卸电机 &8(量子)'
+  generator-lore:
+  - '&7从量子电单元中卸载电能'
+  block-type: SKULLcfd3f7d43d360923b1c04445b01022466b50ca58df9893267121081e0c1e2f4e
+  progress-bar-item: IRON_PICKAXE
+  stats:
+    energy-production: 2147483647
+    energy-buffer: 2147483647
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: N/A
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: NONE
+      id: N/A
+      amount: 1
+    '4':
+      type: NONE
+      id: N/A
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_POWER_OFF_MACHINE_4
+      amount: 1
+    '6':
+      type: NONE
+      id: N/A
+      amount: 1
+    '7':
+      type: NONE
+      id: N/A
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ALUMINUM_BRONZE_INGOT
+      amount: 1
+    '9':
+      type: NONE
+      id: N/A
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: SLIMEFUN
+        id: LIANGZI_ELECTRIC_UNIT_FULL
+        amount: 1
+      output:
+        type: SLIMEFUN
+        id: LIANGZI_ELECTRIC_UNIT_EMPTY
+        amount: 1
+ADVANCED_NUCLEAR_REACTOR:
+  category: slime_customizer_generator
+  generator-name: '&e高级核反应堆'
+  generator-lore:
+  - '&f不需要冷却剂的高级反应堆'
+  - '&a不会爆炸'
+  block-type: SKULLa5bec76d65a868a5be5173d3b9e1775b54046f62035c1552440ede9973a90e1
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 2000
+    energy-buffer: 4000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: EXTREME_FREEZER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: REACTOR_ACCESS_PORT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: EXTREME_FREEZER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: FREEZER_2
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: NUCLEAR_REACTOR
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: FREEZER_2
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1200
+      input:
+        type: SLIMEFUN
+        id: URANIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+    '2':
+      time-in-seconds: 1500
+      input:
+        type: SLIMEFUN
+        id: NEPTUNIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
+  category: slime_customizer_generator
+  generator-name: '&3&l放射性同位素热电机&a-&6&l钍'
+  generator-lore:
+  - '&6&l原子能电池'
+  block-type: DAYLIGHT_DETECTOR
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 12000
+    energy-buffer: 24000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_NUCLEAR_REACTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_NUCLEAR_REACTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: THORIUM
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1450
+      input:
+        type: SLIMEFUN
+        id: THORIUM
+        amount: 1
+      output:
+        type: NONE
+        id: N/A
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_G:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l个位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 1
+    energy-buffer: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_S:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l十位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 10
+    energy-buffer: 10
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_G
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_B:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l百位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 100
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_S
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+HAIMAN_FDTIAODIAN_MAHCINE_Q:
+  category: slime_customizer_huanbao
+  generator-name: '&c&l千位发电式调电仪'
+  generator-lore:
+  - '&7校准电量'
+  block-type: SKULL776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-production: 1000
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FDTIAODIAN_MAHCINE_B
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SMALL_CAPACITOR
+      amount: 1
+  recipes:
+    '1':
+      time-in-seconds: 1
+      input:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
+      output:
+        type: VANILLA
+        id: REDSTONE
+        amount: 1
