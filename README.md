@@ -24,7 +24,6 @@
 - InfinityExpansion
 - LiteXpansion
 - TranscEndence
-- DynaTech
 - Gastronomicon
 
 ## 关于版本更新
@@ -42,7 +41,7 @@
 Minecraft版本：1.18 ~ 1.20+
 
 未来海曼科技院适配版本
-Minecraft版本:1.20+ ~ 1.20.5
+Minecraft版本:1.19+ ~ 1.20.5
 最新的SlimeCustomizer版本
 
 如果你有任何建议或者是反馈海曼科技院的bug，都可以发至本仓库的issues里，欢迎各位腐竹/玩家进QQ群讨论：231200497
