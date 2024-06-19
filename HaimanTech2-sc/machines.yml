@@ -2053,6 +2053,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           type: NONE
           id: N/A
           amount: 1
+    '31':
+      speed-in-seconds: 1400
+      input:
+        '1':
+          type: SLIMEFUN
+          id: INFINITY_SINGULARITY
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAIMAN_INFINITY_CONSTRUCTOR_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &cIV'
@@ -2703,7 +2723,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           id: N/A
           amount: 1
     '31':
-      speed-in-seconds: 16688
+      speed-in-seconds: 800
       input:
         '1':
           type: SLIMEFUN
@@ -19276,6 +19296,66 @@ HAIMAN_BOOK_MACHINE:
           type: NONE
           id: N/A
           amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ENDER_PEARL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: TE_GUIDE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ENDER_EYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TE_INFO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 16
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SFBOOK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_DEBUG_MACHINE:
   category: slime_customizer
   machine-name: '&9&lDebug调试机'
@@ -28415,6 +28495,139 @@ GUZHITIQU_MACHINE:
           type: VANILLA
           id: BONE_MEAL
           amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# BETA-2.0
+LIZI_ZENGSHENG:
+  category: slime_customizer
+  machine-name: '&a&l粒子增生机'
+  machine-lore:
+  - '&7可以在主世界自动生产粒子'
+  - '&7耗电量为粒子生产机的十倍'
+  - '&7你须要将粒子原胚放进输入槽中'
+  - '&7生产粒子不会消耗粒子原胚'
+  block-type: SKULLde31efefdd9551af8a4349d3d21e5ec8f37e53c801eb25b14279d6a89fe0c01e
+  progress-bar-item: STONE_PICKAXE
+  stats:
+    energy-consumption: 2560
+    energy-buffer: 5120
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: FEIXIANXINGSW
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LIZI_YUANPEI
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LIZI_YUANPEI
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LIZI_YUANPEI
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: RED_DYE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: LIZI_YUANPEI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZOT_UP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_DYE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: LIZI_YUANPEI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZOT_DOWN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_DYE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: LIZI_YUANPEI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZOT_LEFT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_DYE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: LIZI_YUANPEI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ZOT_RIGHT
+          amount: 1
         '2':
           type: NONE
           id: N/A
