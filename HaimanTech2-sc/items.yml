@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bBETA-1.9"
+    - "&bBETA-2.0"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -143,6 +143,53 @@ ZHANWEIFU:
     9:
       type: VANILLA
       id: LIGHT_GRAY_STAINED_GLASS_PANE
+      amount: 1
+HAIMAN_INFO_FENZI_3:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: "&c&l分子重组仪配方"
+  item-lore:
+  - "&7该物品在分子重组仪3里制作"
+  item-id: SKULL5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
       amount: 1
 HAIMAN_INFO_FENZI_4:
   category: sakurafun_recipe
@@ -1508,6 +1555,53 @@ HM_LIGHT_ZS:
       type: SLIMEFUN
       id: ZHANWEIFU
       amount: 1
+HM_SHOUNADAI:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l收纳袋"
+  item-lore:
+  - "&7该物品需要在海曼工作台中制作"
+  item-id: BUNDLE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
 # 材料
 HAIMAN_AMETHYST_DUST:
   category: slime_customizer_material
@@ -2282,7 +2376,7 @@ DOUMAOBANG:
       amount: 1
     3:
       type: VANILLA
-      id: ORANGE_WOOL
+      id: RED_WOOL
       amount: 1
     4:
       type: VANILLA
@@ -2337,7 +2431,7 @@ HAIMAN_INFINITY_CONSTRUCTOR_2:
       amount: 1
     5:
       type: SLIMEFUN
-      id: HAIMAN_INFO_FENZI_4
+      id: HAIMAN_INFO_FENZI_3
       amount: 1
     6:
       type: NONE
@@ -2354,6 +2448,53 @@ HAIMAN_INFINITY_CONSTRUCTOR_2:
     9:
       type: NONE
       id: N/A
+      amount: 1
+HM_DONGLILINGJIAN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&6&l动力零件"
+  item-lore:
+  - "&7由机器人身上拆解下来的零件"
+  item-id: SKULLfd880f423cc25aa86208115f57740e6627d695e71bb33fec381e4c66b20ffd72
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ARMOR_FORGE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_2
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANDROID_INTERFACE_ITEMS
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANDROID_MEMORY_CORE
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANDROID_INTERFACE_ITEMS
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: YASUOKONGJIAN
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: JITANCHENZHOU
       amount: 1
 HM_CHAOPING_CIRCUIT_BOARD:
   category: slime_customizer_material
@@ -2389,7 +2530,7 @@ HM_CHAOPING_CIRCUIT_BOARD:
       amount: 1
     6:
       type: SLIMEFUN
-      id: ADVANCED_ROBOTIC_BEE
+      id: HM_DONGLILINGJIAN
       amount: 1
     7:
       type: SLIMEFUN
@@ -2449,6 +2590,53 @@ DUIDIEYUANJIAN:
     9:
       type: SAVEDITEM
       id: HM_DEBUG_FISH
+      amount: 1
+LIZI_YUANPEI:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&e&l粒子原胚"
+  item-lore:
+  - "&7主世界自动化粒子的基础"
+  item-id: SKULL5d63fd3d50e2aabdf8da463b939c57b24d5fd20b519dfdb9ce84e96b0ee3239b
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: VERTICAL_POLARIZER
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HORIZONTAL_POLARIZER
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: VERTICAL_POLARIZER
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HORIZONTAL_POLARIZER
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HORIZONTAL_POLARIZER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: VERTICAL_POLARIZER
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HORIZONTAL_POLARIZER
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: VERTICAL_POLARIZER
       amount: 1
 MAGIC_SWEET_POTATO:
   category: slime_customizer_zhuangshi

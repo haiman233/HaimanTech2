@@ -1000,7 +1000,7 @@ RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
   crafting-recipe:
     '1':
       type: SLIMEFUN
-      id: LILY_PAD_GENERATOR
+      id: ADVANCED_NUCLEAR_REACTOR
       amount: 1
     '2':
       type: SLIMEFUN
@@ -1008,7 +1008,7 @@ RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
       amount: 1
     '3':
       type: SLIMEFUN
-      id: LILY_PAD_GENERATOR
+      id: ADVANCED_NUCLEAR_REACTOR
       amount: 1
     '4':
       type: SLIMEFUN

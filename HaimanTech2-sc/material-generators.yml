@@ -37,7 +37,7 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
       amount: 1
     '7':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HAIMAN_INGOT
       amount: 1
     '8':
       type: SLIMEFUN
@@ -45,7 +45,7 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
       amount: 1
     '9':
       type: SLIMEFUN
-      id: HM_CHAOPING_CIRCUIT_BOARD
+      id: HAIMAN_INGOT
       amount: 1
   output:
     tick-rate: 20

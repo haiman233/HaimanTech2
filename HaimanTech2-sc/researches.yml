@@ -338,7 +338,7 @@ riyongjiqi3:
     - HAIMAN_MINECART_MACHINE
     - HAIMAN_BOOK_MACHINE
     - HAIMAN_COFFEE_MAKER
-    - COFFEE
+    - HAIMAN_COFFEE
 tiezhenjiqi:
   id: 110000040
   name: "铁砧的离与合"
@@ -1014,6 +1014,7 @@ chaopindianluban:
   name: "超频！超频！"
   cost: 200
   items:
+    - HM_DONGLILINGJIAN
     - HM_CHAOPING_CIRCUIT_BOARD
 yasuonianyeshu:
   id: 110001001
@@ -1424,3 +1425,10 @@ yxgyfdj:
   cost: 102
   items:
     - GUANGYUAN_FADIAN
+lzzdh:
+  id: 110101060
+  name: "主世界粒子自动化"
+  cost: 135
+  items:
+    - LIZI_YUANPEI
+    - LIZI_ZENGSHENG
