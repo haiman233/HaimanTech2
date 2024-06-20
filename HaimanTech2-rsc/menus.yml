@@ -6534,1132 +6534,700 @@ LIZI_ZENGSHENG:
 HAIMAN_EXAMPLE_GENERATOR:
   title: '&b&l空岛发电机'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 LILY_PAD_GENERATOR:
   title: '&2&l莲叶发电机'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: WOODEN_SHOVEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 MAN_MADE_SUN:
   title: '&4&l人造小太阳'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 MAN_MADE_GALAXY:
   title: '&d&l人造银河系'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 MAN_MADE_BLACK_HOLE:
   title: '&8&l人造黑洞'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 MAN_MADE_UNIVERSE:
   title: '&7&l人&8&l造&7&l宇&8&l宙'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_ELEMENT_GENERATOR:
   title: '&a&l元素发电机'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: WOODEN_HOE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_MAGMA_BLOCK_MACHINE:
   title: '&4&l岩浆块一体机'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: WOODEN_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_0:
   title: '&b&l卸电机 &8(元电荷)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_1:
   title: '&b&l卸电机 &8(海曼)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_2:
   title: '&b&l卸电机 &8(库伦)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_3:
   title: '&b&l卸电机 &8(雷伊)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_4:
   title: '&b&l卸电机 &8(无尽)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_POWER_OFF_MACHINE_5:
   title: '&b&l卸电机 &8(量子)'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: IRON_PICKAXE
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 ADVANCED_NUCLEAR_REACTOR:
   title: '&e高级核反应堆'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 RADIOISOTOPE_THERMOELECTRIC_MACHINE_T:
   title: '&3&l放射性同位素热电机&a-&6&l钍'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_FDTIAODIAN_MAHCINE_G:
   title: '&c&l个位发电式调电仪'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_FDTIAODIAN_MAHCINE_S:
   title: '&c&l十位发电式调电仪'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_FDTIAODIAN_MAHCINE_B:
   title: '&c&l百位发电式调电仪'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 HAIMAN_FDTIAODIAN_MAHCINE_Q:
   title: '&c&l千位发电式调电仪'
   slots:
-    3:
+    0-26:
+      material_type: none
+    27-30:
       material: gray_stained_glass_pane
       name: '&a'
-    4:
-      name: '&f提示'
-      material_type: mc
-      material: BIRCH_SIGN
-      modelId: 88788
-      glow: true
-      lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
-      - '&7此提示下方为非消耗型物品输入槽'
-      - '&7非消耗型物品输入槽也可作为普通的输入槽'
-    5:
-      material: gray_stained_glass_pane
-      name: '&a'
-    12:
-      material: gray_stained_glass_pane
-      name: '&a'
-    14:
-      material: gray_stained_glass_pane
-      name: '&a'
-    21:
-      material: blue_stained_glass_pane
-      name: '&a'
-    22:
+    31:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: FLINT_AND_STEEL
-    23:
-      material: orange_stained_glass_pane
-      name: '&a'
-    31:
+    32-35:
       material: gray_stained_glass_pane
       name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    49:
-      material: gray_stained_glass_pane
-      name: '&a'
+    36-53:
+      material_type: none
 INFINITY_ALL_IN_ONE_MACHINE_1:
   title: '&9&l无尽锭一体机 &7- &eI'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 INFINITY_ALL_IN_ONE_MACHINE_2:
   title: '&9&l无尽锭一体机 &7- &6II'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 INFINITY_ALL_IN_ONE_MACHINE_3:
   title: '&9&l无尽锭一体机 &7- &cIII'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_CLAY_BALL_INGOT_PRODUCER:
   title: '&8&l黏土球一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_DIRT_PRODUCER:
   title: '&2&l泥土一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
   title: '&b&l电磁铁爆发仪 &7- &eI'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
   title: '&b&l电磁铁爆发仪 &7- &aII'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
   title: '&b&l电磁铁爆发仪 &7- &4III'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_BASIC_PRODUCER:
   title: '&b&l基础电路板一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_DEEPSLATE_PRODUCER:
   title: '&8&l深板岩一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_QUARTZ_PRODUCER_1:
   title: '&8&l石英一体机 &7- &eI'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_QUARTZ_PRODUCER_2:
   title: '&8&l石英一体机 &7- &6II'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_QUARTZ_PRODUCER_3:
   title: '&8&l石英一体机 &7- &4III'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_NETHERITE_INGOT_MACHINE:
   title: '&c&l下界合金一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
   title: '&a&l强和一体机 &7- &eI'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
   title: '&a&l强和一体机 &7- &6II'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   title: '&a&l强和一体机 &7- &4III'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_YINSHI_PRODUCER:
   title: '&e&l荧石粉一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_UU_MACHINE:
   title: '&5&lUU物质一体机'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_TOTEM_EXPLORER:
   title: '&c&l图腾爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_SHULKER_BOX_MACHINE:
   title: '&9&l潜影盒爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_SFBOOK_MACHINE_1:
   title: '&a&l粘液书爆发仪 &7- &eI'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_SFBOOK_MACHINE:
   title: '&a&l粘液书爆发仪 &7- &6II'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MAN_MADE_MOON:
   title: '&e&l人造月球'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 CALCITE_MACHINE:
   title: '&f&l方解石爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ZISHUJIN_MACHINE:
   title: '&5&l紫水晶爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MYZHENZHU_MACHINE:
   title: '&b&l末影珍珠爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_U_GENERATOR:
   title: '&a&l铀爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_ROBOT_GENERATOR:
   title: '&6&l可编程式机器人爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HAIMAN_GAOJI_ROBOT_GENERATOR:
   title: '&4&l高级可编程式机器人爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MYZHIYAN_MACHINE:
   title: '&b&l末影之眼爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 STRING_MACHINE:
   title: '&f&l线爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 KQHYS_MACHINE:
   title: '&b&l哭泣的黑曜石爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 YANGMAO_MACHINE:
   title: '&f&l羊毛爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ZHONG_MACHINE:
   title: '&e&l时钟爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 GLYANJIANGKUAI_MACHINE:
   title: '&4&l用电式岩浆块爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 KUIJIAJIA_MACHINE:
   title: '&e&l盔甲架爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 TIZI_MACHINE:
   title: '&6&l梯子爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 ZHIJIANTAI_MACHINE:
   title: '&f&l制箭台爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HUAPEN_MACHINE:
   title: '&a&l花盆爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 YINGWULUO_MACHINE:
   title: '&c&l鹦鹉螺爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 AIR_HA_MACHINE:
   title: '&f&l空气爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MINGMINPAI_MACHINE:
   title: '&c&l命名牌爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MONANG_MACHINE:
   title: '&6&l墨囊爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 HEIYAOSHI_MACHINE:
   title: '&4&l黑曜石爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 KONGBAIFUWEN_MACHINE:
   title: '&a&l空白符文爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 SHUCHUXIANG_MACHINE:
   title: '&6&l物品输出箱爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 WATER_BUCKET_MACHINE:
   title: '&b&l水桶爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 LAVA_BUCKET_MACHINE:
   title: '&4&l岩浆桶爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MILK_BUCKET_MACHINE:
   title: '&f&l奶桶爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 POWDER_SNOW_BUCKET_MACHINE:
   title: '&e&l细雪桶爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 DIAMOND_PICKAXE_MACHINE:
   title: '&b&l钻石镐爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 IRON_PICKAXE_MACHINE:
   title: '&f&l铁镐爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 NETHERITE_PICKAXE_MACHINE:
   title: '&5&l下界合金镐爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 DIAMOND_AXE_MACHINE:
   title: '&b&l钻石斧爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 DIAMOND_HOE_MACHINE:
   title: '&b&l钻石锄爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 DIAMOND_SWORD_MACHINE:
   title: '&b&l钻石剑爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 FLINT_AND_STEEL_MACHINE:
   title: '&c&l打火石爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 FISHING_ROD_MACHINE:
   title: '&e&l钓鱼竿爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 SHEARS_MACHINE:
   title: '&f&l剪刀爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 11_DISC_MACHINE:
   title: '&a&l11号唱片爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 EGG_MACHINE:
   title: '&e&l鸡蛋爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 BOAT_MACHINE:
   title: '&c&l船爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
 MINECART_MACHINE:
   title: '&4&l矿车爆发仪'
-  slots: {}
+  slots:
+    1-53:
+      material_type: none
