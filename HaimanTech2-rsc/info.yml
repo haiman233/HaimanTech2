@@ -2,6 +2,7 @@ id: RSC_HaimanTech2
 name: HaimanTech2
 depends: []
 pluginDepends:
+- Slimefun
 - FoxyMachines
 - InfinityExpansion
 - LiteXpansion
