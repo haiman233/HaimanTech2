@@ -21303,6 +21303,8 @@ HAIMAN_YJ_SX_MACHINE:
   machine-lore:
   - '&7搜寻当前世界的遗迹'
   - '&7并获取遗迹中的宝箱'
+  - '&7须要将宝藏探测器'
+  - '&7放入非消耗型物品槽内'
   block-type: SKULLb905dc824adacce5657bc98e4ad41b504544006376cb8dbcff98163414f80d6d
   progress-bar-item: COMPASS
   stats:
@@ -21357,16 +21359,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_1
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '2':
       speed-in-seconds: 30
       input:
@@ -21377,16 +21379,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_2
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '3':
       speed-in-seconds: 30
       input:
@@ -21397,16 +21399,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_3
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '4':
       speed-in-seconds: 30
       input:
@@ -21417,16 +21419,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_4
           amount: 2
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '5':
       speed-in-seconds: 30
       input:
@@ -21437,16 +21439,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_5
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '6':
       speed-in-seconds: 30
       input:
@@ -21457,16 +21459,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_6
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '7':
       speed-in-seconds: 30
       input:
@@ -21477,16 +21479,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_7
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '8':
       speed-in-seconds: 30
       input:
@@ -21497,16 +21499,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_8
           amount: 2
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '9':
       speed-in-seconds: 30
       input:
@@ -21517,16 +21519,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_9
           amount: 2
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '10':
       speed-in-seconds: 30
       input:
@@ -21537,16 +21539,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_10
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '11':
       speed-in-seconds: 30
       input:
@@ -21557,16 +21559,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_11
           amount: 2
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '12':
       speed-in-seconds: 30
       input:
@@ -21577,16 +21579,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_12
           amount: 2
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '13':
       speed-in-seconds: 30
       input:
@@ -21597,16 +21599,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_13
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '14':
       speed-in-seconds: 30
       input:
@@ -21617,16 +21619,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_14
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '15':
       speed-in-seconds: 30
       input:
@@ -21637,16 +21639,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_15
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '16':
       speed-in-seconds: 30
       input:
@@ -21657,16 +21659,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_16
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '17':
       speed-in-seconds: 30
       input:
@@ -21677,16 +21679,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_17
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '18':
       speed-in-seconds: 30
       input:
@@ -21697,16 +21699,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_18
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '19':
       speed-in-seconds: 30
       input:
@@ -21715,18 +21717,18 @@ HAIMAN_YJ_SX_MACHINE:
           id: COOKED_PORKCHOP
           amount: 4
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_19
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '20':
       speed-in-seconds: 30
       input:
@@ -21737,16 +21739,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_20
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '21':
       speed-in-seconds: 30
       input:
@@ -21757,16 +21759,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_21
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '22':
       speed-in-seconds: 30
       input:
@@ -21777,16 +21779,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_22
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '23':
       speed-in-seconds: 30
       input:
@@ -21797,16 +21799,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_23
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '24':
       speed-in-seconds: 30
       input:
@@ -21817,16 +21819,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_24
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '25':
       speed-in-seconds: 30
       input:
@@ -21837,16 +21839,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_25
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '26':
       speed-in-seconds: 30
       input:
@@ -21857,16 +21859,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_26
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '27':
       speed-in-seconds: 30
       input:
@@ -21877,16 +21879,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_27
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '28':
       speed-in-seconds: 30
       input:
@@ -21897,16 +21899,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_28
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '29':
       speed-in-seconds: 30
       input:
@@ -21917,16 +21919,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_29
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '30':
       speed-in-seconds: 30
       input:
@@ -21937,16 +21939,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_30
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '31':
       speed-in-seconds: 30
       input:
@@ -21957,16 +21959,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_31
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '32':
       speed-in-seconds: 30
       input:
@@ -21977,16 +21979,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_32
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '33':
       speed-in-seconds: 30
       input:
@@ -21997,16 +21999,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_33
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '34':
       speed-in-seconds: 30
       input:
@@ -22017,16 +22019,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_34
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '35':
       speed-in-seconds: 30
       input:
@@ -22037,16 +22039,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_35
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '36':
       speed-in-seconds: 30
       input:
@@ -22057,16 +22059,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_36
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '37':
       speed-in-seconds: 30
       input:
@@ -22077,16 +22079,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_37
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '38':
       speed-in-seconds: 30
       input:
@@ -22097,16 +22099,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_38
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '39':
       speed-in-seconds: 30
       input:
@@ -22117,16 +22119,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_39
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '40':
       speed-in-seconds: 30
       input:
@@ -22137,16 +22139,16 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_40
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
     '41':
       speed-in-seconds: 30
       input:
@@ -22157,22 +22159,24 @@ HAIMAN_YJ_SX_MACHINE:
         '2':
           type: SLIMEFUN
           id: BZ_TCQ
-          amount: 1
+          amount: 0
       output:
         '1':
           type: SAVEDITEM
           id: BZ_41
           amount: 1
         '2':
-          type: SLIMEFUN
-          id: BZ_TCQ
-          amount: 1
+          type: NONE
+          id: N/A
+          amount: 0
 HAIMAN_LU_CAT_MACHINE:
   category: slime_customizer
   machine-name: '&d&l自动撸猫机'
   machine-lore:
   - '&7时间太紧，没空撸猫？'
   - '&7快来试试这台机器吧！'
+  - '&7须要将逗猫棒'
+  - '&7放入非消耗型物品槽内'
   block-type: SKULL25f32f6e85ceb4288a95e3b95dd5e795d1dc6549db624971275c82daf3c8e9db
   progress-bar-item: WHITE_WOOL
   stats:
@@ -22218,16 +22222,16 @@ HAIMAN_LU_CAT_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 60
+      speed-in-seconds: 30
       input:
         '1':
+          type: VANILLA
+          id: COD
+          amount: 4
+        '2':
           type: SLIMEFUN
           id: DOUMAOBANG
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -22376,12 +22380,12 @@ HAIMAN_CMLW_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 8
       input:
         '1':
           type: VANILLA
           id: EMERALD
-          amount: 4
+          amount: 16
         '2':
           type: NONE
           id: N/A
@@ -22396,12 +22400,12 @@ HAIMAN_CMLW_MACHINE:
           id: NONE
           amount: 1
     '2':
-      speed-in-seconds: 1
+      speed-in-seconds: 8
       input:
         '1':
           type: SLIMEFUN
           id: SYNTHETIC_EMERALD
-          amount: 4
+          amount: 16
         '2':
           type: NONE
           id: N/A
