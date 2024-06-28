@@ -20,7 +20,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
     - '&f当前海曼科技院版本：'
-    - '&bRelease-1.0.2'
+    - '&bRelease-1.0.3'
     - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -4889,6 +4889,31 @@ HAIMAN_XIONGSHILAOFANG:
     9:
       material_type: mc
       material: TINTED_GLASS
+      amount: 1
+CAO_TC:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    name: '&7机器槽填充物'
+    lore:
+    - '&7用于填充不必要的输入槽与输出槽'
+    material_type: mc
+    material: GRAY_STAINED_GLASS_PANE
+    amount: 8
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 1
+    2:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 1
+    3:
+      material_type: mc
+      material: COBBLESTONE
       amount: 1
 LIGHT_0:
   lateInit: false

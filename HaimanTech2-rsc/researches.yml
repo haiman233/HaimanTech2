@@ -165,19 +165,6 @@ kongqiumoban:
   levelCost: 8
   items:
   - HM_EMPTY_COUNTRY_BALL
-hunian:
-  id: 110000022
-  name: 新年快乐!
-  levelCost: 60
-  items:
-  - HAIMAN_CHINESE_DRAGON_1
-  - HAIMAN_TIGER_1
-  - HAIMAN_CHINA_1
-  - HAIMAN_CHINESE_LANTERN_1
-  - HAIMAN_TIGER_FURRY_1
-  - HAIMAN_TIGER_STICK_1
-  - HAIMAN_TIGER_DUN_1
-  - HAIMAN_TIGER_AXE_1
 hunian2:
   id: 120000022
   name: 新年
@@ -1430,3 +1417,9 @@ lzzdh:
   items:
   - LIZI_YUANPEI
   - LIZI_ZENGSHENG
+caotianchong:
+  id: 110101061
+  name: 填充机器槽
+  levelCost: 1
+  items:
+  - CAO_TC

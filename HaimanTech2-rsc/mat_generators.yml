@@ -52,13 +52,13 @@ INFINITY_ALL_IN_ONE_MACHINE_1:
       material_type: slimefun
       material: HAIMAN_INGOT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 20
   outputItem:
     material_type: slimefun
     material: INFINITE_INGOT
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 INFINITY_ALL_IN_ONE_MACHINE_2:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -113,13 +113,13 @@ INFINITY_ALL_IN_ONE_MACHINE_2:
       material_type: slimefun
       material: HAIMAN_INGOT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 15
   outputItem:
     material_type: slimefun
     material: INFINITE_INGOT
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 INFINITY_ALL_IN_ONE_MACHINE_3:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -174,13 +174,13 @@ INFINITY_ALL_IN_ONE_MACHINE_3:
       material_type: slimefun
       material: HM_SHENQUAN_HEXIN
       amount: 1
-  status: 0
+  status: 9
   tickRate: 10
   outputItem:
     material_type: slimefun
     material: INFINITE_INGOT
     amount: 4
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_CLAY_BALL_INGOT_PRODUCER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -235,13 +235,13 @@ HAIMAN_CLAY_BALL_INGOT_PRODUCER:
       material_type: slimefun
       material: STONE_CHUNK
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: CLAY_BALL
     amount: 12
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_DIRT_PRODUCER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -297,13 +297,13 @@ HAIMAN_DIRT_PRODUCER:
       material_type: mc
       material: DIRT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: DIRT
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -360,13 +360,13 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_1:
       material_type: slimefun
       material: INFINITY_SINGULARITY
       amount: 1
-  status: 0
+  status: 9
   tickRate: 20
   outputItem:
     material_type: slimefun
     material: ELECTRO_MAGNET
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -421,13 +421,13 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_2:
       material_type: slimefun
       material: HAIMAN_INGOT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 15
   outputItem:
     material_type: slimefun
     material: ELECTRO_MAGNET
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -482,13 +482,13 @@ ELECTRO_MAGNET_INTEGRATED_MACHINE_3:
       material_type: slimefun
       material: HM_HONGMENG_XINPIAN
       amount: 1
-  status: 0
+  status: 9
   tickRate: 5
   outputItem:
     material_type: slimefun
     material: ELECTRO_MAGNET
     amount: 12
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_BASIC_PRODUCER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -543,13 +543,13 @@ HAIMAN_BASIC_PRODUCER:
       material_type: slimefun
       material: ADVANCED_CIRCUIT_BOARD
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: slimefun
     material: BASIC_CIRCUIT_BOARD
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_DEEPSLATE_PRODUCER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -604,13 +604,13 @@ HAIMAN_DEEPSLATE_PRODUCER:
       material_type: slimefun
       material: STEEL_PLATE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: DEEPSLATE
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_QUARTZ_PRODUCER_1:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -665,13 +665,13 @@ HAIMAN_QUARTZ_PRODUCER_1:
       material_type: slimefun
       material: BATTERY
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: QUARTZ
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_QUARTZ_PRODUCER_2:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -726,13 +726,13 @@ HAIMAN_QUARTZ_PRODUCER_2:
       material_type: slimefun
       material: COOLING_UNIT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: QUARTZ
     amount: 16
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_QUARTZ_PRODUCER_3:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -787,13 +787,13 @@ HAIMAN_QUARTZ_PRODUCER_3:
       material_type: slimefun
       material: COOLING_UNIT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: QUARTZ
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_NETHERITE_INGOT_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -848,13 +848,13 @@ HAIMAN_NETHERITE_INGOT_MACHINE:
       material_type: slimefun
       material: HEATING_COIL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 3
   outputItem:
     material_type: mc
     material: NETHERITE_INGOT
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -910,13 +910,13 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
       material_type: slimefun
       material: HEATING_COIL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 12
   outputItem:
     material_type: slimefun
     material: REINFORCED_ALLOY_INGOT
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -972,13 +972,13 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
       material_type: slimefun
       material: HEATING_COIL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: slimefun
     material: REINFORCED_ALLOY_INGOT
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1034,13 +1034,13 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
       material_type: slimefun
       material: HM_HONGMENG_XINPIAN
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: slimefun
     material: REINFORCED_ALLOY_INGOT
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_YINSHI_PRODUCER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1095,13 +1095,13 @@ HAIMAN_YINSHI_PRODUCER:
       material_type: slimefun
       material: BATTERY
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: GLOWSTONE_DUST
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_UU_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1156,13 +1156,13 @@ HAIMAN_UU_MACHINE:
       material_type: slimefun
       material: ANCIENT_ITEM
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: slimefun
     material: UU_MATTER
     amount: 4
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_TOTEM_EXPLORER:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1217,13 +1217,13 @@ HAIMAN_TOTEM_EXPLORER:
       material_type: slimefun
       material: COOLING_UNIT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 40
   outputItem:
     material_type: mc
     material: TOTEM_OF_UNDYING
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_SHULKER_BOX_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1278,13 +1278,13 @@ HAIMAN_SHULKER_BOX_MACHINE:
       material_type: slimefun
       material: LARGE_CAPACITOR
       amount: 1
-  status: 0
+  status: 9
   tickRate: 7
   outputItem:
     material_type: mc
     material: SHULKER_BOX
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_SFBOOK_MACHINE_1:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1339,13 +1339,13 @@ HAIMAN_SFBOOK_MACHINE_1:
       material_type: mc
       material: COMMAND_BLOCK
       amount: 1
-  status: 0
+  status: 9
   tickRate: 3
   outputItem:
     material_type: saveditem
     material: SFBOOK
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_SFBOOK_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1400,13 +1400,13 @@ HAIMAN_SFBOOK_MACHINE:
       material_type: mc
       material: REPEATING_COMMAND_BLOCK
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: saveditem
     material: SFBOOK
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MAN_MADE_MOON:
   lateInit: true
   item_group: slime_customizer_xingji
@@ -1461,13 +1461,13 @@ MAN_MADE_MOON:
       material_type: slimefun
       material: COPPER_CABLE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: END_STONE
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 CALCITE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1522,13 +1522,13 @@ CALCITE_MACHINE:
       material_type: slimefun
       material: COPPER_CABLE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: CALCITE
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ZISHUJIN_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1583,13 +1583,13 @@ ZISHUJIN_MACHINE:
       material_type: slimefun
       material: BOOSTED_URANIUM
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: AMETHYST_SHARD
     amount: 16
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MYZHENZHU_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1644,13 +1644,13 @@ MYZHENZHU_MACHINE:
       material_type: slimefun
       material: SYNTHETIC_SHULKER_SHELL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: ENDER_PEARL
     amount: 16
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_U_GENERATOR:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1705,13 +1705,13 @@ HAIMAN_U_GENERATOR:
       material_type: slimefun
       material: COOLING_UNIT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: slimefun
     material: URANIUM
     amount: 48
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_ROBOT_GENERATOR:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1766,13 +1766,13 @@ HAIMAN_ROBOT_GENERATOR:
       material_type: slimefun
       material: HDBU_FUEL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 45
   outputItem:
     material_type: slimefun
     material: PROGRAMMABLE_ANDROID
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HAIMAN_GAOJI_ROBOT_GENERATOR:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1827,13 +1827,13 @@ HAIMAN_GAOJI_ROBOT_GENERATOR:
       material_type: slimefun
       material: HAIMAN_INGOT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 45
   outputItem:
     material_type: slimefun
     material: PROGRAMMABLE_ANDROID_2
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MYZHIYAN_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1888,13 +1888,13 @@ MYZHIYAN_MACHINE:
       material_type: slimefun
       material: SYNTHETIC_SHULKER_SHELL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: ENDER_EYE
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 STRING_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -1949,13 +1949,13 @@ STRING_MACHINE:
       material_type: slimefun
       material: ESSENCE_OF_AFTERLIFE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: STRING
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 KQHYS_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2010,13 +2010,13 @@ KQHYS_MACHINE:
       material_type: slimefun
       material: ANCIENT_RUNE_WATER
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: CRYING_OBSIDIAN
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 YANGMAO_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2071,13 +2071,13 @@ YANGMAO_MACHINE:
       material_type: slimefun
       material: RAINBOW_WOOL_VALENTINE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: WHITE_WOOL
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ZHONG_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2132,13 +2132,13 @@ ZHONG_MACHINE:
       material_type: mc
       material: CLOCK
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: CLOCK
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 GLYANJIANGKUAI_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2193,13 +2193,13 @@ GLYANJIANGKUAI_MACHINE:
       material_type: slimefun
       material: ANCIENT_RUNE_FIRE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: MAGMA_BLOCK
     amount: 8
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 KUIJIAJIA_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2254,13 +2254,13 @@ KUIJIAJIA_MACHINE:
       material_type: slimefun
       material: ANCIENT_RUNE_VILLAGERS
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: ARMOR_STAND
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 TIZI_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2315,13 +2315,13 @@ TIZI_MACHINE:
       material_type: slimefun
       material: TAPE_MEASURE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: LADDER
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 ZHIJIANTAI_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2376,13 +2376,13 @@ ZHIJIANTAI_MACHINE:
       material_type: mc
       material: SPECTRAL_ARROW
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: FLETCHING_TABLE
     amount: 1
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HUAPEN_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2437,13 +2437,13 @@ HUAPEN_MACHINE:
       material_type: mc
       material: AZURE_BLUET
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: FLOWER_POT
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 YINGWULUO_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2498,13 +2498,13 @@ YINGWULUO_MACHINE:
       material_type: slimefun
       material: ELECTRIC_MOTOR
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: NAUTILUS_SHELL
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 AIR_HA_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2531,11 +2531,11 @@ AIR_HA_MACHINE:
       material_type: slimefun
       material: HAIMAN_ELECTRIC_ENERGY
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: none
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MINGMINPAI_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2590,13 +2590,13 @@ MINGMINPAI_MACHINE:
       material_type: slimefun
       material: CRAFTING_MOTOR
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: NAME_TAG
     amount: 4
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MONANG_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2651,13 +2651,13 @@ MONANG_MACHINE:
       material_type: slimefun
       material: ELECTRIC_MOTOR
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: INK_SAC
     amount: 6
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 HEIYAOSHI_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2712,13 +2712,13 @@ HEIYAOSHI_MACHINE:
       material_type: slimefun
       material: ELECTRIC_MOTOR
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: OBSIDIAN
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 KONGBAIFUWEN_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2773,13 +2773,13 @@ KONGBAIFUWEN_MACHINE:
       material_type: slimefun
       material: MINECRAFT_SOURCE_STONE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: slimefun
     material: BLANK_RUNE
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 SHUCHUXIANG_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2834,13 +2834,13 @@ SHUCHUXIANG_MACHINE:
       material_type: slimefun
       material: ADVANCED_CIRCUIT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: slimefun
     material: OUTPUT_CHEST
     amount: 2
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 WATER_BUCKET_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2895,13 +2895,13 @@ WATER_BUCKET_MACHINE:
       material_type: mc
       material: WATER_BUCKET
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: WATER_BUCKET
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 LAVA_BUCKET_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -2956,13 +2956,13 @@ LAVA_BUCKET_MACHINE:
       material_type: mc
       material: LAVA_BUCKET
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: LAVA_BUCKET
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MILK_BUCKET_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3017,13 +3017,13 @@ MILK_BUCKET_MACHINE:
       material_type: mc
       material: MILK_BUCKET
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: MILK_BUCKET
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 POWDER_SNOW_BUCKET_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3078,13 +3078,13 @@ POWDER_SNOW_BUCKET_MACHINE:
       material_type: mc
       material: POWDER_SNOW_BUCKET
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: POWDER_SNOW_BUCKET
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 DIAMOND_PICKAXE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3139,13 +3139,13 @@ DIAMOND_PICKAXE_MACHINE:
       material_type: mc
       material: DIAMOND_PICKAXE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 8
   outputItem:
     material_type: mc
     material: DIAMOND_PICKAXE
     amount: 32
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 IRON_PICKAXE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3200,13 +3200,13 @@ IRON_PICKAXE_MACHINE:
       material_type: mc
       material: IRON_PICKAXE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: mc
     material: IRON_PICKAXE
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 NETHERITE_PICKAXE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3261,13 +3261,13 @@ NETHERITE_PICKAXE_MACHINE:
       material_type: mc
       material: NETHERITE_PICKAXE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 8
   outputItem:
     material_type: mc
     material: NETHERITE_PICKAXE
     amount: 20
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 DIAMOND_AXE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3322,13 +3322,13 @@ DIAMOND_AXE_MACHINE:
       material_type: mc
       material: DIAMOND_AXE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 8
   outputItem:
     material_type: mc
     material: DIAMOND_AXE
     amount: 32
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 DIAMOND_HOE_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3383,13 +3383,13 @@ DIAMOND_HOE_MACHINE:
       material_type: mc
       material: DIAMOND_HOE
       amount: 1
-  status: 0
+  status: 9
   tickRate: 8
   outputItem:
     material_type: mc
     material: DIAMOND_HOE
     amount: 32
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 DIAMOND_SWORD_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3444,13 +3444,13 @@ DIAMOND_SWORD_MACHINE:
       material_type: mc
       material: DIAMOND_SWORD
       amount: 1
-  status: 0
+  status: 9
   tickRate: 8
   outputItem:
     material_type: mc
     material: DIAMOND_SWORD
     amount: 32
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 FLINT_AND_STEEL_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3505,13 +3505,13 @@ FLINT_AND_STEEL_MACHINE:
       material_type: mc
       material: FLINT_AND_STEEL
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: mc
     material: FLINT_AND_STEEL
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 FISHING_ROD_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3566,13 +3566,13 @@ FISHING_ROD_MACHINE:
       material_type: mc
       material: FISHING_ROD
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: mc
     material: FISHING_ROD
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 SHEARS_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3627,13 +3627,13 @@ SHEARS_MACHINE:
       material_type: mc
       material: SHEARS
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: mc
     material: SHEARS
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 11_DISC_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3688,13 +3688,13 @@ SHEARS_MACHINE:
       material_type: mc
       material: MUSIC_DISC_11
       amount: 1
-  status: 0
+  status: 9
   tickRate: 6
   outputItem:
     material_type: mc
     material: MUSIC_DISC_11
     amount: 16
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 EGG_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3749,13 +3749,13 @@ EGG_MACHINE:
       material_type: mc
       material: EGG
       amount: 1
-  status: 0
+  status: 9
   tickRate: 2
   outputItem:
     material_type: mc
     material: EGG
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 BOAT_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3810,13 +3810,13 @@ BOAT_MACHINE:
       material_type: mc
       material: OAK_BOAT
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: OAK_BOAT
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
 MINECART_MACHINE:
   lateInit: true
   item_group: slime_customizer_yitihua
@@ -3871,10 +3871,10 @@ MINECART_MACHINE:
       material_type: mc
       material: MINECART
       amount: 1
-  status: 0
+  status: 9
   tickRate: 1
   outputItem:
     material_type: mc
     material: MINECART
     amount: 64
-  output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+  output: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 49, 50, 51, 52, 53]
