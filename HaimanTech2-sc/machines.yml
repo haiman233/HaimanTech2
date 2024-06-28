@@ -3432,7 +3432,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           id: N/A
           amount: 1
     '31':
-      speed-in-seconds: 3100
+      speed-in-seconds: 255
       input:
         '1':
           type: SLIMEFUN
@@ -28570,7 +28570,7 @@ LIZI_ZENGSHENG:
       output:
         '1':
           type: SLIMEFUN
-          id: ZOT_UP
+          id: QUIRP_UP
           amount: 1
         '2':
           type: NONE
@@ -28590,7 +28590,7 @@ LIZI_ZENGSHENG:
       output:
         '1':
           type: SLIMEFUN
-          id: ZOT_DOWN
+          id: QUIRP_DOWN
           amount: 1
         '2':
           type: NONE
@@ -28610,7 +28610,7 @@ LIZI_ZENGSHENG:
       output:
         '1':
           type: SLIMEFUN
-          id: ZOT_LEFT
+          id: QUIRP_LEFT
           amount: 1
         '2':
           type: NONE
@@ -28630,7 +28630,7 @@ LIZI_ZENGSHENG:
       output:
         '1':
           type: SLIMEFUN
-          id: ZOT_RIGHT
+          id: QUIRP_RIGHT
           amount: 1
         '2':
           type: NONE

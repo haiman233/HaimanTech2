@@ -3581,7 +3581,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           material: JIGSAW
           amount: 2
     '31':
-      seconds: 3100
+      seconds: 255
       output:
         1:
           material_type: slimefun
@@ -4097,7 +4097,7 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           material: JIGSAW
           amount: 2
     '31':
-      seconds: 3100
+      seconds: 255
       output:
         1:
           material_type: slimefun
@@ -23267,7 +23267,7 @@ LIZI_ZENGSHENG:
       output:
         1:
           material_type: slimefun
-          material: ZOT_UP
+          material: QUIRP_UP
           amount: 1
       input:
         1:
@@ -23283,7 +23283,7 @@ LIZI_ZENGSHENG:
       output:
         1:
           material_type: slimefun
-          material: ZOT_DOWN
+          material: QUIRP_DOWN
           amount: 1
       input:
         1:
@@ -23299,7 +23299,7 @@ LIZI_ZENGSHENG:
       output:
         1:
           material_type: slimefun
-          material: ZOT_LEFT
+          material: QUIRP_LEFT
           amount: 1
       input:
         1:
@@ -23315,7 +23315,7 @@ LIZI_ZENGSHENG:
       output:
         1:
           material_type: slimefun
-          material: ZOT_RIGHT
+          material: QUIRP_RIGHT
           amount: 1
       input:
         1:

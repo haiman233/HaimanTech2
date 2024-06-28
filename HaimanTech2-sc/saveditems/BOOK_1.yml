@@ -5,4 +5,7 @@ item:
   meta:
     ==: ItemMeta
     meta-type: BOOK_SIGNED
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"原稿"}],"text":""}'
+    PublicBukkitValues:
+      slimefun:slimefun_item: BOOK_1
     generation: 0
