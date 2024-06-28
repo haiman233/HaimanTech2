@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bRelease-1.0"
+    - "&bRelease-1.0.3"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -5664,6 +5664,53 @@ HAIMAN_XIONGSHILAOFANG:
     9:
       type: VANILLA
       id: TINTED_GLASS
+      amount: 1
+CAO_TC:
+  category: slime_customizer_zhuangshi
+  item-type: CUSTOM
+  item-name: "&7机器槽填充物"
+  item-lore:
+  - "&7用于填充不必要的输入槽与输出槽"
+  item-id:  GRAY_STAINED_GLASS_PANE
+  item-amount: 8
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: COBBLESTONE
+      amount: 1
+    2:
+      type: VANILLA
+      id: COBBLESTONE
+      amount: 1
+    3:
+      type: VANILLA
+      id: COBBLESTONE
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
       amount: 1
 LIGHT_0:
   category: slime_customizer_zhuangshi
