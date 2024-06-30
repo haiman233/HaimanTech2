@@ -29615,7 +29615,7 @@ YOUNI_MACHINE:
           amount: 1
 HUIXIANG_MACHINE:
   category: slime_customizer_19
-  machine-name: '&8&l回响构造机'
+  machine-name: '&b&l回响构造机'
   machine-lore:
   - '&7回响式刻印'
   block-type: SKULL4322d1d2cbf82dd0b2012cda730c95cddd2e1229eaa621a5a49b174301aea723
@@ -30015,7 +30015,7 @@ SGJ_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: PITCHER_CROP
+          id: PITCHER_PLANT
           amount: 1
         '2':
           type: NONE
@@ -30035,7 +30035,7 @@ SGJ_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: PITCHER_PLANT
+          id: TORCHFLOWER_SEEDS
           amount: 1
         '2':
           type: NONE
@@ -30152,7 +30152,7 @@ KYDJQ_MACHINE:
           amount: 1
 MBYK_MACHINE:
   category: slime_customizer_20
-  machine-name: '&b&l模板刻印机'
+  machine-name: '&a&l模板刻印机'
   machine-lore:
   - '&7用来雕刻锻造模版'
   block-type: SKULLe1fd768cb0a95e56f30e61a44496efab37b469bfbc59f0992d7885756fda4ff2
@@ -30541,7 +30541,7 @@ MBYK_MACHINE:
           amount: 1
 TPKY_MACHINE:
   category: slime_customizer_20
-  machine-name: '&b&l陶片刻印机'
+  machine-name: '&6&l陶片刻印机'
   machine-lore:
   - '&7用来雕刻陶片'
   block-type: SKULL5eb691cd1d78d9c9553446aa988e082db1d4524d27362349eb1c6a96c4afd954
