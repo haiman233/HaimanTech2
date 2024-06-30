@@ -1019,6 +1019,18 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 4
+    '27':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 32
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_II:
@@ -1388,6 +1400,18 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_II:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 4
+    '27':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 32
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_II
   register:
     conditions:
@@ -1820,6 +1844,18 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
           material_type: slimefun
           material: INFINITY_SINGULARITY
           amount: 32
+    '32':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 32
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_III:
@@ -2247,6 +2283,18 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         1:
           material_type: slimefun
           material: INFINITY_SINGULARITY
+          amount: 32
+    '32':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
           amount: 32
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_III
   register:
@@ -2704,6 +2752,30 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 1
+    '34':
+      seconds: 255
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 16
+    '35':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 16
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
@@ -3156,6 +3228,30 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 1
+    '34':
+      seconds: 255
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 16
+    '35':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 16
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
   register:
     conditions:
@@ -3676,6 +3772,30 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 1
+    '39':
+      seconds: 50
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 6
+    '40':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 8
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
@@ -4192,6 +4312,30 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           material_type: mc
           material: PRISMARINE_SHARD
           amount: 1
+    '39':
+      seconds: 50
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 6
+    '40':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 8
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_V
   register:
     conditions:
@@ -5313,6 +5457,18 @@ HAIMAN_PLANT_MACHINE:
           material_type: mc
           material: CHORUS_PLANT
           amount: 1
+    '23':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 2
+      input:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_HAIMAN_PLANT_MACHINE:
@@ -5632,6 +5788,18 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
         1:
           material_type: mc
           material: CHORUS_PLANT
+          amount: 1
+    '23':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: PINK_PETALS
+          amount: 2
+      input:
+        1:
+          material_type: mc
+          material: PINK_PETALS
           amount: 1
   id_alias: HAIMAN_PLANT_MACHINE
   register:
@@ -6025,6 +6193,18 @@ NONE_NBT_MACHINE:
           material_type: mc
           material: BOWL
           amount: 1
+    '9':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: GOAT_HORN
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 STRANGE_NETHER_GOO_MACHINE:
@@ -6220,6 +6400,18 @@ HAIMAN_WASHING_MACHINE:
         1:
           material_type: mc
           material: SPONGE
+          amount: 1
+    '2':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MUD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIRT
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -6910,6 +7102,42 @@ HAIMAN_WOOD_PEELER:
           material_type: mc
           material: DARK_OAK_PLANKS
           amount: 1
+    '29':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: STRIPPED_MANGROVE_LOG
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_LOG
+          amount: 1
+    '30':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: STRIPPED_CHERRY_LOG
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHERRY_LOG
+          amount: 1
+    '31':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: STRIPPED_BAMBOO_BLOCK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO_BLOCK
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 INFESTED_MACHINE:
@@ -7341,6 +7569,66 @@ SOIL_CHANGER:
         1:
           material_type: mc
           material: COBBLESTONE
+          amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MUDDY_MANGROVE_ROOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_ROOTS
+          amount: 1
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: PACKED_MUD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MUD
+          amount: 1
+    '17':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: SOUL_SAND
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SOUL_SOIL
+          amount: 1
+    '18':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: WARPED_WART_BLOCK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHER_WART_BLOCK
+          amount: 1
+    '19':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART_BLOCK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WARPED_WART_BLOCK
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -7779,6 +8067,18 @@ GRASS_WOOD_CHANGER:
           material_type: mc
           material: FERN
           amount: 1
+    '4':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: MANGROVE_ROOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_LOG
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 VERSIONED_GRASS_WOOD_CHANGER:
@@ -7870,6 +8170,18 @@ VERSIONED_GRASS_WOOD_CHANGER:
         1:
           material_type: mc
           material: FERN
+          amount: 1
+    '4':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: MANGROVE_ROOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_LOG
           amount: 1
   id_alias: GRASS_WOOD_CHANGER
   register:
@@ -8836,7 +9148,7 @@ HAIMAN_FISH_MACHINE:
           material: TROPICAL_FISH
           amount: 1
     '5':
-      seconds: 200
+      seconds: 10
       output:
         1:
           material_type: mc
@@ -8846,6 +9158,18 @@ HAIMAN_FISH_MACHINE:
         1:
           material_type: mc
           material: TROPICAL_FISH_BUCKET
+          amount: 1
+    '6':
+      seconds: 8
+      output:
+        1:
+          material_type: mc
+          material: TADPOLE_BUCKET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SLIME_BALL
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -9451,6 +9775,30 @@ MUSIC_DISC_PRODUCER:
           material_type: slimefun
           material: FUHEBAN
           amount: 1
+    '15':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MUSIC_DISC_5
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DISC_FRAGMENT_5
+          amount: 4
+    '16':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MUSIC_DISC_RELIC
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHERRY_SAPLING
+          amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_HORSE_ARMOR_PRODUCER:
@@ -12854,8 +13202,8 @@ HAIMAN_CAVE_MACHINE:
       material: ELECTRIC_MOTOR
       amount: 1
     2:
-      material_type: mc
-      material: AMETHYST_BLOCK
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
       amount: 1
     3:
       material_type: slimefun
@@ -12878,8 +13226,8 @@ HAIMAN_CAVE_MACHINE:
       material: ADVANCED_CIRCUIT_BOARD
       amount: 1
     8:
-      material_type: mc
-      material: DRIPSTONE_BLOCK
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
       amount: 1
     9:
       material_type: slimefun
@@ -21325,11 +21673,11 @@ SHITOUGONGCHANG:
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 SAPLING_INTEGRATED_MACHINE:
   lateInit: false
-  item_group: slime_customizer_yitihua
+  item_group: slime_customizer_farm
   item:
-    name: '&a&l树苗一体机'
+    name: '&a&l树苗转化机'
     lore:
-    - '&f种树苗实现碳中和'
+    - '&f种树实现碳中和'
     - '&b机器'
     - '&8⇨ &e⚡&7 60 J 可存储'
     - '&8⇨ &e⚡&7 120 J/s'
@@ -21378,76 +21726,124 @@ SAPLING_INTEGRATED_MACHINE:
   energyPerCraft: 60
   recipes:
     '1':
-      seconds: 20
-      output:
-        1:
-          material_type: mc
-          material: OAK_SAPLING
-          amount: 8
-      input:
-        1:
-          material_type: mc
-          material: OAK_LEAVES
-          amount: 1
-    '2':
-      seconds: 20
+      seconds: 1
       output:
         1:
           material_type: mc
           material: SPRUCE_SAPLING
-          amount: 2
+          amount: 1
       input:
         1:
           material_type: mc
-          material: SPRUCE_LEAVES
+          material: OAK_SAPLING
           amount: 1
-    '3':
-      seconds: 20
+    '2':
+      seconds: 1
       output:
         1:
           material_type: mc
           material: BIRCH_SAPLING
-          amount: 2
+          amount: 1
       input:
         1:
           material_type: mc
-          material: BIRCH_LEAVES
+          material: SPRUCE_SAPLING
           amount: 1
-    '4':
-      seconds: 20
+    '3':
+      seconds: 1
       output:
         1:
           material_type: mc
           material: JUNGLE_SAPLING
-          amount: 2
+          amount: 1
       input:
         1:
           material_type: mc
-          material: JUNGLE_LEAVES
+          material: BIRCH_SAPLING
           amount: 1
-    '5':
-      seconds: 20
+    '4':
+      seconds: 1
       output:
         1:
           material_type: mc
           material: ACACIA_SAPLING
-          amount: 2
+          amount: 1
       input:
         1:
           material_type: mc
-          material: ACACIA_LEAVES
+          material: JUNGLE_SAPLING
           amount: 1
-    '6':
-      seconds: 20
+    '5':
+      seconds: 1
       output:
         1:
           material_type: mc
           material: DARK_OAK_SAPLING
-          amount: 2
+          amount: 1
       input:
         1:
           material_type: mc
-          material: DARK_OAK_LEAVES
+          material: ACACIA_SAPLING
+          amount: 1
+    '6':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: CHERRY_SAPLING
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DARK_OAK_SAPLING
+          amount: 1
+    '7':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: MANGROVE_PROPAGULE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHERRY_SAPLING
+          amount: 1
+    '8':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: AZALEA
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MANGROVE_PROPAGULE
+          amount: 1
+    '9':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: AZALEA
+          amount: 1
+    '10':
+      seconds: 1
+      output:
+        1:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FLOWERING_AZALEA
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -23326,5 +23722,1381 @@ LIZI_ZENGSHENG:
           material_type: slimefun
           material: LIZI_YUANPEI
           amount: 0
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+WAMING_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&e&l蛙明机'
+    lore:
+    - '&7呱~~呱~~'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 680 J 可存储'
+    - '&8⇨ &e⚡&7 136 J/s'
+    material_type: skull_hash
+    material: 27dbd21251173df9e848b992c93064238238a2a1ea0f74d08b5c7e2242f790e5
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 680
+  energyPerCraft: 68
+  recipes:
+    '1':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: OCHRE_FROGLIGHT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_DYE
+          amount: 1
+    '2':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: PEARLESCENT_FROGLIGHT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPLE_DYE
+          amount: 1
+    '3':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: VERDANT_FROGLIGHT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LIME_DYE
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+DANZH_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&c&l转蛋机'
+    lore:
+    - '&7猜猜看这是什么蛋？'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 1600 J 可存储'
+    - '&8⇨ &e⚡&7 320 J/s'
+    material_type: skull_hash
+    material: 58b30c1319eea75bae07613047bfedac17ff9b90bbf05c2801e7c2e47b0dfd1d
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: mc
+      material: VERDANT_FROGLIGHT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    8:
+      material_type: mc
+      material: PEARLESCENT_FROGLIGHT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 1600
+  energyPerCraft: 160
+  recipes:
+    '1':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_EGG
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 8
+    '2':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TURTLE_EGG
+          amount: 4
+    '3':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: FROGSPAWN
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 1
+    '4':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 8
+      input:
+        1:
+          material_type: mc
+          material: FROGSPAWN
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+SBYQH_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&f&l深板岩强化机'
+    lore:
+    - '&7让深板岩更硬更强！'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 280000 J 可存储'
+    - '&8⇨ &e⚡&7 56000 J/s'
+    material_type: skull_hash
+    material: a49821c89947166e92bc073f8b02927c6ea99f2e749d87fc8de3b3aa9f7b524d
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CREEPER_COAL_HEART
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HAIMAN_STAR_DUST
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CREEPER_COAL_HEART
+      amount: 1
+  capacity: 280000
+  energyPerCraft: 28000
+  recipes:
+    '1':
+      seconds: 500
+      output:
+        1:
+          material_type: mc
+          material: REINFORCED_DEEPSLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DEEPSLATE
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+YOUNI_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&8&l幽匿转换机'
+    lore:
+    - '&7遁入黑暗吧！'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2800 J 可存储'
+    - '&8⇨ &e⚡&7 560 J/s'
+    material_type: skull_hash
+    material: c8e22255d38c6da1196bf7c5e3f81d4abf56383cbec6aa5c8e4e919f92a0f3f3
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 2800
+  energyPerCraft: 280
+  recipes:
+    '1':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: SCULK
+          amount: 2
+      input:
+        1:
+          material_type: mc
+          material: DIRT
+          amount: 2
+    '2':
+      seconds: 2
+      output:
+        1:
+          material_type: mc
+          material: SCULK_CATALYST
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACK_DYE
+          amount: 6
+    '3':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: SCULK_SENSOR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SCULK
+          amount: 1
+    '4':
+      seconds: 10
+      output:
+        1:
+          material_type: mc
+          material: CALIBRATED_SCULK_SENSOR
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SCULK_SENSOR
+          amount: 1
+    '5':
+      seconds: 8
+      output:
+        1:
+          material_type: mc
+          material: SCULK_SHRIEKER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 16
+    '6':
+      seconds: 8
+      output:
+        1:
+          material_type: mc
+          material: SCULK_VEIN
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: OAK_LEAVES
+          amount: 4
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HUIXIANG_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&b&l回响构造机'
+    lore:
+    - '&7回响式刻印'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 5000 J 可存储'
+    - '&8⇨ &e⚡&7 1000 J/s'
+    material_type: skull_hash
+    material: 4322d1d2cbf82dd0b2012cda730c95cddd2e1229eaa621a5a49b174301aea723
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    8:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 5000
+  energyPerCraft: 500
+  recipes:
+    '1':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: ECHO_SHARD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: AMETHYST_SHARD
+          amount: 1
+    '2':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: DISC_FRAGMENT_5
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ECHO_SHARD
+          amount: 1
+    '3':
+      seconds: 15
+      output:
+        1:
+          material_type: mc
+          material: RECOVERY_COMPASS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COMPASS
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+SHANYANGJIAO_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&6&l山羊角刻录机'
+    lore:
+    - '&7可刻录多种号角声'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 5600 J 可存储'
+    - '&8⇨ &e⚡&7 1120 J/s'
+    material_type: skull_hash
+    material: 22d023d1c3fca0a0d64695e70b112cfa580072bbec072aaca0bcee5d131b70e3
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CREEPER_COAL_HEART
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HAIMAN_STAR_DUST
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LAPOTRON_CRYSTAL
+      amount: 1
+  capacity: 5600
+  energyPerCraft: 560
+  recipes:
+    '1':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_1
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 16
+    '2':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_2
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PACKED_ICE
+          amount: 16
+    '3':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_3
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_ORE
+          amount: 16
+    '4':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_4
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COAL_ORE
+          amount: 16
+    '5':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_5
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COPPER_ORE
+          amount: 16
+    '6':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_6
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: EMERALD_ORE
+          amount: 16
+    '7':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_7
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SPRUCE_LOG
+          amount: 16
+    '8':
+      seconds: 60
+      output:
+        1:
+          material_type: saveditem
+          material: SYJ_8
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DARK_OAK_LOG
+          amount: 16
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+SGJ_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_20
+  item:
+    name: '&c&l时光机'
+    lore:
+    - '&7你说可以用它来穿越时空吗？'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 50000 J 可存储'
+    - '&8⇨ &e⚡&7 2000 J/s'
+    material_type: skull_hash
+    material: ad3bd0534027b540aea5ad3a315dd9c722a9d7abbc2769b68f77b2d38878815
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    8:
+      material_type: slimefun
+      material: BUCKET_OF_FUEL
+      amount: 1
+    9:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+  capacity: 50000
+  energyPerCraft: 1000
+  recipes:
+    '1':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_POD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BEETROOT_SEEDS
+          amount: 8
+    '2':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: PITCHER_PLANT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BLUE_ORCHID
+          amount: 8
+    '3':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: TORCHFLOWER_SEEDS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PUMPKIN_SEEDS
+          amount: 8
+    '4':
+      seconds: 5
+      output:
+        1:
+          material_type: mc
+          material: TORCHFLOWER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DANDELION
+          amount: 8
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+KYDJQ_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_20
+  item:
+    name: '&b&l可疑的机器'
+    lore:
+    - '&7这真的太可疑了'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 8000 J 可存储'
+    - '&8⇨ &e⚡&7 1600 J/s'
+    material_type: skull_hash
+    material: 32427d026ee8e83f74422772bad0aae44a16eece708901fc206a51f4720f71ef
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: mc
+      material: SANDSTONE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: GPS_TRANSMITTER_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: BUCKET_OF_FUEL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: BUCKET_OF_FUEL
+      amount: 1
+  capacity: 8000
+  energyPerCraft: 800
+  recipes:
+    '1':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SUSPICIOUS_SAND
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SAND
+          amount: 8
+    '2':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SUSPICIOUS_GRAVEL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GRAVEL
+          amount: 8
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+MBYK_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_20
+  item:
+    name: '&a&l模板刻印机'
+    lore:
+    - '&7用来雕刻锻造模版'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 9000 J 可存储'
+    - '&8⇨ &e⚡&7 1800 J/s'
+    material_type: skull_hash
+    material: e1fd768cb0a95e56f30e61a44496efab37b469bfbc59f0992d7885756fda4ff2
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: mc
+      material: NETHERITE_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: GPS_TRANSMITTER_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFUSED_HOPPER
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFUSED_HOPPER
+      amount: 1
+  capacity: 9000
+  energyPerCraft: 900
+  recipes:
+    '1':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHERITE_INGOT
+          amount: 2
+    '2':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HEART_OF_THE_SEA
+          amount: 1
+    '3':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SANDSTONE
+          amount: 32
+    '4':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: END_STONE
+          amount: 64
+    '5':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TERRACOTTA
+          amount: 32
+    '6':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BROWN_TERRACOTTA
+          amount: 22
+    '7':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BLACKSTONE
+          amount: 64
+    '8':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE
+          amount: 64
+    '9':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MUD
+          amount: 64
+    '10':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: CHISELED_DEEPSLATE
+          amount: 32
+    '11':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: POLISHED_DEEPSLATE
+          amount: 32
+    '12':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_PILLAR
+          amount: 32
+    '13':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE
+          amount: 32
+    '14':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COBBLED_DEEPSLATE
+          amount: 32
+    '15':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: NETHER_BRICKS
+          amount: 32
+    '16':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GRANITE
+          amount: 64
+    '17':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: MOSSY_COBBLESTONE
+          amount: 64
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+TPKY_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_20
+  item:
+    name: '&6&l陶片刻印机'
+    lore:
+    - '&7用来雕刻陶片'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 8600 J 可存储'
+    - '&8⇨ &e⚡&7 1720 J/s'
+    material_type: skull_hash
+    material: 5eb691cd1d78d9c9553446aa988e082db1d4524d27362349eb1c6a96c4afd954
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    2:
+      material_type: mc
+      material: BRUSH
+      amount: 1
+    3:
+      material_type: slimefun
+      material: STEEL_THRUSTER
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: GPS_TRANSMITTER_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: INFUSED_HOPPER
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: INFUSED_HOPPER
+      amount: 1
+  capacity: 8600
+  energyPerCraft: 860
+  recipes:
+    '1':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: ANGLER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 1
+    '2':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: ARCHER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BOW
+          amount: 1
+    '3':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: ARMS_UP_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SKELETON_SKULL
+          amount: 2
+    '4':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: BLADE_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STONE_SWORD
+          amount: 1
+    '5':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: BREWER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WATER_BUCKET
+          amount: 1
+    '6':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: BURN_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FLINT_AND_STEEL
+          amount: 1
+    '7':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: DANGER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 2
+    '8':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: EXPLORER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: SPYGLASS
+          amount: 1
+    '9':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: FRIEND_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: AMETHYST_SHARD
+          amount: 2
+    '10':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: HEART_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: WHEAT
+          amount: 8
+    '11':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: HEARTBREAK_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: COOKIE
+          amount: 8
+    '12':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: HOWL_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 16
+    '13':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: MINER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_ORE
+          amount: 16
+    '14':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: MOURNER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIRT
+          amount: 16
+    '15':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: PLENTY_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 8
+    '16':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: PRIZE_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: EMERALD
+          amount: 8
+    '17':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SHEAF_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: HAY_BLOCK
+          amount: 2
+    '18':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SHELTER_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 8
+    '19':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SKULL_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: PLAYER_HEAD
+          amount: 2
+    '20':
+      seconds: 3
+      output:
+        1:
+          material_type: mc
+          material: SNORT_POTTERY_SHERD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TORCHFLOWER_SEEDS
+          amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

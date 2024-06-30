@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bRelease-1.0.3"
+    - "&bRelease-1.1"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -1562,6 +1562,147 @@ HM_SHOUNADAI:
   item-lore:
   - "&7该物品需要在海曼工作台中制作"
   item-id: BUNDLE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_QINGWALUAN:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l青蛙卵"
+  item-lore:
+  - "&7该物品需要在转蛋机中制作"
+  item-id: FROGSPAWN
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_QHSBY:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l强化深板岩"
+  item-lore:
+  - "&7该物品需要在深板岩强化机中制作"
+  item-id: REINFORCED_DEEPSLATE
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HM_KYDFK:
+  category: slime_customizer_yuanban
+  item-type: CUSTOM
+  item-name: "&f&l可疑的沙子/沙砾"
+  item-lore:
+  - "&7该物品需要在可疑的机器中制作"
+  item-id: SUSPICIOUS_SAND
   item-amount: 1
   placeable: false
   crafting-recipe-type: NONE

@@ -1423,3 +1423,28 @@ caotianchong:
   levelCost: 1
   items:
   - CAO_TC
+ydyjjq1:
+  id: 110101062
+  name: 1.19机器（1）
+  levelCost: 80
+  items:
+  - WAMING_MACHINE
+  - DANZH_MACHINE
+  - SBYQH_MACHINE
+ydyjjq2:
+  id: 110101063
+  name: 1.19机器（2）
+  levelCost: 84
+  items:
+  - YOUNI_MACHINE
+  - HUIXIANG_MACHINE
+  - SHANYANGJIAO_MACHINE
+ydeljq:
+  id: 110101064
+  name: 1.20机器
+  levelCost: 82
+  items:
+  - SGJ_MACHINE
+  - KYDJQ_MACHINE
+  - MBYK_MACHINE
+  - TPKY_MACHINE
