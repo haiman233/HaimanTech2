@@ -1404,6 +1404,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
           type: NONE
           id: N/A
           amount: 1
+    '27':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ZOMBIE_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &6III'
@@ -2068,6 +2088,26 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
         '1':
           type: SLIMEFUN
           id: HAIMAN_INFINITY_CONSTRUCTOR_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '32':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ZOMBIE_HEAD
           amount: 1
         '2':
           type: NONE
@@ -2777,6 +2817,46 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
         '1':
           type: VANILLA
           id: PRISMARINE_CRYSTALS
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '34':
+      speed-in-seconds: 255
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PIGLIN_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '35':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ZOMBIE_HEAD
           amount: 4
         '2':
           type: NONE
@@ -3591,6 +3671,46 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
           type: NONE
           id: N/A
           amount: 1
+    '39':
+      speed-in-seconds: 50
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PIGLIN_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '40':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ZOMBIE_HEAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 16
 MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
   category: slime_customizer_fenzi
   machine-name: '&b&l分子重组仪 &7- &5xxxMMDCCLXVII'
@@ -5195,6 +5315,26 @@ HAIMAN_PLANT_MACHINE:
           type: NONE
           id: N/A
           amount: 1
+    '23':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_PETALS 
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_PETALS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_CORAL_PRODUCER:
   category: slime_customizer_farm
   machine-name: '&d&l珊瑚养殖机'
@@ -5753,6 +5893,26 @@ NONE_NBT_MACHINE:
           type: NONE
           id: N/A
           amount: 1
+    '9':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOAT_HORN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 STRANGE_NETHER_GOO_MACHINE:
   category: slime_customizer
   machine-name: '&5&l奇怪的下界粘液交易机'
@@ -5955,6 +6115,26 @@ HAIMAN_WASHING_MACHINE:
         '1':
           type: VANILLA
           id: WET_SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: DIRT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUD
           amount: 1
         '2':
           type: NONE
@@ -6887,6 +7067,66 @@ HAIMAN_WOOD_PEELER:
           type: NONE
           id: N/A
           amount: 1
+    '29':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MANGROVE_LOG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRIPPED_MANGROVE_LOG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHERRY_LOG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRIPPED_CHERRY_LOG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '31':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BAMBOO_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: STRIPPED_BAMBOO_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 INFESTED_MACHINE:
   category: slime_customizer
   machine-name: '&c&l虫蚀机'
@@ -7474,6 +7714,106 @@ SOIL_CHANGER:
           type: NONE
           id: N/A
           amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MANGROVE_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUDDY_MANGROVE_ROOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MUD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PACKED_MUD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SOUL_SOIL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_WART_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_WART_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_WART_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_WART_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_12K_GOLD_PRODUCER:
   category: slime_customizer_yitihua
   machine-name: '&e&l12k金一体机'
@@ -7975,6 +8315,26 @@ GRASS_WOOD_CHANGER:
         '1':
           type: VANILLA
           id: LARGE_FERN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: MANGROVE_LOG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MANGROVE_ROOTS
           amount: 1
         '2':
           type: NONE
@@ -9268,7 +9628,7 @@ HAIMAN_FISH_MACHINE:
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 200
+      speed-in-seconds: 10
       input:
         '1':
           type: VANILLA
@@ -9282,6 +9642,26 @@ HAIMAN_FISH_MACHINE:
         '1':
           type: VANILLA
           id: AXOLOTL_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TADPOLE_BUCKET
           amount: 1
         '2':
           type: NONE
@@ -10067,6 +10447,46 @@ MUSIC_DISC_PRODUCER:
         '1':
           type: VANILLA
           id: MUSIC_DISC_OTHERSIDE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: DISC_FRAGMENT_5
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_5
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHERRY_SAPLING
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_RELIC
           amount: 1
         '2':
           type: NONE
@@ -15147,8 +15567,8 @@ HAIMAN_CAVE_MACHINE:
       id: ELECTRIC_MOTOR
       amount: 1
     '2':
-      type: VANILLA
-      id: AMETHYST_BLOCK
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
       amount: 1
     '3':
       type: SLIMEFUN
@@ -15171,8 +15591,8 @@ HAIMAN_CAVE_MACHINE:
       id: ADVANCED_CIRCUIT_BOARD
       amount: 1
     '8':
-      type: VANILLA
-      id: DRIPSTONE_BLOCK
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
       amount: 1
     '9':
       type: SLIMEFUN
@@ -26158,10 +26578,10 @@ SHITOUGONGCHANG:
           id: GOLD_4K
           amount: 64
 SAPLING_INTEGRATED_MACHINE:
-  category: slime_customizer_yitihua
-  machine-name: '&a&l树苗一体机'
+  category: slime_customizer_farm
+  machine-name: '&a&l树苗转化机'
   machine-lore:
-  - '&f种树苗实现碳中和'
+  - '&f种树实现碳中和'
   block-type: SKULLc2847cd5717e5f5a64e1ba9cb481dc9e22c78ca23f8516d553f55412fa113e0
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -26207,31 +26627,11 @@ SAPLING_INTEGRATED_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 20
+      speed-in-seconds: 1
       input:
-        '1':
-          type: VANILLA
-          id: OAK_LEAVES
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
         '1':
           type: VANILLA
           id: OAK_SAPLING
-          amount: 8
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '2':
-      speed-in-seconds: 20
-      input:
-        '1':
-          type: VANILLA
-          id: SPRUCE_LEAVES
           amount: 1
         '2':
           type: NONE
@@ -26241,17 +26641,17 @@ SAPLING_INTEGRATED_MACHINE:
         '1':
           type: VANILLA
           id: SPRUCE_SAPLING
-          amount: 2
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
-    '3':
-      speed-in-seconds: 20
+    '2':
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
-          id: BIRCH_LEAVES
+          id: SPRUCE_SAPLING
           amount: 1
         '2':
           type: NONE
@@ -26261,17 +26661,17 @@ SAPLING_INTEGRATED_MACHINE:
         '1':
           type: VANILLA
           id: BIRCH_SAPLING
-          amount: 2
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
-    '4':
-      speed-in-seconds: 20
+    '3':
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
-          id: JUNGLE_LEAVES
+          id: BIRCH_SAPLING
           amount: 1
         '2':
           type: NONE
@@ -26281,17 +26681,17 @@ SAPLING_INTEGRATED_MACHINE:
         '1':
           type: VANILLA
           id: JUNGLE_SAPLING
-          amount: 2
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
-    '5':
-      speed-in-seconds: 20
+    '4':
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
-          id: ACACIA_LEAVES
+          id: JUNGLE_SAPLING
           amount: 1
         '2':
           type: NONE
@@ -26301,17 +26701,17 @@ SAPLING_INTEGRATED_MACHINE:
         '1':
           type: VANILLA
           id: ACACIA_SAPLING
-          amount: 2
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
-    '6':
-      speed-in-seconds: 20
+    '5':
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
-          id: DARK_OAK_LEAVES
+          id: ACACIA_SAPLING
           amount: 1
         '2':
           type: NONE
@@ -26321,7 +26721,107 @@ SAPLING_INTEGRATED_MACHINE:
         '1':
           type: VANILLA
           id: DARK_OAK_SAPLING
-          amount: 2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: DARK_OAK_SAPLING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHERRY_SAPLING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHERRY_SAPLING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MANGROVE_PROPAGULE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MANGROVE_PROPAGULE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OAK_SAPLING
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -28631,6 +29131,1858 @@ LIZI_ZENGSHENG:
         '1':
           type: SLIMEFUN
           id: QUIRP_RIGHT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# 1.19
+WAMING_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&e&l蛙明机'
+  machine-lore:
+  - '&7呱~~呱~~'
+  block-type: SKULL27dbd21251173df9e848b992c93064238238a2a1ea0f74d08b5c7e2242f790e5
+  progress-bar-item: WOODEN_AXE
+  stats:
+    energy-consumption: 68
+    energy-buffer: 680
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OCHRE_FROGLIGHT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PEARLESCENT_FROGLIGHT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: VERDANT_FROGLIGHT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+DANZH_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&c&l转蛋机'
+  machine-lore:
+  - '&7猜猜看这是什么蛋？'
+  block-type: SKULL58b30c1319eea75bae07613047bfedac17ff9b90bbf05c2801e7c2e47b0dfd1d
+  progress-bar-item: EGG
+  stats:
+    energy-consumption: 160
+    energy-buffer: 1600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: VANILLA
+      id: VERDANT_FROGLIGHT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: VANILLA
+      id: PEARLESCENT_FROGLIGHT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: TURTLE_EGG
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SNIFFER_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: SNIFFER_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FROGSPAWN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: FROGSPAWN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SBYQH_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&f&l深板岩强化机'
+  machine-lore:
+  - '&7让深板岩更硬更强！'
+  block-type: SKULLa49821c89947166e92bc073f8b02927c6ea99f2e749d87fc8de3b3aa9f7b524d
+  progress-bar-item: DEEPSLATE
+  stats:
+    energy-consumption: 28000
+    energy-buffer: 280000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: CREEPER_COAL_HEART
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: CREEPER_COAL_HEART
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 500
+      input:
+        '1':
+          type: VANILLA
+          id: DEEPSLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REINFORCED_DEEPSLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+YOUNI_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&8&l幽匿转换机'
+  machine-lore:
+  - '&7遁入黑暗吧！'
+  block-type: SKULLc8e22255d38c6da1196bf7c5e3f81d4abf56383cbec6aa5c8e4e919f92a0f3f3
+  progress-bar-item: SCULK
+  stats:
+    energy-consumption: 280
+    energy-buffer: 2800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DIRT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_DYE
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_CATALYST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: SCULK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_SENSOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: VANILLA
+          id: SCULK_SENSOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CALIBRATED_SCULK_SENSOR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_SHRIEKER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 8
+      input:
+        '1':
+          type: VANILLA
+          id: OAK_LEAVES
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_VEIN
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HUIXIANG_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&8&l回响构造机'
+  machine-lore:
+  - '&7回响式刻印'
+  block-type: SKULL4322d1d2cbf82dd0b2012cda730c95cddd2e1229eaa621a5a49b174301aea723
+  progress-bar-item: ECHO_SHARD
+  stats:
+    energy-consumption: 500
+    energy-buffer: 5000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: AMETHYST_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ECHO_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ECHO_SHARD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DISC_FRAGMENT_5
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: VANILLA
+          id: COMPASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RECOVERY_COMPASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+SHANYANGJIAO_MACHINE:
+  category: slime_customizer_19
+  machine-name: '&6&l山羊角刻录机'
+  machine-lore:
+  - '&7可刻录多种号角声'
+  block-type: SKULL22d023d1c3fca0a0d64695e70b112cfa580072bbec072aaca0bcee5d131b70e3
+  progress-bar-item: GOAT_HORN
+  stats:
+    energy-consumption: 560
+    energy-buffer: 5600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CREEPER_COAL_HEART
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: LAPOTRON_CRYSTAL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_1
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: PACKED_ICE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_2
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_3
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: COAL_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_4
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: COPPER_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_5
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: EMERALD_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_6
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: SPRUCE_LOG
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_7
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: VANILLA
+          id: DARK_OAK_LOG
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SYJ_8
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# 1.20
+SGJ_MACHINE:
+  category: slime_customizer_20
+  machine-name: '&c&l时光机'
+  machine-lore:
+  - '&7你说可以用它来穿越时空吗？'
+  block-type: SKULLad3bd0534027b540aea5ad3a315dd9c722a9d7abbc2769b68f77b2d38878815
+  progress-bar-item: CLOCK
+  stats:
+    energy-consumption: 1000
+    energy-buffer: 50000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: SOLAR_PANEL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: BUCKET_OF_FUEL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: BEETROOT_SEEDS
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PITCHER_POD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PITCHER_CROP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: PUMPKIN_SEEDS
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PITCHER_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+KYDJQ_MACHINE:
+  category: slime_customizer_20
+  machine-name: '&b&l可疑的机器'
+  machine-lore:
+  - '&7这真的太可疑了'
+  block-type: SKULL32427d026ee8e83f74422772bad0aae44a16eece708901fc206a51f4720f71ef
+  progress-bar-item: WOODEN_SHOVEL
+  stats:
+    energy-consumption: 800
+    energy-buffer: 8000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: VANILLA
+      id: SANDSTONE
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HOOK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GPS_TRANSMITTER_2
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HOOK
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: BUCKET_OF_FUEL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: BUCKET_OF_FUEL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SAND
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUSPICIOUS_SAND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: GRAVEL
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUSPICIOUS_GRAVEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+MBYK_MACHINE:
+  category: slime_customizer_20
+  machine-name: '&b&l模板刻印机'
+  machine-lore:
+  - '&7用来雕刻锻造模版'
+  block-type: SKULLe1fd768cb0a95e56f30e61a44496efab37b469bfbc59f0992d7885756fda4ff2
+  progress-bar-item: DIAMOND_SHOVEL
+  stats:
+    energy-consumption: 900
+    energy-buffer: 9000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: VANILLA
+      id: NETHERITE_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GPS_TRANSMITTER_3
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFUSED_HOPPER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFUSED_HOPPER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERITE_INGOT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: HEART_OF_THE_SEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SANDSTONE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: END_STONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: TERRACOTTA
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_TERRACOTTA
+          amount: 22
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BLACKSTONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: MUD
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CHISELED_DEEPSLATE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: POLISHED_DEEPSLATE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_PILLAR
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COBBLED_DEEPSLATE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICKS
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: GRANITE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: MOSSY_COBBLESTONE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+TPKY_MACHINE:
+  category: slime_customizer_20
+  machine-name: '&b&l陶片刻印机'
+  machine-lore:
+  - '&7用来雕刻陶片'
+  block-type: SKULL5eb691cd1d78d9c9553446aa988e082db1d4524d27362349eb1c6a96c4afd954
+  progress-bar-item: BRUSH
+  stats:
+    energy-consumption: 860
+    energy-buffer: 8600
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: VANILLA
+      id: BRUSH
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: GPS_TRANSMITTER_3
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: INFUSED_HOPPER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: INFUSED_HOPPER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ANGLER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BOW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ARCHER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SKELETON_SKULL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ARMS_UP_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: STONE_SWORD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLADE_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WATER_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BREWER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FLINT_AND_STEEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BURN_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ZOMBIE_HEAD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DANGER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SPYGLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EXPLORER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: AMETHYST_SHARD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FRIEND_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WHEAT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HEART_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COOKIE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HEARTBREAK_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HOWL_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MINER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: DIRT
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MOURNER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PLENTY_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: EMERALD
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRIZE_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: HAY_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHEAF_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: OAK_SAPLING
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHELTER_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PLAYER_HEAD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SKULL_POTTERY_SHERD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER_SEEDS
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SNORT_POTTERY_SHERD
           amount: 1
         '2':
           type: NONE

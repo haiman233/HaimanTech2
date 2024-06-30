@@ -56,8 +56,18 @@ slime_customizer_farm:
 slime_customizer_new:
   type: sub
   parent: "haimantech"
-  category-name: "&6&l海曼科技院 &7- &8&l1.17新式机器"
+  category-name: "&6&l海曼科技院 &7- &8&l1.17版机器"
   category-item: SKULL5c41ec03251a85ed3650aac38d7dcdd9a1af413e8c5b7537d540828208f4bb63
+slime_customizer_19:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &e&l1.19版机器"
+  category-item: SKULL4c697d2c9be992f04809b07a8096e69d089dc0908846e354fafc7729c71f34d8
+slime_customizer_20:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &6&l1.20版机器"
+  category-item: SKULL3e7889a0d3ef9df1ef6e1956bcee825fa183fd672869275c88eb385391db554
 slime_customizer_xingji:
   type: sub
   parent: "haimantech"
