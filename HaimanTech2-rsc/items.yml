@@ -20,7 +20,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
     - '&f当前海曼科技院版本：'
-    - '&bRelease-1.0.3'
+    - '&bRelease-1.1'
     - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -1274,6 +1274,129 @@ HM_SHOUNADAI:
     - '&7该物品需要在海曼工作台中制作'
     material_type: mc
     material: BUNDLE
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+HM_QINGWALUAN:
+  lateInit: false
+  item_group: slime_customizer_yuanban
+  item:
+    name: '&f&l青蛙卵'
+    lore:
+    - '&7该物品需要在转蛋机中制作'
+    material_type: mc
+    material: FROGSPAWN
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+HM_QHSBY:
+  lateInit: false
+  item_group: slime_customizer_yuanban
+  item:
+    name: '&f&l强化深板岩'
+    lore:
+    - '&7该物品需要在深板岩强化机中制作'
+    material_type: mc
+    material: REINFORCED_DEEPSLATE
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZHANWEIFU
+      amount: 1
+HM_KYDFK:
+  lateInit: false
+  item_group: slime_customizer_yuanban
+  item:
+    name: '&f&l可疑的沙子/沙砾'
+    lore:
+    - '&7该物品需要在可疑的机器中制作'
+    material_type: mc
+    material: SUSPICIOUS_SAND
     amount: 1
   placeable: false
   recipe_type: 'NULL'
