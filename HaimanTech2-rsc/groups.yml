@@ -19,7 +19,7 @@ sakurafun_recipe:
   type: sub
   item:
     material: BEDROCK
-    name: '&6&m&l海曼科技院&7-&6&m&l配方'
+    name: '&6&m&l海曼科技院 &7&m- &6&m&l配方'
   parent: haimantech
 slime_customizer_zuozhe:
   lateInit: false
@@ -108,6 +108,14 @@ slime_customizer_20:
     material_type: skull_hash
     material: 3e7889a0d3ef9df1ef6e1956bcee825fa183fd672869275c88eb385391db554
     name: '&6&l海曼科技院 &7- &6&l1.20版机器'
+  parent: haimantech
+haiman_egg:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
+    name: '&6&l海曼科技院 &7- &a&l生物学'
   parent: haimantech
 slime_customizer_xingji:
   lateInit: false
