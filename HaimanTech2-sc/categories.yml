@@ -11,7 +11,7 @@ slime_customizer_info:
 sakurafun_recipe:
   type: sub
   parent: "haimantech"
-  category-name: "&6&m&l海曼科技院&7-&6&m&l配方"
+  category-name: "&6&m&l海曼科技院 &7&m- &6&m&l配方"
   category-item: BEDROCK
 slime_customizer_zuozhe:
   type: sub
@@ -68,6 +68,11 @@ slime_customizer_20:
   parent: "haimantech"
   category-name: "&6&l海曼科技院 &7- &6&l1.20版机器"
   category-item: SKULL3e7889a0d3ef9df1ef6e1956bcee825fa183fd672869275c88eb385391db554
+haiman_egg:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &a&l生物学"
+  category-item: SKULL64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
 slime_customizer_xingji:
   type: sub
   parent: "haimantech"
