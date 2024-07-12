@@ -20,7 +20,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
     - '&f当前海曼科技院版本：'
-    - '&bRelease-1.1'
+    - '&bRelease-1.2'
     - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -17777,4 +17777,445 @@ HM_HONGMENG_XINPIAN:
     9:
       material_type: slimefun
       material: HAIMAN_INGOT
+      amount: 1
+HM_HJZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&b&l环境组件'
+    lore:
+    - '&7由各种环境符文组成'
+    material_type: skull_hash
+    material: feddaf8a6b61aaa788eecb36d9df0ecea623839a6d3643127402053dbc4a4f08
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANCIENT_RUNE_AIR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ANCIENT_RUNE_VILLAGERS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANCIENT_RUNE_EARTH
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENDER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_RUNE_WATER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ANCIENT_RUNE_LIGHTNING
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANCIENT_RUNE_SOULBOUND
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENCHANTMENT
+      amount: 1
+HM_YYZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&e&l音乐组件'
+    lore:
+    - '&7由各种唱片组成'
+    material_type: skull_hash
+    material: 4c867a5723d2e0f24a7dc4a9c767a4658d12f9075d815f51a0e7f2ea75bde434
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: MUSIC_DISC_RELIC
+      amount: 1
+    2:
+      material_type: mc
+      material: MUSIC_DISC_OTHERSIDE
+      amount: 1
+    3:
+      material_type: mc
+      material: MUSIC_DISC_5
+      amount: 1
+    4:
+      material_type: mc
+      material: MUSIC_DISC_WAIT
+      amount: 1
+    5:
+      material_type: mc
+      material: MUSIC_DISC_PIGSTEP
+      amount: 1
+    6:
+      material_type: mc
+      material: MUSIC_DISC_WARD
+      amount: 1
+    7:
+      material_type: mc
+      material: MUSIC_DISC_MALL
+      amount: 1
+    8:
+      material_type: mc
+      material: MUSIC_DISC_13
+      amount: 1
+    9:
+      material_type: mc
+      material: MUSIC_DISC_MELLOHI
+      amount: 1
+HM_SWZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&a&l生物组件'
+    lore:
+    - '&7由各种生物掉落物组成'
+    material_type: skull_hash
+    material: 647e2e5d55b6d04943519bed2557c6329e33b60b909dee8923cd88b115210
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: RABBIT_HIDE
+      amount: 1
+    2:
+      material_type: mc
+      material: GHAST_TEAR
+      amount: 1
+    3:
+      material_type: mc
+      material: BAMBOO
+      amount: 1
+    4:
+      material_type: mc
+      material: SEAGRASS
+      amount: 1
+    5:
+      material_type: mc
+      material: RABBIT_FOOT
+      amount: 1
+    6:
+      material_type: mc
+      material: SPIDER_EYE
+      amount: 1
+    7:
+      material_type: mc
+      material: WET_SPONGE
+      amount: 1
+    8:
+      material_type: mc
+      material: TOTEM_OF_UNDYING
+      amount: 1
+    9:
+      material_type: mc
+      material: MAGMA_CREAM
+      amount: 1
+HM_ZDZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&4&l战斗组件'
+    lore:
+    - '&7由各种装备组成'
+    material_type: skull_hash
+    material: c928c4bd94ab1b6d93d100398586e4a6c35a7d7db9414dfdfb2d859ef55c8d64
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: GOLDEN_HORSE_ARMOR
+      amount: 1
+    2:
+      material_type: mc
+      material: SADDLE
+      amount: 1
+    3:
+      material_type: mc
+      material: CHAINMAIL_LEGGINGS
+      amount: 1
+    4:
+      material_type: mc
+      material: TURTLE_HELMET
+      amount: 1
+    5:
+      material_type: mc
+      material: TRIDENT
+      amount: 1
+    6:
+      material_type: mc
+      material: ELYTRA
+      amount: 1
+    7:
+      material_type: mc
+      material: SHIELD
+      amount: 1
+    8:
+      material_type: mc
+      material: CROSSBOW
+      amount: 1
+    9:
+      material_type: mc
+      material: NETHERITE_SWORD
+      amount: 1
+HM_FKZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&d&l方块组件'
+    lore:
+    - '&7由各种方块组成'
+    material_type: skull_hash
+    material: 3cc787d2e1bd9b8f275f20f8f69ec1d1f08cffb670fe3ad8d94b9d010deb0c2a
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: DEEPSLATE_COPPER_ORE
+      amount: 1
+    2:
+      material_type: mc
+      material: PETRIFIED_OAK_SLAB
+      amount: 1
+    3:
+      material_type: mc
+      material: DEAD_FIRE_CORAL_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: SCULK_SHRIEKER
+      amount: 1
+    5:
+      material_type: mc
+      material: DARK_PRISMARINE_SLAB
+      amount: 1
+    6:
+      material_type: mc
+      material: WAXED_WEATHERED_CUT_COPPER
+      amount: 1
+    7:
+      material_type: mc
+      material: CYAN_CANDLE
+      amount: 1
+    8:
+      material_type: mc
+      material: SMOOTH_BASALT
+      amount: 1
+    9:
+      material_type: mc
+      material: MANGROVE_ROOTS
+      amount: 1
+HM_HSZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&4&l红石组件'
+    lore:
+    - '&7由各种红石元件组成'
+    material_type: skull_hash
+    material: 51bc0d443543cc18306b410ff7ac2e063044092465e240bc75de424a3989bb87
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: LECTERN
+      amount: 1
+    2:
+      material_type: mc
+      material: CALIBRATED_SCULK_SENSOR
+      amount: 1
+    3:
+      material_type: mc
+      material: DAYLIGHT_DETECTOR
+      amount: 1
+    4:
+      material_type: mc
+      material: ACTIVATOR_RAIL
+      amount: 1
+    5:
+      material_type: mc
+      material: CHISELED_BOOKSHELF
+      amount: 1
+    6:
+      material_type: mc
+      material: TARGET
+      amount: 1
+    7:
+      material_type: mc
+      material: REPEATER
+      amount: 1
+    8:
+      material_type: mc
+      material: OBSERVER
+      amount: 1
+    9:
+      material_type: mc
+      material: COMPARATOR
+      amount: 1
+HM_YSZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&6&l运输组件'
+    lore:
+    - '&7由运输工具组成'
+    material_type: skull_hash
+    material: fe51ed1977be1cfb56929e81d272acb86405de528f7a6a242ff424ad6fef4ef1
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: BAMBOO_CHEST_RAFT
+      amount: 1
+    2:
+      material_type: mc
+      material: FURNACE_MINECART
+      amount: 1
+    3:
+      material_type: mc
+      material: WARPED_FUNGUS_ON_A_STICK
+      amount: 1
+    4:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    5:
+      material_type: mc
+      material: SPYGLASS
+      amount: 1
+    6:
+      material_type: mc
+      material: TNT_MINECART
+      amount: 1
+    7:
+      material_type: mc
+      material: RECOVERY_COMPASS
+      amount: 1
+    8:
+      material_type: mc
+      material: FIREWORK_ROCKET
+      amount: 1
+    9:
+      material_type: mc
+      material: CHERRY_CHEST_BOAT
+      amount: 1
+HM_ZWZJ:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&a&l植物组件'
+    lore:
+    - '&7由各种植物组成'
+    material_type: skull_hash
+    material: c3ea86015b7416aacf1b300db5fbdcd59f128a800f9f9c44be62c11921579811
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: mc
+      material: PITCHER_PLANT
+      amount: 1
+    2:
+      material_type: mc
+      material: PINK_PETALS
+      amount: 1
+    3:
+      material_type: mc
+      material: TORCHFLOWER
+      amount: 1
+    4:
+      material_type: mc
+      material: SPORE_BLOSSOM
+      amount: 1
+    5:
+      material_type: mc
+      material: BIG_DRIPLEAF
+      amount: 1
+    6:
+      material_type: mc
+      material: WARPED_ROOTS
+      amount: 1
+    7:
+      material_type: mc
+      material: CRIMSON_ROOTS
+      amount: 1
+    8:
+      material_type: mc
+      material: GLOW_LICHEN
+      amount: 1
+    9:
+      material_type: mc
+      material: SEA_PICKLE
+      amount: 1
+HM_DDXP:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&5&lMinecraft迭代芯片'
+    lore:
+    - '&7用于更迭部分机器的版本'
+    material_type: skull_hash
+    material: 946120499b324639cd9a17799ea1dfff373e79afe1f0d8b5328cf47896c4775
+    amount: 1
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: HM_HJZJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_YYZJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HM_SWZJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HM_ZDZJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HM_SHENQUAN_HEXIN
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HM_FKZJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HM_HSZJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HM_YSZJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HM_ZWZJ
       amount: 1

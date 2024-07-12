@@ -1450,3 +1450,43 @@ ydeljq:
     - KYDJQ_MACHINE
     - MBYK_MACHINE
     - TPKY_MACHINE
+sgdhx:
+  id: 110101065
+  name: "温室材料基础"
+  cost: 120
+  items:
+    - HM_HJZJ
+    - HM_YYZJ
+    - HM_SWZJ
+    - HM_ZDZJ
+    - HM_FKZJ
+    - HM_HSZJ
+    - HM_YSZJ
+    - HM_ZWZJ
+    - HM_DDXP
+sgdpys:
+  id: 110101066
+  name: "生物培育箱"
+  cost: 320
+  items:
+    - SWPY_1
+    - SWPY_2
+    - SWPY_3
+    - SWPY_4
+    - SWPY_5
+    - SWPY_6
+    - SWPY_7
+    - SWPY_8
+    - SWPY_9
+    - SWPY_10
+    - SWPY_11
+    - SWPY_12
+    - SWPY_13
+    - SWPY_14
+    - SWPY_15
+bosspys:
+  id: 110101067
+  name: "你确定要解锁这个？"
+  cost: 3200
+  items:
+    - SWPY_BOSS

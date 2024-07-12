@@ -55,7 +55,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bRelease-1.1"
+    - "&bRelease-1.2"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -19018,4 +19018,428 @@ HM_HONGMENG_XINPIAN:
     9:
       type: SLIMEFUN
       id: HAIMAN_INGOT
+      amount: 1
+# 刷怪蛋
+HM_HJZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&b&l环境组件"
+  item-lore:
+  - "&7由各种环境符文组成"
+  item-id: SKULLfeddaf8a6b61aaa788eecb36d9df0ecea623839a6d3643127402053dbc4a4f08
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_AIR
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_VILLAGERS
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_EARTH
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_FIRE
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_ENDER
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_WATER
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_LIGHTNING
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_SOULBOUND
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ANCIENT_RUNE_ENCHANTMENT
+      amount: 1
+HM_YYZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&e&l音乐组件"
+  item-lore:
+  - "&7由各种唱片组成"
+  item-id: SKULL4c867a5723d2e0f24a7dc4a9c767a4658d12f9075d815f51a0e7f2ea75bde434
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: MUSIC_DISC_RELIC
+      amount: 1
+    2:
+      type: VANILLA
+      id: MUSIC_DISC_OTHERSIDE
+      amount: 1
+    3:
+      type: VANILLA
+      id: MUSIC_DISC_5
+      amount: 1
+    4:
+      type: VANILLA
+      id: MUSIC_DISC_WAIT
+      amount: 1
+    5:
+      type: VANILLA
+      id: MUSIC_DISC_PIGSTEP
+      amount: 1
+    6:
+      type: VANILLA
+      id: MUSIC_DISC_WARD
+      amount: 1
+    7:
+      type: VANILLA
+      id: MUSIC_DISC_MALL
+      amount: 1
+    8:
+      type: VANILLA
+      id: MUSIC_DISC_13
+      amount: 1
+    9:
+      type: VANILLA
+      id: MUSIC_DISC_MELLOHI
+      amount: 1
+HM_SWZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&a&l生物组件"
+  item-lore:
+  - "&7由各种生物掉落物组成"
+  item-id: SKULL647e2e5d55b6d04943519bed2557c6329e33b60b909dee8923cd88b115210
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: RABBIT_HIDE
+      amount: 1
+    2:
+      type: VANILLA
+      id: GHAST_TEAR
+      amount: 1
+    3:
+      type: VANILLA
+      id: BAMBOO
+      amount: 1
+    4:
+      type: VANILLA
+      id: SEAGRASS
+      amount: 1
+    5:
+      type: VANILLA
+      id: RABBIT_FOOT
+      amount: 1
+    6:
+      type: VANILLA
+      id: SPIDER_EYE
+      amount: 1
+    7:
+      type: VANILLA
+      id: WET_SPONGE
+      amount: 1
+    8:
+      type: VANILLA
+      id: TOTEM_OF_UNDYING
+      amount: 1
+    9:
+      type: VANILLA
+      id: MAGMA_CREAM
+      amount: 1
+HM_ZDZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&4&l战斗组件"
+  item-lore:
+  - "&7由各种装备组成"
+  item-id: SKULLc928c4bd94ab1b6d93d100398586e4a6c35a7d7db9414dfdfb2d859ef55c8d64
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: GOLDEN_HORSE_ARMOR
+      amount: 1
+    2:
+      type: VANILLA
+      id: SADDLE
+      amount: 1
+    3:
+      type: VANILLA
+      id: CHAINMAIL_LEGGINGS
+      amount: 1
+    4:
+      type: VANILLA
+      id: TURTLE_HELMET
+      amount: 1
+    5:
+      type: VANILLA
+      id: TRIDENT
+      amount: 1
+    6:
+      type: VANILLA
+      id: ELYTRA
+      amount: 1
+    7:
+      type: VANILLA
+      id: SHIELD
+      amount: 1
+    8:
+      type: VANILLA
+      id: CROSSBOW
+      amount: 1
+    9:
+      type: VANILLA
+      id: NETHERITE_SWORD
+      amount: 1
+HM_FKZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&d&l方块组件"
+  item-lore:
+  - "&7由各种方块组成"
+  item-id: SKULL3cc787d2e1bd9b8f275f20f8f69ec1d1f08cffb670fe3ad8d94b9d010deb0c2a
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: DEEPSLATE_COPPER_ORE
+      amount: 1
+    2:
+      type: VANILLA
+      id: PETRIFIED_OAK_SLAB
+      amount: 1
+    3:
+      type: VANILLA
+      id: DEAD_FIRE_CORAL_BLOCK
+      amount: 1
+    4:
+      type: VANILLA
+      id: SCULK_SHRIEKER
+      amount: 1
+    5:
+      type: VANILLA
+      id: DARK_PRISMARINE_SLAB
+      amount: 1
+    6:
+      type: VANILLA
+      id: WAXED_WEATHERED_CUT_COPPER
+      amount: 1
+    7:
+      type: VANILLA
+      id: CYAN_CANDLE
+      amount: 1
+    8:
+      type: VANILLA
+      id: SMOOTH_BASALT
+      amount: 1
+    9:
+      type: VANILLA
+      id: MANGROVE_ROOTS
+      amount: 1
+HM_HSZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&4&l红石组件"
+  item-lore:
+  - "&7由各种红石元件组成"
+  item-id: SKULL51bc0d443543cc18306b410ff7ac2e063044092465e240bc75de424a3989bb87
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: LECTERN
+      amount: 1
+    2:
+      type: VANILLA
+      id: CALIBRATED_SCULK_SENSOR
+      amount: 1
+    3:
+      type: VANILLA
+      id: DAYLIGHT_DETECTOR
+      amount: 1
+    4:
+      type: VANILLA
+      id: ACTIVATOR_RAIL
+      amount: 1
+    5:
+      type: VANILLA
+      id: CHISELED_BOOKSHELF
+      amount: 1
+    6:
+      type: VANILLA
+      id: TARGET
+      amount: 1
+    7:
+      type: VANILLA
+      id: REPEATER
+      amount: 1
+    8:
+      type: VANILLA
+      id: OBSERVER
+      amount: 1
+    9:
+      type: VANILLA
+      id: COMPARATOR
+      amount: 1
+HM_YSZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&6&l运输组件"
+  item-lore:
+  - "&7由运输工具组成"
+  item-id: SKULLfe51ed1977be1cfb56929e81d272acb86405de528f7a6a242ff424ad6fef4ef1
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: BAMBOO_CHEST_RAFT
+      amount: 1
+    2:
+      type: VANILLA
+      id: FURNACE_MINECART
+      amount: 1
+    3:
+      type: VANILLA
+      id: WARPED_FUNGUS_ON_A_STICK
+      amount: 1
+    4:
+      type: VANILLA
+      id: CLOCK
+      amount: 1
+    5:
+      type: VANILLA
+      id: SPYGLASS
+      amount: 1
+    6:
+      type: VANILLA
+      id: TNT_MINECART
+      amount: 1
+    7:
+      type: VANILLA
+      id: RECOVERY_COMPASS
+      amount: 1
+    8:
+      type: VANILLA
+      id: FIREWORK_ROCKET
+      amount: 1
+    9:
+      type: VANILLA
+      id: CHERRY_CHEST_BOAT
+      amount: 1
+HM_ZWZJ:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&a&l植物组件"
+  item-lore:
+  - "&7由各种植物组成"
+  item-id: SKULLc3ea86015b7416aacf1b300db5fbdcd59f128a800f9f9c44be62c11921579811
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: PITCHER_PLANT
+      amount: 1
+    2:
+      type: VANILLA
+      id: PINK_PETALS
+      amount: 1
+    3:
+      type: VANILLA
+      id: TORCHFLOWER
+      amount: 1
+    4:
+      type: VANILLA
+      id: SPORE_BLOSSOM
+      amount: 1
+    5:
+      type: VANILLA
+      id: BIG_DRIPLEAF
+      amount: 1
+    6:
+      type: VANILLA
+      id: WARPED_ROOTS
+      amount: 1
+    7:
+      type: VANILLA
+      id: CRIMSON_ROOTS
+      amount: 1
+    8:
+      type: VANILLA
+      id: GLOW_LICHEN
+      amount: 1
+    9:
+      type: VANILLA
+      id: SEA_PICKLE
+      amount: 1
+HM_DDXP:
+  category: haiman_egg
+  item-type: CUSTOM
+  item-name: "&5&lMinecraft迭代芯片"
+  item-lore:
+  - "&7用于更迭部分机器的版本"
+  item-id: SKULL946120499b324639cd9a17799ea1dfff373e79afe1f0d8b5328cf47896c4775
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: HM_HJZJ
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HM_YYZJ
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: HM_SWZJ
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: HM_ZDZJ
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HM_SHENQUAN_HEXIN
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: HM_FKZJ
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: HM_HSZJ
+      amount: 1
+    8:
+      type: SLIMEFUN
+      id: HM_YSZJ
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: HM_ZWZJ
       amount: 1

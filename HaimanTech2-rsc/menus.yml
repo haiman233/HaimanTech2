@@ -2208,7 +2208,7 @@ MUSIC_DISC_PRODUCER:
       material: gray_stained_glass_pane
       name: '&a'
 HAIMAN_HORSE_ARMOR_PRODUCER:
-  title: '&6&l马铠打造机'
+  title: '&6&l马具打造机'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -6720,7 +6720,7 @@ YOUNI_MACHINE:
       material: gray_stained_glass_pane
       name: '&a'
 HUIXIANG_MACHINE:
-  title: '&8&l回响构造机'
+  title: '&b&l回响构造机'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -6908,7 +6908,7 @@ KYDJQ_MACHINE:
       material: gray_stained_glass_pane
       name: '&a'
 MBYK_MACHINE:
-  title: '&b&l模板刻印机'
+  title: '&a&l模板刻印机'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -6955,7 +6955,7 @@ MBYK_MACHINE:
       material: gray_stained_glass_pane
       name: '&a'
 TPKY_MACHINE:
-  title: '&b&l陶片刻印机'
+  title: '&6&l陶片刻印机'
   slots:
     3:
       material: gray_stained_glass_pane
@@ -6989,6 +6989,758 @@ TPKY_MACHINE:
       progressbar: true
       progressBarItem:
         material: BRUSH
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_1:
+  title: '&d&l[ver:Classic]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_2:
+  title: '&d&l[ver:Indev-Alpha]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_3:
+  title: '&d&l[ver:BETA]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_4:
+  title: '&d&l[ver:1.0]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_5:
+  title: '&d&l[ver:1.1-1.3]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_6:
+  title: '&d&l[ver:1.4-1.5]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_7:
+  title: '&d&l[ver:1.6-1.7]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_8:
+  title: '&d&l[ver:1.8-1.9]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_9:
+  title: '&d&l[ver:1.10]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_10:
+  title: '&d&l[ver:1.11-1.12]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_11:
+  title: '&d&l[ver:1.13]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_12:
+  title: '&d&l[ver:1.14]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_13:
+  title: '&d&l[ver:1.15-1.16]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_14:
+  title: '&d&l[ver:1.17-1.18]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_15:
+  title: '&d&l[ver:1.19-1.20]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: WHITE_WOOL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
+SWPY_BOSS:
+  title: '&d&l[ver:&4&lBOSS&d&l]&6&lMC生物培育箱'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: BLACK_WOOL
     23:
       material: orange_stained_glass_pane
       name: '&a'
