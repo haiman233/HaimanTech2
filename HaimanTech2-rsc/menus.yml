@@ -7753,6 +7753,53 @@ SWPY_BOSS:
     49:
       material: gray_stained_glass_pane
       name: '&a'
+HM_HQKYJ:
+  title: '&4&l火漆刻印机'
+  slots:
+    3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      modelId: 88788
+      glow: true
+      lore:
+      - '&7左侧为输入槽'
+      - '&7右侧为输出槽'
+      - '&7此提示下方为非消耗型物品输入槽'
+      - '&7非消耗型物品输入槽也可作为普通的输入槽'
+    5:
+      material: gray_stained_glass_pane
+      name: '&a'
+    12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14:
+      material: gray_stained_glass_pane
+      name: '&a'
+    21:
+      material: blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    23:
+      material: orange_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    49:
+      material: gray_stained_glass_pane
+      name: '&a'
 HAIMAN_EXAMPLE_GENERATOR:
   title: '&b&l空岛发电机'
   slots:
