@@ -73,6 +73,11 @@ haiman_egg:
   parent: "haimantech"
   category-name: "&6&l海曼科技院 &7- &a&l生物学"
   category-item: SKULL64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
+haiman_muban:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &d&l火漆印刷"
+  category-item: SKULL42ee210e7c2727788afc27c0cc9699f52467aa513157be97d920c22a0e109be6
 slime_customizer_xingji:
   type: sub
   parent: "haimantech"
