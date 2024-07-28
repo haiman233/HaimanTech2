@@ -8889,7 +8889,7 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
   item:
     name: '&7&l解压机 &7- &eI'
     lore:
-    - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+    - '&7将方块解压'
     - '&b机器'
     - '&8⇨ &e⚡&7 10000 J 可存储'
     - '&8⇨ &e⚡&7 200 J/s'
@@ -8961,6 +8961,118 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
           material_type: slimefun
           material: GOLD_24K_BLOCK
           amount: 1
+    '3':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: QUARTZ_BLOCK
+          amount: 1
+    '4':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: BRICK
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: BRICKS
+          amount: 1
+    '5':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: END_STONE
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: END_STONE_BRICKS
+          amount: 1
+    '6':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PACKED_MUD
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: MUD_BRICKS
+          amount: 1
+    '7':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: NETHER_BRICKS
+          amount: 1
+    '8':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 2
+        2:
+          material_type: mc
+          material: NETHER_WART
+          amount: 2
+      input:
+        1:
+          material_type: mc
+          material: RED_NETHER_BRICKS
+          amount: 1
+    '9':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE
+          amount: 1
+    '10':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 9
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE_BRICKS
+          amount: 1
+    '11':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: POPPED_CHORUS_FRUIT
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_DECOMPRESSOR_MACHINE_2:
@@ -8969,7 +9081,7 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
   item:
     name: '&7&l解压机 &7- &eII'
     lore:
-    - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+    - '&7将方块解压'
     - '&b机器'
     - '&8⇨ &e⚡&7 12000 J 可存储'
     - '&8⇨ &e⚡&7 240 J/s'
@@ -9040,6 +9152,118 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
         1:
           material_type: slimefun
           material: GOLD_24K_BLOCK
+          amount: 1
+    '3':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: QUARTZ
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: QUARTZ_BLOCK
+          amount: 1
+    '4':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: BRICK
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: BRICKS
+          amount: 1
+    '5':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: END_STONE
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: END_STONE_BRICKS
+          amount: 1
+    '6':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PACKED_MUD
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: MUD_BRICKS
+          amount: 1
+    '7':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: NETHER_BRICKS
+          amount: 1
+    '8':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: NETHER_BRICK
+          amount: 4
+        2:
+          material_type: mc
+          material: NETHER_WART
+          amount: 4
+      input:
+        1:
+          material_type: mc
+          material: RED_NETHER_BRICKS
+          amount: 1
+    '9':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE
+          amount: 1
+    '10':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 12
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE_BRICKS
+          amount: 1
+    '11':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: POPPED_CHORUS_FRUIT
+          amount: 6
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -19288,6 +19512,18 @@ KUANGWUCUISHENGQI:
           material_type: slimefun
           material: HONGSHISHIZHONGZI
           amount: 1
+    '9':
+      seconds: 16
+      output:
+        1:
+          material_type: mc
+          material: COPPER_ORE
+          amount: 16
+      input:
+        1:
+          material_type: slimefun
+          material: TONGZHONGZI
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HEDIANZHAN_1:
@@ -20075,6 +20311,18 @@ DIYUKONGJIAN:
         1:
           material_type: mc
           material: CRYING_OBSIDIAN
+          amount: 1
+    '8':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: NETHER_WART
+          amount: 64
+      input:
+        1:
+          material_type: mc
+          material: NETHER_WART
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -20969,6 +21217,7 @@ DIAOYUJI:
     name: '&b&l虚空钓鱼机'
     lore:
     - '&e&l从时间银河中钓取 &k&l !'
+    - '&7须将钓竿放入非消耗型物品槽内'
     - '&b机器'
     - '&8⇨ &e⚡&7 2024 J 可存储'
     - '&8⇨ &e⚡&7 2048 J/s'
@@ -21028,6 +21277,10 @@ DIAOYUJI:
           material_type: slimefun
           material: HM_CAKE_BREAD
           amount: 1
+        2:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
     '2':
       seconds: 4
       output:
@@ -21040,6 +21293,10 @@ DIAOYUJI:
           material_type: mc
           material: POTATO
           amount: 4
+        2:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
     '3':
       seconds: 4
       output:
@@ -21052,6 +21309,10 @@ DIAOYUJI:
           material_type: mc
           material: CARROT
           amount: 4
+        2:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
     '4':
       seconds: 4
       output:
@@ -21064,6 +21325,10 @@ DIAOYUJI:
           material_type: mc
           material: BEETROOT
           amount: 4
+        2:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
     '5':
       seconds: 16
       output:
@@ -21073,9 +21338,9 @@ DIAOYUJI:
           amount: 4
       input:
         1:
-          material_type: slimefun
-          material: REINFORCED_STRAINER
-          amount: 1
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
         2:
           material_type: mc
           material: BONE
@@ -21091,10 +21356,26 @@ DIAOYUJI:
         1:
           material_type: mc
           material: FISHING_ROD
-          amount: 1
+          amount: 0
         2:
           material_type: mc
           material: DIAMOND
+          amount: 2
+    '7':
+      seconds: 4
+      output:
+        1:
+          material_type: mc
+          material: SPONGE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: FISHING_ROD
+          amount: 0
+        2:
+          material_type: mc
+          material: INK_SAC
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -21104,7 +21385,7 @@ WANNENGGONGCHANG:
   item:
     name: '&c&l万能工厂'
     lore:
-    - '&7生产各类石头'
+    - '&7生产各类方块'
     - '&b机器'
     - '&8⇨ &e⚡&7 13200 J 可存储'
     - '&8⇨ &e⚡&7 13600 J/s'
@@ -21153,127 +21434,127 @@ WANNENGGONGCHANG:
   energyPerCraft: 6800
   recipes:
     '1':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: STONE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: STONE
           amount: 4
     '2':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: DIORITE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: DIORITE
           amount: 4
     '3':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: GRANITE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: GRANITE
           amount: 4
     '4':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: ANDESITE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: ANDESITE
           amount: 4
     '5':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: SAND
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: SAND
           amount: 4
     '6':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: SMOOTH_STONE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: SMOOTH_STONE
           amount: 4
     '7':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: NETHERRACK
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: NETHERRACK
           amount: 4
     '8':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: BASALT
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: BASALT
           amount: 4
     '9':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: BLACKSTONE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: BLACKSTONE
           amount: 4
     '10':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: OBSIDIAN
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: OBSIDIAN
           amount: 4
     '11':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
@@ -21285,112 +21566,196 @@ WANNENGGONGCHANG:
           material: COBBLESTONE
           amount: 2
     '12':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: GRAVEL
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: GRAVEL
           amount: 4
     '13':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: RED_SAND
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: RED_SAND
           amount: 4
     '14':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: COBBLED_DEEPSLATE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: COBBLED_DEEPSLATE
           amount: 4
     '15':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: CALCITE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: CALCITE
           amount: 4
     '16':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: TUFF
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: TUFF
           amount: 4
     '17':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: PRISMARINE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: PRISMARINE
           amount: 4
     '18':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: END_STONE
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: END_STONE
           amount: 4
     '19':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: CLAY
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: CLAY
           amount: 4
     '20':
-      seconds: 1
+      seconds: 0
       output:
         1:
           material_type: mc
           material: GRASS_BLOCK
-          amount: 16
+          amount: 48
       input:
         1:
           material_type: mc
           material: GRASS_BLOCK
+          amount: 4
+    '21':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: SANDSTONE
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: SANDSTONE
+          amount: 4
+    '22':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: RED_SANDSTONE
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: RED_SANDSTONE
+          amount: 4
+    '23':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: DARK_PRISMARINE
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: DARK_PRISMARINE
+          amount: 4
+    '24':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: DEEPSLATE
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: DEEPSLATE
+          amount: 4
+    '25':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: QUARTZ_BLOCK
+          amount: 32
+      input:
+        1:
+          material_type: mc
+          material: QUARTZ_BLOCK
+          amount: 4
+    '26':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: BRICKS
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: BRICKS
+          amount: 4
+    '27':
+      seconds: 0
+      output:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
+          amount: 48
+      input:
+        1:
+          material_type: mc
+          material: PURPUR_BLOCK
           amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -32991,5 +33356,1200 @@ SWPY_BOSS:
           material_type: mc
           material: DRAGON_EGG
           amount: 64
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HM_HQKYJ:
+  lateInit: false
+  item_group: haiman_muban
+  item:
+    name: '&4&l火漆刻印机'
+    lore:
+    - '&7将原胚印刷成各式各样的粘液装备/工具'
+    - '&7使用时须要将火漆放入非消耗型物品槽内'
+    - '&7原胚指粘液装备/工具对应的原版物品材质'
+    - '&7例：吸血鬼之刀对应的原胚就是金剑'
+    - '&b机器'
+    - '&8⇨ &e⚡&7 48000 J 可存储'
+    - '&8⇨ &e⚡&7 9600 J/s'
+    material_type: skull_hash
+    material: 81345cfaccf33bf667c9fbb4888082f5b2ec6f263a9f108e259ebec3f41ce986
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HM_HUOQI
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HM_HUOQI
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    5:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HM_HUOQI
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HM_HUOQI
+      amount: 1
+  capacity: 48000
+  energyPerCraft: 4800
+  recipes:
+    '1':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BLADE_OF_VAMPIRES
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLDEN_SWORD
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XIXUEHUOQI
+          amount: 0
+    '2':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SWORD_OF_BEHEADING
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_SWORD
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_CHUJUEHUOQI
+          amount: 0
+    '3':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ICY_BOW
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BOW
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_BINGFENGHUOQI
+          amount: 0
+    '4':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: EXPLOSIVE_BOW
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BOW
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_BAOZHAHUOQI
+          amount: 0
+    '5':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: EXPLOSIVE_PICKAXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_BAOZHAHUOQI
+          amount: 0
+    '6':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: EXPLOSIVE_SHOVEL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_SHOVEL
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_BAOZHAHUOQI
+          amount: 0
+    '7':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SEISMIC_AXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_AXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_DIZHENHUOQI
+          amount: 0
+    '8':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GRANDMAS_WALKING_STICK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_NAINAIHUOQI
+          amount: 0
+    '9':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GRANDPAS_WALKING_STICK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: STICK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YEYEHUOQI
+          amount: 0
+    '10':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SMELTERS_PICKAXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_RONGLUHUOQI
+          amount: 0
+    '11':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: LUMBER_AXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_AXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_FAMUHUOQI
+          amount: 0
+    '12':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: PICKAXE_OF_CONTAINMENT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHUAGUAILONGHUOQI
+          amount: 0
+    '13':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: PICKAXE_OF_THE_SEEKER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XUNKUANGHUOQI
+          amount: 0
+    '14':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: PICKAXE_OF_VEIN_MINING
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_KUANGMAIHUOQI
+          amount: 0
+    '15':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: CLIMBING_PICK
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_PANYANHUOQI
+          amount: 0
+    '16':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: NIGHT_VISION_GOGGLES
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YESHIHUOQI
+          amount: 0
+    '17':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: PARACHUTE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_HUANJIANGHUOQI
+          amount: 0
+    '18':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: FARMER_SHOES
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_NONGFUHUOQI
+          amount: 0
+    '19':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ELYTRA_CAP
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_QIAOCHIHUOQI
+          amount: 0
+    '20':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BOOTS_OF_THE_STOMPER
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_JIANTAZHEHUOQI
+          amount: 0
+    '21':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ENDER_BACKPACK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SMALL_BACKPACK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MOYINGHUOQI
+          amount: 0
+    '22':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ENDER_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MOYINGHUOQI
+          amount: 0
+    '23':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ENDER_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MOYINGHUOQI
+          amount: 0
+    '24':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ENDER_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MOYINGHUOQI
+          amount: 0
+    '25':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: ENDER_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MOYINGHUOQI
+          amount: 0
+    '26':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '27':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '28':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '29':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '30':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_STEEL_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '31':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_STEEL_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '32':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_STEEL_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '33':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SLIME_STEEL_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SHILAIMUHUOQI
+          amount: 0
+    '34':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GLOWSTONE_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YINGSHIHUOQI
+          amount: 0
+    '35':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GLOWSTONE_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YINGSHIHUOQI
+          amount: 0
+    '36':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GLOWSTONE_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YINGSHIHUOQI
+          amount: 0
+    '37':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: GLOWSTONE_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_YINGSHIHUOQI
+          amount: 0
+    '38':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_CAIHONGHUOQI
+          amount: 0
+    '39':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_CAIHONGHUOQI
+          amount: 0
+    '40':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_CAIHONGHUOQI
+          amount: 0
+    '41':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: RAINBOW_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_CAIHONGHUOQI
+          amount: 0
+    '42':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BEE_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLDEN_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MIFENGHUOQI
+          amount: 0
+    '43':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOLAR_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: IRON_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_TAIYANGNENGHUOQI
+          amount: 0
+    '44':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SCUBA_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_FANGHUAHUOQI
+          amount: 0
+    '45':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: HAZMAT_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_FANGHUAHUOQI
+          amount: 0
+    '46':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: HAZMAT_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_FANGHUAHUOQI
+          amount: 0
+    '47':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: RUBBER_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_FANGHUAHUOQI
+          amount: 0
+    '48':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: CACTUS_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XIANRENZHANGHUOQI
+          amount: 0
+    '49':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: CACTUS_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XIANRENZHANGHUOQI
+          amount: 0
+    '50':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: CACTUS_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XIANRENZHANGHUOQI
+          amount: 0
+    '51':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: CACTUS_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_XIANRENZHANGHUOQI
+          amount: 0
+    '52':
+      seconds: 25
+      output:
+        1:
+          material_type: mc
+          material: CHAINMAIL_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SUOLIANHUOQI
+          amount: 0
+    '53':
+      seconds: 25
+      output:
+        1:
+          material_type: mc
+          material: CHAINMAIL_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SUOLIANHUOQI
+          amount: 0
+    '54':
+      seconds: 25
+      output:
+        1:
+          material_type: mc
+          material: CHAINMAIL_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SUOLIANHUOQI
+          amount: 0
+    '55':
+      seconds: 25
+      output:
+        1:
+          material_type: mc
+          material: CHAINMAIL_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: LEATHER_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_SUOLIANHUOQI
+          amount: 0
+    '56':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '57':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_CHESTPLATE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_CHESTPLATE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '58':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '59':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_BOOTS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_BOOTS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '60':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_SWORD
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_SWORD
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '61':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_PICKAXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_PICKAXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '62':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_AXE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_AXE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '63':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_SHOVEL
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_SHOVEL
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '64':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_HOE
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: DIAMOND_HOE
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '65':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_BOW
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: BOW
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '66':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_TRIDENT
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: TRIDENT
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '67':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: SOULBOUND_ELYTRA
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ELYTRA
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '68':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BOUND_BACKPACK
+          amount: 1
+      input:
+        1:
+          material_type: slimefun
+          material: SMALL_BACKPACK
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_LHBDHUOQI
+          amount: 0
+    '69':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BEE_HELMET
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLDEN_HELMET
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MIFENGHUOQI
+          amount: 0
+    '70':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BEE_WINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: ELYTRA
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MIFENGHUOQI
+          amount: 0
+    '71':
+      seconds: 25
+      output:
+        1:
+          material_type: slimefun
+          material: BEE_LEGGINGS
+          amount: 1
+      input:
+        1:
+          material_type: mc
+          material: GOLDEN_LEGGINGS
+          amount: 1
+        2:
+          material_type: slimefun
+          material: HM_MIFENGHUOQI
+          amount: 0
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

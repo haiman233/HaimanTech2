@@ -9322,7 +9322,7 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
   category: slime_customizer
   machine-name: '&7&l解压机 &7- &eI'
   machine-lore:
-  - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+  - '&7将方块解压'
   block-type: SKULLe48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -9407,11 +9407,191 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
           type: NONE
           id: N/A
           amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRICK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: END_STONE_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: END_STONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MUD_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PACKED_MUD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RED_NETHER_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICK
+          amount: 2
+        '2':
+          type: VANILLA
+          id: NETHER_WART
+          amount: 2
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POPPED_CHORUS_FRUIT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_DECOMPRESSOR_MACHINE_2:
   category: slime_customizer
   machine-name: '&7&l解压机 &7- &eII'
   machine-lore:
-  - '&7将1个钻石/1个24k金块转换为12个碳/9个24k金'
+  - '&7将方块解压'
   block-type: SKULLe48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -9492,6 +9672,186 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
           type: SLIMEFUN
           id: GOLD_24K
           amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRICK
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: END_STONE_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: END_STONE
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MUD_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PACKED_MUD
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICK
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RED_NETHER_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICK
+          amount: 4
+        '2':
+          type: VANILLA
+          id: NETHER_WART
+          amount: 4
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PRISMARINE_SHARD
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POPPED_CHORUS_FRUIT
+          amount: 6
         '2':
           type: NONE
           id: N/A
@@ -23528,6 +23888,26 @@ KUANGWUCUISHENGQI:
           type: NONE
           id: N/A
           amount: 1
+    '9':
+      speed-in-seconds: 16
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TONGZHONGZI
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COPPER_ORE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HEDIANZHAN_1:
   category: slime_customizer
   machine-name: '&e&l核电站&c(I)'
@@ -24463,6 +24843,26 @@ DIYUKONGJIAN:
         '1':
           type: VANILLA
           id: CRYING_OBSIDIAN
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_WART
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_WART
           amount: 64
         '2':
           type: NONE
@@ -25699,6 +26099,7 @@ DIAOYUJI:
   machine-name: '&b&l虚空钓鱼机'
   machine-lore:
   - '&e&l从时间银河中钓取 &k&l !'
+  - '&7须将钓竿放入非消耗型物品槽内'
   block-type: SKULLec4a74ac2d0ceff89157ad16121b6bcb2b5e5e694b460a27d3b9944f368c17ce
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -25751,9 +26152,9 @@ DIAOYUJI:
           id: HM_CAKE_BREAD
           amount: 1
         '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -25771,9 +26172,9 @@ DIAOYUJI:
           id: POTATO
           amount: 4
         '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -25791,9 +26192,9 @@ DIAOYUJI:
           id: CARROT
           amount: 4
         '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -25811,9 +26212,9 @@ DIAOYUJI:
           id: BEETROOT
           amount: 4
         '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -25827,9 +26228,9 @@ DIAOYUJI:
       speed-in-seconds: 16
       input:
         '1':
-          type: SLIMEFUN
-          id: REINFORCED_STRAINER
-          amount: 1
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
         '2':
           type: VANILLA
           id: BONE
@@ -25849,7 +26250,7 @@ DIAOYUJI:
         '1':
           type: VANILLA
           id: FISHING_ROD
-          amount: 1
+          amount: 0
         '2':
           type: VANILLA
           id: DIAMOND
@@ -25863,11 +26264,31 @@ DIAOYUJI:
           type: NONE
           id: N/A
           amount: 1
+    '7':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
+        '2':
+          type: VANILLA
+          id: INK_SAC
+          amount: 2
+      output:
+        '1':
+          type: VANILLA
+          id: SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 WANNENGGONGCHANG:
   category: slime_customizer
   machine-name: '&c&l万能工厂'
   machine-lore:
-  - '&7生产各类石头'
+  - '&7生产各类方块'
   block-type: SKULLf9dc48ba5326a4078d731cb00441e62ba9402400c0d175b9ac734d2d52cf2329
   progress-bar-item: FLINT_AND_STEEL
   stats:
@@ -25913,7 +26334,7 @@ WANNENGGONGCHANG:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -25927,13 +26348,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: STONE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -25947,13 +26368,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: DIORITE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -25967,13 +26388,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: GRANITE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -25987,13 +26408,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: ANDESITE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '5':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26007,13 +26428,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: SAND
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '6':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26027,13 +26448,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: SMOOTH_STONE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '7':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26047,13 +26468,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: NETHERRACK
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '8':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26067,13 +26488,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: BASALT
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '9':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26087,13 +26508,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: BLACKSTONE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '10':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26107,13 +26528,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: OBSIDIAN
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '11':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26133,7 +26554,7 @@ WANNENGGONGCHANG:
           id: N/A
           amount: 1
     '12':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26147,13 +26568,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: GRAVEL
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '13':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26167,13 +26588,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: RED_SAND
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '14':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26187,13 +26608,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: COBBLED_DEEPSLATE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '15':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26207,13 +26628,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: CALCITE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '16':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26227,13 +26648,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: TUFF
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '17':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26247,13 +26668,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: PRISMARINE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '18':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26267,13 +26688,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: END_STONE
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '19':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26287,13 +26708,13 @@ WANNENGGONGCHANG:
         '1':
           type: VANILLA
           id: CLAY
-          amount: 16
+          amount: 48
         '2':
           type: NONE
           id: N/A
           amount: 1
     '20':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26306,8 +26727,148 @@ WANNENGGONGCHANG:
       output:
         '1':
           type: VANILLA
-          id: GRASS_BLOCK  
-          amount: 16
+          id: GRASS_BLOCK
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SANDSTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SANDSTONE
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RED_SANDSTONE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_SANDSTONE
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DARK_PRISMARINE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DARK_PRISMARINE
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DEEPSLATE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DEEPSLATE
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BRICKS
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRICKS
+          amount: 48
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 48
         '2':
           type: NONE
           id: N/A
@@ -43429,6 +43990,1479 @@ SWPY_BOSS:
         '1':
           type: VANILLA
           id: ENDER_DRAGON_SPAWN_EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# 模板机器
+HM_HQKYJ:
+  category: haiman_muban
+  machine-name: '&4&l火漆刻印机'
+  machine-lore:
+  - '&7将原胚印刷成各式各样的粘液装备/工具'
+  - '&7使用时须要将火漆放入非消耗型物品槽内'
+  - '&7原胚指粘液装备/工具对应的原版物品材质'
+  - '&7例：吸血鬼之刀对应的原胚就是金剑'
+  block-type: SKULL81345cfaccf33bf667c9fbb4888082f5b2ec6f263a9f108e259ebec3f41ce986
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 4800
+    energy-buffer: 48000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HM_HUOQI
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HM_HUOQI
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ANCIENT_ITEM
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HM_HUOQI
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HM_HUOQI
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: GOLDEN_SWORD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XIXUEHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BLADE_OF_VAMPIRES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_SWORD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_CHUJUEHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SWORD_OF_BEHEADING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: BOW
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_BINGFENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ICY_BOW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: BOW
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_BAOZHAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EXPLOSIVE_BOW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_BAOZHAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EXPLOSIVE_PICKAXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_SHOVEL
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_BAOZHAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EXPLOSIVE_SHOVEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_AXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_DIZHENHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SEISMIC_AXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: STICK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_NAINAIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GRANDMAS_WALKING_STICK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: STICK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YEYEHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GRANDPAS_WALKING_STICK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_RONGLUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SMELTERS_PICKAXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_AXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_FAMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LUMBER_AXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHUAGUAILONGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PICKAXE_OF_CONTAINMENT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XUNKUANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PICKAXE_OF_THE_SEEKER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_KUANGMAIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PICKAXE_OF_VEIN_MINING
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_PANYANHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CLIMBING_PICK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YESHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: NIGHT_VISION_GOGGLES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_HUANJIANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PARACHUTE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_NONGFUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: FARMER_SHOES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_QIAOCHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ELYTRA_CAP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_JIANTAZHEHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BOOTS_OF_THE_STOMPER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SMALL_BACKPACK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MOYINGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_BACKPACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MOYINGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MOYINGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MOYINGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MOYINGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: ENDER_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '28':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '29':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_STEEL_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '31':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_STEEL_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '32':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_STEEL_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '33':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SHILAIMUHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SLIME_STEEL_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '34':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YINGSHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GLOWSTONE_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '35':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YINGSHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GLOWSTONE_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '36':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YINGSHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GLOWSTONE_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '37':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_YINGSHIHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: GLOWSTONE_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '38':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_CAIHONGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '39':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_CAIHONGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '40':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_CAIHONGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '41':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_CAIHONGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '42':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: GOLDEN_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MIFENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEE_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '43':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_TAIYANGNENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOLAR_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '44':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_FANGHUAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SCUBA_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '45':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_FANGHUAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAZMAT_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '46':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_FANGHUAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HAZMAT_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '47':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_FANGHUAHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RUBBER_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '48':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XIANRENZHANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CACTUS_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '49':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XIANRENZHANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CACTUS_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '50':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XIANRENZHANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CACTUS_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '51':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_XIANRENZHANGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CACTUS_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '52':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SUOLIANHUOQI
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHAINMAIL_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '53':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SUOLIANHUOQI
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHAINMAIL_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '54':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SUOLIANHUOQI
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHAINMAIL_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '55':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: LEATHER_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_SUOLIANHUOQI
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHAINMAIL_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '56':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '57':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_CHESTPLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_CHESTPLATE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '58':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '59':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_BOOTS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_BOOTS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '60':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_SWORD
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_SWORD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '61':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_PICKAXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_PICKAXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '62':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_AXE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_AXE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '63':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_SHOVEL
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_SHOVEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '64':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND_HOE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_HOE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '65':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: BOW
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_BOW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '66':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: TRIDENT
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_TRIDENT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '67':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: ELYTRA
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SOULBOUND_ELYTRA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '68':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SMALL_BACKPACK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_LHBDHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BOUND_BACKPACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '69':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: GOLDEN_HELMET
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MIFENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEE_HELMET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '70':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: ELYTRA
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MIFENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEE_WINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '71':
+      speed-in-seconds: 25
+      input:
+        '1':
+          type: VANILLA
+          id: GOLDEN_LEGGINGS
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: HM_MIFENGHUOQI
+          amount: 0
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEE_LEGGINGS
           amount: 1
         '2':
           type: NONE

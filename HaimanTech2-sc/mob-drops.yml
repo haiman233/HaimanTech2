@@ -199,3 +199,14 @@ CREEPER_COAL_HEART:
   mob: CREEPER
   chance: 1
   recipe-display-item: CREEPER_SPAWN_EGG
+PLAYER_FIRE:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l吐息"
+  item-lore:
+  - "&7最后一口气"
+  item-id: SKULLb83f14bfe65fdaca99040ce346aff048a6d3b9d24b4d82c1720a55e5e45e77b8
+  item-amount: 1
+  mob: PLAYER
+  chance: 23
+  recipe-display-item: PLAYER_HEAD

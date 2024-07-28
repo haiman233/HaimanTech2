@@ -216,3 +216,15 @@ CREEPER_COAL_HEART:
     amount: 1
   entity: CREEPER
   chance: 1
+PLAYER_FIRE:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&c&l吐息'
+    lore:
+    - '&7最后一口气'
+    material_type: skull_hash
+    material: b83f14bfe65fdaca99040ce346aff048a6d3b9d24b4d82c1720a55e5e45e77b8
+    amount: 1
+  entity: PLAYER
+  chance: 23
