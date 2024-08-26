@@ -117,6 +117,22 @@ haiman_egg:
     material: 64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
     name: '&6&l海曼科技院 &7- &a&l生物学'
   parent: haimantech
+haiman_jiaju:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 4216af29b19a6ff7525d1853b814270b8f0685810b08870dce14bc8f1ea9743d
+    name: '&6&l海曼科技院 &7- &e&l家用设备'
+  parent: haimantech
+haiman_yule:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: 8150c3a7312aabd1ad7047c18f7da58f4ed199e10c56d0604a12dcc86b94a2bb
+    name: '&6&l海曼科技院 &7- &c&l娱乐设施'
+  parent: haimantech
 haiman_muban:
   lateInit: false
   type: sub

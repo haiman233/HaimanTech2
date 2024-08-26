@@ -1530,3 +1530,91 @@ hqysj:
   levelCost: 180
   items:
   - HM_HQKYJ
+chushen:
+  id: 110101070
+  name: 厨神
+  levelCost: 50
+  items:
+  - HAIMAN_CAIBAN
+jingss:
+  id: 110101071
+  name: 金光闪闪
+  levelCost: 72
+  items:
+  - HAIMAN_DUJINTAI
+ddzhijian:
+  id: 110101072
+  name: 自动化制箭
+  levelCost: 45
+  items:
+  - HAIMAN_ZHIJIANTAI
+fenggan:
+  id: 110101073
+  name: 量产风干肉片
+  levelCost: 75
+  items:
+  - HAIMAN_FENGGANJI
+cookielu:
+  id: 110101074
+  name: COOKIE！COOKIE！
+  levelCost: 40
+  items:
+  - HAIMAN_BINGGANLLU
+zhushuichi:
+  id: 110101075
+  name: 节约用水
+  levelCost: 26
+  items:
+  - HAIMAN_ZHUSHUICHI
+wujuntai:
+  id: 110101076
+  name: 专业医疗器械
+  levelCost: 52
+  items:
+  - HAIMAN_WUJUNTAI
+shougongtai:
+  id: 110101077
+  name: DIY大神
+  levelCost: 36
+  items:
+  - HAIMAN_SHOUGONGTAI
+diandongchuang:
+  id: 110101078
+  name: 全自动暖被
+  levelCost: 32
+  items:
+  - HAIMAN_DIANRECHUANG
+shaguo:
+  id: 110101079
+  name: 我不是厨神
+  levelCost: 32
+  items:
+  - HAIMAN_SHAGUO
+doudizhu:
+  id: 110101080
+  name: 抓牌~看牌~洗牌~码牌~
+  levelCost: 20
+  items:
+  - HAIMAN_PAIZHUO
+  - HM_PUKE_1
+  - HM_PUKE_2
+jishiqi:
+  id: 110101081
+  name: 快点吧，等的我花都谢了！
+  levelCost: 12
+  items:
+  - JISHIQI_DUAN
+  - JISHIQI_CHANG
+  - TISHI_SHIJIAN
+yingxdr:
+  id: 110101082
+  name: 你看得见吗？反正我看不见。
+  levelCost: 92
+  items:
+  - YINGXINGDIANRONG
+ditandr:
+  id: 110101083
+  name: 这地毯感觉有点烫？
+  levelCost: 28
+  items:
+  - DITAN_DIANRONG

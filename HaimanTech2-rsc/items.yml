@@ -20,7 +20,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
     - '&f当前海曼科技院版本：'
-    - '&bRelease-1.3'
+    - '&bRelease-1.4'
     - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -19498,4 +19498,208 @@ HM_LHBDHUOQI:
     9:
       material_type: slimefun
       material: SOULBOUND_CHESTPLATE
+      amount: 1
+JISHIQI_DUAN:
+  lateInit: false
+  item_group: haiman_yule
+  item:
+    name: '&e&l短轴计时器'
+    lore:
+    - '&7可放在牌桌的非消耗型物品槽内计时'
+    - '&7时长：5 粘液刻'
+    material_type: skull_hash
+    material: 78472a2dcc239b4a483ac44c1dbf8fdba0fca1d253eb643fa0bd93af83a373
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: YELLOW_DYE
+      amount: 1
+    2:
+      material_type: mc
+      material: YELLOW_DYE
+      amount: 1
+    3:
+      material_type: mc
+      material: YELLOW_DYE
+      amount: 1
+    4:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    5:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    6:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+JISHIQI_CHANG:
+  lateInit: false
+  item_group: haiman_yule
+  item:
+    name: '&e&l长轴计时器'
+    lore:
+    - '&7可放在牌桌的非消耗型物品槽内计时'
+    - '&7时长：15 粘液刻'
+    material_type: skull_hash
+    material: 85fa0a3a2d62d7d1171d48b3ae8fcb551f6faccc70cee40f44c767c3da7b785f
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JISHIQI_DUAN
+      amount: 1
+    6:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    7:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    8:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+    9:
+      material_type: mc
+      material: CLOCK
+      amount: 1
+TISHI_SHIJIAN:
+  lateInit: false
+  item_group: haiman_yule
+  item:
+    name: '&e&l提示'
+    lore:
+    - '&7嘀嗒！时间到！'
+    material_type: mc
+    material: PAPER
+    amount: 1
+  placeable: true
+  recipe_type: 'NULL'
+HM_PUKE_1:
+  lateInit: false
+  item_group: haiman_yule
+  item:
+    material_type: saveditem
+    material: PUKE_1
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    2:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    3:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    4:
+      material_type: mc
+      material: BLACK_BANNER
+      amount: 1
+    5:
+      material_type: mc
+      material: YELLOW_SHULKER_BOX
+      amount: 1
+    6:
+      material_type: mc
+      material: BLACK_BANNER
+      amount: 1
+    7:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    8:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    9:
+      material_type: mc
+      material: PAPER
+      amount: 1
+HM_PUKE_2:
+  lateInit: false
+  item_group: haiman_yule
+  item:
+    material_type: saveditem
+    material: PUKE_2
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    2:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    3:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    4:
+      material_type: mc
+      material: RED_BANNER
+      amount: 1
+    5:
+      material_type: mc
+      material: YELLOW_SHULKER_BOX
+      amount: 1
+    6:
+      material_type: mc
+      material: RED_BANNER
+      amount: 1
+    7:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    8:
+      material_type: mc
+      material: PAPER
+      amount: 1
+    9:
+      material_type: mc
+      material: PAPER
       amount: 1
