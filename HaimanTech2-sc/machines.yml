@@ -6,8 +6,8 @@ COMPRESSION_BLOCK_MACHINE:
   block-type: SKULL2986794521869e8327ef81dbc35c9856bc4051df9888d81eab212442b176a82f
   progress-bar-item: FLINT_AND_STEEL
   stats:
-    energy-consumption: 1
-    energy-buffer: 5
+    energy-consumption: 16
+    energy-buffer: 160
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
@@ -48,7 +48,7 @@ COMPRESSION_BLOCK_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -68,7 +68,7 @@ COMPRESSION_BLOCK_MACHINE:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: SLIMEFUN
@@ -88,7 +88,7 @@ COMPRESSION_BLOCK_MACHINE:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -103,6 +103,486 @@ COMPRESSION_BLOCK_MACHINE:
           type: VANILLA
           id: COAL_BLOCK
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: REDSTONE
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: REDSTONE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: EMERALD
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: EMERALD_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: LAPIS_LAZULI
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LAPIS_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DIAMOND
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DIAMOND_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COPPER_INGOT
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COPPER_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERITE_INGOT
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERITE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WHEAT
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HAY_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAW_IRON
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RAW_IRON_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAW_COPPER
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RAW_COPPER_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAW_GOLD
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RAW_GOLD_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: QUARTZ
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: QUARTZ_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: AMETHYST_SHARD
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AMETHYST_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DRIED_KELP
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRIED_KELP_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SLIME_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: HONEY_BOTTLE
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEY_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MAGMA_CREAM
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGMA_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CLAY_BALL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CLAY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SNOWBALL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SNOW_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BRICK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICK
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_BRICKS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: POPPED_CHORUS_FRUIT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPUR_BLOCK
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -5874,26 +6354,6 @@ NONE_NBT_MACHINE:
           id: N/A
           amount: 1
     '8':
-      speed-in-seconds: 6
-      input:
-        '1':
-          type: VANILLA
-          id: BOWL
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: SUSPICIOUS_STEW
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-    '9':
       speed-in-seconds: 10
       input:
         '1':
@@ -6052,7 +6512,7 @@ LILY_PAD_MACHINE:
           id: N/A
           amount: 1
 HAIMAN_WASHING_MACHINE:
-  category: slime_customizer
+  category: haiman_jiaju
   machine-name: '&b&l盥洗机'
   machine-lore:
   - '&7自动清洗物品'
@@ -8023,7 +8483,7 @@ HAIMAN_VOID_INGOT_PRODUCER:
           id: N/A
           amount: 1
 HAIMAN_AUTO_JUICER:
-  category: slime_customizer_farm
+  category: haiman_jiaju
   machine-name: '&6&l电动榨汁机'
   machine-lore:
   - '&7全自动榨果汁'
@@ -9587,6 +10047,26 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
           type: NONE
           id: N/A
           amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SMALL_URANIUM
+          amount: 4
+        '2':
+          type: SLIMEFUN
+          id: TINY_URANIUM
+          amount: 9
 HAIMAN_DECOMPRESSOR_MACHINE_2:
   category: slime_customizer
   machine-name: '&7&l解压机 &7- &eII'
@@ -9856,6 +10336,26 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
           type: NONE
           id: N/A
           amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: URANIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SMALL_URANIUM
+          amount: 6
+        '2':
+          type: SLIMEFUN
+          id: TINY_URANIUM
+          amount: 12
 HAIMAN_FISH_MACHINE:
   category: slime_customizer_farm
   machine-name: '&9&l网鱼机'
@@ -20935,16 +21435,16 @@ HAIMAN_POWER_STORAGER_5:
           id: N/A
           amount: 1
 HAIMAN_DANGAO_HONGBEI:
-  category: slime_customizer
-  machine-name: '&6&l生日蛋糕烘焙机'
+  category: haiman_jiaju
+  machine-name: '&6&l烤箱'
   machine-lore:
-  - '&7烘焙生日蛋糕'
+  - '&7烘焙食材'
   block-type: SKULL8f9da46d97461a1be10600cc546a9d4613e16cfb5719eeb39042e501836008ca
   progress-bar-item: IRON_SHOVEL
   stats:
     energy-consumption: 12
     energy-buffer: 1200
-  crafting-recipe-type: NONE
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
     '1':
       type: SLIMEFUN
@@ -20984,7 +21484,7 @@ HAIMAN_DANGAO_HONGBEI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 100
+      speed-in-seconds: 20
       input:
         '1':
           type: SLIMEFUN
@@ -20999,6 +21499,126 @@ HAIMAN_DANGAO_HONGBEI:
           type: SLIMEFUN
           id: HAIMAN_BIRTHDAY_CAKE_1
           amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: POISONOUS_POTATO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHARCOAL
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 200
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: WHEAT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BREAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BREAD
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CAKE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: PUMPKIN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PUMPKIN_PIE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POPPED_CHORUS_FRUIT
+          amount: 4
         '2':
           type: NONE
           id: N/A
@@ -21057,7 +21677,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: beef
+          id: BEEF
           amount: 1
         '2':
           type: NONE
@@ -21066,7 +21686,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: chicken
+          id: CHICKEN
           amount: 5
         '2':
           type: NONE
@@ -21077,7 +21697,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: chicken
+          id: CHICKEN
           amount: 1
         '2':
           type: NONE
@@ -21086,7 +21706,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: mutton
+          id: MUTTON
           amount: 5
         '2':
           type: NONE
@@ -21097,7 +21717,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: mutton
+          id: MUTTON
           amount: 1
         '2':
           type: NONE
@@ -21106,7 +21726,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: porkchop
+          id: PORKCHOP
           amount: 5
         '2':
           type: NONE
@@ -21117,7 +21737,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: porkchop
+          id: PORKCHOP
           amount: 1
         '2':
           type: NONE
@@ -21126,7 +21746,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: rabbit
+          id: RABBIT
           amount: 5
         '2':
           type: NONE
@@ -21137,7 +21757,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: rabbit
+          id: RABBIT
           amount: 1
         '2':
           type: NONE
@@ -21146,7 +21766,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cod
+          id: COD
           amount: 5
         '2':
           type: NONE
@@ -21157,7 +21777,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cod
+          id: COD
           amount: 1
         '2':
           type: NONE
@@ -21166,7 +21786,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: salmon
+          id: SALMON
           amount: 5
         '2':
           type: NONE
@@ -21177,7 +21797,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: salmon
+          id: SALMON
           amount: 1
         '2':
           type: NONE
@@ -21186,7 +21806,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: tropical_fish
+          id: TROPICAL_FISH
           amount: 5
         '2':
           type: NONE
@@ -21197,7 +21817,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: tropical_fish
+          id: TROPICAL_FISH
           amount: 1
         '2':
           type: NONE
@@ -21206,7 +21826,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: rotten_flesh
+          id: ROTTEN_FLESH
           amount: 5
         '2':
           type: NONE
@@ -21217,7 +21837,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: rotten_flesh
+          id: ROTTEN_FLESH
           amount: 1
         '2':
           type: NONE
@@ -21226,7 +21846,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: beef
+          id: BEEF
           amount: 5
         '2':
           type: NONE
@@ -21237,7 +21857,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_beef
+          id: COOKED_BEEF
           amount: 1
         '2':
           type: NONE
@@ -21246,7 +21866,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_chicken
+          id: COOKED_CHICKEN
           amount: 5
         '2':
           type: NONE
@@ -21257,7 +21877,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_chicken
+          id: COOKED_CHICKEN
           amount: 1
         '2':
           type: NONE
@@ -21266,7 +21886,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_mutton
+          id: COOKED_MUTTON
           amount: 5
         '2':
           type: NONE
@@ -21277,7 +21897,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_mutton
+          id: COOKED_MUTTON
           amount: 1
         '2':
           type: NONE
@@ -21286,7 +21906,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_porkchop
+          id: COOKED_PORKCHOP
           amount: 5
         '2':
           type: NONE
@@ -21297,7 +21917,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_porkchop
+          id: COOKED_PORKCHOP
           amount: 1
         '2':
           type: NONE
@@ -21306,7 +21926,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_rabbit
+          id: COOKED_RABBIT
           amount: 5
         '2':
           type: NONE
@@ -21317,7 +21937,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_rabbit
+          id: COOKED_RABBIT
           amount: 1
         '2':
           type: NONE
@@ -21326,7 +21946,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_cod
+          id: COOKED_COD
           amount: 5
         '2':
           type: NONE
@@ -21337,7 +21957,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_cod
+          id: COOKED_COD
           amount: 1
         '2':
           type: NONE
@@ -21346,7 +21966,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_salmon
+          id: COOKED_SALMON
           amount: 5
         '2':
           type: NONE
@@ -21357,7 +21977,7 @@ HAIMAN_MEAT_CHANGER:
       input:
         '1':
           type: VANILLA
-          id: cooked_salmon
+          id: COOKED_SALMON
           amount: 1
         '2':
           type: NONE
@@ -21366,7 +21986,7 @@ HAIMAN_MEAT_CHANGER:
       output:
         '1':
           type: VANILLA
-          id: cooked_beef
+          id: COOKED_BEEF
           amount: 5
         '2':
           type: NONE
@@ -22029,7 +22649,7 @@ HAIMAN_YINGXING_MACHINE:
           id: N/A
           amount: 1
 HAIMAN_COFFEE_MAKER:
-  category: slime_customizer
+  category: haiman_jiaju
   machine-name: '&c&l咖啡机'
   machine-lore:
   - '&7困了，就来杯咖啡吧'
@@ -26279,6 +26899,26 @@ DIAOYUJI:
         '1':
           type: VANILLA
           id: SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 22
+      input:
+        '1':
+          type: VANILLA
+          id: FISHING_ROD
+          amount: 0
+        '2':
+          type: VANILLA
+          id: LEATHER
+          amount: 12
+      output:
+        '1':
+          type: VANILLA
+          id: NAME_TAG
           amount: 1
         '2':
           type: NONE
@@ -31569,7 +32209,7 @@ TPKY_MACHINE:
           type: NONE
           id: N/A
           amount: 1
-# 1.2
+# 正式版 1.2
 SWPY_1:
   category: haiman_egg
   machine-name: '&d&l[ver:Classic]&6&lMC生物培育箱'
@@ -45463,6 +46103,1749 @@ HM_HQKYJ:
         '1':
           type: SLIMEFUN
           id: BEE_LEGGINGS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+#正式版1.4内容
+HAIMAN_CAIBAN:
+  category: haiman_jiaju
+  machine-name: '&a&l菜板'
+  machine-lore:
+  - '&7切菜切啥都能切'
+  block-type: SKULLeaa42c45fc468b250d964a628939d6951f5a57dacac423f2dfb951ba51ab6d29
+  progress-bar-item: WOODEN_AXE
+  stats:
+    energy-consumption: 10
+    energy-buffer: 100
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: DIAMOND_AXE
+      amount: 1
+    '2':
+      type: VANILLA
+      id: DIAMOND_SWORD
+      amount: 1
+    '3':
+      type: VANILLA
+      id: DIAMOND_SHOVEL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_LOG
+      amount: 1
+    '8':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_LOG
+      amount: 1
+    '9':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_LOG
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PUMPKIN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CARVED_PUMPKIN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MELON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MELON_SLICE
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: POISONOUS_POTATO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POTATO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SPIDER_EYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_DYE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BEETROOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_DYE
+          amount: 5
+        '2':
+          type: VANILLA
+          id: SUGAR
+          amount: 4
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_DYE
+          amount: 3
+        '2':
+          type: VANILLA
+          id: GRASS
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BREAD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHEAT
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_STAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_11
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: MUSIC_DISC_5
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DISC_FRAGMENT_5
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_DUJINTAI:
+  category: slime_customizer
+  machine-name: '&e&l镀金台'
+  machine-lore:
+  - '&7给物品镶上黄金'
+  block-type: SKULL3dcf52b54524ecd5dfc6fadde637d60279bfcac3268b9bb93a9aca2f589a3f22
+  progress-bar-item: GOLDEN_HOE
+  stats:
+    energy-consumption: 200
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: RAW_CARBONADO
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: GOLD_24K_BLOCK
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: CARGO_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLDEN_CARROT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: MELON_SLICE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLISTERING_MELON_SLICE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: APPLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLDEN_APPLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COPPER_INGOT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_NUGGET
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GOLD_NUGGET
+          amount: 9
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BLACKSTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GILDED_BLACKSTONE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_ZHIJIANTAI:
+  category: slime_customizer
+  machine-name: '&e&l电动制箭台'
+  machine-lore:
+  - '&7用电力驱动制箭台'
+  block-type: SKULL2760776074c23ae411ed46ef324a7a07282fbfbbbc5a99fcb3f5a8c9d6b02a53
+  progress-bar-item: ARROW
+  stats:
+    energy-consumption: 200
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: LAVA_CRYSTAL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: LAVA_CRYSTAL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: LAVA_CRYSTAL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '5':
+      type: VANILLA
+      id: FLETCHING_TABLE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ARROW
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: SPECTRAL_ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPECTRAL_ARROW
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: TIPPED_ARROW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TIPPED_ARROW
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_FENGGANJI:
+  category: haiman_jiaju
+  machine-name: '&e&l风干机'
+  machine-lore:
+  - '&7将物品风干'
+  block-type: SKULLb99eb2998c2a78b6aa2eb592ef9c3648d3d2b01976d9f1dfc5dea37768d3d21c
+  progress-bar-item: FEATHER
+  stats:
+    energy-consumption: 80
+    energy-buffer: 800
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BEEF
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BEEF_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PORKCHOP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: PORK_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CHICKEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHICKEN_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MUTTON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MUTTON_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RABBIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RABBIT_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: FISH_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ROTTEN_FLESH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MONSTER_JERKY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGIC_SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DRIED_KELP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SEAGRASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SALT
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WET_SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPONGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MILK_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHEESE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: HEAVY_CREAM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BUTTER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: HONEY_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: HONEYCOMB
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_BINGGANLLU:
+  category: haiman_jiaju
+  machine-name: '&c&l饼干炉'
+  machine-lore:
+  - '&7烤COOKIE'
+  block-type: SKULL2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 85
+    energy-buffer: 850
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: COOKIE
+      amount: 1
+    '2':
+      type: VANILLA
+      id: COOKIE
+      amount: 1
+    '3':
+      type: VANILLA
+      id: COOKIE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COOKIE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: KELP_COOKIE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PAPER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: FORTUNE_COOKIE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: FEATHER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: DIET_COOKIE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_ZHUSHUICHI:
+  category: haiman_jiaju
+  machine-name: '&b&l注水池'
+  machine-lore:
+  - '&7接水用的'
+  block-type: SKULL1aaefc0dce2e3d940b959341fa20269553111241d1de87e9f29957b7776a16ec
+  progress-bar-item: WATER_BUCKET
+  stats:
+    energy-consumption: 15
+    energy-buffer: 150
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '2':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '3':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '8':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+    '9':
+      type: VANILLA
+      id: WATER_BUCKET
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WATER_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_BOTTLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SAVEDITEM
+          id: SP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_WUJUNTAI:
+  category: haiman_jiaju
+  machine-name: '&a&l无菌台'
+  machine-lore:
+  - '&7用来制药制肥料'
+  block-type: SKULLc2b7e6d2ecfe1d58e668238bba6e6ef3086019e7672b0cbee82c23a86f85fe7e
+  progress-bar-item: PAPER
+  stats:
+    energy-consumption: 55
+    energy-buffer: 550
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: STAFF_ELEMENTAL_FIRE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: STAFF_ELEMENTAL_WATER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: STAFF_ELEMENTAL_FIRE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRO_MAGNET
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CLOTH
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CLOTH
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAG
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAG
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BANDAGE
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: STICK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SPLINT
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_WART
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: VITAMINS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: SLIMEFUN
+          id: VITAMINS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MEDICINE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: MEDICINE
+          amount: 1
+    '7':
+      speed-in-seconds: 10
+      input:
+        '1':
+          type: SLIMEFUN
+          id: MEDICINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: MAGICAL_ZOMBIE_PILLS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: INFERNAL_BONEMEAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BONE_MEAL
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_SHOUGONGTAI:
+  category: haiman_jiaju
+  machine-name: '&6&l手工台'
+  machine-lore:
+  - '&7用来制作日常用品'
+  block-type: SKULL247106a8274db6bcbcd8a466d97e90023101bb5a5c1519cda9ed2c20bed9f1d8
+  progress-bar-item: SHEARS
+  stats:
+    energy-consumption: 42
+    energy-buffer: 420
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: SHEARS
+      amount: 1
+    '2':
+      type: VANILLA
+      id: BRUSH
+      amount: 1
+    '3':
+      type: VANILLA
+      id: FLINT_AND_STEEL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: SILICON
+          amount: 6
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TAPE_MEASURE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHAIN
+          amount: 12
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: FLINT
+          amount: 3
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HOOK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MILK_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: HEAVY_CREAM
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: TIN_INGOT
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CAN
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PAPER
+          amount: 3
+        '2':
+          type: VANILLA
+          id: SLIME_BALL
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: DUCT_TAPE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_DIANRECHUANG:
+  category: haiman_jiaju
+  machine-name: '&4&l电热床'
+  machine-lore:
+  - '&7睡在床上暖乎乎的'
+  block-type: RED_BED
+  progress-bar-item: RED_BED
+  stats:
+    energy-consumption: 40
+    energy-buffer: 2000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: RED_BED
+      amount: 1
+    '2':
+      type: VANILLA
+      id: RED_BED
+      amount: 1
+    '3':
+      type: VANILLA
+      id: RED_BED
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: STEEL_THRUSTER
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 400
+      input:
+        '1':
+          type: VANILLA
+          id: COAL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: LAVA_CRYSTAL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_SHAGUO:
+  category: haiman_jiaju
+  machine-name: '&f&l砂锅'
+  machine-lore:
+  - '&7熬汤专用锅'
+  block-type: SKULLf38064cd144de50df9b6d0d55998eda25e6bc97bd091af742a98511f2d3ab22
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 45
+    energy-buffer: 450
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MACHINE_BLOCK
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MACHINE_BLOCK
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MUSHROOM_STEW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: RABBIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RABBIT_STEW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: BEETROOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BEETROOT_SOUP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUSPICIOUS_STEW
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_PAIZHUO:
+  category: haiman_yule
+  machine-name: '&f&l牌桌'
+  machine-lore:
+  - '&7可以在输入槽和输出槽内打牌'
+  - '&7非消耗型物品槽内可以放计时器'
+  - '&7建议搭配货运实时清空输入槽和输出槽内的牌'
+  block-type: SKULL145c70e5e5a96bae45c6530ca83faf53231642cca06dff5677640ede978ce3b2
+  progress-bar-item: CLOCK
+  stats:
+    energy-consumption: 5
+    energy-buffer: 50
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_WOOD
+      amount: 1
+    '2':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_WOOD
+      amount: 1
+    '3':
+      type: VANILLA
+      id: STRIPPED_MANGROVE_WOOD
+      amount: 1
+    '4':
+      type: VANILLA
+      id: STRIPPED_OAK_WOOD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '6':
+      type: VANILLA
+      id: STRIPPED_OAK_WOOD
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: STEEL_INGOT
+      amount: 1
+    '8':
+      type: NONE
+      id: N/A
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: STEEL_INGOT
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 5
+      input:
+        '1':
+          type: SLIMEFUN
+          id: JISHIQI_DUAN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TISHI_SHIJIAN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 15
+      input:
+        '1':
+          type: SLIMEFUN
+          id: JISHIQI_CHANG
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: TISHI_SHIJIAN
           amount: 1
         '2':
           type: NONE

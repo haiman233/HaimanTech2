@@ -73,6 +73,16 @@ haiman_egg:
   parent: "haimantech"
   category-name: "&6&l海曼科技院 &7- &a&l生物学"
   category-item: SKULL64ea584455202be52cc953b9f98d81902b674c6c6d06880a27102358b71d79e1
+haiman_jiaju:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &e&l家用设备"
+  category-item: SKULL4216af29b19a6ff7525d1853b814270b8f0685810b08870dce14bc8f1ea9743d
+haiman_yule:
+  type: sub
+  parent: "haimantech"
+  category-name: "&6&l海曼科技院 &7- &c&l娱乐设施"
+  category-item: SKULL8150c3a7312aabd1ad7047c18f7da58f4ed199e10c56d0604a12dcc86b94a2bb
 haiman_muban:
   type: sub
   parent: "haimantech"

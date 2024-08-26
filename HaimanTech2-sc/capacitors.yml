@@ -183,3 +183,95 @@ HESHU_CAPACITOR:
       type: VANILLA
       id: COPPER_INGOT
       amount: 1
+YINGXINGDIANRONG:
+  category: dianro
+  capacitor-name: "&e&l隐形电容"
+  capacitor-lore:
+  - "&7有光，但摸不着"
+  block-type: LIGHT
+  capacity: 524288
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '2':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '3':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '4':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '8':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '9':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+DITAN_DIANRONG:
+  category: haiman_jiaju
+  capacitor-name: "&f&l地毯电容"
+  capacitor-lore:
+  - "&7可以完美的融入家里铺的一群地毯中"
+  block-type: WHITE_CARPET
+  capacity: 524288
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '2':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '3':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '4':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '8':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '9':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
