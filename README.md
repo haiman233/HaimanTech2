@@ -9,6 +9,8 @@
 
 最新版海曼科技院仅支持rsc，请使用sc版海曼科技院的服主尽快替换
 
+![下载数](https://img.shields.io/github/downloads/haiman233/HaimanTech2/total)
+
 ## 公告
 
 1、正式版海曼科技院使用rsc即RykenSlimefunCustomizer编写，sc版的海曼科技院将不再支持（之后可能不定期上传sc版海曼科技的原稿）
