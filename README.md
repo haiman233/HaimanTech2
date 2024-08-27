@@ -9,6 +9,7 @@
 
 最新版海曼科技院仅支持rsc，请使用sc版海曼科技院的服主尽快替换
 
+![目前版本](https://img.shields.io/github/v/release/haiman233/HaimanTech2?include_prereleases)
 ![下载数](https://img.shields.io/github/downloads/haiman233/HaimanTech2/total)
 
 ## 公告
