@@ -52,7 +52,7 @@ HORSE_ROU:
   - "&7你真的忍心这样对待你的坐骑吗？"
   item-id: BEEF
   item-amount: 2
-  mob: DONKEY
+  mob: HORSE
   chance: 60
   recipe-display-item: HORSE_SPAWN_EGG
 MULE_ROU:
@@ -63,7 +63,7 @@ MULE_ROU:
   - "&7好好一个骡子，就这样被你杀掉了..."
   item-id: PORKCHOP
   item-amount: 2
-  mob: DONKEY
+  mob: MULE
   chance: 60
   recipe-display-item: MULE_SPAWN_EGG
 FOX_ROU:
@@ -209,4 +209,104 @@ PLAYER_FIRE:
   item-amount: 1
   mob: PLAYER
   chance: 23
+  recipe-display-item: PLAYER_HEAD
+# 1.5
+YUEYIN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&e&l悦音"
+  item-lore:
+  - "&7清脆动听"
+  item-id: SKULL7e10107021311246e4c27193ebeaec3cd064bdb86d62d29af07b7fa49682c7
+  item-amount: 1
+  mob: ALLAY
+  chance: 20
+  recipe-display-item: ALLAY_SPAWN_EGG
+ZAYIN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&b&l杂音"
+  item-lore:
+  - "&7令人烦躁"
+  item-id: SKULLa00c30233fe46fb983ef6c46c02c9ec3e2b2b91fdfb916cba8721b235f273f98
+  item-amount: 1
+  mob: VEX
+  chance: 20
+  recipe-display-item: VEX_SPAWN_EGG
+YGYIN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l远古之音"
+  item-lore:
+  - "&7源远流长"
+  item-id: SKULL3b481c31dc683bdcb7d375a7c5db7ac7adf9e9fe8b6c04a64931613e29fe470e
+  item-amount: 1
+  mob: ELDER_GUARDIAN
+  chance: 20
+  recipe-display-item: ELDER_GUARDIAN_SPAWN_EGG
+HUANYU_LIZI:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l寰宇粒子"
+  item-lore:
+  - "&7宇宙中的一小粒"
+  item-id: SKULL3698f3f045ed624edd1431fe7b1554fd9425e4709e97a5eac8af31d96405977f
+  item-amount: 1
+  mob: ENDER_DRAGON
+  chance: 1
+  recipe-display-item: ENDER_DRAGON_SPAWN_EGG
+JIJIN_ZHIXING:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&c&l寂静之星"
+  item-lore:
+  - "&7......"
+  item-id: SKULLca49defbdd937c233f36c4ad3ce5ec564ebf9d0c1f355090cc8eb56b60a559cc
+  item-amount: 1
+  mob: WITHER
+  chance: 1
+  recipe-display-item: WITHER_SPAWN_EGG
+HUIXIANG_ZHIXING:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&f&l回响之星"
+  item-lore:
+  - "&7令人恐惧..."
+  item-id: SKULL8d2c496fa4422dae5daedb803d0bf2968bf8a714561330c30066314ba87675b5
+  item-amount: 1
+  mob: WARDEN
+  chance: 1
+  recipe-display-item: WARDEN_SPAWN_EGG
+ANDAN_ZHIXING:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&b&l黯淡之星"
+  item-lore:
+  - "&7什么都看不见..."
+  item-id: SKULL65387c753249959a3c96accf7f38abd9c85431c93344457f828b943b7c77fec1
+  item-amount: 1
+  mob: ZOGLIN
+  chance: 1
+  recipe-display-item: ZOGLIN_SPAWN_EGG
+SIHOU_ZHIXING:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&e&l嘶吼之星"
+  item-lore:
+  - "&7一声低鸣..."
+  item-id: SKULL21a3134de9ff6d562bc5df1f6cfd1b690d2d4b05900b9b8ac3b19d5f7bdf6487
+  item-amount: 1
+  mob: ZOMBIE_HORSE
+  chance: 1
+  recipe-display-item: ZOMBIE_HORSE_SPAWN_EGG
+SHENGMING_ZHIXING:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l生命之星"
+  item-lore:
+  - "&7一个个生命..."
+  item-id: SKULL13eaf685953dec492b349e5ca620c2a8adb129d752249ec30b37add26b4a9c5f
+  item-amount: 1
+  mob: PLAYER
+  chance: 1
   recipe-display-item: PLAYER_HEAD

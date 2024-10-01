@@ -83,6 +83,10 @@ fenzi5:
   items:
     - MOLECULAR_RECOMBINATION_INSTRUMENT_V
     - HT_MODULE_1
+    - CHUANGSHI_YIN
+    - YUEYIN
+    - ZAYIN
+    - YGYIN
 fenzi_32767:
   id: 110000011
   name: "分子仪的玩笑"
@@ -107,6 +111,12 @@ xingchenfensui:
   items:
     - HAIMAN_GALAXY_PIECE
     - HAIMAN_BLACK_HOLE_PIECE
+    - JUBIAN_MOKUAI
+    - JIJIN_ZHIXING
+    - HUIXIANG_ZHIXING
+    - ANDAN_ZHIXING
+    - SIHOU_ZHIXING
+    - SHENGMING_ZHIXING
 haimanxingchen:
   id: 110000814
   name: "星空会铭记你的名字"
@@ -258,6 +268,8 @@ zaipeiji:
     - HAIMAN_FLOWER_MACHINE
     - HAIMAN_PLANT_MACHINE
     - HAIMAN_CORAL_PRODUCER
+    - HAIMAN_PLANT_MAKER
+    - HAIMAN_FLOWER_MAKER
 wubiaoqian:
   id: 110000032
   name: "当它们脱去标签时"
@@ -317,6 +329,7 @@ riyongjiqi2:
     - HAIMAN_FOOD_FERMENTATION_MACHINE
     - HAIMAN_LEARHER_CHANGER
     - HAIMAN_CRAFTING_TABLE
+    - HAIMAN_SOUL_MACHINE
 riyongjiqi3:
   id: 120000040
   name: "日用机器3"
@@ -426,6 +439,7 @@ yuanbanyiti2:
   items:
     - RAIL_INTEGRATED_MACHINE
     - HAIMAN_RAIL_MACHINE_1
+    - HAIMAN_RAIL_MACHINE_2
     - HAIMAN_SHULKER_BOX_MACHINE
 yuanbanyiti3:
   id: 120000049
@@ -495,6 +509,13 @@ ranfang:
     - HAIMAN_SHULKER_BOX_DYING
     - HAIMAN_CANDLE_DYING
     - HAIMAN_ADVANCE_DYING
+    - HAIMAN_BANNER_DYING
+ranfang2:
+  id: 112000055
+  name: "染色方块的批量生产方法"
+  cost: 200
+  items:
+    - HAIMAN_BLOCK_DYING
 yiqijiqi:
   id: 110000056
   name: "1.17机器"
@@ -701,6 +722,13 @@ renzaoyuzhou:
   cost: 2380
   items:
     - MAN_MADE_UNIVERSE
+    - HUANYU_LIZI
+nitaiyuzhou:
+  id: 112000088
+  name: "拟态宇宙"
+  cost: 5000
+  items:
+    - MAN_MADE_UNIVERSE_PLUS
 zhongjifadianji:
   id: 110000089
   name: "中级发电机"
@@ -1223,6 +1251,13 @@ ptgjyitiji:
     - FLINT_AND_STEEL_MACHINE
     - FISHING_ROD_MACHINE
     - SHEARS_MACHINE
+duidiegongnu:
+  id: 110102033
+  name: "堆叠弓弩"
+  cost: 102
+  items:
+    - BOW_MACHINE
+    - CROSSBOW_MACHINE
 jdyitiji:
   id: 110101034
   name: "堆叠鸡蛋"
@@ -1592,6 +1627,7 @@ shaguo:
   cost: 32
   items:
     - HAIMAN_SHAGUO
+    - HAIMAN_YINGLIAO_MACHINE
 doudizhu:
   id: 110101080
   name: "抓牌~看牌~洗牌~码牌~"
@@ -1620,3 +1656,9 @@ ditandr:
   cost: 28
   items:
     - DITAN_DIANRONG
+wutouhuosai:
+  id: 110101084
+  name: "可恶的基岩"
+  cost: 30
+  items:
+    - WUTOU_HUOSAI

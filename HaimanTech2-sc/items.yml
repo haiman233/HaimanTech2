@@ -8,6 +8,7 @@ HAIMANTECH_INFO:
     - "&7感谢yitoudaidai和yh_mc曾经与我的合作"
     - "&7感谢所有给予信任并安装海曼科技院的腐竹"
     - "&7灵感来源于广大玩家"
+    - "&6海曼科技——始于2020年12月"
   item-id: PAPER
   item-amount: 1
   placeable: false
@@ -55,7 +56,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bRelease-1.4"
+    - "&bRelease-1.5"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -715,6 +716,53 @@ HAIMAN_INFO_WRITTEN_BOOK_CHANGER:
   item-lore:
   - "&7该物品需要在旧书机中制作"
   item-id: SKULL46ee7e906686abd5ec192b079314c45f1fb8171d9e13caa4cf9f63afc2263fd5
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    4:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    7:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: SLIMEFUN
+      id: ZHANWEIFU
+      amount: 1
+HAIMAN_INFO_HEIDONG:
+  category: sakurafun_recipe
+  item-type: CUSTOM
+  item-name: "&e&l人造黑洞配方"
+  item-lore:
+  - "&7该物品需要在人造黑洞中制作"
+  item-id: SKULL65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
   item-amount: 1
   placeable: false
   crafting-recipe-type: NONE
@@ -3031,8 +3079,8 @@ YH_MC:
       amount: 1
     2:
       type: VANILLA
-      id: SKELETON_SKULL
-      amount: 4
+      id: DIAMOND
+      amount: 64
     3:
       type: NONE
       id: N/A
@@ -3318,53 +3366,6 @@ HAIMAN_BLACK_HOLE_PIECE:
       type: SLIMEFUN
       id: HAIMAN_GALAXY_PIECE
       amount: 16
-    3:
-      type: NONE
-      id: N/A
-      amount: 1
-    4:
-      type: NONE
-      id: N/A
-      amount: 1
-    5:
-      type: SLIMEFUN
-      id: HAIMAN_INFO_FENZI_5
-      amount: 1
-    6:
-      type: NONE
-      id: N/A
-      amount: 1
-    7:
-      type: NONE
-      id: N/A
-      amount: 1
-    8:
-      type: NONE
-      id: N/A
-      amount: 1
-    9:
-      type: NONE
-      id: N/A
-      amount: 1
-HT_MODULE_1:
-  category: slime_customizer_material
-  item-type: CUSTOM
-  item-name: "&5&l创世高温模块"
-  item-lore:
-  - "&7它可以将温度升至一亿摄氏度以上"
-  item-id: SKULLf25a8dfe753c9c9251f0b0f6d94e9c8ffd42c1579550bf922d1862ff986c4d5
-  item-amount: 1
-  placeable: false
-  crafting-recipe-type: NONE
-  crafting-recipe:
-    1:
-      type: NONE
-      id: N/A
-      amount: 1
-    2:
-      type: SLIMEFUN
-      id: INFINITE_PANEL
-      amount: 5
     3:
       type: NONE
       id: N/A
@@ -5292,11 +5293,11 @@ HM_EMPTY_COUNTRY_BALL:
       id: PAINTING
       amount: 1
 HAIMAN_BIRTHDAY_CAKE_1:
-  category: slime_customizer_fengcang
+  category: slime_customizer_zhuangshi
   item-type: CUSTOM
-  item-name: "&6&l海曼16周岁生日蛋糕"
+  item-name: "&6&l海曼生日蛋糕"
   item-lore:
-  - "&72021.12.14海曼16岁啦"
+  - "&7生日快乐！"
   item-id: SKULL7ef2da482579136749ae739835c793fe28e42fb0aca520a091637b46ca0ab
   item-amount: 1
   placeable: true
@@ -9383,7 +9384,7 @@ BLST_BALL:
   item-type: CUSTOM
   item-name: "&6&l巴勒斯坦球"
   item-lore:
-  item-id: SKULLbd6355b30985d85d37ecaa2afe70b9cdd839004fa41147ad743c7fc92b9ba540
+  item-id: SKULLb5a2e3bb56b9b801fa1f1f687d5afe51b70f90cb488d933b4a67676c9503ff1f
   item-amount: 1
   placeable: true
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -12784,7 +12785,7 @@ MLQS_BALL:
       type: VANILLA
       id: GREEN_DYE
       amount: 1
-1MLTNY_BALL:
+MLTNY_BALL:
   category: slime_customizer_qiu
   item-type: CUSTOM
   item-name: "&6&l毛里塔尼亚球"
@@ -14026,7 +14027,7 @@ MSBK_BALL:
       type: VANILLA
       id: YELLOW_DYE
       amount: 1
-MLTNY_BALL:
+MLTNY_BALL_2:
   category: slime_customizer_qiu
   item-type: CUSTOM
   item-name: "&6&l毛里塔尼亚球"
@@ -20905,4 +20906,191 @@ HM_PUKE_2:
     9:
       type: VANILLA
       id: PAPER
+      amount: 1
+WUTOU_HUOSAI:
+  category: gongju_zhuangbei
+  item-type: SAVEDITEM
+  item-name: "&e&l无头活塞"
+  item-lore:
+  item-id: WUTOU_HUOSAI
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: REDSTONE
+      amount: 1
+    2:
+      type: VANILLA
+      id: LEVER
+      amount: 1
+    3:
+      type: VANILLA
+      id: REDSTONE
+      amount: 1
+    4:
+      type: VANILLA
+      id: PISTON
+      amount: 1
+    5:
+      type: VANILLA
+      id: PISTON
+      amount: 1
+    6:
+      type: VANILLA
+      id: PISTON
+      amount: 1
+    7:
+      type: VANILLA
+      id: COMPARATOR
+      amount: 1
+    8:
+      type: VANILLA
+      id: REPEATER
+      amount: 1
+    9:
+      type: VANILLA
+      id: COMPARATOR
+      amount: 1
+CHUANGSHI_YIN:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l创世之音"
+  item-lore:
+  - "&7创世由此而来"
+  item-id: SKULLf22e40b4bfbcc0433044d86d67685f0567025904271d0a74996afbe3f9be2c0f
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: MAGIC_WORKBENCH
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: YUEYIN
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: ZAYIN
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: YGYIN
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HM_YYZJ
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+HT_MODULE_1:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&5&l创世高温模块"
+  item-lore:
+  - "&7它可以将温度升至一亿摄氏度以上"
+  item-id: SKULLf25a8dfe753c9c9251f0b0f6d94e9c8ffd42c1579550bf922d1862ff986c4d5
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: SLIMEFUN
+      id: INFINITE_PANEL
+      amount: 12
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: SLIMEFUN
+      id: CHUANGSHI_YIN
+      amount: 6
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HAIMAN_INFO_FENZI_5
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+JUBIAN_MOKUAI:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&4&l聚变高温模块"
+  item-lore:
+  - "&7可将温度再提升一个档次"
+  item-id: SKULL240cc89db3fe8eb643bcd58fc2c58057e33d8a2b78172664f56ddc72635dc43b
+  item-amount: 1
+  placeable: true
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: HT_MODULE_1
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HAIMAN_INFO_HEIDONG
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
       amount: 1

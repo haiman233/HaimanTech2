@@ -746,7 +746,7 @@ HAIMAN_NETHERITE_INGOT_MACHINE:
     amount: 1
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
   category: slime_customizer_yitihua
-  item-name: '&a&l强和一体机 &7- &eI'
+  item-name: '&a&l强合一体机 &7- &eI'
   item-lore:
   - '&8用于自动生产强化合金锭'
   - '&712s/item'
@@ -800,7 +800,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_1:
     amount: 2
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
   category: slime_customizer_yitihua
-  item-name: '&a&l强和一体机 &7- &6II'
+  item-name: '&a&l强合一体机 &7- &6II'
   item-lore:
   - '&8用于自动生产强化合金锭'
   - '&76s/item'
@@ -854,7 +854,7 @@ HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_2:
     amount: 6
 HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3:
   category: slime_customizer_yitihua
-  item-name: '&a&l强和一体机 &7- &4III'
+  item-name: '&a&l强合一体机 &7- &4III'
   item-lore:
   - '&8用于自动生产强化合金锭'
   - '&70.5s/item'
@@ -3402,4 +3402,110 @@ MINECART_MACHINE:
     tick-rate: 1
     type: VANILLA
     id: MINECART
+    amount: 64
+BOW_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l弓爆发仪'
+  item-lore:
+  - '&7将弓堆叠至64个'
+  block-type: SKULL621197e53c1ab112e68079d3c83fa4714c77a83d0621a29d762e99e9feaae4d5
+  item-amount: 1
+  stats:
+    energy-consumption: 5000
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: BOW
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: BOW
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: BOW
+    amount: 64
+CROSSBOW_MACHINE:
+  category: slime_customizer_yitihua
+  item-name: '&4&l弩爆发仪'
+  item-lore:
+  - '&7将弩堆叠至64个'
+  block-type: SKULL815c59896e216a1201aba9f1739ed824cc38e241a08ddc8bd5cc29915d09ff82
+  item-amount: 1
+  stats:
+    energy-consumption: 5000
+    energy-buffer: 25000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: CRAFTING_MOTOR
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: DUIDIEYUANJIAN
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '7':
+      type: VANILLA
+      id: CROSSBOW
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: HAIMAN_STAR_DUST
+      amount: 1
+    '9':
+      type: VANILLA
+      id: CROSSBOW
+      amount: 1
+  output:
+    tick-rate: 6
+    type: VANILLA
+    id: CROSSBOW
     amount: 64

@@ -207,7 +207,7 @@ COMPRESSION_BLOCK_MACHINE:
           type: NONE
           id: N/A
           amount: 1
-    '8':
+    '27':
       speed-in-seconds: 0
       input:
         '1':
@@ -4077,11 +4077,11 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
         '1':
           type: SLIMEFUN
           id: INFINITE_PANEL
-          amount: 5
+          amount: 12
         '2':
-          type: NONE
-          id: N/A
-          amount: 1
+          type: SLIMEFUN
+          id: CHUANGSHI_YIN
+          amount: 6
       output:
         '1':
           type: SLIMEFUN
@@ -4613,6 +4613,7 @@ HAIMAN_MUSHROOM_MACHINE:
   machine-name: '&9&l菌落机'
   machine-lore:
   - '&7自动培育各类蘑菇'
+  - '&7须在输入槽内放入相应的蘑菇'
   block-type: SKULLd0c3bdd04d05a7d5252b9063fe08b64d644e1e30f5c69171ec33b6f9aa41d967
   progress-bar-item: STONE_SHOVEL
   stats:
@@ -4658,16 +4659,16 @@ HAIMAN_MUSHROOM_MACHINE:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 3
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: BROWN_MUSHROOM
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4676,18 +4677,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '2':
-      speed-in-seconds: 3
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: RED_MUSHROOM
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4696,18 +4697,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '3':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: WARPED_FUNGUS
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4716,18 +4717,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '4':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: CRIMSON_FUNGUS
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4736,18 +4737,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '5':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: WARPED_ROOTS
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4756,18 +4757,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '6':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: CRIMSON_ROOTS
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4776,18 +4777,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '7':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: BROWN_MUSHROOM_BLOCK
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4796,18 +4797,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '8':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: RED_MUSHROOM_BLOCK
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4816,18 +4817,18 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '9':
-      speed-in-seconds: 4
+      speed-in-seconds: 1
       input:
         '1':
           type: VANILLA
           id: MUSHROOM_STEM
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4836,12 +4837,33 @@ HAIMAN_MUSHROOM_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SHROOMLIGHT
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SHROOMLIGHT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
 HAIMAN_FLOWER_MACHINE:
   category: slime_customizer_farm
   machine-name: '&6&l花匠机'
   machine-lore:
   - '&7自动培育各类花'
+  - '&7须在输入槽内放入相应的花'
   block-type: SKULL4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
   progress-bar-item: STONE_SHOVEL
   stats:
@@ -4892,11 +4914,11 @@ HAIMAN_FLOWER_MACHINE:
         '1':
           type: VANILLA
           id: DANDELION
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4905,18 +4927,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '2':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: POPPY
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4925,18 +4947,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '3':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: BLUE_ORCHID
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4945,18 +4967,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '4':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: ALLIUM
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4965,18 +4987,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '5':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: AZURE_BLUET
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -4985,18 +5007,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '6':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: RED_TULIP
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5005,18 +5027,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '7':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: ORANGE_TULIP
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5025,18 +5047,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '8':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: WHITE_TULIP
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5045,18 +5067,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '9':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: PINK_TULIP
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5065,18 +5087,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '10':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: OXEYE_DAISY
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5085,18 +5107,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '11':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: CORNFLOWER
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5105,18 +5127,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '12':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: LILY_OF_THE_VALLEY
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5125,18 +5147,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '13':
-      speed-in-seconds: 100
+      speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: WITHER_ROSE
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5145,18 +5167,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '14':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: SUNFLOWER
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5165,18 +5187,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '15':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: LILAC
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5185,18 +5207,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '16':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: PEONY
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5205,18 +5227,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '17':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: ROSE_BUSH
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5225,18 +5247,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '18':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: SPORE_BLOSSOM
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5245,18 +5267,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '19':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: AZALEA
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5265,18 +5287,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '20':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: FLOWERING_AZALEA
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5285,18 +5307,18 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '21':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: FLOWERING_AZALEA_LEAVES
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -5305,12 +5327,73 @@ HAIMAN_FLOWER_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
+    '22':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_PETALS 
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_PETALS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '23':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '24':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
 HAIMAN_PLANT_MACHINE:
   category: slime_customizer_farm
   machine-name: '&a&l植物栽培机'
   machine-lore:
   - '&7自动培育杂类陆地/海洋/下界/末地植物'
+  - '&7须在输入槽内放入相应的植物'
   block-type: SKULL24af8d575f0a524ef66a21573e8a4a8ac7d640b00d98e2e9374e60470e7c86f0
   progress-bar-item: STONE_SHOVEL
   stats:
@@ -5361,6 +5444,635 @@ HAIMAN_PLANT_MACHINE:
         '1':
           type: VANILLA
           id: GRASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '2':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: TALL_GRASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: TALL_GRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '3':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FERN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: FERN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: LARGE_FERN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LARGE_FERN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '5':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: DEAD_BUSH
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SEAGRASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SEAGRASS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SEA_PICKLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SEA_PICKLE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: KELP
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: NETHER_SPROUTS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: NETHER_SPROUTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '10':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WARPED_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '11':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CRIMSON_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '13':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: VINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: VINE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '14':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: LILY_PAD
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LILY_PAD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '15':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: GLOW_LICHEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GLOW_LICHEN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '16':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: HANGING_ROOTS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: HANGING_ROOTS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '17':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: MOSS_BLOCK
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MOSS_BLOCK
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MOSS_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MOSS_CARPET
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '19':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: SMALL_DRIPLEAF
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SMALL_DRIPLEAF
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '20':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: BIG_DRIPLEAF
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BIG_DRIPLEAF
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLOW_BERRIES
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GLOW_BERRIES
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '22':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '23':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WEEPING_VINES
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WEEPING_VINES
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '24':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: TWISTING_VINES
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: TWISTING_VINES
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '25':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SCULK_VEIN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_VEIN
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '26':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '27':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '28':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '29':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '30':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PITCHER_PLANT
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PITCHER_PLANT
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+HAIMAN_PLANT_MAKER:
+  category: slime_customizer_farm
+  machine-name: '&a&l植物转换机'
+  machine-lore:
+  - '&7转换各类陆地/海洋/下界/末地植物'
+  block-type: SKULL847b95f1240e5a4d025858b2f2bd825a73d0792136a157ea925e56f9ee31851b
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 15
+    energy-buffer: 1500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: BATTERY
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_PLANT_MACHINE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: HARDENED_GLASS
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WEEPING_VINES
+      amount: 1
+    '8':
+      type: VANILLA
+      id: CHORUS_FLOWER
+      amount: 1
+    '9':
+      type: VANILLA
+      id: TUBE_CORAL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRASS
           amount: 1
         '2':
           type: NONE
@@ -5369,8 +6081,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: GRASS
-          amount: 2
+          id: TALL_GRASS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5389,8 +6101,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: TALL_GRASS
-          amount: 2
+          id: FERN
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5409,8 +6121,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: FERN
-          amount: 2
+          id: LARGE_FERN
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5429,8 +6141,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: LARGE_FERN
-          amount: 2
+          id: DEAD_BUSH
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5449,8 +6161,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: DEAD_BUSH
-          amount: 2
+          id: SEAGRASS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5469,8 +6181,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: SEAGRASS
-          amount: 2
+          id: SEA_PICKLE
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5489,8 +6201,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: SEA_PICKLE
-          amount: 2
+          id: KELP
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5509,8 +6221,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: KELP
-          amount: 2
+          id: NETHER_SPROUTS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5529,8 +6241,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: NETHER_SPROUTS
-          amount: 2
+          id: WARPED_ROOTS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5549,8 +6261,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: WARPED_ROOTS
-          amount: 2
+          id: CRIMSON_ROOTS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5569,28 +6281,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: CRIMSON_ROOTS
-          amount: 2
-        '2':
-          type: NONE
-          id: N/A
+          id: VINE
           amount: 1
-    '12':
-      speed-in-seconds: 4
-      input:
-        '1':
-          type: VANILLA
-          id: CHORUS_FLOWER
-          amount: 1
-        '2':
-          type: NONE
-          id: N/A
-          amount: 1
-      output:
-        '1':
-          type: VANILLA
-          id: CHORUS_FLOWER
-          amount: 2
         '2':
           type: NONE
           id: N/A
@@ -5609,8 +6301,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: VINE
-          amount: 2
+          id: LILY_PAD
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5629,8 +6321,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: LILY_PAD
-          amount: 2
+          id: GLOW_LICHEN
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5649,8 +6341,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: GLOW_LICHEN
-          amount: 2
+          id: HANGING_ROOTS
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5669,8 +6361,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: HANGING_ROOTS
-          amount: 2
+          id: MOSS_BLOCK
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5689,8 +6381,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: MOSS_BLOCK
-          amount: 2
+          id: MOSS_CARPET
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5709,8 +6401,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: MOSS_CARPET
-          amount: 2
+          id: SMALL_DRIPLEAF
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5729,8 +6421,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: SMALL_DRIPLEAF
-          amount: 2
+          id: BIG_DRIPLEAF
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5749,8 +6441,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: BIG_DRIPLEAF
-          amount: 2
+          id: GLOW_BERRIES
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5769,8 +6461,8 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: GLOW_BERRIES
-          amount: 2
+          id: CHORUS_PLANT
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -5789,13 +6481,642 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: CHORUS_PLANT
-          amount: 2
+          id: WEEPING_VINES
+          amount: 1
         '2':
           type: NONE
           id: N/A
           amount: 1
     '23':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WEEPING_VINES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TWISTING_VINES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: TWISTING_VINES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SCULK_VEIN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SCULK_VEIN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BAMBOO
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CACTUS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '28':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR_CANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '29':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PITCHER_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '30':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PITCHER_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+HAIMAN_FLOWER_MAKER:
+  category: slime_customizer_farm
+  machine-name: '&6&l花卉转换机'
+  machine-lore:
+  - '&7转换各类花'
+  block-type: SKULLdc6f38a37f71328c34df3ff9bd819d2e549f6150c7710c8ba95e1b0b4919f04f
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 15
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_FLOWER_MACHINE
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: VANILLA
+      id: LILY_OF_THE_VALLEY
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: VANILLA
+      id: LILY_OF_THE_VALLEY
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: POPPY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_ORCHID
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ALLIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ALLIUM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: AZURE_BLUET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: RED_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_TULIP
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: OXEYE_DAISY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CORNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: LILY_OF_THE_VALLEY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: WITHER_ROSE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SUNFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LILAC
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: LILAC
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PEONY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: PEONY
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: ROSE_BUSH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SPORE_BLOSSOM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: SPORE_BLOSSOM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA_LEAVES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: FLOWERING_AZALEA_LEAVES
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_PETALS 
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
       speed-in-seconds: 3
       input:
         '1':
@@ -5809,8 +7130,48 @@ HAIMAN_PLANT_MACHINE:
       output:
         '1':
           type: VANILLA
-          id: PINK_PETALS
-          amount: 2
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: TORCHFLOWER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: DANDELION
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -8274,6 +9635,46 @@ SOIL_CHANGER:
           type: NONE
           id: N/A
           amount: 1
+    '20':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: COARSE_DIRT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAVEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAVEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: COARSE_DIRT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_12K_GOLD_PRODUCER:
   category: slime_customizer_yitihua
   machine-name: '&e&l12k金一体机'
@@ -10067,6 +11468,26 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
           type: SLIMEFUN
           id: TINY_URANIUM
           amount: 9
+    '13':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERITE_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERITE_SCRAP
+          amount: 4
+        '2':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 4
 HAIMAN_DECOMPRESSOR_MACHINE_2:
   category: slime_customizer
   machine-name: '&7&l解压机 &7- &eII'
@@ -10356,6 +11777,26 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
           type: SLIMEFUN
           id: TINY_URANIUM
           amount: 12
+    '13':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: NETHERITE_INGOT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: NETHERITE_SCRAP
+          amount: 6
+        '2':
+          type: VANILLA
+          id: GOLD_INGOT
+          amount: 6
 HAIMAN_FISH_MACHINE:
   category: slime_customizer_farm
   machine-name: '&9&l网鱼机'
@@ -10721,6 +12162,26 @@ SYNTHETIC_CHANGER:
           type: SLIMEFUN
           id: SYNTHETIC_EMERALD
           amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 6
+      input:
+        '1':
+          type: VANILLA
+          id: SHULKER_SHELL
+          amount: 26
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: SYNTHETIC_SHULKER_SHELL
+          amount: 1
         '2':
           type: NONE
           id: N/A
@@ -11313,7 +12774,7 @@ MUSIC_DISC_PRODUCER:
           id: N/A
           amount: 1
     '15':
-      speed-in-seconds: 1
+      speed-in-seconds: 4
       input:
         '1':
           type: VANILLA
@@ -11333,7 +12794,7 @@ MUSIC_DISC_PRODUCER:
           id: N/A
           amount: 1
     '16':
-      speed-in-seconds: 1
+      speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
@@ -11611,6 +13072,46 @@ HAIMAN_STONE_CHANGER:
           type: NONE
           id: N/A
           amount: 1
+    '4':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 32
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: POINTED_DRIPSTONE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 4
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_DYE
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SMALL_AMETHYST_BUD
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_LEARHER_CHANGER:
   category: slime_customizer
   machine-name: '&c&l皮质转换机'
@@ -11849,8 +13350,158 @@ HAIMAN_CRAFTING_TABLE:
           type: NONE
           id: N/A
           amount: 1
+HAIMAN_SOUL_MACHINE:
+  category: slime_customizer_new
+  machine-name: '&f&l灵魂转换机'
+  machine-lore:
+  - '&7注入灵魂...'
+  block-type: SKULL9580e5cd970c1ded973d0c139be418b0755e0713345d716ed594244a53e6e13d
+  progress-bar-item: SOUL_SAND
+  stats:
+    energy-consumption: 24
+    energy-buffer: 240
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: SOUL_CAMPFIRE
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: SOUL_CAMPFIRE
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: MAGNET
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: MAGNET
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SAND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_SAND
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: DIRT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_SOIL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: TORCH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_TORCH
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LANTERN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_LANTERN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CAMPFIRE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SOUL_CAMPFIRE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# 染坊
 HAIMAN_CONCRETE_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l混凝土染坊'
   machine-lore:
   - '&7可以对混凝土等进行染色'
@@ -12539,7 +14190,7 @@ HAIMAN_CONCRETE_DYING:
           id: N/A
           amount: 1
 HAIMAN_WOOL_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l羊毛染坊'
   machine-lore:
   - '&7可以对羊毛、床等进行染色'
@@ -13548,7 +15199,7 @@ HAIMAN_WOOL_DYING:
           id: N/A
           amount: 1
 HAIMAN_GLASS_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l玻璃染坊'
   machine-lore:
   - '&7可以对玻璃等进行染色'
@@ -14277,7 +15928,7 @@ HAIMAN_GLASS_DYING:
           id: N/A
           amount: 1
 HAIMAN_TERRACOTTA_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l陶瓦染坊'
   machine-lore:
   - '&7可以对陶瓦等进行染色'
@@ -14986,7 +16637,7 @@ HAIMAN_TERRACOTTA_DYING:
           id: N/A
           amount: 1
 HAIMAN_SHULKER_BOX_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l潜影盒染坊'
   machine-lore:
   - '&7可以对潜影盒进行染色'
@@ -15375,7 +17026,7 @@ HAIMAN_SHULKER_BOX_DYING:
           id: N/A
           amount: 1
 HAIMAN_CANDLE_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&6&l蜡烛染坊'
   machine-lore:
   - '&7可以对蜡烛进行染色'
@@ -15763,11 +17414,382 @@ HAIMAN_CANDLE_DYING:
           type: NONE
           id: N/A
           amount: 1
+HAIMAN_BANNER_DYING:
+  category: ranfang
+  machine-name: '&6&l旗帜染坊'
+  machine-lore:
+  - '&7可以对旗帜进行染色'
+  block-type: SKULL76184610c50c2efb7285bc2d20f394364e8367bb314841c238a6a521a1ee12bf
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 10
+    energy-buffer: 1000
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: HAIMAN_AMETHYST_DUST
+      amount: 1
+    '2':
+      type: VANILLA
+      id: WHITE_BANNER
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: HAIMAN_AMETHYST_DUST
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: BASIC_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      type: VANILLA
+      id: RED_DYE
+      amount: 1
+    '8':
+      type: VANILLA
+      id: LIME_DYE
+      amount: 1
+    '9':
+      type: VANILLA
+      id: BLUE_DYE
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_ADVANCE_DYING:
-  category: slime_customizer
+  category: ranfang
   machine-name: '&4&l终极染坊'
   machine-lore:
   - '&7对物品进行终极染色'
+  - '&7如果想要机器输出彩虹方块'
+  - '&7须要在输入槽内放入相应的彩虹方块'
   block-type: SKULL391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
   progress-bar-item: STONE_SHOVEL
   stats:
@@ -15816,9 +17838,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_WOOL
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_WOOL
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15836,9 +17858,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_STAINED_GLASS
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_GLASS
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15856,9 +17878,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_STAINED_GLASS_PANE
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15876,9 +17898,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_TERRACOTTA
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_CLAY
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15896,9 +17918,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_CONCRETE
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15916,9 +17938,9 @@ HAIMAN_ADVANCE_DYING:
       speed-in-seconds: 1
       input:
         '1':
-          type: VANILLA
-          id: WHITE_GLAZED_TERRACOTTA
-          amount: 1
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA
+          amount: 0
         '2':
           type: NONE
           id: N/A
@@ -15992,6 +18014,4474 @@ HAIMAN_ADVANCE_DYING:
           type: NONE
           id: N/A
           amount: 1
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_XMAS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_XMAS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '19':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '20':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_VALENTINE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_VALENTINE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '22':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_WOOL_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '23':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '24':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLASS_PANE_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '25':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CLAY_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '26':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_CONCRETE_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '27':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_HALLOWEEN
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RAINBOW_GLAZED_TERRACOTTA_HALLOWEEN
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+# 染色方块浇筑机
+HAIMAN_BLOCK_DYING:
+  category: ranfang
+  machine-name: '&c&l染色方块浇筑机'
+  machine-lore:
+  - '&7一个可以量产染色方块的机器'
+  - '&7包含所有染色方块'
+  - '&7须在输入槽内放入相应的染色方块'
+  - '&7输入槽内的染色方块不会被消耗'
+  block-type: SKULL67844a5b74f341039560f280db1fcdf836e3b6a48dc2a09351937626977e1c2
+  progress-bar-item: STONE_SHOVEL
+  stats:
+    energy-consumption: 120
+    energy-buffer: 1200
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HAIMAN_INGOT
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: ZOT_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: MINECRAFT_DEAD_BUSH_GHOST
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FUHEBAN
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: TIANXUAN_MADA
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '2':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '6':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '7':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '8':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '9':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '10':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '11':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '12':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '13':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '15':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '16':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '17':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '18':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '19':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '20':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '21':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '22':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '23':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '24':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '25':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '26':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '27':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '28':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '29':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '30':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '31':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '32':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE_POWDER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CONCRETE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '33':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '34':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '35':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '36':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '37':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '38':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '39':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '40':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '41':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '42':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '43':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '44':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '45':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '46':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '47':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '48':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_BED
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_BED
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '49':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '50':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '51':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '52':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '53':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '54':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '55':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '56':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '57':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '58':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '59':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '60':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '61':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '62':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '63':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '64':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_STAINED_GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_STAINED_GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '65':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLASS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '66':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '67':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '68':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '69':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '70':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '71':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '72':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '73':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '74':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '75':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '76':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '77':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '78':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '79':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '80':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '81':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_STAINED_GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_STAINED_GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '82':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GLASS_PANE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLASS_PANE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '83':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '84':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '85':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '86':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '87':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '88':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '89':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '90':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '91':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '92':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '93':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '94':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '95':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '96':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '97':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '98':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '99':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CANDLE
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CANDLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '100':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '101':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '102':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '103':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '104':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '105':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '106':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '107':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '108':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '109':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '110':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '111':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '112':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '113':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '114':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+    '115':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_BANNER
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: RED_BANNER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '116':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '117':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '118':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '119':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '120':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '121':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '122':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '123':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '124':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '125':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '126':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '127':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '128':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '129':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '130':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RED_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '131':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_WOOL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_WOOL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '132':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '133':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '134':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '135':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '136':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '137':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '138':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '139':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '140':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '141':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '142':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '143':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '144':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '145':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '146':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RED_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '147':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_CARPET
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_CARPET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '148':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '149':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '150':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '151':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '152':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '153':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '154':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '155':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '156':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '157':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '158':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '159':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '160':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '161':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '162':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '163':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '164':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '165':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '166':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '167':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '168':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '169':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '170':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '171':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '172':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '173':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '174':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '175':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '176':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '177':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '178':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '179':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RED_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '180':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_GLAZED_TERRACOTTA
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_GLAZED_TERRACOTTA
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '181':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: WHITE_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: WHITE_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '182':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: ORANGE_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ORANGE_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '183':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: MAGENTA_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: MAGENTA_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '184':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_BLUE_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '185':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: YELLOW_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: YELLOW_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '186':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIME_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '187':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PINK_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PINK_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '188':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GRAY_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GRAY_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '189':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: LIGHT_GRAY_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '190':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: CYAN_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: CYAN_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '191':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: PURPLE_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: PURPLE_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '192':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLUE_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLUE_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '193':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BROWN_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '194':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GREEN_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: GREEN_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '195':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: RED_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RED_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '196':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BLACK_SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: BLACK_SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '197':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SHULKER_BOX
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: SHULKER_BOX
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+
+# 1.17
 HAIMAN_LIGHT_PRODUCER:
   category: slime_customizer_new
   machine-name: '&e&l电光聚合机'
@@ -17356,7 +23846,7 @@ HAIMAN_GLOWER:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 7
+      speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
@@ -17376,7 +23866,7 @@ HAIMAN_GLOWER:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 14
+      speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
@@ -17390,6 +23880,66 @@ HAIMAN_GLOWER:
         '1':
           type: VANILLA
           id: GLOW_ITEM_FRAME
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '3':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: GUNPOWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLOWSTONE_DUST
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '4':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: STONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GLOWSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: BROWN_MUSHROOM_BLOCK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: SHROOMLIGHT
           amount: 1
         '2':
           type: NONE
@@ -19745,6 +26295,7 @@ HAIMAN_CARPET_MACHINE:
   machine-name: '&9&l刷地毯机'
   machine-lore:
   - '&7自动复制各种地毯'
+  - '&7须在输入槽内放入相应的地毯'
   block-type: SKULL82c3c18263331e1a2c02fd78031f9b0a433ca6957e677abb6d879c330c87c2e
   progress-bar-item: STONE_SHOVEL
   stats:
@@ -19795,11 +26346,11 @@ HAIMAN_CARPET_MACHINE:
         '1':
           type: VANILLA
           id: white_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19808,18 +26359,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '2':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: orange_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19828,18 +26379,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '3':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: magenta_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19848,18 +26399,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '4':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: light_blue_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19868,18 +26419,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '5':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: yellow_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19888,18 +26439,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '6':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: lime_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19908,18 +26459,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '7':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: pink_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19928,18 +26479,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '8':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: gray_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19948,18 +26499,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '9':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: light_gray_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19968,18 +26519,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '10':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: cyan_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -19988,18 +26539,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '11':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: purple_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20008,18 +26559,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '12':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: blue_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20028,18 +26579,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '13':
       speed-in-seconds: 100
       input:
         '1':
           type: VANILLA
           id: brown_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20048,18 +26599,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '14':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: green_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20068,18 +26619,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '15':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: red_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20088,18 +26639,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '16':
       speed-in-seconds: 6
       input:
         '1':
           type: VANILLA
           id: black_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20108,18 +26659,18 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '17':
       speed-in-seconds: 3
       input:
         '1':
           type: VANILLA
           id: moss_carpet
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20128,12 +26679,13 @@ HAIMAN_CARPET_MACHINE:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
 HAIMAN_RAIL_MACHINE_1:
   category: slime_customizer
   machine-name: '&9&l刷铁轨机 &7- &eI'
   machine-lore:
   - '&7自动复制各种原版铁轨'
+  - '&7须在输入槽内放入相应的铁轨'
   block-type: SKULL3b925d3a52759fde8c0258871fefd9141e5c97fdf453af3df21104cc8c488
   progress-bar-item: STONE_HOE
   stats:
@@ -20184,11 +26736,11 @@ HAIMAN_RAIL_MACHINE_1:
         '1':
           type: VANILLA
           id: RAIL
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20197,18 +26749,18 @@ HAIMAN_RAIL_MACHINE_1:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '2':
       speed-in-seconds: 2
       input:
         '1':
           type: VANILLA
           id: ACTIVATOR_RAIL
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20217,18 +26769,18 @@ HAIMAN_RAIL_MACHINE_1:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '3':
       speed-in-seconds: 2
       input:
         '1':
           type: VANILLA
           id: POWERED_RAIL
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20237,18 +26789,18 @@ HAIMAN_RAIL_MACHINE_1:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
     '4':
       speed-in-seconds: 2
       input:
         '1':
           type: VANILLA
           id: DETECTOR_RAIL
-          amount: 1
+          amount: 0
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
       output:
         '1':
           type: VANILLA
@@ -20257,7 +26809,137 @@ HAIMAN_RAIL_MACHINE_1:
         '2':
           type: NONE
           id: N/A
-          amount: 1
+          amount: 0
+HAIMAN_RAIL_MACHINE_2:
+  category: slime_customizer
+  machine-name: '&9&l刷铁轨机 &7- &eI'
+  machine-lore:
+  - '&7自动复制各种原版铁轨'
+  - '&7须在输入槽内放入相应的铁轨'
+  block-type: SKULL3b925d3a52759fde8c0258871fefd9141e5c97fdf453af3df21104cc8c488
+  progress-bar-item: STONE_HOE
+  stats:
+    energy-consumption: 25
+    energy-buffer: 2500
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: NEPTUNIUM
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: HAIMAN_RAIL_MACHINE_1
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: POWER_CRYSTAL
+      amount: 1
+    '7':
+      type: VANILLA
+      id: ACTIVATOR_RAIL
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '9':
+      type: VANILLA
+      id: ACTIVATOR_RAIL
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: RAIL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: RAIL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: ACTIVATOR_RAIL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: ACTIVATOR_RAIL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: POWERED_RAIL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: POWERED_RAIL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: DETECTOR_RAIL
+          amount: 0
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
+      output:
+        '1':
+          type: VANILLA
+          id: DETECTOR_RAIL
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 0
 HAIMAN_MINECART_MACHINE:
   category: slime_customizer
   machine-name: '&c&l矿车装配机'
@@ -20656,6 +27338,46 @@ HAIMAN_BOOK_MACHINE:
           type: NONE
           id: N/A
           amount: 1
+    '10':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CHISELED_BOOKSHELF
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHISELED_BOOKSHELF
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: PAPER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: PAPER
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_DEBUG_MACHINE:
   category: slime_customizer
   machine-name: '&9&lDebug调试机'
@@ -21049,7 +27771,7 @@ HAIMAN_POWER_STORAGER_3:
   machine-name: '&d&l储电机 &7- &6III'
   machine-lore:
   - '&7将电能存入电单元中'
-  - '&8以不备之需...'
+  - '&8以便不时之需...'
   block-type: SKULLad78b536eed33a0f957a042cae0c9b1da7f3b0a651f8e31abc4890ebfce70c89
   progress-bar-item: GOLDEN_HOE
   stats:
@@ -21604,7 +28326,7 @@ HAIMAN_DANGAO_HONGBEI:
           id: N/A
           amount: 1
     '7':
-      speed-in-seconds: 5
+      speed-in-seconds: 4
       input:
         '1':
           type: VANILLA
@@ -21619,6 +28341,186 @@ HAIMAN_DANGAO_HONGBEI:
           type: VANILLA
           id: POPPED_CHORUS_FRUIT
           amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: MELON
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_FRUIT_CAKE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: APPLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_APPLE_PIE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: WHEAT_FLOUR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CAKE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: CARROT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CARROT_PIE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EASTER_APPLE_PIE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: CAKE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: BIRTHDAY_CAKE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '14':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: SUGAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CARAMEL
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '15':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CARAMEL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CARAMEL_APPLE
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '16':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CHOCOLATE_APPLE
+          amount: 2
         '2':
           type: NONE
           id: N/A
@@ -24299,7 +31201,7 @@ XUESHIZHIPINGZHUANGPEIJI:
           id: N/A
           amount: 1
 KUANGWUCUISHENGQI:
-  category: slime_customizer
+  category: slime_customizer_farm
   machine-name: '&a&l矿物催生器'
   machine-lore:
   - '&7能够将一个矿石种子催化成熟'
@@ -25488,6 +32390,106 @@ DIYUKONGJIAN:
           type: NONE
           id: N/A
           amount: 1
+    '9':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLAZE_ROD
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLAZE_ROD
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '10':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: GHAST_TEAR
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: GHAST_TEAR
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '11':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: FIRE_CHARGE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: FIRE_CHARGE
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '12':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MAGMA_CREAM
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: MAGMA_CREAM
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '13':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: BLAZE_POWDER
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BLAZE_POWDER
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MODIKONGJIAN:
   category: slime_customizer
   machine-name: '&4&l末地空间'
@@ -25637,6 +32639,46 @@ MODIKONGJIAN:
           type: VANILLA
           id: END_STONE
           amount: 64
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_FRUIT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '7':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: CHORUS_PLANT
+          amount: 64
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 MIJINGHUAYUAN:
   category: slime_customizer
   machine-name: '&5&l秘境花园'
@@ -26614,7 +33656,7 @@ JIHANZHIDI:
       amount: 1
   recipes:
     '1':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26634,7 +33676,7 @@ JIHANZHIDI:
           id: N/A
           amount: 1
     '2':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26654,7 +33696,7 @@ JIHANZHIDI:
           id: N/A
           amount: 1
     '3':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26674,7 +33716,7 @@ JIHANZHIDI:
           id: N/A
           amount: 1
     '4':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26694,7 +33736,7 @@ JIHANZHIDI:
           id: SNOWBALL
           amount: 16
     '5':
-      speed-in-seconds: 1
+      speed-in-seconds: 0
       input:
         '1':
           type: VANILLA
@@ -26713,7 +33755,26 @@ JIHANZHIDI:
           type: NONE
           id: N/A
           amount: 1
-
+    '6':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: SNOW
+          amount: 2
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: ICE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 DIAOYUJI:
   category: slime_customizer
   machine-name: '&b&l虚空钓鱼机'
@@ -46508,6 +53569,26 @@ HAIMAN_DUJINTAI:
           type: NONE
           id: N/A
           amount: 1
+    '7':
+      speed-in-seconds: 3
+      input:
+        '1':
+          type: VANILLA
+          id: GRINDSTONE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: VANILLA
+          id: BELL
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_ZHIJIANTAI:
   category: slime_customizer
   machine-name: '&e&l电动制箭台'
@@ -47075,6 +54156,26 @@ HAIMAN_BINGGANLLU:
           type: NONE
           id: N/A
           amount: 1
+    '5':
+      speed-in-seconds: 1
+      input:
+        '1':
+          type: VANILLA
+          id: LIME_DYE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_COOKIE
+          amount: 16
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_ZHUSHUICHI:
   category: haiman_jiaju
   machine-name: '&b&l注水池'
@@ -47562,6 +54663,66 @@ HAIMAN_SHOUGONGTAI:
           type: NONE
           id: N/A
           amount: 1
+    '7':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: NAME_TAG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_PRESENT
+          amount: 8
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '8':
+      speed-in-seconds: 2
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: EASTER_EGG
+          amount: 4
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+    '9':
+      speed-in-seconds: 60
+      input:
+        '1':
+          type: SLIMEFUN
+          id: RADIANT_BACKPACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: RESTORED_BACKPACK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
 HAIMAN_DIANRECHUANG:
   category: haiman_jiaju
   machine-name: '&4&l电热床'
@@ -47759,6 +54920,155 @@ HAIMAN_SHAGUO:
         '2':
           type: NONE
           id: N/A
+          amount: 1
+HAIMAN_YINGLIAO_MACHINE:
+  category: haiman_jiaju
+  machine-name: '&6&l饮料机'
+  machine-lore:
+  - '&7早上来杯牛奶'
+  block-type: SKULL24a37e0c123f4e1a7eb3cce17c12143f93c0c7ce8ce62d2ff86a7ce3a079f473
+  progress-bar-item: FLINT_AND_STEEL
+  stats:
+    energy-consumption: 50
+    energy-buffer: 450
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: HEATING_COIL
+      amount: 1
+    '3':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '7':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: COOLING_UNIT
+      amount: 1
+    '9':
+      type: SLIMEFUN
+      id: SILICON
+      amount: 1
+  recipes:
+    '1':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: MILK_BUCKET
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_MILK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CHRISTMAS_MILK
+          amount: 1
+    '2':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_MILK
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_CHOCOLATE_MILK
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CHRISTMAS_CHOCOLATE_MILK
+          amount: 1
+    '3':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: EGG
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_EGG_NOG
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CHRISTMAS_EGG_NOG
+          amount: 1
+    '4':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: APPLE
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_APPLE_CIDER
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CHRISTMAS_APPLE_CIDER
+          amount: 1
+    '5':
+      speed-in-seconds: 0
+      input:
+        '1':
+          type: VANILLA
+          id: COCOA_BEANS
+          amount: 1
+        '2':
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        '1':
+          type: SLIMEFUN
+          id: CHRISTMAS_HOT_CHOCOLATE
+          amount: 1
+        '2':
+          type: SLIMEFUN
+          id: CHRISTMAS_HOT_CHOCOLATE
           amount: 1
 HAIMAN_PAIZHUO:
   category: haiman_yule
