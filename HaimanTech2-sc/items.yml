@@ -56,7 +56,7 @@ VERSION_INFO:
   item-name: "&c&l版本号"
   item-lore:
     - "&f当前海曼科技院版本："
-    - "&bRelease-1.5"
+    - "&bRelease-1.5.1"
     - "&7您在提issues的时候需要展示这个"
   item-id: PAPER
   item-amount: 1
@@ -665,9 +665,9 @@ HAIMAN_INFO_GUANGDIAN:
 HAIMAN_INFO_BIRTHDAY_CAKE_STOVE:
   category: sakurafun_recipe
   item-type: CUSTOM
-  item-name: "&6&l生日蛋糕烘焙机配方"
+  item-name: "&6&l烤箱配方"
   item-lore:
-  - "&7该物品需要在生日蛋糕烘焙机中烘焙"
+  - "&7该物品需要在烤箱中烘焙"
   item-id: SKULL8f9da46d97461a1be10600cc546a9d4613e16cfb5719eeb39042e501836008ca
   item-amount: 1
   placeable: false
