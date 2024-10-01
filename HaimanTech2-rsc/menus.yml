@@ -3853,7 +3853,7 @@ HAIMAN_RAIL_MACHINE_1:
       material: gray_stained_glass_pane
       name: '&a'
 HAIMAN_RAIL_MACHINE_2:
-  title: '&9&l刷铁轨机 &7- &eI'
+  title: '&9&l刷铁轨机 &7- &eII'
   slots:
     3:
       material: gray_stained_glass_pane

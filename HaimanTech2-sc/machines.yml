@@ -26812,7 +26812,7 @@ HAIMAN_RAIL_MACHINE_1:
           amount: 0
 HAIMAN_RAIL_MACHINE_2:
   category: slime_customizer
-  machine-name: '&9&l刷铁轨机 &7- &eI'
+  machine-name: '&9&l刷铁轨机 &7- &eII'
   machine-lore:
   - '&7自动复制各种原版铁轨'
   - '&7须在输入槽内放入相应的铁轨'
