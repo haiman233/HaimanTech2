@@ -4,10 +4,10 @@ COMPRESSION_BLOCK_MACHINE:
   item:
     name: '&b&l压块机'
     lore:
-    - '&7可以将铁锭/24k金锭/煤炭压成块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 160 J 可存储'
-    - '&8⇨ &e⚡&7 32 J/s'
+      - '&7可以将铁锭/24k金锭/煤炭压成块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 160 J 可存储'
+      - '&8⇨ &e⚡&7 32 J/s'
     material_type: skull_hash
     material: 2986794521869e8327ef81dbc35c9856bc4051df9888d81eab212442b176a82f
   speed: 1
@@ -384,11 +384,11 @@ HAIMAN_RESISTANCE:
   item:
     name: '&4&l海曼牌电阻'
     lore:
-    - '&7是否觉得你的电太多了？'
-    - '&7通入红石就可以消耗你大量的费电？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2147483647 J 可存储'
-    - '&8⇨ &e⚡&7 4294967294 J/s'
+      - '&7是否觉得你的电太多了？'
+      - '&7通入红石就可以消耗你大量的费电？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2147483647 J 可存储'
+      - '&8⇨ &e⚡&7 4294967294 J/s'
     material_type: skull_hash
     material: dcd7a00de13ec9f3c59d7cf902d980f5d29002c0dad754acbda0f6c2b698fd05
   speed: 1
@@ -453,10 +453,10 @@ NUCLEAR_DECAY_MACHINE:
   item:
     name: '&a&l核衰变机'
     lore:
-    - '&7可以快速的进行核衰变'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 1200 J/s'
+      - '&7可以快速的进行核衰变'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 1200 J/s'
     material_type: skull_hash
     material: ca9cb0457d5015dfbd3e252d76707127591063a0b2febaf8c644acada90bd4d0
   speed: 1
@@ -537,10 +537,10 @@ MILK_HONEY_MACHINE:
   item:
     name: '&4&l采蜜挤奶一体机'
     lore:
-    - '&7自动生产牛奶和蜂蜜'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 100 J/s'
+      - '&7自动生产牛奶和蜂蜜'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
     material_type: skull_hash
     material: 6375a78d0f6c7c16b77399ab0d5f41c57cf328de94552067db20df87603363b1
   speed: 1
@@ -617,10 +617,10 @@ ANCIENT_DEBRIS_MACHINE:
   item:
     name: '&c&l残骸生产机'
     lore:
-    - '&7用来生产远古的残骸'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 20000 J 可存储'
-    - '&8⇨ &e⚡&7 7600 J/s'
+      - '&7用来生产远古的残骸'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 20000 J 可存储'
+      - '&8⇨ &e⚡&7 7600 J/s'
     material_type: skull_hash
     material: cd4a7fce6f888e8042d634c7973b3cbc7e9320f1744608e6c5cdd5f4ef9ca393
   speed: 1
@@ -685,11 +685,11 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_I:
   item:
     name: '&b&l分子重组仪 &7- &aI'
     lore:
-    - '&8用来重组最基本的物品'
-    - '&7输入材料少但是重组时间长'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 36000 J 可存储'
-    - '&8⇨ &e⚡&7 3600 J/s'
+      - '&8用来重组最基本的物品'
+      - '&7输入材料少但是重组时间长'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 36000 J 可存储'
+      - '&8⇨ &e⚡&7 3600 J/s'
     material_type: skull_hash
     material: eb308694c5b01e815d498535f4c3db5827b4cc45f12a33717ad0ca9fe24509c0
   speed: 1
@@ -946,11 +946,11 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
   item:
     name: '&b&l分子重组仪 &7- &eII'
     lore:
-    - '&8用来重组较为高级的物品'
-    - '&7输入材料多但是重组时间较短'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 70000 J 可存储'
-    - '&8⇨ &e⚡&7 14000 J/s'
+      - '&8用来重组较为高级的物品'
+      - '&7输入材料多但是重组时间较短'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 70000 J 可存储'
+      - '&8⇨ &e⚡&7 14000 J/s'
     material_type: skull_hash
     material: a44c5ce2eb643f8671c667e8802c9317ad8cc6af680d4ef671d8c0c63277900a
   speed: 1
@@ -1065,7 +1065,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_II:
       output:
         1:
           material_type: mc
-          material: SCUTE
+          material: TURTLE_SCUTE
           amount: 1
     '7':
       seconds: 55
@@ -1327,11 +1327,11 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_II:
   item:
     name: '&b&l分子重组仪 &7- &eII'
     lore:
-    - '&8用来重组较为高级的物品'
-    - '&7输入材料多但是重组时间较短'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 70000 J 可存储'
-    - '&8⇨ &e⚡&7 14000 J/s'
+      - '&8用来重组较为高级的物品'
+      - '&7输入材料多但是重组时间较短'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 70000 J 可存储'
+      - '&8⇨ &e⚡&7 14000 J/s'
     material_type: skull_hash
     material: a44c5ce2eb643f8671c667e8802c9317ad8cc6af680d4ef671d8c0c63277900a
   speed: 1
@@ -1703,7 +1703,7 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_II:
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_II
   register:
     conditions:
-    - version >= 1.20.5
+      - version >= 1.20.5
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MOLECULAR_RECOMBINATION_INSTRUMENT_III:
@@ -1712,10 +1712,10 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   item:
     name: '&b&l分子重组仪 &7- &6III'
     lore:
-    - '&8海曼的新型高科技'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 900000 J 可存储'
-    - '&8⇨ &e⚡&7 40000 J/s'
+      - '&8海曼的新型高科技'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 900000 J 可存储'
+      - '&8⇨ &e⚡&7 40000 J/s'
     material_type: skull_hash
     material: 5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
   speed: 1
@@ -1830,7 +1830,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_III:
       output:
         1:
           material_type: mc
-          material: SCUTE
+          material: TURTLE_SCUTE
           amount: 1
     '7':
       seconds: 28
@@ -2152,10 +2152,10 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   item:
     name: '&b&l分子重组仪 &7- &6III'
     lore:
-    - '&8海曼的新型高科技'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 900000 J 可存储'
-    - '&8⇨ &e⚡&7 40000 J/s'
+      - '&8海曼的新型高科技'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 900000 J 可存储'
+      - '&8⇨ &e⚡&7 40000 J/s'
     material_type: skull_hash
     material: 5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
   speed: 1
@@ -2587,7 +2587,7 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_III:
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_III
   register:
     conditions:
-    - version >= 1.20.5
+      - version >= 1.20.5
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
@@ -2596,10 +2596,10 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
   item:
     name: '&b&l分子重组仪 &7- &cIV'
     lore:
-    - '&8这...是4级重组仪？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 930000 J 可存储'
-    - '&8⇨ &e⚡&7 60000 J/s'
+      - '&8这...是4级重组仪？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 930000 J 可存储'
+      - '&8⇨ &e⚡&7 60000 J/s'
     material_type: skull_hash
     material: 57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
   speed: 1
@@ -2714,7 +2714,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
       output:
         1:
           material_type: mc
-          material: SCUTE
+          material: TURTLE_SCUTE
           amount: 5
     '7':
       seconds: 1
@@ -3072,10 +3072,10 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
   item:
     name: '&b&l分子重组仪 &7- &cIV'
     lore:
-    - '&8这...是4级重组仪？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 930000 J 可存储'
-    - '&8⇨ &e⚡&7 60000 J/s'
+      - '&8这...是4级重组仪？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 930000 J 可存储'
+      - '&8⇨ &e⚡&7 60000 J/s'
     material_type: skull_hash
     material: 57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
   speed: 1
@@ -3543,7 +3543,7 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_IV:
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
   register:
     conditions:
-    - version >= 1.20.5
+      - version >= 1.20.5
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MOLECULAR_RECOMBINATION_INSTRUMENT_V:
@@ -3552,10 +3552,10 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
   item:
     name: '&b&l分子重组仪 &7- &4V'
     lore:
-    - '&8这难道就是最终目标吗？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 950000 J 可存储'
-    - '&8⇨ &e⚡&7 80000 J/s'
+      - '&8这难道就是最终目标吗？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 950000 J 可存储'
+      - '&8⇨ &e⚡&7 80000 J/s'
     material_type: skull_hash
     material: 30a35957fce2344aa8557ba6b36187ab415249934607bbbed2a053c3a86cafc0
   speed: 1
@@ -3670,7 +3670,7 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_V:
       output:
         1:
           material_type: mc
-          material: SCUTE
+          material: TURTLE_SCUTE
           amount: 32
     '7':
       seconds: 1
@@ -4096,10 +4096,10 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
   item:
     name: '&b&l分子重组仪 &7- &4V'
     lore:
-    - '&8这难道就是最终目标吗？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 950000 J 可存储'
-    - '&8⇨ &e⚡&7 80000 J/s'
+      - '&8这难道就是最终目标吗？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 950000 J 可存储'
+      - '&8⇨ &e⚡&7 80000 J/s'
     material_type: skull_hash
     material: 30a35957fce2344aa8557ba6b36187ab415249934607bbbed2a053c3a86cafc0
   speed: 1
@@ -4635,7 +4635,7 @@ VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_V:
   id_alias: MOLECULAR_RECOMBINATION_INSTRUMENT_V
   register:
     conditions:
-    - version >= 1.20.5
+      - version >= 1.20.5
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
@@ -4644,19 +4644,19 @@ MOLECULAR_RECOMBINATION_INSTRUMENT_32767:
   item:
     name: '&b&l分子重组仪 &7- &5xxxMMDCCLXVII'
     lore:
-    - '&8嗯？这是32767级的重组仪？'
-    - '&7在分子重组仪改装机中改装升级'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 114514 J 可存储'
-    - '&8⇨ &e⚡&7 65534 J/s'
+      - '&8嗯？这是32767级的重组仪？'
+      - '&7在分子重组仪改装机中改装升级'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 114514 J 可存储'
+      - '&8⇨ &e⚡&7 65534 J/s'
     material_type: skull_hash
     material: 6f89b150be9c4c5249f355f68ea0c4391300a9be1f260d750fc35a1817ad796e
   speed: 1
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_GAIZHUANG
   recipe:
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_FENZI_GAIZHUANG
+      material: MOLECULAR_RECOMBINATION_INSTRUMENT_I
       amount: 1
   capacity: 114514
   energyPerCraft: 32767
@@ -4717,10 +4717,10 @@ MOLECULAR_CHANGER:
   item:
     name: '&9&l分子重组仪改装机'
     lore:
-    - '&7对分子重组仪进行魔改'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 1200 J/s'
+      - '&7对分子重组仪进行魔改'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 1200 J/s'
     material_type: skull_hash
     material: 2afeefa29bfdb3202238a2c4b8dcb750506a30d122600f88725e5aa247335460
   speed: 1
@@ -4785,10 +4785,10 @@ COMMAND_BLOCK_DYE_MACHINE:
   item:
     name: '&6&l命令方块染色机'
     lore:
-    - '&7可以给命令方块染色的机器'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2500 J 可存储'
-    - '&8⇨ &e⚡&7 900 J/s'
+      - '&7可以给命令方块染色的机器'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2500 J 可存储'
+      - '&8⇨ &e⚡&7 900 J/s'
     material_type: skull_hash
     material: ed924489282abeb38aeacbf4c0eb3ad400d5257ffb3a605b87cf231c92fa2f4c
   speed: 1
@@ -4877,10 +4877,10 @@ COMMAND_BLOCK_DYE_MACHINE_2:
   item:
     name: '&c&l命令方块浸染机'
     lore:
-    - '&7更快的给命令方块染色的机器'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6000 J 可存储'
-    - '&8⇨ &e⚡&7 3000 J/s'
+      - '&7更快的给命令方块染色的机器'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6000 J 可存储'
+      - '&8⇨ &e⚡&7 3000 J/s'
     material_type: skull_hash
     material: 6d0f4061bfb767a7f922a6ca7176f7a9b20709bd0512696beb15ea6fa98ca55c
   speed: 1
@@ -4969,11 +4969,11 @@ HAIMAN_MUSHROOM_MACHINE:
   item:
     name: '&9&l菌落机'
     lore:
-    - '&7自动培育各类蘑菇'
-    - '&7须在输入槽内放入相应的蘑菇'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7自动培育各类蘑菇'
+      - '&7须在输入槽内放入相应的蘑菇'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: d0c3bdd04d05a7d5252b9063fe08b64d644e1e30f5c69171ec33b6f9aa41d967
   speed: 1
@@ -5146,11 +5146,11 @@ HAIMAN_FLOWER_MACHINE:
   item:
     name: '&6&l花匠机'
     lore:
-    - '&7自动培育各类花'
-    - '&7须在输入槽内放入相应的花'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7自动培育各类花'
+      - '&7须在输入槽内放入相应的花'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 4b57a4c68d1d2c5de978ea6de4db91ef387ca6c37966bb8e7c8826f937e6c3
   speed: 1
@@ -5491,11 +5491,11 @@ HAIMAN_PLANT_MACHINE:
   item:
     name: '&a&l植物栽培机'
     lore:
-    - '&7自动培育杂类陆地/海洋/下界/末地植物'
-    - '&7须在输入槽内放入相应的植物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7自动培育杂类陆地/海洋/下界/末地植物'
+      - '&7须在输入槽内放入相应的植物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 24af8d575f0a524ef66a21573e8a4a8ac7d640b00d98e2e9374e60470e7c86f0
   speed: 1
@@ -5545,12 +5545,12 @@ HAIMAN_PLANT_MACHINE:
       input:
         1:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 0
       output:
         1:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 2
     '2':
       seconds: 2
@@ -5896,11 +5896,11 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
   item:
     name: '&a&l植物栽培机'
     lore:
-    - '&7自动培育杂类陆地/海洋/下界/末地植物'
-    - '&7须在输入槽内放入相应的植物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7自动培育杂类陆地/海洋/下界/末地植物'
+      - '&7须在输入槽内放入相应的植物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 24af8d575f0a524ef66a21573e8a4a8ac7d640b00d98e2e9374e60470e7c86f0
   speed: 1
@@ -6296,7 +6296,7 @@ VERSIONED_HAIMAN_PLANT_MACHINE:
   id_alias: HAIMAN_PLANT_MACHINE
   register:
     conditions:
-    - version >= 1.20.3
+      - version >= 1.20.3
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_PLANT_MAKER:
@@ -6305,10 +6305,10 @@ HAIMAN_PLANT_MAKER:
   item:
     name: '&a&l植物转换机'
     lore:
-    - '&7转换各类陆地/海洋/下界/末地植物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1500 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7转换各类陆地/海洋/下界/末地植物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1500 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 847b95f1240e5a4d025858b2f2bd825a73d0792136a157ea925e56f9ee31851b
   speed: 1
@@ -6358,7 +6358,7 @@ HAIMAN_PLANT_MAKER:
       input:
         1:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 1
       output:
         1:
@@ -6699,7 +6699,7 @@ HAIMAN_PLANT_MAKER:
       output:
         1:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
@@ -6709,10 +6709,10 @@ VERSIONED_HAIMAN_PLANT_MAKER:
   item:
     name: '&a&l植物转换机'
     lore:
-    - '&7转换各类陆地/海洋/下界/末地植物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1500 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7转换各类陆地/海洋/下界/末地植物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1500 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 847b95f1240e5a4d025858b2f2bd825a73d0792136a157ea925e56f9ee31851b
   speed: 1
@@ -7108,7 +7108,7 @@ VERSIONED_HAIMAN_PLANT_MAKER:
   id_alias: HAIMAN_PLANT_MAKER
   register:
     conditions:
-    - version >= 1.20.3
+      - version >= 1.20.3
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_FLOWER_MAKER:
@@ -7117,10 +7117,10 @@ HAIMAN_FLOWER_MAKER:
   item:
     name: '&6&l花卉转换机'
     lore:
-    - '&7转换各类花'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7转换各类花'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: dc6f38a37f71328c34df3ff9bd819d2e549f6150c7710c8ba95e1b0b4919f04f
   speed: 1
@@ -7461,10 +7461,10 @@ HAIMAN_CORAL_PRODUCER:
   item:
     name: '&d&l珊瑚养殖机'
     lore:
-    - '&7自动培育珊瑚'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6000 J 可存储'
-    - '&8⇨ &e⚡&7 120 J/s'
+      - '&7自动培育珊瑚'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6000 J 可存储'
+      - '&8⇨ &e⚡&7 120 J/s'
     material_type: skull_hash
     material: d8f9d9072d7fd1b5175e788a27e0ff050ecbe425f7e79d5f28226c2fdb7dc167
   speed: 1
@@ -7697,10 +7697,10 @@ NONE_NBT_MACHINE:
   item:
     name: '&3&l无标签物品制作机'
     lore:
-    - '&7制作各种无标签物品'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 60 J/s'
+      - '&7制作各种无标签物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 60 J/s'
     material_type: skull_hash
     material: 3fcc26189cf8394dabc5de9ff1964f2ed0e6e42887175f7be22e606d40487dd
   speed: 1
@@ -7849,10 +7849,10 @@ STRANGE_NETHER_GOO_MACHINE:
   item:
     name: '&5&l奇怪的下界粘液交易机'
     lore:
-    - '&7通过金锭来与它交易以获取奇怪的下界粘液'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 400 J/s'
+      - '&7通过金锭来与它交易以获取奇怪的下界粘液'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
     material_type: skull_hash
     material: 17a6a747437cd6f1c2d0241f3e4002611c88c92921526b0ff1802b6926433feb
   speed: 1
@@ -7917,10 +7917,10 @@ LILY_PAD_MACHINE:
   item:
     name: '&a&l莲叶分子联合机'
     lore:
-    - '&7消耗大量电来合成莲叶'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 100000 J 可存储'
-    - '&8⇨ &e⚡&7 12000 J/s'
+      - '&7消耗大量电来合成莲叶'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 100000 J 可存储'
+      - '&8⇨ &e⚡&7 12000 J/s'
     material_type: skull_hash
     material: 40e68eaeda7848c241c8855757e176ce555f0200f2e9c5843608b740dedfedd3
   speed: 1
@@ -7985,10 +7985,10 @@ HAIMAN_WASHING_MACHINE:
   item:
     name: '&b&l盥洗机'
     lore:
-    - '&7自动清洗物品'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 200 J 可存储'
-    - '&8⇨ &e⚡&7 10 J/s'
+      - '&7自动清洗物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 200 J 可存储'
+      - '&8⇨ &e⚡&7 10 J/s'
     material_type: skull_hash
     material: c7de63d401f85eed8a5e08cfa6cb290c40b11a7c72b579b2f06e8bb4a8a7c099
   speed: 1
@@ -8057,10 +8057,10 @@ HAIMAN_ANVIL_BROKER:
   item:
     name: '&6&l铁砧破碎机'
     lore:
-    - '&7自动破坏铁砧'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2550 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7自动破坏铁砧'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2550 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: 5cbd9f5ec1ed007259996491e69ff649a3106cf920227b1bb3a71ee7a89863f
   speed: 1
@@ -8137,10 +8137,10 @@ HAIMAN_ANVIL_FIXER:
   item:
     name: '&a&l铁砧修复机'
     lore:
-    - '&7自动修复铁砧'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2550 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7自动修复铁砧'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2550 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: 7b2f2b7642b54490b9ffa1e0e1b296aad2b7a4edb9361e7e8e9903b64dbb8939
   speed: 1
@@ -8217,11 +8217,11 @@ HAIMAN_GRAVEL_CREATER:
   item:
     name: '&8&l沙砾转换机'
     lore:
-    - '&7将一组圆石转化成一组沙砾'
-    - '&764items/s'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8500 J 可存储'
-    - '&8⇨ &e⚡&7 2000 J/s'
+      - '&7将一组圆石转化成一组沙砾'
+      - '&764items/s'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8500 J 可存储'
+      - '&8⇨ &e⚡&7 2000 J/s'
     material_type: skull_hash
     material: 1ee115656bc220755c6d5bc87260c82141c253a34bc3db2bd72b727befcc0
   speed: 1
@@ -8286,11 +8286,11 @@ HAIMAN_END_PORTAL_FRAME_CREATER:
   item:
     name: '&2&l末地传送门框架构造机'
     lore:
-    - '&8将哭泣的黑曜石构造成末地传送门框架'
-    - '&7用扳手拆卸它'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000000 J 可存储'
-    - '&8⇨ &e⚡&7 180000 J/s'
+      - '&8将哭泣的黑曜石构造成末地传送门框架'
+      - '&7用扳手拆卸它'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000000 J 可存储'
+      - '&8⇨ &e⚡&7 180000 J/s'
     material: END_PORTAL_FRAME
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -8354,10 +8354,10 @@ HAIMAN_WOOD_PEELER:
   item:
     name: '&a&l原木剥皮机'
     lore:
-    - '&7自动为原木剥皮'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 32 J/s'
+      - '&7自动为原木剥皮'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 32 J/s'
     material_type: skull_hash
     material: 1243ceca82338993c8718cac31672da31adc495384915db57d83967ab0ccb369
   speed: 1
@@ -8782,10 +8782,10 @@ INFESTED_MACHINE:
   item:
     name: '&c&l虫蚀机'
     lore:
-    - '&7将蠹虫塞进方块里'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 128 J 可存储'
-    - '&8⇨ &e⚡&7 64 J/s'
+      - '&7将蠹虫塞进方块里'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 128 J 可存储'
+      - '&8⇨ &e⚡&7 64 J/s'
     material_type: skull_hash
     material: 4ec1c3f7d09ce6c0cb48ed30b4596a5c14fae79def8bfd14a59fc1935600bc7b
   speed: 1
@@ -8922,10 +8922,10 @@ HAIMAN_INFINITY_OIL_PUMP:
   item:
     name: '&6&l无尽原油泵'
     lore:
-    - '&7无需进行地质扫描便可以不断泵出石油'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6000 J 可存储'
-    - '&8⇨ &e⚡&7 1600 J/s'
+      - '&7无需进行地质扫描便可以不断泵出石油'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6000 J 可存储'
+      - '&8⇨ &e⚡&7 1600 J/s'
     material_type: skull_hash
     material: 4a7d54ca45a398c364cebbffb5390ce5e0345e0c7bc5e863acabf57d1342c4bd
   speed: 1
@@ -8990,10 +8990,10 @@ SOIL_CHANGER:
   item:
     name: '&2&l土质改良机'
     lore:
-    - '&7用于改良土壤'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 120 J 可存储'
-    - '&8⇨ &e⚡&7 48 J/s'
+      - '&7用于改良土壤'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 120 J 可存储'
+      - '&8⇨ &e⚡&7 48 J/s'
     material_type: skull_hash
     material: 6c07d48fd8764bc8d01a10cc6426578862090d9e856f3a8dd7f974a7521efc43
   speed: 1
@@ -9298,10 +9298,10 @@ HAIMAN_12K_GOLD_PRODUCER:
   item:
     name: '&e&l12k金一体机'
     lore:
-    - '&7直接将金粉熔铸成12k金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 3000 J 可存储'
-    - '&8⇨ &e⚡&7 1200 J/s'
+      - '&7直接将金粉熔铸成12k金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 3000 J 可存储'
+      - '&8⇨ &e⚡&7 1200 J/s'
     material_type: skull_hash
     material: 9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
   speed: 1
@@ -9366,10 +9366,10 @@ HAIMAN_24K_GOLD_PRODUCER:
   item:
     name: '&e&l24k金一体机'
     lore:
-    - '&7直接将金粉熔铸成24k金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6000 J 可存储'
-    - '&8⇨ &e⚡&7 2400 J/s'
+      - '&7直接将金粉熔铸成24k金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6000 J 可存储'
+      - '&8⇨ &e⚡&7 2400 J/s'
     material_type: skull_hash
     material: 9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
   speed: 1
@@ -9434,11 +9434,11 @@ HAIMAN_VOID_INGOT_PRODUCER:
   item:
     name: '&8&l虚空锭一体机'
     lore:
-    - '&7全自动一体化生产虚空锭'
-    - '&7并且所需的虚空粒也大大减少'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60000 J 可存储'
-    - '&8⇨ &e⚡&7 6000 J/s'
+      - '&7全自动一体化生产虚空锭'
+      - '&7并且所需的虚空粒也大大减少'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 6000 J/s'
     material_type: skull_hash
     material: 1fac8a0c13a5a3674760a8f5e3d1a2340adebbc1a58653bee9568324a1eb33ca
   speed: 1
@@ -9503,10 +9503,10 @@ HAIMAN_AUTO_JUICER:
   item:
     name: '&6&l电动榨汁机'
     lore:
-    - '&7全自动榨果汁'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 128 J 可存储'
-    - '&8⇨ &e⚡&7 32 J/s'
+      - '&7全自动榨果汁'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 128 J 可存储'
+      - '&8⇨ &e⚡&7 32 J/s'
     material_type: skull_hash
     material: 666070ce03a545ee4d263bcf27f36338d249d7cb7a2376f92c1673ae134e04b6
   speed: 1
@@ -9643,10 +9643,10 @@ GRASS_WOOD_CHANGER:
   item:
     name: '&a&l草木改良机'
     lore:
-    - '&8对植物进行改良'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 36 J 可存储'
-    - '&8⇨ &e⚡&7 12 J/s'
+      - '&8对植物进行改良'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 36 J 可存储'
+      - '&8⇨ &e⚡&7 12 J/s'
     material_type: skull_hash
     material: 6945886fc40dfd7dcb09531f13a7b55dae92de52254da3d53636ef93bdc571
   speed: 1
@@ -9666,7 +9666,7 @@ GRASS_WOOD_CHANGER:
       amount: 1
     4:
       material_type: mc
-      material: GRASS
+      material: SHORT_GRASS
       amount: 1
     5:
       material_type: slimefun
@@ -9674,7 +9674,7 @@ GRASS_WOOD_CHANGER:
       amount: 1
     6:
       material_type: mc
-      material: GRASS
+      material: SHORT_GRASS
       amount: 1
     7:
       material_type: slimefun
@@ -9708,7 +9708,7 @@ GRASS_WOOD_CHANGER:
       input:
         1:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 1
       output:
         1:
@@ -9747,10 +9747,10 @@ VERSIONED_GRASS_WOOD_CHANGER:
   item:
     name: '&a&l草木改良机'
     lore:
-    - '&8对植物进行改良'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 36 J 可存储'
-    - '&8⇨ &e⚡&7 12 J/s'
+      - '&8对植物进行改良'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 36 J 可存储'
+      - '&8⇨ &e⚡&7 12 J/s'
     material_type: skull_hash
     material: 6945886fc40dfd7dcb09531f13a7b55dae92de52254da3d53636ef93bdc571
   speed: 1
@@ -9846,7 +9846,7 @@ VERSIONED_GRASS_WOOD_CHANGER:
   id_alias: GRASS_WOOD_CHANGER
   register:
     conditions:
-    - version >= 1.20.3
+      - version >= 1.20.3
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_COPPER_DUST_PRODUCER:
@@ -9855,10 +9855,10 @@ HAIMAN_COPPER_DUST_PRODUCER:
   item:
     name: '&c&l铜粉转换机'
     lore:
-    - '&7将其它矿粉转换成铜粉'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 120000 J 可存储'
-    - '&8⇨ &e⚡&7 10000 J/s'
+      - '&7将其它矿粉转换成铜粉'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 120000 J 可存储'
+      - '&8⇨ &e⚡&7 10000 J/s'
     material_type: skull_hash
     material: 8976aba47b5b6781915568100e99112467141ad35237557fff014c0275770cdc
   speed: 1
@@ -10007,10 +10007,10 @@ HAIMAN_IRON_DUST_PRODUCER:
   item:
     name: '&f&l铁粉转换机'
     lore:
-    - '&7将其它矿粉转换成铁粉'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 120000 J 可存储'
-    - '&8⇨ &e⚡&7 10000 J/s'
+      - '&7将其它矿粉转换成铁粉'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 120000 J 可存储'
+      - '&8⇨ &e⚡&7 10000 J/s'
     material_type: skull_hash
     material: 3eeb9d745dbc318030869ed92cf2be18bcf93bd5b1171c2019476b57331b3eab
   speed: 1
@@ -10159,12 +10159,12 @@ CORAL_DEAD_MACHINE:
   item:
     name: '&d&l珊瑚失活机'
     lore:
-    - '&7因为凋零的珊瑚无法通过其它途径获取'
-    - '&7（包括精准采集）'
-    - '&7所以这个机器可以让您获取失活的珊瑚'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 800 J 可存储'
-    - '&8⇨ &e⚡&7 10 J/s'
+      - '&7因为凋零的珊瑚无法通过其它途径获取'
+      - '&7（包括精准采集）'
+      - '&7所以这个机器可以让您获取失活的珊瑚'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 800 J 可存储'
+      - '&8⇨ &e⚡&7 10 J/s'
     material_type: skull_hash
     material: 644e39a028327d20a66846804118a675546e225dde96765e2c21cc4826a6c21d
   speed: 1
@@ -10397,10 +10397,10 @@ HAIMAN_SUGAR_PRODUCER_MACHINE:
   item:
     name: '&e&l糖提取机'
     lore:
-    - '&7从水果和植物中提取糖'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 300 J 可存储'
-    - '&8⇨ &e⚡&7 60 J/s'
+      - '&7从水果和植物中提取糖'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 300 J 可存储'
+      - '&8⇨ &e⚡&7 60 J/s'
     material_type: skull_hash
     material: 215cd248e3fb7b038013a1d1487168df093a7bbedce4224b5c823d3ef681a784
   speed: 1
@@ -10549,10 +10549,10 @@ HAIMAN_DECOMPRESSOR_MACHINE_1:
   item:
     name: '&7&l解压机 &7- &eI'
     lore:
-    - '&7将方块解压'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 200 J/s'
+      - '&7将方块解压'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 200 J/s'
     material_type: skull_hash
     material: e48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
   speed: 1
@@ -10773,10 +10773,10 @@ HAIMAN_DECOMPRESSOR_MACHINE_2:
   item:
     name: '&7&l解压机 &7- &eII'
     lore:
-    - '&7将方块解压'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7将方块解压'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: e48337f7ede15c3b2f8dc6a63bd92874cdf74ec862b4118c7e35559ce8b4d
   speed: 1
@@ -10997,12 +10997,12 @@ HAIMAN_FISH_MACHINE:
   item:
     name: '&9&l网鱼机'
     lore:
-    - '&7将鱼网回桶里'
-    - '&7注：该机器生产出的热带鱼桶/美西螈桶'
-    - '&7可以放养出随机的热带鱼/美西螈'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4800 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7将鱼网回桶里'
+      - '&7注：该机器生产出的热带鱼桶/美西螈桶'
+      - '&7可以放养出随机的热带鱼/美西螈'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4800 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: 2481e6f7369cdb29dc0702372e5a4dfdb9875ee6aced87b701f81999c0fdd195
   speed: 1
@@ -11127,10 +11127,10 @@ HAIMAN_FOOD_FERMENTATION_MACHINE:
   item:
     name: '&3&l食品发酵机'
     lore:
-    - '&7可以用来发酵土豆和蜘蛛眼'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7可以用来发酵土豆和蜘蛛眼'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: 80823d1eccec41a412e29b5d9f3d1246c206a18d9a0f7a0f844077931e83cde1
   speed: 1
@@ -11207,10 +11207,10 @@ SYNTHETIC_CHANGER:
   item:
     name: '&5&l人造改良机'
     lore:
-    - '&7自动化生产人造材料'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 32000 J 可存储'
-    - '&8⇨ &e⚡&7 16000 J/s'
+      - '&7自动化生产人造材料'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 32000 J 可存储'
+      - '&8⇨ &e⚡&7 16000 J/s'
     material_type: skull_hash
     material: fdcccca8e9a518285e0352b43182f5845b1a66b9f09b450222c6e21005b6ca1a
   speed: 1
@@ -11311,10 +11311,10 @@ HAIMAN_BANNER_PATTERN_PRODUCER:
   item:
     name: '&e&l旗帜图案印刷机'
     lore:
-    - '&7用于印刷旗帜图案'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4800 J 可存储'
-    - '&8⇨ &e⚡&7 480 J/s'
+      - '&7用于印刷旗帜图案'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4800 J 可存储'
+      - '&8⇨ &e⚡&7 480 J/s'
     material_type: skull_hash
     material: 2de1a9fc8ddd772b3518bb955fd4dc7e83dcd54c12a357c1b2238102a15ce48c
   speed: 1
@@ -11439,10 +11439,10 @@ HAIMAN_LUMP_PRODUCER:
   item:
     name: '&c&l结晶一体机'
     lore:
-    - '&7一体化制作魔法结晶3和末影结晶3'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 2400 J/s'
+      - '&7一体化制作魔法结晶3和末影结晶3'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 2400 J/s'
     material_type: skull_hash
     material: 3625be5ba96fc11448aaddb915a390391c3f92f4af81a4a2adb0e3f4f65
   speed: 1
@@ -11519,10 +11519,10 @@ MUSIC_DISC_PRODUCER:
   item:
     name: '&b&l唱片刻印机'
     lore:
-    - '&7自动刻印唱片'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6400 J 可存储'
-    - '&8⇨ &e⚡&7 128 J/s'
+      - '&7自动刻印唱片'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6400 J 可存储'
+      - '&8⇨ &e⚡&7 128 J/s'
     material_type: skull_hash
     material: bef1a5afa3a51413880ae7b2ac99a12877573dc404646942bef2d932a3845974
   speed: 1
@@ -11767,10 +11767,10 @@ HAIMAN_HORSE_ARMOR_PRODUCER:
   item:
     name: '&6&l马具打造机'
     lore:
-    - '&7自动打造马铠和鞍'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 16 J/s'
+      - '&7自动打造马铠和鞍'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 16 J/s'
     material_type: skull_hash
     material: 1df28744ee147851b9ec2d491a65a47ede1a521000b535106dc3b1fbf6471481
   speed: 1
@@ -11883,11 +11883,11 @@ HAIMAN_STONE_CHANGER:
   item:
     name: '&6&l石化机'
     lore:
-    - '&7通过改造物品结构将物品石化'
-    - '&7可以制作石化橡木台阶'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 128 J 可存储'
-    - '&8⇨ &e⚡&7 32 J/s'
+      - '&7通过改造物品结构将物品石化'
+      - '&7可以制作石化橡木台阶'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 128 J 可存储'
+      - '&8⇨ &e⚡&7 32 J/s'
     material_type: skull_hash
     material: 3c9ca6078f4b34cd36de8ad0f23cb218ac7bbcd43ae15440f93607fd1356d6a
   speed: 1
@@ -12000,10 +12000,10 @@ HAIMAN_LEARHER_CHANGER:
   item:
     name: '&c&l皮质转换机'
     lore:
-    - '&7将皮革和兔子皮互相转换'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60 J 可存储'
-    - '&8⇨ &e⚡&7 12 J/s'
+      - '&7将皮革和兔子皮互相转换'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60 J 可存储'
+      - '&8⇨ &e⚡&7 12 J/s'
     material_type: skull_hash
     material: 8c335c9d963a10ca1fdce4c1ef3e20ae8bbd178e52720f2210cd0e662a90f035
   speed: 1
@@ -12092,10 +12092,10 @@ HAIMAN_CRAFTING_TABLE:
   item:
     name: '&f&l海曼工作台'
     lore:
-    - '&7用于制作1.17所无法合成的物品'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 240 J 可存储'
-    - '&8⇨ &e⚡&7 48 J/s'
+      - '&7用于制作1.17所无法合成的物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 240 J 可存储'
+      - '&8⇨ &e⚡&7 48 J/s'
     material_type: skull_hash
     material: abb84e348ab58be0435f61e027fa6dfe557bee8893f1c10c3c2bebd2025da
   speed: 1
@@ -12196,10 +12196,10 @@ HAIMAN_SOUL_MACHINE:
   item:
     name: '&f&l灵魂转换机'
     lore:
-    - '&7注入灵魂...'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 240 J 可存储'
-    - '&8⇨ &e⚡&7 48 J/s'
+      - '&7注入灵魂...'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 240 J 可存储'
+      - '&8⇨ &e⚡&7 48 J/s'
     material_type: skull_hash
     material: 9580e5cd970c1ded973d0c139be418b0755e0713345d716ed594244a53e6e13d
   speed: 1
@@ -12312,10 +12312,10 @@ HAIMAN_CONCRETE_DYING:
   item:
     name: '&6&l混凝土染坊'
     lore:
-    - '&7可以对混凝土等进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对混凝土等进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: c69e3e6e5b2b92f0beb368b738b993d7ba225bf9bb2758bfc9fc2daba4a5a7d
   speed: 1
@@ -12752,10 +12752,10 @@ HAIMAN_WOOL_DYING:
   item:
     name: '&6&l羊毛染坊'
     lore:
-    - '&7可以对羊毛、床等进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对羊毛、床等进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: 6e64a08dd535f57bd9bc4bdf698864fb247a353828d5db8907b25738c3c4
   speed: 1
@@ -13384,10 +13384,10 @@ HAIMAN_GLASS_DYING:
   item:
     name: '&6&l玻璃染坊'
     lore:
-    - '&7可以对玻璃等进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对玻璃等进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: 70dc47e9d26342ee89875628b496aada5b0b437a94334c54e56cdaff471a93ca
   speed: 1
@@ -13848,10 +13848,10 @@ HAIMAN_TERRACOTTA_DYING:
   item:
     name: '&6&l陶瓦染坊'
     lore:
-    - '&7可以对陶瓦等进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对陶瓦等进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: b87fd23a78369bd3875da8896f150c4af9f23374e048e30913900e3fdd77859a
   speed: 1
@@ -14300,10 +14300,10 @@ HAIMAN_SHULKER_BOX_DYING:
   item:
     name: '&6&l潜影盒染坊'
     lore:
-    - '&7可以对潜影盒进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对潜影盒进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: 71e5bd12982b1ba1b9e60c24268f891c6a70a68b95e03efea58813a8df083a9f
   speed: 1
@@ -14560,10 +14560,10 @@ HAIMAN_CANDLE_DYING:
   item:
     name: '&6&l蜡烛染坊'
     lore:
-    - '&7可以对蜡烛进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对蜡烛进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: a886311259a9ffd5a1274b48fcc6238ec3ff2bd739ca9ea84586f9c6585a8047
   speed: 1
@@ -14820,10 +14820,10 @@ HAIMAN_BANNER_DYING:
   item:
     name: '&6&l旗帜染坊'
     lore:
-    - '&7可以对旗帜进行染色'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7可以对旗帜进行染色'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: 76184610c50c2efb7285bc2d20f394364e8367bb314841c238a6a521a1ee12bf
   speed: 1
@@ -15068,12 +15068,12 @@ HAIMAN_ADVANCE_DYING:
   item:
     name: '&4&l终极染坊'
     lore:
-    - '&7对物品进行终极染色'
-    - '&7如果想要机器输出彩虹方块'
-    - '&7须要在输入槽内放入相应的彩虹方块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7对物品进行终极染色'
+      - '&7如果想要机器输出彩虹方块'
+      - '&7须要在输入槽内放入相应的彩虹方块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: 391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
   speed: 1
@@ -15450,13 +15450,13 @@ HAIMAN_BLOCK_DYING:
   item:
     name: '&c&l染色方块浇筑机'
     lore:
-    - '&7一个可以量产染色方块的机器'
-    - '&7包含所有染色方块'
-    - '&7须在输入槽内放入相应的染色方块'
-    - '&7输入槽内的染色方块不会被消耗'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1200 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7一个可以量产染色方块的机器'
+      - '&7包含所有染色方块'
+      - '&7须在输入槽内放入相应的染色方块'
+      - '&7输入槽内的染色方块不会被消耗'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1200 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: 67844a5b74f341039560f280db1fcdf836e3b6a48dc2a09351937626977e1c2
   speed: 1
@@ -17873,10 +17873,10 @@ HAIMAN_LIGHT_PRODUCER:
   item:
     name: '&e&l电光聚合机'
     lore:
-    - '&7用于制造隐形光源'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 50000 J 可存储'
-    - '&8⇨ &e⚡&7 10000 J/s'
+      - '&7用于制造隐形光源'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 50000 J 可存储'
+      - '&8⇨ &e⚡&7 10000 J/s'
     material_type: skull_hash
     material: 366335847cba9aeaffc95cb109fdf55da13c95c97326a3bf5ddc7c99ee3
   speed: 1
@@ -17941,10 +17941,10 @@ HAIMAN_LIGHT_UPDATER:
   item:
     name: '&e&l电光升级机'
     lore:
-    - '&7用于升级光源方块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 50000 J 可存储'
-    - '&8⇨ &e⚡&7 11000 J/s'
+      - '&7用于升级光源方块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 50000 J 可存储'
+      - '&8⇨ &e⚡&7 11000 J/s'
     material_type: skull_hash
     material: 59d0f51f39e08e51cc83cbec01e3ce1362c70c02edc351902af8e7a5f6e201bc
   speed: 1
@@ -18189,10 +18189,10 @@ HAIMAN_CAVE_MACHINE:
   item:
     name: '&c&l洞穴环境模拟机'
     lore:
-    - '&7自动生产紫水晶/滴水石锥'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60000 J 可存储'
-    - '&8⇨ &e⚡&7 120 J/s'
+      - '&7自动生产紫水晶/滴水石锥'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 120 J/s'
     material_type: skull_hash
     material: de31efefdd9551af8a4349d3d21e5ec8f37e53c801eb25b14279d6a89fe0c01e
   speed: 1
@@ -18353,10 +18353,10 @@ HAIMAN_POWDER_SNOW_MACHINE:
   item:
     name: '&b&l细雪收集机'
     lore:
-    - '&7自动收集细雪'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 100 J 可存储'
-    - '&8⇨ &e⚡&7 8 J/s'
+      - '&7自动收集细雪'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 8 J/s'
     material_type: skull_hash
     material: 152353641d287ce9ed30906f938ae9c517ec04caa8da71571954c81b09db454c
   speed: 1
@@ -18421,10 +18421,10 @@ HAIMAN_RAW_INGOT_CHANGER:
   item:
     name: '&d&l粗精矿转换机'
     lore:
-    - '&7转换粗矿和精矿，并给予你额外矿物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60000 J 可存储'
-    - '&8⇨ &e⚡&7 2400 J/s'
+      - '&7转换粗矿和精矿，并给予你额外矿物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 2400 J/s'
     material_type: skull_hash
     material: d51e24cc2593947d1f96abe746116911ff75d12b5883ab5fd85fdb16316f6894
   speed: 1
@@ -18549,10 +18549,10 @@ HAIMAN_ORE_CHANGER:
   item:
     name: '&6&l矿石材质转换机'
     lore:
-    - '&7用于转换矿石材质'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2600 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7用于转换矿石材质'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2600 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: 93e289e4918fb5fa70608c1396c73818a6d12bcaaf4035c07300935e811271ad
   speed: 1
@@ -18821,10 +18821,10 @@ HAIMAN_GLOWER:
   item:
     name: '&e&l荧光镀灼机'
     lore:
-    - '&7给物品镀上荧光'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 5000 J 可存储'
-    - '&8⇨ &e⚡&7 100 J/s'
+      - '&7给物品镀上荧光'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 5000 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
     material_type: skull_hash
     material: e7834775336a2f538673991be076c874c7fad11b7b7f4f32143b633e043121
   speed: 1
@@ -18937,10 +18937,10 @@ HAIMAN_COPPER_INGOT_CHANGER:
   item:
     name: '&e&l铜锭转换机'
     lore:
-    - '&7将1.17的铜锭转换为粘液科技的铜锭'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4500 J 可存储'
-    - '&8⇨ &e⚡&7 4000 J/s'
+      - '&7将1.17的铜锭转换为粘液科技的铜锭'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4500 J 可存储'
+      - '&8⇨ &e⚡&7 4000 J/s'
     material_type: skull_hash
     material: 415e470805d5fc611c44b87c39e7e4dfd474049b24f3f6bba230e250f9b4b87c
   speed: 1
@@ -19017,10 +19017,10 @@ HAIMAN_WAX_ON_MACHINE:
   item:
     name: '&6&l涂蜡机'
     lore:
-    - '&7自动为铜制方块涂蜡'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 8 J/s'
+      - '&7自动为铜制方块涂蜡'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 8 J/s'
     material_type: skull_hash
     material: abe1770540be1eaf7e5b1180c6931179e2c4683daf6f01d0151f823f3e6ab940
   speed: 1
@@ -19265,10 +19265,10 @@ HAIMAN_WAX_OFF_MACHINE:
   item:
     name: '&8&l脱蜡机'
     lore:
-    - '&7自动为铜制方块脱蜡'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 8 J/s'
+      - '&7自动为铜制方块脱蜡'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 8 J/s'
     material_type: skull_hash
     material: a54947de7f52598255d6afee9d77befad9b4f24c0c4663d28bcdf8a6457f34
   speed: 1
@@ -19497,10 +19497,10 @@ HAIMAN_OXIDIZED_MACHINE:
   item:
     name: '&9&l氧化机'
     lore:
-    - '&7自动氧化铜制方块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 16 J/s'
+      - '&7自动氧化铜制方块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 16 J/s'
     material_type: skull_hash
     material: 31885b918104e6aa62b6ec9b8e82028dd9da7d2acdfe9c2155edd392285b57e1
   speed: 1
@@ -19697,10 +19697,10 @@ HAIMAN_RUST_REMOVAL_MACHINE:
   item:
     name: '&a&l除锈机'
     lore:
-    - '&7自动给被氧化的铜制方块除锈'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 64 J 可存储'
-    - '&8⇨ &e⚡&7 16 J/s'
+      - '&7自动给被氧化的铜制方块除锈'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 64 J 可存储'
+      - '&8⇨ &e⚡&7 16 J/s'
     material_type: skull_hash
     material: 60ce43e0cdcea98dcc6f0be37b0f7745daaf2a7dc29bf13b3e78a65c6e
   speed: 1
@@ -19881,9 +19881,9 @@ HAIMAN_ELECTRIC_INGOT_FACTORY_4:
   item:
     name: '&c电动铸锭机 &7(&eIV&7)'
     lore:
-    - '&b机器'
-    - '&8⇨ &e⚡&7 160 J 可存储'
-    - '&8⇨ &e⚡&7 160 J/s'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 160 J 可存储'
+      - '&8⇨ &e⚡&7 160 J/s'
     material: RED_TERRACOTTA
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -20043,9 +20043,9 @@ HAIMAN_ELECTRIC_INGOT_FACTORY_5:
   item:
     name: '&c电动铸锭机 &7(&eV&7)'
     lore:
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1600 J 可存储'
-    - '&8⇨ &e⚡&7 640 J/s'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1600 J 可存储'
+      - '&8⇨ &e⚡&7 640 J/s'
     material: RED_TERRACOTTA
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -20205,9 +20205,9 @@ HAIMAN_CARBON_PRESS_4:
   item:
     name: '&c碳压机 &7- &eIV'
     lore:
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1600 J 可存储'
-    - '&8⇨ &e⚡&7 640 J/s'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1600 J 可存储'
+      - '&8⇨ &e⚡&7 640 J/s'
     material: BLACK_STAINED_GLASS
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -20331,11 +20331,11 @@ HAIMAN_CARBON_PRESS_5:
   item:
     name: '&c碳压机 &7- &eV'
     lore:
-    - '&7该等级的碳压机'
-    - '&7可以将8个压缩碳压为1个碳块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 3200 J 可存储'
-    - '&8⇨ &e⚡&7 1280 J/s'
+      - '&7该等级的碳压机'
+      - '&7可以将8个压缩碳压为1个碳块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 3200 J 可存储'
+      - '&8⇨ &e⚡&7 1280 J/s'
     material: BLACK_STAINED_GLASS
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -20471,10 +20471,10 @@ HAIMAN_FUEL_MACHINE:
   item:
     name: '&a&l燃料液化机'
     lore:
-    - '&7用于液化燃料'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 950000 J 可存储'
-    - '&8⇨ &e⚡&7 90000 J/s'
+      - '&7用于液化燃料'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 950000 J 可存储'
+      - '&8⇨ &e⚡&7 90000 J/s'
     material_type: skull_hash
     material: 6080972b7c32da650cc86e9aad665ed8d0d48a3bdb0ba234d4fceac024c7952e
   speed: 1
@@ -20575,11 +20575,11 @@ HAIMAN_CARPET_MACHINE:
   item:
     name: '&9&l刷地毯机'
     lore:
-    - '&7自动复制各种地毯'
-    - '&7须在输入槽内放入相应的地毯'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7自动复制各种地毯'
+      - '&7须在输入槽内放入相应的地毯'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 82c3c18263331e1a2c02fd78031f9b0a433ca6957e677abb6d879c330c87c2e
   speed: 1
@@ -20836,11 +20836,11 @@ HAIMAN_RAIL_MACHINE_1:
   item:
     name: '&9&l刷铁轨机 &7- &eI'
     lore:
-    - '&7自动复制各种原版铁轨'
-    - '&7须在输入槽内放入相应的铁轨'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2500 J 可存储'
-    - '&8⇨ &e⚡&7 50 J/s'
+      - '&7自动复制各种原版铁轨'
+      - '&7须在输入槽内放入相应的铁轨'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2500 J 可存储'
+      - '&8⇨ &e⚡&7 50 J/s'
     material_type: skull_hash
     material: 3b925d3a52759fde8c0258871fefd9141e5c97fdf453af3df21104cc8c488
   speed: 1
@@ -20941,11 +20941,11 @@ HAIMAN_RAIL_MACHINE_2:
   item:
     name: '&9&l刷铁轨机 &7- &eII'
     lore:
-    - '&7自动复制各种原版铁轨'
-    - '&7须在输入槽内放入相应的铁轨'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2500 J 可存储'
-    - '&8⇨ &e⚡&7 50 J/s'
+      - '&7自动复制各种原版铁轨'
+      - '&7须在输入槽内放入相应的铁轨'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2500 J 可存储'
+      - '&8⇨ &e⚡&7 50 J/s'
     material_type: skull_hash
     material: 3b925d3a52759fde8c0258871fefd9141e5c97fdf453af3df21104cc8c488
   speed: 1
@@ -21046,10 +21046,10 @@ HAIMAN_MINECART_MACHINE:
   item:
     name: '&c&l矿车装配机'
     lore:
-    - '&7自动装配各种矿车'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2500 J 可存储'
-    - '&8⇨ &e⚡&7 100 J/s'
+      - '&7自动装配各种矿车'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2500 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
     material_type: skull_hash
     material: d4b881b2b719815cfe630bd358d2fe033f540e2250ad3dbccae445ff99ac815e
   speed: 1
@@ -21194,10 +21194,10 @@ HAIMAN_BOOK_MACHINE:
   item:
     name: '&c&l书厂'
     lore:
-    - '&7自动生产各种书'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8600 J 可存储'
-    - '&8⇨ &e⚡&7 160 J/s'
+      - '&7自动生产各种书'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8600 J 可存储'
+      - '&8⇨ &e⚡&7 160 J/s'
     material_type: skull_hash
     material: e344d83e7c6ece90d34c685a9a3384f8e8d0151633fc2eeae4d4b636862d33
   speed: 1
@@ -21382,10 +21382,10 @@ HAIMAN_DEBUG_MACHINE:
   item:
     name: '&9&lDebug调试机'
     lore:
-    - '&7???...调试?'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60000 J 可存储'
-    - '&8⇨ &e⚡&7 12000 J/s'
+      - '&7???...调试?'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 12000 J/s'
     material_type: skull_hash
     material: c5db573730904041dee937beeada8b0182351924a42f9979513cf0bd433be077
   speed: 1
@@ -21462,10 +21462,10 @@ HAIMAN_JINGLIANLU:
   item:
     name: '&e&l初级精炼炉'
     lore:
-    - '&7用于自动生产精炼铁'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1200 J 可存储'
-    - '&8⇨ &e⚡&7 120 J/s'
+      - '&7用于自动生产精炼铁'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1200 J 可存储'
+      - '&8⇨ &e⚡&7 120 J/s'
     material_type: skull_hash
     material: 382d58e893bf9b82433626d0e480e9375b58f3c2ddef450f617b60dbf506cbb9
   speed: 1
@@ -21530,11 +21530,11 @@ HAIMAN_POWER_STORAGER_0:
   item:
     name: '&d&l元电荷储电机'
     lore:
-    - '&7将电能存入元电荷中'
-    - '&8电能的市场流通'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1250 J 可存储'
-    - '&8⇨ &e⚡&7 2500 J/s'
+      - '&7将电能存入元电荷中'
+      - '&8电能的市场流通'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1250 J 可存储'
+      - '&8⇨ &e⚡&7 2500 J/s'
     material_type: skull_hash
     material: 76f0a795a6e36798b7bac5513d43e3e6ce8182af74628ef8027313dd1818387
   speed: 1
@@ -21599,11 +21599,11 @@ HAIMAN_POWER_STORAGER_1:
   item:
     name: '&d&l储电机 &7- &aI'
     lore:
-    - '&7将电能存入电单元中'
-    - '&8电...的物品形式？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1136 J 可存储'
-    - '&8⇨ &e⚡&7 2272 J/s'
+      - '&7将电能存入电单元中'
+      - '&8电...的物品形式？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1136 J 可存储'
+      - '&8⇨ &e⚡&7 2272 J/s'
     material_type: skull_hash
     material: 208c18b4c66a08ffaf76b55d4247d3f367ef4c3df696ca97fcabe3269f7bd515
   speed: 1
@@ -21668,11 +21668,11 @@ HAIMAN_POWER_STORAGER_2:
   item:
     name: '&d&l储电机 &7- &eII'
     lore:
-    - '&7将电能存入电单元中'
-    - '&8经过改良之后能存更多电了'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 20456 J 可存储'
-    - '&8⇨ &e⚡&7 40912 J/s'
+      - '&7将电能存入电单元中'
+      - '&8经过改良之后能存更多电了'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 20456 J 可存储'
+      - '&8⇨ &e⚡&7 40912 J/s'
     material_type: skull_hash
     material: 918a00b1c5ef0ba6d83e54fcbabb6272764f165d57ce8a26a916d4192a54c966
   speed: 1
@@ -21749,11 +21749,11 @@ HAIMAN_POWER_STORAGER_3:
   item:
     name: '&d&l储电机 &7- &6III'
     lore:
-    - '&7将电能存入电单元中'
-    - '&8以便不时之需...'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6628035 J 可存储'
-    - '&8⇨ &e⚡&7 13256070 J/s'
+      - '&7将电能存入电单元中'
+      - '&8以便不时之需...'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6628035 J 可存储'
+      - '&8⇨ &e⚡&7 13256070 J/s'
     material_type: skull_hash
     material: ad78b536eed33a0f957a042cae0c9b1da7f3b0a651f8e31abc4890ebfce70c89
   speed: 1
@@ -21842,11 +21842,11 @@ HAIMAN_POWER_STORAGER_4:
   item:
     name: '&d&l储电机 &7- &cIV'
     lore:
-    - '&7将电能存入电单元中'
-    - '&8能源交易？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6628035 J 可存储'
-    - '&8⇨ &e⚡&7 13256070 J/s'
+      - '&7将电能存入电单元中'
+      - '&8能源交易？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6628035 J 可存储'
+      - '&8⇨ &e⚡&7 13256070 J/s'
     material_type: skull_hash
     material: 308b8eb060906e2926374c2cec8dcbb8c3b2dfea5820695ef51a15c5b1ca296c
   speed: 1
@@ -21947,11 +21947,11 @@ HAIMAN_POWER_STORAGER_5:
   item:
     name: '&d&l储电机 &7- &4V'
     lore:
-    - '&7将电能存入电单元中'
-    - '&8超越宇宙的便捷能源'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2147483647 J 可存储'
-    - '&8⇨ &e⚡&7 4294967294 J/s'
+      - '&7将电能存入电单元中'
+      - '&8超越宇宙的便捷能源'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2147483647 J 可存储'
+      - '&8⇨ &e⚡&7 4294967294 J/s'
     material_type: skull_hash
     material: b2d54d1e32a3da989172aee0dbc0b6ea103681298828abcb59daaa140d989342
   speed: 1
@@ -22064,10 +22064,10 @@ HAIMAN_DANGAO_HONGBEI:
   item:
     name: '&6&l烤箱'
     lore:
-    - '&7烘焙食材'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1200 J 可存储'
-    - '&8⇨ &e⚡&7 24 J/s'
+      - '&7烘焙食材'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1200 J 可存储'
+      - '&8⇨ &e⚡&7 24 J/s'
     material_type: skull_hash
     material: 8f9da46d97461a1be10600cc546a9d4613e16cfb5719eeb39042e501836008ca
   speed: 1
@@ -22312,10 +22312,10 @@ HAIMAN_MEAT_CHANGER:
   item:
     name: '&6&l肉质转换机'
     lore:
-    - '&7转换肉类的品种'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 24 J/s'
+      - '&7转换肉类的品种'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 24 J/s'
     material_type: skull_hash
     material: 318e35ec4b4b4c1591c5177386de18797454298b7455982e3ae83bacced0f1a2
   speed: 1
@@ -22560,10 +22560,10 @@ HAIMAN_BOTTLE_CHANGER:
   item:
     name: '&6&l水瓶转换机'
     lore:
-    - '&7回收各种炼药大师的水瓶'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 24 J/s'
+      - '&7回收各种炼药大师的水瓶'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 24 J/s'
     material_type: skull_hash
     material: 24378b986e358555ee73f09b210d49ec13719de5ea88d75523770d31163f3aef
   speed: 1
@@ -22760,10 +22760,10 @@ HAIMAN_WRITTEN_BOOK_CHANGER:
   item:
     name: '&6&l旧书机'
     lore:
-    - '&7使书看上去更有年代感'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 500 J 可存储'
-    - '&8⇨ &e⚡&7 12 J/s'
+      - '&7使书看上去更有年代感'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 500 J 可存储'
+      - '&8⇨ &e⚡&7 12 J/s'
     material_type: skull_hash
     material: 46ee7e906686abd5ec192b079314c45f1fb8171d9e13caa4cf9f63afc2263fd5
   speed: 1
@@ -22864,10 +22864,10 @@ HAIMAN_WRITTEN_BOOK_CHANGERNEW:
   item:
     name: '&d&l成书机'
     lore:
-    - '&7使旧书崭新出厂'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 500 J 可存储'
-    - '&8⇨ &e⚡&7 10 J/s'
+      - '&7使旧书崭新出厂'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 500 J 可存储'
+      - '&8⇨ &e⚡&7 10 J/s'
     material_type: skull_hash
     material: c10a26a87549e06e0669f6c48f61478d23025b91d90ea2c4b9f804b9f796d04c
   speed: 1
@@ -22968,10 +22968,10 @@ HAIMAN_YINGXING_MACHINE:
   item:
     name: '&b&l隐形机'
     lore:
-    - '&7将物品隐形化'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8000 J 可存储'
-    - '&8⇨ &e⚡&7 600 J/s'
+      - '&7将物品隐形化'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8000 J 可存储'
+      - '&8⇨ &e⚡&7 600 J/s'
     material_type: skull_hash
     material: 21172c389b9d6f80adec6b58ac4ca2a53ef549a65f5fdb74fcfbeac1ab4eb390
   speed: 1
@@ -23060,10 +23060,10 @@ HAIMAN_COFFEE_MAKER:
   item:
     name: '&c&l咖啡机'
     lore:
-    - '&7困了，就来杯咖啡吧'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 220 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7困了，就来杯咖啡吧'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 220 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: 4552f7375672a5737f2ab766e5d1bcbfe8e12913cc9f044b43a2123a35185665
   speed: 1
@@ -23128,13 +23128,13 @@ HAIMAN_YJ_SX_MACHINE:
   item:
     name: '&6&l遗迹搜寻机'
     lore:
-    - '&7搜寻当前世界的遗迹'
-    - '&7并获取遗迹中的宝箱'
-    - '&7须要将宝藏探测器'
-    - '&7放入非消耗型物品槽内'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 68000 J 可存储'
-    - '&8⇨ &e⚡&7 13600 J/s'
+      - '&7搜寻当前世界的遗迹'
+      - '&7并获取遗迹中的宝箱'
+      - '&7须要将宝藏探测器'
+      - '&7放入非消耗型物品槽内'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 68000 J 可存储'
+      - '&8⇨ &e⚡&7 13600 J/s'
     material_type: skull_hash
     material: b905dc824adacce5657bc98e4ad41b504544006376cb8dbcff98163414f80d6d
   speed: 1
@@ -23839,13 +23839,13 @@ HAIMAN_LU_CAT_MACHINE:
   item:
     name: '&d&l自动撸猫机'
     lore:
-    - '&7时间太紧，没空撸猫？'
-    - '&7快来试试这台机器吧！'
-    - '&7须要将逗猫棒'
-    - '&7放入非消耗型物品槽内'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8000 J 可存储'
-    - '&8⇨ &e⚡&7 800 J/s'
+      - '&7时间太紧，没空撸猫？'
+      - '&7快来试试这台机器吧！'
+      - '&7须要将逗猫棒'
+      - '&7放入非消耗型物品槽内'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8000 J 可存储'
+      - '&8⇨ &e⚡&7 800 J/s'
     material_type: skull_hash
     material: 25f32f6e85ceb4288a95e3b95dd5e795d1dc6549db624971275c82daf3c8e9db
   speed: 1
@@ -23918,10 +23918,10 @@ HAIMAN_ZLJY_MACHINE:
   item:
     name: '&c&l猪灵交易机'
     lore:
-    - '&7快来跟可爱的猪灵妹子交易吧！'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4800 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7快来跟可爱的猪灵妹子交易吧！'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4800 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: 15f9be6eaea4c6c43329ab512b17f5bfbcc453e11b5351ddb572df35f597dd9a
   speed: 1
@@ -23998,10 +23998,10 @@ HAIMAN_CMLW_MACHINE:
   item:
     name: '&a&l村民送礼机'
     lore:
-    - '&7当你是村庄英雄的时候...'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 9600 J 可存储'
-    - '&8⇨ &e⚡&7 480 J/s'
+      - '&7当你是村庄英雄的时候...'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 9600 J 可存储'
+      - '&8⇨ &e⚡&7 480 J/s'
     material_type: skull_hash
     material: d3b919f040922eb17733b42d216b7cdefeaea366be14c1ae6993ca7e5909e0f0
   speed: 1
@@ -24078,10 +24078,10 @@ HAIMAN_DUANZAO_MACHINE:
   item:
     name: '&b&l电动锻造台'
     lore:
-    - '&7自动升级钻石制工具、护甲等'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2400 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7自动升级钻石制工具、护甲等'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2400 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: 272d1be488d267ecbecf7fbc314390636e942b6460628b02104a838184b7e737
   speed: 1
@@ -24278,11 +24278,11 @@ XUESHIZHIPINGZHUANGPEIJI:
   item:
     name: '&b&l学识之瓶装配机'
     lore:
-    - '&7能够将怪物掉落物转换成学识之瓶'
-    - '&7终于可以利用怪物掉落物了'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4096 J 可存储'
-    - '&8⇨ &e⚡&7 2048 J/s'
+      - '&7能够将怪物掉落物转换成学识之瓶'
+      - '&7终于可以利用怪物掉落物了'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4096 J 可存储'
+      - '&8⇨ &e⚡&7 2048 J/s'
     material_type: skull_hash
     material: 63ae17c9efcbfdd87718ac080ac815cd8009c87f82c474444082a4d87eef7062
   speed: 1
@@ -24479,11 +24479,11 @@ KUANGWUCUISHENGQI:
   item:
     name: '&a&l矿物催生器'
     lore:
-    - '&7能够将一个矿石种子催化成熟'
-    - '&7想制造它非常容易'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1024 J 可存储'
-    - '&8⇨ &e⚡&7 32 J/s'
+      - '&7能够将一个矿石种子催化成熟'
+      - '&7想制造它非常容易'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1024 J 可存储'
+      - '&8⇨ &e⚡&7 32 J/s'
     material_type: skull_hash
     material: da88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
   speed: 1
@@ -24644,11 +24644,11 @@ HEDIANZHAN_1:
   item:
     name: '&e&l核电站&c(I)'
     lore:
-    - '&7&l快速营造核辐射环境!'
-    - '&b&l⇨ 速度：1x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1024 J 可存储'
-    - '&8⇨ &e⚡&7 240 J/s'
+      - '&7&l快速营造核辐射环境!'
+      - '&b&l⇨ 速度：1x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1024 J 可存储'
+      - '&8⇨ &e⚡&7 240 J/s'
     material_type: skull_hash
     material: 7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
   speed: 1
@@ -24737,11 +24737,11 @@ HEDIANZHAN_2:
   item:
     name: '&e&l核电站&c(II)'
     lore:
-    - '&7&l快速营造核辐射环境!'
-    - '&b&l⇨ 速度：5x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2048 J 可存储'
-    - '&8⇨ &e⚡&7 600 J/s'
+      - '&7&l快速营造核辐射环境!'
+      - '&b&l⇨ 速度：5x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2048 J 可存储'
+      - '&8⇨ &e⚡&7 600 J/s'
     material_type: skull_hash
     material: 7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
   speed: 1
@@ -24830,11 +24830,11 @@ HELIEBIAN_3:
   item:
     name: '&c&l核裂变基地'
     lore:
-    - '&7&l超级制造!'
-    - '&b&l⇨ 速度：1000x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 4096 J/s'
+      - '&7&l超级制造!'
+      - '&b&l⇨ 速度：1000x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 4096 J/s'
     material_type: skull_hash
     material: 7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
   speed: 1
@@ -25011,11 +25011,11 @@ GJJLL:
   item:
     name: '&1&l高级精炼炉'
     lore:
-    - '&7&l自动制造精炼铁!'
-    - '&b&l⇨ 速度：10x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1024 J 可存储'
-    - '&8⇨ &e⚡&7 60 J/s'
+      - '&7&l自动制造精炼铁!'
+      - '&b&l⇨ 速度：10x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1024 J 可存储'
+      - '&8⇨ &e⚡&7 60 J/s'
     material_type: skull_hash
     material: 8296f092524ae9c2a2e87881cb415adb358d6cb773c85dc97202fefb754c1
   speed: 1
@@ -25080,12 +25080,12 @@ YUANYOUJIANG_1:
   item:
     name: '&2&l原油浆&c(I)'
     lore:
-    - '&7最新款可升级式机器'
-    - '&7无限生产原油!'
-    - '&b&l⇨ 速度：1x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 512 J/s'
+      - '&7最新款可升级式机器'
+      - '&7无限生产原油!'
+      - '&b&l⇨ 速度：1x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 512 J/s'
     material_type: skull_hash
     material: aef5acf134fa952f13fdf0b3899060cc18ebc0a971347e45a31ecf95a4b0b31c
   speed: 1
@@ -25150,11 +25150,11 @@ YUANYOUJIANG_2:
   item:
     name: '&2&l原油浆&c(II)'
     lore:
-    - '&7无限生产原油!'
-    - '&b&l⇨ 速度：5x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 2048 J/s'
+      - '&7无限生产原油!'
+      - '&b&l⇨ 速度：5x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 2048 J/s'
     material_type: skull_hash
     material: 9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
   speed: 1
@@ -25219,11 +25219,11 @@ YUANYOUJIANG_3:
   item:
     name: '&2&l原油浆&c(III)'
     lore:
-    - '&7无限生产原油!'
-    - '&b&l⇨ 速度：10x'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 20000 J 可存储'
-    - '&8⇨ &e⚡&7 14400 J/s'
+      - '&7无限生产原油!'
+      - '&b&l⇨ 速度：10x'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 20000 J 可存储'
+      - '&8⇨ &e⚡&7 14400 J/s'
     material_type: skull_hash
     material: f7e541dfb4ba1f7dc28b548e347abbdc987ebe0e61c49fa87111ef1b2dcb2218
   speed: 1
@@ -25288,10 +25288,10 @@ DIYUKONGJIAN:
   item:
     name: '&3&l地狱空间'
     lore:
-    - '&7&l 秘境世界!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000000 J 可存储'
-    - '&8⇨ &e⚡&7 400000 J/s'
+      - '&7&l 秘境世界!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000000 J 可存储'
+      - '&8⇨ &e⚡&7 400000 J/s'
     material_type: skull_hash
     material: 584d7d2d1cf8e05a28a6be12fdf3eac20bbf5c2364c400f6466566778f548eba
   speed: 1
@@ -25504,10 +25504,10 @@ MODIKONGJIAN:
   item:
     name: '&4&l末地空间'
     lore:
-    - '&7&l 秘境世界!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000000 J 可存储'
-    - '&8⇨ &e⚡&7 400000 J/s'
+      - '&7&l 秘境世界!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000000 J 可存储'
+      - '&8⇨ &e⚡&7 400000 J/s'
     material_type: skull_hash
     material: e48d7968c23d537bfeaed6de7cdbe7330afe405e00c5bd3eed8ab291fd59c5ed
   speed: 1
@@ -25648,10 +25648,10 @@ MIJINGHUAYUAN:
   item:
     name: '&5&l秘境花园'
     lore:
-    - '&7&l宇宙中的秘境!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 6400 J 可存储'
-    - '&8⇨ &e⚡&7 3200 J/s'
+      - '&7&l宇宙中的秘境!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6400 J 可存储'
+      - '&8⇨ &e⚡&7 3200 J/s'
     material_type: skull_hash
     material: f2b41f1f0d8efc6fc9383a6b8146159e165a39a409ef0fedbc45842b656441e7
   speed: 1
@@ -25908,10 +25908,10 @@ JINSHUJGC:
   item:
     name: '&b&l金属加工厂'
     lore:
-    - '&7&l工业时代!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 1500 J/s'
+      - '&7&l工业时代!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 1500 J/s'
     material_type: skull_hash
     material: 31a52b2c808695d8649d2336d4f4603a5e68291848cf4885ff5e971557887f92
   speed: 1
@@ -26116,10 +26116,10 @@ SHOUMOJGC:
   item:
     name: '&b&l手磨加工厂'
     lore:
-    - '&7&l工业时代!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 1000 J/s'
+      - '&7&l工业时代!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 1000 J/s'
     material_type: skull_hash
     material: 368ab8cf594da55f90f593bdc0b41e05925d75daa3ee7f1b49c2421d2bdead0
   speed: 1
@@ -26292,10 +26292,10 @@ JIHANZHIDI:
   item:
     name: '&b&l极寒之地'
     lore:
-    - '&7&l冰天雪地!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1024 J 可存储'
-    - '&8⇨ &e⚡&7 1024 J/s'
+      - '&7&l冰天雪地!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1024 J 可存储'
+      - '&8⇨ &e⚡&7 1024 J/s'
     material_type: skull_hash
     material: ddba642efffa13ec3730eafc5914ab68115c1f998803f74452e2e0cd26af0b8
   speed: 1
@@ -26424,11 +26424,11 @@ DIAOYUJI:
   item:
     name: '&b&l虚空钓鱼机'
     lore:
-    - '&e&l从时间银河中钓取 &k&l !'
-    - '&7须将钓竿放入非消耗型物品槽内'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2024 J 可存储'
-    - '&8⇨ &e⚡&7 2048 J/s'
+      - '&e&l从时间银河中钓取 &k&l !'
+      - '&7须将钓竿放入非消耗型物品槽内'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2024 J 可存储'
+      - '&8⇨ &e⚡&7 2048 J/s'
     material_type: skull_hash
     material: ec4a74ac2d0ceff89157ad16121b6bcb2b5e5e694b460a27d3b9944f368c17ce
   speed: 1
@@ -26609,10 +26609,10 @@ WANNENGGONGCHANG:
   item:
     name: '&c&l万能工厂'
     lore:
-    - '&7生产各类方块'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 13200 J 可存储'
-    - '&8⇨ &e⚡&7 13600 J/s'
+      - '&7生产各类方块'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 13200 J 可存储'
+      - '&8⇨ &e⚡&7 13600 J/s'
     material_type: skull_hash
     material: f9dc48ba5326a4078d731cb00441e62ba9402400c0d175b9ac734d2d52cf2329
   speed: 1
@@ -26989,10 +26989,10 @@ SHITOUGONGCHANG:
   item:
     name: '&f&l石头工厂'
     lore:
-    - '&7将圆石烧制成大量石头!'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10000 J 可存储'
-    - '&8⇨ &e⚡&7 3200 J/s'
+      - '&7将圆石烧制成大量石头!'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10000 J 可存储'
+      - '&8⇨ &e⚡&7 3200 J/s'
     material_type: skull_hash
     material: 45b9037fc15d2c62693878a2a4a536f8c79af1d23ce678f34c1d54ce7e34a1f
   speed: 1
@@ -27061,13 +27061,13 @@ SHITOUGONGCHANG:
   item:
     name: '&64K金一体机 &7(&eI&7)'
     lore:
-    - '&e基础 机器'
-    - '&7速度 : 1x'
-    - ''
-    - '&f用于将金粉烧成4K金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 200 J 可存储'
-    - '&8⇨ &e⚡&7 400 J/s'
+      - '&e基础 机器'
+      - '&7速度 : 1x'
+      - ''
+      - '&f用于将金粉烧成4K金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 200 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
     material_type: skull_hash
     material: 9fef722da05ae8bd8132905a11b5b6dfbf8e7ae0af599c8266e160fb05e6159b
   speed: 1
@@ -27132,13 +27132,13 @@ SHITOUGONGCHANG:
   item:
     name: '&64K金一体机 &7(&eII&7)'
     lore:
-    - '&a中型 机器'
-    - '&7速度 : 2x'
-    - ''
-    - '&f用于将金粉烧成4K金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 230 J 可存储'
-    - '&8⇨ &e⚡&7 460 J/s'
+      - '&a中型 机器'
+      - '&7速度 : 2x'
+      - ''
+      - '&f用于将金粉烧成4K金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 230 J 可存储'
+      - '&8⇨ &e⚡&7 460 J/s'
     material_type: skull_hash
     material: dcd7a00de13ec9f3c59d7cf902d980f5d29002c0dad754acbda0f6c2b698fd05
   speed: 1
@@ -27203,13 +27203,13 @@ SHITOUGONGCHANG:
   item:
     name: '&64K金一体机 &7(&eIII&7)'
     lore:
-    - '&4终极 机器'
-    - '&7速度 : 10x'
-    - ''
-    - '&f用于将金粉烧成4K金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 350 J 可存储'
-    - '&8⇨ &e⚡&7 700 J/s'
+      - '&4终极 机器'
+      - '&7速度 : 10x'
+      - ''
+      - '&f用于将金粉烧成4K金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 350 J 可存储'
+      - '&8⇨ &e⚡&7 700 J/s'
     material_type: skull_hash
     material: dcd7a00de13ec9f3c59d7cf902d980f5d29002c0dad754acbda0f6c2b698fd05
   speed: 1
@@ -27278,10 +27278,10 @@ SAPLING_INTEGRATED_MACHINE:
   item:
     name: '&a&l树苗转化机'
     lore:
-    - '&f种树实现碳中和'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60 J 可存储'
-    - '&8⇨ &e⚡&7 120 J/s'
+      - '&f种树实现碳中和'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60 J 可存储'
+      - '&8⇨ &e⚡&7 120 J/s'
     material_type: skull_hash
     material: c2847cd5717e5f5a64e1ba9cb481dc9e22c78ca23f8516d553f55412fa113e0
   speed: 1
@@ -27454,10 +27454,10 @@ RAIL_INTEGRATED_MACHINE:
   item:
     name: '&f&l基础铁轨一体机'
     lore:
-    - '&7修建铁路必备'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 60 J 可存储'
-    - '&8⇨ &e⚡&7 120 J/s'
+      - '&7修建铁路必备'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60 J 可存储'
+      - '&8⇨ &e⚡&7 120 J/s'
     material_type: skull_hash
     material: 6d5b0e3aa61162a3c6538985c5c11ceb96d5605b3ce9234c88f4fbd723475d
   speed: 1
@@ -27542,10 +27542,10 @@ CONCRETE_FORMING_MACHINE:
   item:
     name: '&6&l高级混凝土成型机'
     lore:
-    - '&7批量浇筑'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 50 J/s'
+      - '&7批量浇筑'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 50 J/s'
     material_type: skull_hash
     material: 918aa131cfb55a9268c8a5b40bb9772591d9c62b08f04cd141bb2ed6625156df
   speed: 1
@@ -27790,10 +27790,10 @@ HAIMAN_FOXY_PRODUCER:
   item:
     name: '&c&l生物献祭机'
     lore:
-    - '&7在虚无中献祭生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 2400 J/s'
+      - '&7在虚无中献祭生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 2400 J/s'
     material_type: skull_hash
     material: 72de8ed72148b79600f5cbbc6b2b6344d7c141c3a482ab7c82cdeae80371a06f
   speed: 1
@@ -27986,10 +27986,10 @@ HAIMAN_YASUOJI:
   item:
     name: '&f&l海曼压缩机'
     lore:
-    - '&7压缩一些杂七杂八的物品'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 4000 J/s'
+      - '&7压缩一些杂七杂八的物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 4000 J/s'
     material_type: skull_hash
     material: 65e84f93e79312a1e2c53442ac5a08a9653c461184801b0c8098a73ed07d6ce7
   speed: 1
@@ -28090,11 +28090,11 @@ HAIMAN_NAMI_CRAFTING_TABLE:
   item:
     name: '&5&l电动纳米工作台'
     lore:
-    - '&7一种小型机器'
-    - '&7仅能制作材料'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 12000 J 可存储'
-    - '&8⇨ &e⚡&7 800 J/s'
+      - '&7一种小型机器'
+      - '&7仅能制作材料'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 800 J/s'
     material_type: skull_hash
     material: bc40883f14d1d21e33fb7ee428936ecf088006c81b55996b1e153a8add1ab6a9
   speed: 1
@@ -28239,11 +28239,11 @@ ERDIAOZHUANGPEI:
   item:
     name: '&6&l饵料装配机'
     lore:
-    - '&7为钓鱼竿装配饵料'
-    - '&7但是优化了钓鱼竿'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 40 J 可存储'
-    - '&8⇨ &e⚡&7 40 J/s'
+      - '&7为钓鱼竿装配饵料'
+      - '&7但是优化了钓鱼竿'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 40 J 可存储'
+      - '&8⇨ &e⚡&7 40 J/s'
     material_type: skull_hash
     material: fbf5ae88f656aff4a91c64800951455e12222c310583ca28f93ce5148b73832b
   speed: 1
@@ -28320,10 +28320,10 @@ HAIMAN_LOW_RESISTANCE:
   item:
     name: '&b&l海曼牌小电阻'
     lore:
-    - '&7是否觉得你的电太多了？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 25000 J 可存储'
-    - '&8⇨ &e⚡&7 50000 J/s'
+      - '&7是否觉得你的电太多了？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 25000 J 可存储'
+      - '&8⇨ &e⚡&7 50000 J/s'
     material_type: skull_hash
     material: d83ed217dfd497539e86ab5b898b7b3bf5a186492e24f8b37a634a7947d1180
   speed: 1
@@ -28380,10 +28380,10 @@ HAIMAN_TIAODIAN_MAHCINE_G:
   item:
     name: '&e&l个位耗电式调电仪'
     lore:
-    - '&7校准电量'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1 J 可存储'
-    - '&8⇨ &e⚡&7 2 J/s'
+      - '&7校准电量'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
     material_type: skull_hash
     material: a0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
   speed: 1
@@ -28440,10 +28440,10 @@ HAIMAN_TIAODIAN_MAHCINE_S:
   item:
     name: '&e&l十位耗电式调电仪'
     lore:
-    - '&7校准电量'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 10 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7校准电量'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 10 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: a0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
   speed: 1
@@ -28500,10 +28500,10 @@ HAIMAN_TIAODIAN_MAHCINE_B:
   item:
     name: '&e&l百位耗电式调电仪'
     lore:
-    - '&7校准电量'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 100 J 可存储'
-    - '&8⇨ &e⚡&7 200 J/s'
+      - '&7校准电量'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 200 J/s'
     material_type: skull_hash
     material: a0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
   speed: 1
@@ -28560,10 +28560,10 @@ HAIMAN_TIAODIAN_MAHCINE_Q:
   item:
     name: '&e&l千位耗电式调电仪'
     lore:
-    - '&7校准电量'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1000 J 可存储'
-    - '&8⇨ &e⚡&7 2000 J/s'
+      - '&7校准电量'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 2000 J/s'
     material_type: skull_hash
     material: a0cdb66b5179b2af60b7cf045cd403c9a304a4b18aa1a5eaa2d8c4782149294f
   speed: 1
@@ -28620,10 +28620,10 @@ FENGCGZ_MACHINE:
   item:
     name: '&a&l蜂巢构造机'
     lore:
-    - '&7将蜂箱构造成蜂巢'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 4000 J 可存储'
-    - '&8⇨ &e⚡&7 1000 J/s'
+      - '&7将蜂箱构造成蜂巢'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4000 J 可存储'
+      - '&8⇨ &e⚡&7 1000 J/s'
     material_type: skull_hash
     material: 20342dc9c2ad886acfe3ca2e987b7e28a87c774ca5f3d8cb2bfabe131cafe8
   speed: 1
@@ -28700,10 +28700,10 @@ JINFTZ_MACHINE:
   item:
     name: '&e&l金粉调制机'
     lore:
-    - '&7将金粉熔炼成原版金锭'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8500 J 可存储'
-    - '&8⇨ &e⚡&7 170 J/s'
+      - '&7将金粉熔炼成原版金锭'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8500 J 可存储'
+      - '&8⇨ &e⚡&7 170 J/s'
     material_type: skull_hash
     material: 226381f0db48004b4369e125b5e7569d951d2930cef0d75f8b033c1c00b5ed1e
   speed: 1
@@ -28780,10 +28780,10 @@ JGJ_MACHINE:
   item:
     name: '&4&l浆果机'
     lore:
-    - '&7创造浆果，享受浆果！'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 700 J 可存储'
-    - '&8⇨ &e⚡&7 140 J/s'
+      - '&7创造浆果，享受浆果！'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 700 J 可存储'
+      - '&8⇨ &e⚡&7 140 J/s'
     material_type: skull_hash
     material: 1819b0a63f7d0d20c2ce4c6651424de0a3b58ac0c647ced8bd218cacf93ea1aa
   speed: 1
@@ -28860,10 +28860,10 @@ SHUAGUAILONG_MACHINE:
   item:
     name: '&a&l刷怪笼构造机'
     lore:
-    - '&7构造刷怪笼'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 120000 J 可存储'
-    - '&8⇨ &e⚡&7 120000 J/s'
+      - '&7构造刷怪笼'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 120000 J 可存储'
+      - '&8⇨ &e⚡&7 120000 J/s'
     material_type: skull_hash
     material: 4faaf642babf93f96e146e2bb7b3cd70a4ec9d17f4a2957a99e2d8ed5bc8306d
   speed: 1
@@ -28952,10 +28952,10 @@ JINKUANGTIQU_MACHINE:
   item:
     name: '&e&l金矿提取机'
     lore:
-    - '&7从各种金矿/粗金中提取更多黄金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 400 J 可存储'
-    - '&8⇨ &e⚡&7 80 J/s'
+      - '&7从各种金矿/粗金中提取更多黄金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 400 J 可存储'
+      - '&8⇨ &e⚡&7 80 J/s'
     material_type: skull_hash
     material: e7a383cd2d8e3f9a2a9e9e2522dd18cfeed9cdaddf90c5e397973eef932b8bef
   speed: 1
@@ -29080,10 +29080,10 @@ GUZHITIQU_MACHINE:
   item:
     name: '&f&l骨质提取机'
     lore:
-    - '&7提取骨粉'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 500 J 可存储'
-    - '&8⇨ &e⚡&7 100 J/s'
+      - '&7提取骨粉'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 500 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
     material_type: skull_hash
     material: 7c7ffd6a6da16f491644cca321250fc2bee66a87fb7a8537d31dad1204a1b0
   speed: 1
@@ -29208,13 +29208,13 @@ LIZI_ZENGSHENG:
   item:
     name: '&a&l粒子增生机'
     lore:
-    - '&7可以在主世界自动生产粒子'
-    - '&7耗电量为粒子生产机的十倍'
-    - '&7你须要将粒子原胚放进输入槽中'
-    - '&7生产粒子不会消耗粒子原胚'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 5120 J 可存储'
-    - '&8⇨ &e⚡&7 5120 J/s'
+      - '&7可以在主世界自动生产粒子'
+      - '&7耗电量为粒子生产机的十倍'
+      - '&7你须要将粒子原胚放进输入槽中'
+      - '&7生产粒子不会消耗粒子原胚'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 5120 J 可存储'
+      - '&8⇨ &e⚡&7 5120 J/s'
     material_type: skull_hash
     material: de31efefdd9551af8a4349d3d21e5ec8f37e53c801eb25b14279d6a89fe0c01e
   speed: 1
@@ -29331,10 +29331,10 @@ WAMING_MACHINE:
   item:
     name: '&e&l蛙明机'
     lore:
-    - '&7呱~~呱~~'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 680 J 可存储'
-    - '&8⇨ &e⚡&7 136 J/s'
+      - '&7呱~~呱~~'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 680 J 可存储'
+      - '&8⇨ &e⚡&7 136 J/s'
     material_type: skull_hash
     material: 27dbd21251173df9e848b992c93064238238a2a1ea0f74d08b5c7e2242f790e5
   speed: 1
@@ -29423,10 +29423,10 @@ DANZH_MACHINE:
   item:
     name: '&c&l转蛋机'
     lore:
-    - '&7猜猜看这是什么蛋？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 1600 J 可存储'
-    - '&8⇨ &e⚡&7 320 J/s'
+      - '&7猜猜看这是什么蛋？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1600 J 可存储'
+      - '&8⇨ &e⚡&7 320 J/s'
     material_type: skull_hash
     material: 58b30c1319eea75bae07613047bfedac17ff9b90bbf05c2801e7c2e47b0dfd1d
   speed: 1
@@ -29527,10 +29527,10 @@ SBYQH_MACHINE:
   item:
     name: '&f&l深板岩强化机'
     lore:
-    - '&7让深板岩更硬更强！'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 280000 J 可存储'
-    - '&8⇨ &e⚡&7 56000 J/s'
+      - '&7让深板岩更硬更强！'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 280000 J 可存储'
+      - '&8⇨ &e⚡&7 56000 J/s'
     material_type: skull_hash
     material: a49821c89947166e92bc073f8b02927c6ea99f2e749d87fc8de3b3aa9f7b524d
   speed: 1
@@ -29595,10 +29595,10 @@ YOUNI_MACHINE:
   item:
     name: '&8&l幽匿转换机'
     lore:
-    - '&7遁入黑暗吧！'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2800 J 可存储'
-    - '&8⇨ &e⚡&7 560 J/s'
+      - '&7遁入黑暗吧！'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2800 J 可存储'
+      - '&8⇨ &e⚡&7 560 J/s'
     material_type: skull_hash
     material: c8e22255d38c6da1196bf7c5e3f81d4abf56383cbec6aa5c8e4e919f92a0f3f3
   speed: 1
@@ -29723,10 +29723,10 @@ HUIXIANG_MACHINE:
   item:
     name: '&b&l回响构造机'
     lore:
-    - '&7回响式刻印'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 5000 J 可存储'
-    - '&8⇨ &e⚡&7 1000 J/s'
+      - '&7回响式刻印'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 5000 J 可存储'
+      - '&8⇨ &e⚡&7 1000 J/s'
     material_type: skull_hash
     material: 4322d1d2cbf82dd0b2012cda730c95cddd2e1229eaa621a5a49b174301aea723
   speed: 1
@@ -29815,10 +29815,10 @@ SHANYANGJIAO_MACHINE:
   item:
     name: '&6&l山羊角刻录机'
     lore:
-    - '&7可刻录多种号角声'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 5600 J 可存储'
-    - '&8⇨ &e⚡&7 1120 J/s'
+      - '&7可刻录多种号角声'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 5600 J 可存储'
+      - '&8⇨ &e⚡&7 1120 J/s'
     material_type: skull_hash
     material: 22d023d1c3fca0a0d64695e70b112cfa580072bbec072aaca0bcee5d131b70e3
   speed: 1
@@ -29967,10 +29967,10 @@ SGJ_MACHINE:
   item:
     name: '&c&l时光机'
     lore:
-    - '&7你说可以用它来穿越时空吗？'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 50000 J 可存储'
-    - '&8⇨ &e⚡&7 2000 J/s'
+      - '&7你说可以用它来穿越时空吗？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 50000 J 可存储'
+      - '&8⇨ &e⚡&7 2000 J/s'
     material_type: skull_hash
     material: ad3bd0534027b540aea5ad3a315dd9c722a9d7abbc2769b68f77b2d38878815
   speed: 1
@@ -30071,10 +30071,10 @@ KYDJQ_MACHINE:
   item:
     name: '&b&l可疑的机器'
     lore:
-    - '&7这真的太可疑了'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8000 J 可存储'
-    - '&8⇨ &e⚡&7 1600 J/s'
+      - '&7这真的太可疑了'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8000 J 可存储'
+      - '&8⇨ &e⚡&7 1600 J/s'
     material_type: skull_hash
     material: 32427d026ee8e83f74422772bad0aae44a16eece708901fc206a51f4720f71ef
   speed: 1
@@ -30151,10 +30151,10 @@ MBYK_MACHINE:
   item:
     name: '&a&l模板刻印机'
     lore:
-    - '&7用来雕刻锻造模版'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 9000 J 可存储'
-    - '&8⇨ &e⚡&7 1800 J/s'
+      - '&7用来雕刻锻造模版'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 9000 J 可存储'
+      - '&8⇨ &e⚡&7 1800 J/s'
     material_type: skull_hash
     material: e1fd768cb0a95e56f30e61a44496efab37b469bfbc59f0992d7885756fda4ff2
   speed: 1
@@ -30411,10 +30411,10 @@ TPKY_MACHINE:
   item:
     name: '&6&l陶片刻印机'
     lore:
-    - '&7用来雕刻陶片'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 8600 J 可存储'
-    - '&8⇨ &e⚡&7 1720 J/s'
+      - '&7用来雕刻陶片'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 8600 J 可存储'
+      - '&8⇨ &e⚡&7 1720 J/s'
     material_type: skull_hash
     material: 5eb691cd1d78d9c9553446aa988e082db1d4524d27362349eb1c6a96c4afd954
   speed: 1
@@ -30707,10 +30707,10 @@ SWPY_1:
   item:
     name: '&d&l[ver:Classic]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：Classic版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：Classic版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -30835,10 +30835,10 @@ SWPY_2:
   item:
     name: '&d&l[ver:Indev-Alpha]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：Indev-Alpha版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：Indev-Alpha版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -31023,10 +31023,10 @@ SWPY_3:
   item:
     name: '&d&l[ver:BETA]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：BETA版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：BETA版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -31247,10 +31247,10 @@ SWPY_4:
   item:
     name: '&d&l[ver:1.0]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.0版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.0版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -31531,10 +31531,10 @@ SWPY_5:
   item:
     name: '&d&l[ver:1.1-1.3]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.1-1.3版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.1-1.3版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -31851,10 +31851,10 @@ SWPY_6:
   item:
     name: '&d&l[ver:1.4-1.5]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.4-1.5版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.4-1.5版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -32231,10 +32231,10 @@ SWPY_7:
   item:
     name: '&d&l[ver:1.6-1.7]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.6-1.7版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.6-1.7版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -32671,10 +32671,10 @@ SWPY_8:
   item:
     name: '&d&l[ver:1.8-1.9]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.8-1.9版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.8-1.9版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -33183,10 +33183,10 @@ SWPY_9:
   item:
     name: '&d&l[ver:1.10]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.10版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.10版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -33731,10 +33731,10 @@ SWPY_10:
   item:
     name: '&d&l[ver:1.11-1.12]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.11-1.12版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.11-1.12版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -34339,10 +34339,10 @@ SWPY_11:
   item:
     name: '&d&l[ver:1.13]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.13版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.13版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -35043,10 +35043,10 @@ SWPY_12:
   item:
     name: '&d&l[ver:1.14]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.14版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.14版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -35819,10 +35819,10 @@ SWPY_13:
   item:
     name: '&d&l[ver:1.15-1.16]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.15-1.16版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.15-1.16版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -36667,10 +36667,10 @@ SWPY_14:
   item:
     name: '&d&l[ver:1.17-1.18]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.17-1.18版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.17-1.18版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -37551,10 +37551,10 @@ SWPY_15:
   item:
     name: '&d&l[ver:1.19-1.20]&6&lMC生物培育箱'
     lore:
-    - '&7可培育MC：1.19-1.20版本的生物'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 88000 J 可存储'
-    - '&8⇨ &e⚡&7 44000 J/s'
+      - '&7可培育MC：1.19-1.20版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
     material_type: skull_hash
     material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
   speed: 1
@@ -38507,11 +38507,11 @@ SWPY_BOSS:
   item:
     name: '&d&l[ver:&4&lBOSS&d&l]&6&lMC生物培育箱'
     lore:
-    - '&7“我闻到了一股不详的气息”'
-    - '&7运行速度很慢，似乎需要借助外部手段加速'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 288000 J 可存储'
-    - '&8⇨ &e⚡&7 176000 J/s'
+      - '&7“我闻到了一股不详的气息”'
+      - '&7运行速度很慢，似乎需要借助外部手段加速'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 288000 J 可存储'
+      - '&8⇨ &e⚡&7 176000 J/s'
     material_type: skull_hash
     material: 6d0636fa7b7a812a1c7621e2399ed038d85b3eab03ca83c199b771af70e2b8c3
   speed: 1
@@ -38588,13 +38588,13 @@ HM_HQKYJ:
   item:
     name: '&4&l火漆刻印机'
     lore:
-    - '&7将原胚印刷成各式各样的粘液装备/工具'
-    - '&7使用时须要将火漆放入非消耗型物品槽内'
-    - '&7原胚指粘液装备/工具对应的原版物品材质'
-    - '&7例：吸血鬼之刀对应的原胚就是金剑'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 48000 J 可存储'
-    - '&8⇨ &e⚡&7 9600 J/s'
+      - '&7将原胚印刷成各式各样的粘液装备/工具'
+      - '&7使用时须要将火漆放入非消耗型物品槽内'
+      - '&7原胚指粘液装备/工具对应的原版物品材质'
+      - '&7例：吸血鬼之刀对应的原胚就是金剑'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 48000 J 可存储'
+      - '&8⇨ &e⚡&7 9600 J/s'
     material_type: skull_hash
     material: 81345cfaccf33bf667c9fbb4888082f5b2ec6f263a9f108e259ebec3f41ce986
   speed: 1
@@ -39783,10 +39783,10 @@ HAIMAN_CAIBAN:
   item:
     name: '&a&l菜板'
     lore:
-    - '&7切菜切啥都能切'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 100 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7切菜切啥都能切'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: eaa42c45fc468b250d964a628939d6951f5a57dacac423f2dfb951ba51ab6d29
   speed: 1
@@ -39909,7 +39909,7 @@ HAIMAN_CAIBAN:
           amount: 3
         2:
           material_type: mc
-          material: GRASS
+          material: SHORT_GRASS
           amount: 1
     '7':
       seconds: 1
@@ -39955,10 +39955,10 @@ VERSIONED_HAIMAN_CAIBAN:
   item:
     name: '&a&l菜板'
     lore:
-    - '&7切菜切啥都能切'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 100 J 可存储'
-    - '&8⇨ &e⚡&7 20 J/s'
+      - '&7切菜切啥都能切'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
     material_type: skull_hash
     material: eaa42c45fc468b250d964a628939d6951f5a57dacac423f2dfb951ba51ab6d29
   speed: 1
@@ -40122,7 +40122,7 @@ VERSIONED_HAIMAN_CAIBAN:
   id_alias: HAIMAN_CAIBAN
   register:
     conditions:
-    - version >= 1.20.3
+      - version >= 1.20.3
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_DUJINTAI:
@@ -40131,10 +40131,10 @@ HAIMAN_DUJINTAI:
   item:
     name: '&e&l镀金台'
     lore:
-    - '&7给物品镶上黄金'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 400 J/s'
+      - '&7给物品镶上黄金'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
     material_type: skull_hash
     material: 3dcf52b54524ecd5dfc6fadde637d60279bfcac3268b9bb93a9aca2f589a3f22
   speed: 1
@@ -40271,10 +40271,10 @@ HAIMAN_ZHIJIANTAI:
   item:
     name: '&e&l电动制箭台'
     lore:
-    - '&7用电力驱动制箭台'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 400 J/s'
+      - '&7用电力驱动制箭台'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
     material_type: skull_hash
     material: 2760776074c23ae411ed46ef324a7a07282fbfbbbc5a99fcb3f5a8c9d6b02a53
   speed: 1
@@ -40363,10 +40363,10 @@ HAIMAN_FENGGANJI:
   item:
     name: '&e&l风干机'
     lore:
-    - '&7将物品风干'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 800 J 可存储'
-    - '&8⇨ &e⚡&7 160 J/s'
+      - '&7将物品风干'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 800 J 可存储'
+      - '&8⇨ &e⚡&7 160 J/s'
     material_type: skull_hash
     material: b99eb2998c2a78b6aa2eb592ef9c3648d3d2b01976d9f1dfc5dea37768d3d21c
   speed: 1
@@ -40587,10 +40587,10 @@ HAIMAN_BINGGANLLU:
   item:
     name: '&c&l饼干炉'
     lore:
-    - '&7烤COOKIE'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 850 J 可存储'
-    - '&8⇨ &e⚡&7 170 J/s'
+      - '&7烤COOKIE'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 850 J 可存储'
+      - '&8⇨ &e⚡&7 170 J/s'
     material_type: skull_hash
     material: 2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e
   speed: 1
@@ -40703,10 +40703,10 @@ HAIMAN_ZHUSHUICHI:
   item:
     name: '&b&l注水池'
     lore:
-    - '&7接水用的'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 150 J 可存储'
-    - '&8⇨ &e⚡&7 30 J/s'
+      - '&7接水用的'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 150 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
     material_type: skull_hash
     material: 1aaefc0dce2e3d940b959341fa20269553111241d1de87e9f29957b7776a16ec
   speed: 1
@@ -40783,10 +40783,10 @@ HAIMAN_WUJUNTAI:
   item:
     name: '&a&l无菌台'
     lore:
-    - '&7用来制药制肥料'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 550 J 可存储'
-    - '&8⇨ &e⚡&7 110 J/s'
+      - '&7用来制药制肥料'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 550 J 可存储'
+      - '&8⇨ &e⚡&7 110 J/s'
     material_type: skull_hash
     material: c2b7e6d2ecfe1d58e668238bba6e6ef3086019e7672b0cbee82c23a86f85fe7e
   speed: 1
@@ -40951,10 +40951,10 @@ HAIMAN_SHOUGONGTAI:
   item:
     name: '&6&l手工台'
     lore:
-    - '&7用来制作日常用品'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 420 J 可存储'
-    - '&8⇨ &e⚡&7 84 J/s'
+      - '&7用来制作日常用品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 420 J 可存储'
+      - '&8⇨ &e⚡&7 84 J/s'
     material_type: skull_hash
     material: 247106a8274db6bcbcd8a466d97e90023101bb5a5c1519cda9ed2c20bed9f1d8
   speed: 1
@@ -41119,10 +41119,10 @@ HAIMAN_DIANRECHUANG:
   item:
     name: '&4&l电热床'
     lore:
-    - '&7睡在床上暖乎乎的'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 2000 J 可存储'
-    - '&8⇨ &e⚡&7 80 J/s'
+      - '&7睡在床上暖乎乎的'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 80 J/s'
     material: RED_BED
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -41186,10 +41186,10 @@ HAIMAN_SHAGUO:
   item:
     name: '&f&l砂锅'
     lore:
-    - '&7熬汤专用锅'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 450 J 可存储'
-    - '&8⇨ &e⚡&7 90 J/s'
+      - '&7熬汤专用锅'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 450 J 可存储'
+      - '&8⇨ &e⚡&7 90 J/s'
     material_type: skull_hash
     material: f38064cd144de50df9b6d0d55998eda25e6bc97bd091af742a98511f2d3ab22
   speed: 1
@@ -41290,10 +41290,10 @@ HAIMAN_YINGLIAO_MACHINE:
   item:
     name: '&6&l饮料机'
     lore:
-    - '&7早上来杯牛奶'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 450 J 可存储'
-    - '&8⇨ &e⚡&7 100 J/s'
+      - '&7早上来杯牛奶'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 450 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
     material_type: skull_hash
     material: 24a37e0c123f4e1a7eb3cce17c12143f93c0c7ce8ce62d2ff86a7ce3a079f473
   speed: 1
@@ -41426,12 +41426,12 @@ HAIMAN_PAIZHUO:
   item:
     name: '&f&l牌桌'
     lore:
-    - '&7可以在输入槽和输出槽内打牌'
-    - '&7非消耗型物品槽内可以放计时器'
-    - '&7建议搭配货运实时清空输入槽和输出槽内的牌'
-    - '&b机器'
-    - '&8⇨ &e⚡&7 50 J 可存储'
-    - '&8⇨ &e⚡&7 10 J/s'
+      - '&7可以在输入槽和输出槽内打牌'
+      - '&7非消耗型物品槽内可以放计时器'
+      - '&7建议搭配货运实时清空输入槽和输出槽内的牌'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 50 J 可存储'
+      - '&8⇨ &e⚡&7 10 J/s'
     material_type: skull_hash
     material: 145c70e5e5a96bae45c6530ca83faf53231642cca06dff5677640ede978ce3b2
   speed: 1
