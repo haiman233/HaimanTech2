@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.5.1'
+      - '&bRelease-1.6'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -1376,6 +1376,30 @@ HAIMAN_GALAXY_PIECE:
       material_type: saveditem
       material: 0
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
+VERSIONED_HAIMAN_GALAXY_PIECE:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&d&l银河碎片'
+    lore:
+      - '&7据说是一股强大的能量将银河破碎了'
+    material_type: mc
+    material: BLUE_DYE
+    amount: 1
+  placeable: false
+  recipe_type: HAIMAN_INFO_FENZI_4
+  recipe:
+    5:
+      material_type: saveditem
+      material: ARTIFICIAL_MILKY_WAY
+      amount: 1
+  id_alias: HAIMAN_GALAXY_PIECE
+  register:
+    conditions:
+      - version >= 1.21
 HAIMAN_BLACK_HOLE_PIECE:
   lateInit: false
   item_group: slime_customizer_material
@@ -3452,6 +3476,9 @@ HAIMAN_TIGER_STICK_1:
       material_type: mc
       material: FIRE_CHARGE
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 HAIMAN_TIGER_DUN_1:
   lateInit: false
   item_group: slime_customizer_newyear
@@ -3498,6 +3525,9 @@ HAIMAN_TIGER_DUN_1:
       material_type: slimefun
       material: HAIMAN_NEW_YEAR_1
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 HAIMAN_TIGER_AXE_1:
   lateInit: false
   item_group: slime_customizer_newyear
@@ -3536,6 +3566,9 @@ HAIMAN_TIGER_AXE_1:
       material_type: mc
       material: BLAZE_ROD
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 HAIMAN_XIONGSHILAOFANG:
   lateInit: false
   item_group: slime_customizer_newyear
@@ -15529,6 +15562,9 @@ RED_ENERGY:
       material_type: mc
       material: RED_DYE
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 GREEN_ENERGY:
   lateInit: false
   item_group: pifu
@@ -15575,6 +15611,9 @@ GREEN_ENERGY:
       material_type: mc
       material: GREEN_DYE
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 YELLOW_ENERGY:
   lateInit: false
   item_group: pifu
@@ -15621,6 +15660,9 @@ YELLOW_ENERGY:
       material_type: mc
       material: YELLOW_DYE
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 PURPLE_ENERGY:
   lateInit: false
   item_group: pifu
@@ -15667,6 +15709,9 @@ PURPLE_ENERGY:
       material_type: mc
       material: PURPLE_DYE
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 VR_INFO:
   lateInit: false
   item_group: huanyu_vr
@@ -18173,6 +18218,9 @@ WUTOU_HUOSAI:
       material_type: mc
       material: COMPARATOR
       amount: 1
+  register:
+    conditions:
+      - version < 1.21
 CHUANGSHI_YIN:
   lateInit: false
   item_group: slime_customizer_material
