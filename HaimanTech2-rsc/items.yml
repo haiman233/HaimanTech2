@@ -4,11 +4,11 @@ HAIMANTECH_INFO:
   item:
     name: '&c&l海曼科技院说明书'
     lore:
-    - '&7本附属由海曼（haiman）编写而成'
-    - '&7感谢yitoudaidai和yh_mc曾经与我的合作'
-    - '&7感谢所有给予信任并安装海曼科技院的腐竹'
-    - '&7灵感来源于广大玩家'
-    - '&6海曼科技——始于2020年12月'
+      - '&7本附属由海曼（haiman）编写而成'
+      - '&7感谢yitoudaidai和yh_mc曾经与我的合作'
+      - '&7感谢所有给予信任并安装海曼科技院的腐竹'
+      - '&7灵感来源于广大玩家'
+      - '&6海曼科技——始于2020年12月'
     material_type: mc
     material: PAPER
     amount: 1
@@ -20,9 +20,9 @@ VERSION_INFO:
   item:
     name: '&c&l版本号'
     lore:
-    - '&f当前海曼科技院版本：'
-    - '&bRelease-1.5.1'
-    - '&7您在提issues的时候需要展示这个'
+      - '&f当前海曼科技院版本：'
+      - '&bRelease-1.5.1'
+      - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
     amount: 1
@@ -39,1479 +39,270 @@ ZHANWEIFU:
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    2:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    3:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    4:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    5:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    6:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    7:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    8:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-    9:
-      material_type: mc
-      material: LIGHT_GRAY_STAINED_GLASS_PANE
-      amount: 1
-HAIMAN_INFO_FENZI_3:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&c&l分子重组仪配方'
-    lore:
-    - '&7该物品在分子重组仪3里制作'
-    material_type: skull_hash
-    material: 5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_FENZI_4:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&c&l分子重组仪配方'
-    lore:
-    - '&7该物品在分子重组仪4里制作'
-    material_type: skull_hash
-    material: 57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_FENZI_5:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&4&l分子重组仪配方'
-    lore:
-    - '&7该物品在分子重组仪5里制作'
-    material_type: skull_hash
-    material: 30a35957fce2344aa8557ba6b36187ab415249934607bbbed2a053c3a86cafc0
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    5:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_FENZI_32767:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&5&l分子重组仪配方'
-    lore:
-    - '&7该物品在分子重组仪32767里制作'
-    material_type: skull_hash
-    material: 6f89b150be9c4c5249f355f68ea0c4391300a9be1f260d750fc35a1817ad796e
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_FENZI_GAIZHUANG:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&5&l分子重组仪改装机配方'
-    lore:
-    - '&7该物品需要在分子重组仪改装机中改装升级'
-    material_type: skull_hash
-    material: 2afeefa29bfdb3202238a2c4b8dcb750506a30d122600f88725e5aa247335460
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_FENZI_YEHUAJI:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&5&l燃料液化机配方'
-    lore:
-    - '&7该物品需要在燃料液化机中制作'
-    material_type: skull_hash
-    material: 6080972b7c32da650cc86e9aad665ed8d0d48a3bdb0ba234d4fceac024c7952e
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_COFFEE_MACHINE:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&c&l咖啡机配方'
-    lore:
-    - '&7该物品需要在咖啡机中制作'
-    material_type: skull_hash
-    material: 4552f7375672a5737f2ab766e5d1bcbfe8e12913cc9f044b43a2123a35185665
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_HAIMAN_ADVANCE_DYING:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&6&l终极染坊配方'
-    lore:
-    - '&7该物品需要在终极染坊中染色'
-    material_type: skull_hash
-    material: 391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_CHUDIAN:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&6&l储电机配方'
-    lore:
-    - '&7该物品需要在储电机中充电'
-    material_type: skull_hash
-    material: 918a00b1c5ef0ba6d83e54fcbabb6272764f165d57ce8a26a916d4192a54c966
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_GUANGDIANJUHE:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&6&l电光聚合机配方'
-    lore:
-    - '&7该物品需要在电光聚合机中制作'
-    material_type: skull_hash
-    material: 366335847cba9aeaffc95cb109fdf55da13c95c97326a3bf5ddc7c99ee3
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_GUANGDIAN:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&6&l电光升级机配方'
-    lore:
-    - '&7该物品需要在电光升级机中制作'
-    material_type: skull_hash
-    material: 59d0f51f39e08e51cc83cbec01e3ce1362c70c02edc351902af8e7a5f6e201bc
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_BIRTHDAY_CAKE_STOVE:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&6&l烤箱配方'
-    lore:
-    - '&7该物品需要在烤箱中烘焙'
-    material_type: skull_hash
-    material: 8f9da46d97461a1be10600cc546a9d4613e16cfb5719eeb39042e501836008ca
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_WRITTEN_BOOK_CHANGER:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&e&l旧书机配方'
-    lore:
-    - '&7该物品需要在旧书机中制作'
-    material_type: skull_hash
-    material: 46ee7e906686abd5ec192b079314c45f1fb8171d9e13caa4cf9f63afc2263fd5
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-HAIMAN_INFO_HEIDONG:
-  lateInit: false
-  item_group: sakurafun_recipe
-  item:
-    name: '&e&l人造黑洞配方'
-    lore:
-    - '&7该物品需要在人造黑洞中制作'
-    material_type: skull_hash
-    material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_COMMAND_BLOCK:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l命令方块'
     lore:
-    - '&7该物品需要在3级及以上分子重组仪中制作'
+      - '&7该物品需要在3级及以上分子重组仪中制作'
     material_type: mc
     material: COMMAND_BLOCK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_LS_XH_COMMAND_BLOCK:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l连锁型/循环型命令方块'
     lore:
-    - '&7该物品需要命令方块染色机中制作'
+      - '&7该物品需要命令方块染色机中制作'
     material_type: mc
     material: REPEATING_COMMAND_BLOCK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_JG_PT:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l结构方块/拼图方块'
     lore:
-    - '&7该物品需要在3级及以上分子重组仪中制作'
+      - '&7该物品需要在3级及以上分子重组仪中制作'
     material_type: mc
     material: STRUCTURE_BLOCK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_JGKW:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l结构空位'
     lore:
-    - '&7该物品需要在3级及以上分子重组仪中制作'
+      - '&7该物品需要在3级及以上分子重组仪中制作'
     material_type: mc
     material: STRUCTURE_VOID
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_PLHEAD:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l玩家头颅'
     lore:
-    - '&7该物品需要在2级及以上分子重组仪中制作'
+      - '&7该物品需要在2级及以上分子重组仪中制作'
     material_type: mc
     material: PLAYER_HEAD
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_JY_PZ:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l基岩/屏障'
     lore:
-    - '&7该物品需要在5级及以上分子重组仪中制作'
+      - '&7该物品需要在5级及以上分子重组仪中制作'
     material_type: mc
     material: BEDROCK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_MLFKFC:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l命令方块矿车'
     lore:
-    - '&7该物品需要在矿车装配机中制作'
+      - '&7该物品需要在矿车装配机中制作'
     material_type: mc
     material: COMMAND_BLOCK_MINECART
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_ZSZZ:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l紫颂植株'
     lore:
-    - '&7该物品需要在1级及以上分子重组仪中制作'
+      - '&7该物品需要在1级及以上分子重组仪中制作'
     material_type: mc
     material: CHORUS_PLANT
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_TJ_GT:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l土径/耕土'
     lore:
-    - '&7该物品需要在土质改良机中制作'
+      - '&7该物品需要在土质改良机中制作'
     material_type: mc
     material: DIRT_PATH
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_SHMTJ:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l石化木台阶'
     lore:
-    - '&7该物品需要在石化机中制作'
+      - '&7该物品需要在石化机中制作'
     material_type: mc
     material: PETRIFIED_OAK_SLAB
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_CSFK:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l虫蚀方块'
     lore:
-    - '&7该物品需要在虫蚀机中制作'
+      - '&7该物品需要在虫蚀机中制作'
     material_type: mc
     material: INFESTED_STONE_BRICKS
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_ZSJMY:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l紫水晶母岩'
     lore:
-    - '&7该物品需要在洞穴环境模拟机中制作'
+      - '&7该物品需要在洞穴环境模拟机中制作'
     material_type: mc
     material: BUDDING_AMETHYST
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_MDCSMKJ:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l末地传送门框架'
     lore:
-    - '&7该物品需要在末地传送门框架构造机中制作'
+      - '&7该物品需要在末地传送门框架构造机中制作'
     material_type: mc
     material: END_PORTAL_FRAME
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_SGL:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l刷怪笼'
     lore:
-    - '&7该物品需要在刷怪笼构造机中制作'
+      - '&7该物品需要在刷怪笼构造机中制作'
     material_type: mc
     material: SPAWNER
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_ZSZS:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l知识之书/成书'
     lore:
-    - '&7该物品需要在书厂中制作'
+      - '&7该物品需要在书厂中制作'
     material_type: mc
     material: KNOWLEDGE_BOOK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_DEBUG:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l调试棒/DEBUG鱼'
     lore:
-    - '&7该物品需要在Debug调试机中制作'
+      - '&7该物品需要在Debug调试机中制作'
     material_type: mc
     material: DEBUG_STICK
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_LIGHT_ZS:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l光源方块'
     lore:
-    - '&7该物品需要在电光聚合机和电光升级机中制作'
+      - '&7该物品需要在电光聚合机和电光升级机中制作'
     material_type: mc
     material: LIGHT
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_SHOUNADAI:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l收纳袋'
     lore:
-    - '&7该物品需要在海曼工作台中制作'
+      - '&7该物品需要在海曼工作台中制作'
     material_type: mc
     material: BUNDLE
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_QINGWALUAN:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l青蛙卵'
     lore:
-    - '&7该物品需要在转蛋机中制作'
+      - '&7该物品需要在转蛋机中制作'
     material_type: mc
     material: FROGSPAWN
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_QHSBY:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l强化深板岩'
     lore:
-    - '&7该物品需要在深板岩强化机中制作'
+      - '&7该物品需要在深板岩强化机中制作'
     material_type: mc
     material: REINFORCED_DEEPSLATE
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_KYDFK:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l可疑的沙子/沙砾'
     lore:
-    - '&7该物品需要在可疑的机器中制作'
+      - '&7该物品需要在可疑的机器中制作'
     material_type: mc
     material: SUSPICIOUS_SAND
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HM_SGD:
   lateInit: false
   item_group: slime_customizer_yuanban
   item:
     name: '&f&l刷怪蛋'
     lore:
-    - '&7该物品需要在MC生物培育箱中制作'
+      - '&7该物品需要在MC生物培育箱中制作'
     material_type: mc
     material: CHICKEN_SPAWN_EGG
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-  recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 HAIMAN_AMETHYST_DUST:
   lateInit: false
   item_group: slime_customizer_material
@@ -1534,7 +325,7 @@ HEJINDING_YUANPEI:
   item:
     name: '&6&l合金锭原胚'
     lore:
-    - '&7还需要进一步加工'
+      - '&7还需要进一步加工'
     material_type: skull_hash
     material: 6849c8563b49c5cd65066b867e99edb285da95f0fd210e23fa35b5c5c5892107
     amount: 1
@@ -1583,7 +374,7 @@ HERANLIAOYJ:
   item:
     name: '&a&l核燃料原浆'
     lore:
-    - '&7未经处理的核燃料'
+      - '&7未经处理的核燃料'
     material_type: skull_hash
     material: 9c64568adebf2844df824332dc27e4c66a8a9af6b4d752782f610db61d065
     amount: 1
@@ -1604,7 +395,7 @@ RAINBOW_ZOT:
   item:
     name: '&b&l四色粒子'
     lore:
-    - '&7由四种颜色的粒子拟合而成'
+      - '&7由四种颜色的粒子拟合而成'
     material_type: skull_hash
     material: adc84c1d9289974cc2c5390377d66629eba61d605399bea374f368255f87e3e6
     amount: 1
@@ -1633,7 +424,7 @@ ZOT_INGOT:
   item:
     name: '&b&l末地粒子锭'
     lore:
-    - '&7这是一个由多种末地粒子炼制而成的材料'
+      - '&7这是一个由多种末地粒子炼制而成的材料'
     material_type: mc
     material: NETHERITE_INGOT
     amount: 1
@@ -1682,7 +473,7 @@ YASUO_SFBOOK:
   item:
     name: '&a&l压缩粘液科技书'
     lore:
-    - '&7啊？'
+      - '&7啊？'
     material_type: mc
     material: BOOK
     amount: 1
@@ -1731,7 +522,7 @@ YASUO_YASUO_SFBOOK:
   item:
     name: '&2&l粘液科技书皮'
     lore:
-    - '&7已经被压成一张纸的厚度了'
+      - '&7已经被压成一张纸的厚度了'
     material_type: mc
     material: PAPER
     amount: 1
@@ -1748,7 +539,7 @@ FUHEBAN:
   item:
     name: '&8&l复合板'
     lore:
-    - '&7由多种合金板压制而成'
+      - '&7由多种合金板压制而成'
     material_type: mc
     material: LIGHT_GRAY_DYE
     amount: 1
@@ -1797,8 +588,8 @@ ARTIFICIAL_SILICON_BASED_MATERIALS:
   item:
     name: '&c&l人造硅基材料'
     lore:
-    - '&7这是MC历史上伟大的创新！'
-    - '&b通常用于制造精密零件与自动化机器'
+      - '&7这是MC历史上伟大的创新！'
+      - '&b通常用于制造精密零件与自动化机器'
     material_type: mc
     material: PHANTOM_MEMBRANE
     amount: 1
@@ -1847,7 +638,7 @@ MINECRAFT_SOURCE_STONE:
   item:
     name: '&d&lMinecraft源石'
     lore:
-    - '&6这是Minecraft的核心，这是Minecraft的起源'
+      - '&6这是Minecraft的核心，这是Minecraft的起源'
     material_type: mc
     material: LAPIS_LAZULI
     amount: 1
@@ -1896,7 +687,7 @@ ANCIENT_ITEM:
   item:
     name: '&6&l远古的遗物'
     lore:
-    - '&7这是从哪发掘出来的呢？'
+      - '&7这是从哪发掘出来的呢？'
     material_type: mc
     material: ANCIENT_DEBRIS
     amount: 1
@@ -1945,56 +736,24 @@ MINECRAFT_DEAD_BUSH_GHOST:
   item:
     name: '&c&l枯 死 的 灌 木'
     lore:
-    - '&7这是一个传说...'
+      - '&7这是一个传说...'
     material_type: mc
     material: DEAD_BUSH
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_4
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
+    5:
       material_type: mc
       material: JIGSAW
       amount: 2
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_4
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
 ULTIMATE_ENERGY_MOTOR:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&4&l终极能源马达'
     lore:
-    - '&8这难道就是马达的极限了？'
+      - '&8这难道就是马达的极限了？'
     material_type: skull_hash
     material: 918a00b1c5ef0ba6d83e54fcbabb6272764f165d57ce8a26a916d4192a54c966
     amount: 1
@@ -2043,7 +802,7 @@ JITANCHENZHOU:
   item:
     name: '&8&l献祭祭坛承轴'
     lore:
-    - '&7支撑祭坛运行的装置'
+      - '&7支撑祭坛运行的装置'
     material_type: skull_hash
     material: a9f3c8f48321e668ccac5300d7dc9b92a3fbe3deca2a38dd8191c68d251a4014
     amount: 1
@@ -2092,7 +851,7 @@ YJ_DINGWEI_QI:
   item:
     name: '&c&l遗迹定位器'
     lore:
-    - '&8遗迹搜寻机的核心部件'
+      - '&8遗迹搜寻机的核心部件'
     material_type: skull_hash
     material: a1af3a5286e38a73458bdf55a0d1685489b119d36ad230384a2a43f7bf413fcd
     amount: 1
@@ -2141,7 +900,7 @@ BZ_TCQ:
   item:
     name: '&4&l宝藏探测器'
     lore:
-    - '&8探测遗迹中的宝藏'
+      - '&8探测遗迹中的宝藏'
     material_type: skull_hash
     material: c3ffa9b958aacc2b3979cf63413e6cdd254340552085ff20d60404f50f3cd2c7
     amount: 1
@@ -2190,7 +949,7 @@ DOUMAOBANG:
   item:
     name: '&6&l逗猫棒'
     lore:
-    - '&8用来逗猫'
+      - '&8用来逗猫'
     material_type: mc
     material: BLAZE_ROD
     amount: 1
@@ -2239,28 +998,24 @@ HAIMAN_INFINITY_CONSTRUCTOR_2:
   item:
     name: '&f&l无尽锭压缩奇点'
     lore:
-    - '&7由32个无尽锭奇点压缩而成'
+      - '&7由32个无尽锭奇点压缩而成'
     material_type: skull_hash
     material: 8af6bd2c033a838d4ff7fd555321e06cf806a75c4a2b5868c71004e02a1860a4
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_3
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: INFINITY_SINGULARITY
       amount: 32
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_3
-      amount: 1
 HM_DONGLILINGJIAN:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&6&l动力零件'
     lore:
-    - '&7由机器人身上拆解下来的零件'
+      - '&7由机器人身上拆解下来的零件'
     material_type: skull_hash
     material: fd880f423cc25aa86208115f57740e6627d695e71bb33fec381e4c66b20ffd72
     amount: 1
@@ -2309,8 +1064,8 @@ HM_CHAOPING_CIRCUIT_BOARD:
   item:
     name: '&4&l超频电路板'
     lore:
-    - '&8不同的材料对应不同的功能区'
-    - '&8功能性越强的机器越需要这种材料'
+      - '&8不同的材料对应不同的功能区'
+      - '&8功能性越强的机器越需要这种材料'
     material_type: skull_hash
     material: dcafbac5068197fda18636dfc4ce7f9df5af9b2a06e6f91e38ae35e4c435b2df
     amount: 1
@@ -2359,7 +1114,7 @@ DUIDIEYUANJIAN:
   item:
     name: '&5&l强制堆叠元件'
     lore:
-    - '&7打破规则，坍缩空间'
+      - '&7打破规则，坍缩空间'
     material_type: skull_hash
     material: ecfd26d73f44b14713e8decb924ea10dc359e687f8f71b57612c35ac7c8492d
     amount: 1
@@ -2408,7 +1163,7 @@ LIZI_YUANPEI:
   item:
     name: '&e&l粒子原胚'
     lore:
-    - '&7主世界自动化粒子的基础'
+      - '&7主世界自动化粒子的基础'
     material_type: skull_hash
     material: 5d63fd3d50e2aabdf8da463b939c57b24d5fd20b519dfdb9ce84e96b0ee3239b
     amount: 1
@@ -2457,84 +1212,68 @@ MAGIC_SWEET_POTATO:
   item:
     name: '&6&l魔芋'
     lore:
-    - '&7记忆溯流中的强烈波涌...'
+      - '&7记忆溯流中的强烈波涌...'
     material_type: skull_hash
     material: 454f2bc3ecf5075d0dde8a4a482f5ada21d3a6856bc7bfad51bbbc003c86c543
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_32767
   recipe:
-    2:
+    5:
       material_type: mc
       material: APPLE
       amount: 64
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_32767
-      amount: 1
 FKS:
   lateInit: false
   item_group: slime_customizer_zhuangshi
   item:
     name: '&6&l方块树'
     lore:
-    - '&7记忆溯流中的一股浪潮...'
+      - '&7记忆溯流中的一股浪潮...'
     material_type: skull_hash
     material: cdfd5bf1ff0543147c9d64e68761db6e4b7132ac658f0b8f79831fad9c289eca
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_32767
   recipe:
-    2:
+    5:
       material_type: mc
       material: OAK_SAPLING
       amount: 64
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_32767
-      amount: 1
 HAIMAN:
   lateInit: false
   item_group: slime_customizer_zuozhe
   item:
     name: '&e&lhaiman的头'
     lore:
-    - '&7海曼科技院作者——haiman'
+      - '&7海曼科技院作者——haiman'
     material_type: skull_hash
     material: 1421f1514da756c8c6c7c0b83a79265c26c9ece66b3bad8fbd94bd96d7040d7e
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
   recipe:
-    2:
+    5:
       material_type: mc
       material: CREEPER_HEAD
       amount: 4
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
-      amount: 1
 YITOUDAIDAI:
   lateInit: false
   item_group: slime_customizer_zuozhe
   item:
     name: '&e&lyitoudaidai的头'
     lore:
-    - '&7原宇宙科技作者——yitoudaidai'
+      - '&7原宇宙科技作者——yitoudaidai'
     material_type: skull_hash
     material: a2ac9cbc5befca3a8007a6d0b54b626459d0d510203ea1563a09883a525a747c
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
   recipe:
-    2:
+    5:
       material_type: mc
       material: SKELETON_SKULL
       amount: 4
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
-      amount: 1
 YH_MC:
   lateInit: false
   item_group: slime_customizer_zuozhe
@@ -2543,102 +1282,82 @@ YH_MC:
     material: yh_mc
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
   recipe:
-    2:
+    5:
       material_type: mc
       material: DIAMOND
       amount: 64
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
-      amount: 1
 H_FUEL:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&2&l氚氘重水复合燃料'
     lore:
-    - '&7一种高能燃料'
-    - '&7似乎能稍微缓解能源问题'
+      - '&7一种高能燃料'
+      - '&7似乎能稍微缓解能源问题'
     material_type: skull_hash
     material: 51e1078c12a91c780a7db1a81af1b9ea90eca9a97dee104115b2408895e4a572
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_YEHUAJI
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: PLUTONIUM
       amount: 16
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_YEHUAJI
-      amount: 1
 HD_FUEL:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&d&l液化磁单极子燃料'
     lore:
-    - '&7利用宇宙中的粒子制成燃料'
-    - '&7是未来主要超高能燃料之一'
+      - '&7利用宇宙中的粒子制成燃料'
+      - '&7是未来主要超高能燃料之一'
     material_type: skull_hash
     material: be64ff0a2d427344b9349c8dea6f4a4cb7caccdb6f8f877c3e47bcbb42132325
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_YEHUAJI
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: ZOT_INGOT
       amount: 16
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_YEHUAJI
-      amount: 1
 HDB_FUEL:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&8&l负能反物质离子燃料'
     lore:
-    - '&7人们探测到了黑洞周围尚存的微粒'
-    - '&7并把它们制成了燃料'
+      - '&7人们探测到了黑洞周围尚存的微粒'
+      - '&7并把它们制成了燃料'
     material_type: skull_hash
     material: 9e162daa331c6cf8d6138b83fb848bd35c78d2f5f2199de6e9e18a4388265b7
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_YEHUAJI
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: MINECRAFT_DEAD_BUSH_GHOST
       amount: 2
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_YEHUAJI
-      amount: 1
 HDBU_FUEL:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&8&l暗能宇宙墙燃料'
     lore:
-    - '&7一种用宇宙墙物质制成的燃料'
+      - '&7一种用宇宙墙物质制成的燃料'
     material_type: skull_hash
     material: 4618992e18cd67b026659e50b130b3b251789e0b91bd16be4b7e59697a68d7a
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_YEHUAJI
   recipe:
-    2:
-      material_type: slimefun
-      material: MINECRAFT_SOURCE_STONE
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_FENZI_YEHUAJI
+      material: MINECRAFT_SOURCE_STONE
       amount: 1
 HAIMAN_GALAXY_PIECE:
   lateInit: false
@@ -2646,20 +1365,16 @@ HAIMAN_GALAXY_PIECE:
   item:
     name: '&d&l银河碎片'
     lore:
-    - '&7据说是一股强大的能量将银河破碎了'
+      - '&7据说是一股强大的能量将银河破碎了'
     material_type: mc
     material: BLUE_DYE
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_4
   recipe:
-    2:
+    5:
       material_type: saveditem
       material: 0
-      amount: 1
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_4
       amount: 1
 HAIMAN_BLACK_HOLE_PIECE:
   lateInit: false
@@ -2667,70 +1382,58 @@ HAIMAN_BLACK_HOLE_PIECE:
   item:
     name: '&8&l黑洞碎片'
     lore:
-    - '&7黑洞神秘的引力将它们聚集在一起'
+      - '&7黑洞神秘的引力将它们聚集在一起'
     material_type: mc
     material: BLACK_DYE
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_5
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: HAIMAN_GALAXY_PIECE
       amount: 16
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_5
-      amount: 1
 DOGE:
   lateInit: false
   item_group: slime_customizer_emoji
   item:
     name: '&c&lDOGE'
     lore:
-    - '&7狗头保命！'
+      - '&7狗头保命！'
     material_type: skull_hash
     material: a374fd6d1448fa130e9249af199023846b8fc877f117f3ac1c43403ba7fef3
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_32767
   recipe:
-    2:
+    5:
       material_type: mc
       material: BONE
       amount: 64
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_32767
-      amount: 1
 HAIMAN_TEA:
   lateInit: false
   item_group: slime_customizer_zhuangshi
   item:
     name: '&a&l星巴克奶茶'
     lore:
-    - '&7三点几嘞！饮茶先嘞！'
+      - '&7三点几嘞！饮茶先嘞！'
     material_type: skull_hash
     material: d672c57f4c7b9e962b45b55dd7bd7886880d7eef26db6c2cce03c8ff8c48
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_32767
   recipe:
-    2:
+    5:
       material_type: mc
       material: FERN
       amount: 64
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_32767
-      amount: 1
 EMOJI_HAPPY:
   lateInit: false
   item_group: slime_customizer_emoji
   item:
     name: '&e&l开心黄豆'
     lore:
-    - '&7好嗨哟！'
+      - '&7好嗨哟！'
     material_type: skull_hash
     material: 3baabe724eae59c5d13f442c7dc5d2b1c6b70c2f83364a488ce5973ae80b4c3
     amount: 1
@@ -2779,7 +1482,7 @@ EMOJI_NERVOUS:
   item:
     name: '&e&l流汗黄豆'
     lore:
-    - '&7az'
+      - '&7az'
     material_type: skull_hash
     material: 6ccd5472a46f46e4cdfda9adea2320cccfbae11198b6aae163d17c4b5b4666d
     amount: 1
@@ -2828,7 +1531,7 @@ EMOJI_ANGRY:
   item:
     name: '&4&l愤怒黄豆'
     lore:
-    - '&7气死偶咧！(╬◣д◢)'
+      - '&7气死偶咧！(╬◣д◢)'
     material_type: skull_hash
     material: 4fb97b17c6395392658f32718aa46befa1c31d3572651c30f7d2bf3b93f6ead9
     amount: 1
@@ -2877,7 +1580,7 @@ EMOJI_ICE:
   item:
     name: '&4&l寒冰黄豆'
     lore:
-    - '&7冻死我了...'
+      - '&7冻死我了...'
     material_type: skull_hash
     material: 46a77dfed8297dc44dad6f29faf7277dfa98eafbb53fa66c7730a50e3818484b
     amount: 1
@@ -2926,7 +1629,7 @@ EMOJI_ZZZ:
   item:
     name: '&e&l睡觉黄豆'
     lore:
-    - '&7ZZZZZZZZ...'
+      - '&7ZZZZZZZZ...'
     material_type: skull_hash
     material: 9c4a41554342b2cbfbd895e9ec7089ae861fec8f51693822ec1eb3ca3f18
     amount: 1
@@ -2975,7 +1678,7 @@ EMOJI_OU:
   item:
     name: '&e&l呕吐黄豆'
     lore:
-    - '&7呕!'
+      - '&7呕!'
     material_type: skull_hash
     material: aabfabf0adb2a615e901fe0040e322c51fb7d11c82cfafa21e5221a5f6a2e030
     amount: 1
@@ -3024,7 +1727,7 @@ EMOJI_LAUGH:
   item:
     name: '&e&l大笑黄豆'
     lore:
-    - '&7啊哈哈哈哈哈哈哈!'
+      - '&7啊哈哈哈哈哈哈哈!'
     material_type: skull_hash
     material: 5059d59eb4e59c31eecf9ece2f9cf3934e45c0ec476fc86bfaef8ea913ea710
     amount: 1
@@ -3073,7 +1776,7 @@ EMOJI_LAUGHING_CRYING:
   item:
     name: '&e&l笑哭黄豆'
     lore:
-    - '&7啊哈哈呜呜!'
+      - '&7啊哈哈呜呜!'
     material_type: skull_hash
     material: c2767e93720a81000cdb11bffe82f1ee6a67fbbc49576b0e4b403f0321e36f62
     amount: 1
@@ -3122,7 +1825,7 @@ EMOJI_SAD:
   item:
     name: '&e&l伤心黄豆'
     lore:
-    - '&7嘤嘤嘤!'
+      - '&7嘤嘤嘤!'
     material_type: skull_hash
     material: 1c2672aaae58f3d1852d19b8422caf70b32582f8de3fcb5c7c24dacb7ebc3
     amount: 1
@@ -3171,7 +1874,7 @@ EMOJI_CRY:
   item:
     name: '&e&l大哭黄豆'
     lore:
-    - '&7呜呜呜呜呜!'
+      - '&7呜呜呜呜呜!'
     material_type: skull_hash
     material: 3255846467f33937db9f43cdfb34a0dfd12f57522e8a988e458b5ac3c134e
     amount: 1
@@ -3220,7 +1923,7 @@ EMOJI_SHIT:
   item:
     name: '&e&l狗屎黄豆'
     lore:
-    - '&7吔屎啦你!'
+      - '&7吔屎啦你!'
     material_type: skull_hash
     material: f650232c1d8b337965087693449c02c960ca4393b048346a4f0b2e18e58fa
     amount: 1
@@ -3269,7 +1972,7 @@ EMOJI_WOW:
   item:
     name: '&e&l惊讶黄豆'
     lore:
-    - '&7这是什么骚操作!'
+      - '&7这是什么骚操作!'
     material_type: skull_hash
     material: f720df911c052377065408db78a25c678f791eb944c063935ae86dbe51c71b
     amount: 1
@@ -3318,7 +2021,7 @@ EMOJI_CRAZY:
   item:
     name: '&e&l阿巴阿巴黄豆'
     lore:
-    - '&7睿智的眼神!'
+      - '&7睿智的眼神!'
     material_type: skull_hash
     material: 71becacec858a19848860b2522c32936adf1588c1ef42379403fef83da4bb
     amount: 1
@@ -3367,7 +2070,7 @@ EMOJI_LOVE:
   item:
     name: '&e&l亲亲黄豆'
     lore:
-    - '&7❥ლ(°◕‵ƹ′◕ლ)'
+      - '&7❥ლ(°◕‵ƹ′◕ლ)'
     material_type: skull_hash
     material: 545bd18a2aaf469fad72e52cde6cfb02bfbaa5bfed2a8151277f779ebcdcec1
     amount: 1
@@ -3416,7 +2119,7 @@ EMOJI_LUE:
   item:
     name: '&e&l吐舌黄豆'
     lore:
-    - '&7略略略！'
+      - '&7略略略！'
     material_type: skull_hash
     material: 5f15c9b8edc5629b6caa49148a20c5890853c2674385e43876ca56d1d465f
     amount: 1
@@ -3465,7 +2168,7 @@ EMOJI_CONFIDENCE:
   item:
     name: '&e&l歪嘴黄豆'
     lore:
-    - '&7歪嘴战神！'
+      - '&7歪嘴战神！'
     material_type: skull_hash
     material: 44c8cd31bac657a3f26b52e262c83eb8338d56651fd22c1633565f3dbbc45777
     amount: 1
@@ -3514,7 +2217,7 @@ EMOJI_DEAD:
   item:
     name: '&e&l嗝屁黄豆'
     lore:
-    - '&7这操作...直接给我送走了！'
+      - '&7这操作...直接给我送走了！'
     material_type: skull_hash
     material: b371e4e1cf6a1a36fdae27137fd9b8748e6169299925f9af2be301e54298c73
     amount: 1
@@ -3563,7 +2266,7 @@ EMOJI_THINKING:
   item:
     name: '&e&l思索黄豆'
     lore:
-    - '&7emmm，容我想想！'
+      - '&7emmm，容我想想！'
     material_type: skull_hash
     material: 1fea99ad95b570175fda25c3a69788d6a9b854aa13f8a5ff63f6efedf581dfb6
     amount: 1
@@ -3612,7 +2315,7 @@ EMOJI_EMOTICON_EYES:
   item:
     name: '&e&l卡姿兰大眼睛黄豆'
     lore:
-    - '&7就这样看着你...看着你'
+      - '&7就这样看着你...看着你'
     material_type: skull_hash
     material: bb2aef7da8fc1cb76edc1080fc2b4145e8d86782b7cd7358b1d65b652fd98c2
     amount: 1
@@ -3661,7 +2364,7 @@ EMOJI_XOK:
   item:
     name: '&e&l恐怖黄豆'
     lore:
-    - '&7嗷呜...嘶'
+      - '&7嗷呜...嘶'
     material_type: skull_hash
     material: 8ef97ddac7b83e56b90496ed0b3d6951a385236585b489f67acfef51ca7a63a7
     amount: 1
@@ -3710,7 +2413,7 @@ EMOJI_BIG_MOUTH_CRYING:
   item:
     name: '&e&l痛哭大嘴黄豆'
     lore:
-    - '&7啊啊啊啊呜呜呜呜啊啊啊'
+      - '&7啊啊啊啊呜呜呜呜啊啊啊'
     material_type: skull_hash
     material: 5f6168dc202c049fbdd1b352176e198094bf7d1fac56240b5ea2b09b2fa5428a
     amount: 1
@@ -3759,7 +2462,7 @@ EMOJI_COOL:
   item:
     name: '&e&l墨镜黄豆'
     lore:
-    - '&7带着我漂亮的小墨镜！'
+      - '&7带着我漂亮的小墨镜！'
     material_type: skull_hash
     material: 2d2175ebe9ae0e1a658d9af82dacfb8369052d8121d4ea3886738a1cca5
     amount: 1
@@ -3808,7 +2511,7 @@ EMOJI_BEARD:
   item:
     name: '&e&l胡子黄豆'
     lore:
-    - '&7小胡子...嘿嘿！'
+      - '&7小胡子...嘿嘿！'
     material_type: skull_hash
     material: 3636f2724aa6aa4de7ac46c19f3c845fb14847a518c8f7e03d792c82effb1
     amount: 1
@@ -3857,52 +2560,20 @@ HAIMAN_ELECTRIC_ENERGY:
   item:
     name: '&e&l元电荷'
     lore:
-    - '&7它表示最小电荷量'
-    - '&7但在Minecraft中'
-    - '&7也可储存一定电能'
-    - '&8e=1.60x10∧-19C'
-    - '&b可储存: &9250J'
+      - '&7它表示最小电荷量'
+      - '&7但在Minecraft中'
+      - '&7也可储存一定电能'
+      - '&8e=1.60x10∧-19C'
+      - '&b可储存: &9250J'
     material_type: skull_hash
     material: 3420cdf2af57cc757773ace3f1915cb72b5432a2fda3373b1678f98bea7ac7
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: STONE_CHUNK
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: STONE_CHUNK
       amount: 1
 EMOJI_SPIKE:
   lateInit: false
@@ -3910,8 +2581,8 @@ EMOJI_SPIKE:
   item:
     name: '&e&l斯派克黄豆'
     lore:
-    - '&7荒野乱斗的标志！'
-    - '&7可爱的斯派克(*╹▽╹*)'
+      - '&7荒野乱斗的标志！'
+      - '&7可爱的斯派克(*╹▽╹*)'
     material_type: skull_hash
     material: 8d8f5fb387ca66fc2f65b91fcb231604548e8565895bb96c676984205e6f19
     amount: 1
@@ -3960,8 +2631,8 @@ HAIMAN_ELECTRIC_UNIT_EMPTY:
   item:
     name: '&a&l海曼电单元 &8(空)'
     lore:
-    - '&7可放入储电机中储电'
-    - '&b可储存: &91136J'
+      - '&7可放入储电机中储电'
+      - '&b可储存: &91136J'
     material_type: skull_hash
     material: 5c3f45c14e63710f3fc5d739837dd70e37835e639a16245e50b3dd83ee8085e3
     amount: 1
@@ -4010,8 +2681,8 @@ KULUN_ELECTRIC_UNIT_EMPTY:
   item:
     name: '&a&l库伦电单元 &8(空)'
     lore:
-    - '&7可放入储电机中储电'
-    - '&b可储存: &920456J'
+      - '&7可放入储电机中储电'
+      - '&b可储存: &920456J'
     material_type: skull_hash
     material: 43b8a32356d1ad99e31799db8d69d5588e9aff9290a044ca9b2359b7523ea39c
     amount: 1
@@ -4060,8 +2731,8 @@ LEIYI_ELECTRIC_UNIT_EMPTY:
   item:
     name: '&a&l雷伊电单元 &8(空)'
     lore:
-    - '&7可放入储电机中储电'
-    - '&b可储存: &96628035J'
+      - '&7可放入储电机中储电'
+      - '&b可储存: &96628035J'
     material_type: skull_hash
     material: 8d2c19b442541351a6b81eeb6cbef41966ffb7dbe4c136b87f5baf9d14a
     amount: 1
@@ -4110,8 +2781,8 @@ INFINITE_ELECTRIC_UNIT_EMPTY:
   item:
     name: '&a&l无尽电单元 &8(空)'
     lore:
-    - '&7可放入储电机中储电'
-    - '&b可储存: &9119304647J'
+      - '&7可放入储电机中储电'
+      - '&b可储存: &9119304647J'
     material_type: skull_hash
     material: de9e060261e6cab97d6292ee230b8e4fcfb23e172ea91ecf14684ae8cfb74bdf
     amount: 1
@@ -4160,8 +2831,8 @@ LIANGZI_ELECTRIC_UNIT_EMPTY:
   item:
     name: '&a&l量子电单元 &8(空)'
     lore:
-    - '&7可放入储电机中储电'
-    - '&b可储存: &92147483647J'
+      - '&7可放入储电机中储电'
+      - '&b可储存: &92147483647J'
     material_type: skull_hash
     material: dcd7a00de13ec9f3c59d7cf902d980f5d29002c0dad754acbda0f6c2b698fd05
     amount: 1
@@ -4210,49 +2881,17 @@ HAIMAN_ELECTRIC_UNIT_FULL:
   item:
     name: '&a&l海曼电单元 &8(满)'
     lore:
-    - '&7可放入卸电机中卸电'
-    - '&b可储存: &91136J'
+      - '&7可放入卸电机中卸电'
+      - '&b可储存: &91136J'
     material_type: skull_hash
     material: 8431a1992ba53520e504eedfeb2d7261e0ba2d5a28f59d03a669b0ad03a442d5
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: HAIMAN_ELECTRIC_UNIT_EMPTY
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: HAIMAN_ELECTRIC_UNIT_EMPTY
       amount: 1
 KULUN_ELECTRIC_UNIT_FULL:
   lateInit: false
@@ -4260,49 +2899,17 @@ KULUN_ELECTRIC_UNIT_FULL:
   item:
     name: '&a&l库伦电单元 &8(满)'
     lore:
-    - '&7可放入卸电机中卸电'
-    - '&b可储存: &920456J'
+      - '&7可放入卸电机中卸电'
+      - '&b可储存: &920456J'
     material_type: skull_hash
     material: 1ead4e8ae8eb454dbd985bb59c4c1375945aafd28a4eccf71e8d57fc978ef5
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: KULUN_ELECTRIC_UNIT_EMPTY
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: KULUN_ELECTRIC_UNIT_EMPTY
       amount: 1
 LEIYI_ELECTRIC_UNIT_FULL:
   lateInit: false
@@ -4310,49 +2917,17 @@ LEIYI_ELECTRIC_UNIT_FULL:
   item:
     name: '&a&l雷伊电单元 &8(满)'
     lore:
-    - '&7可放入卸电机中卸电'
-    - '&b可储存: &96628035J'
+      - '&7可放入卸电机中卸电'
+      - '&b可储存: &96628035J'
     material_type: skull_hash
     material: 516b68376c181c9a7343fee3697faacec35129fb64de5914bdbf869c652c
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: LEIYI_ELECTRIC_UNIT_EMPTY
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: LEIYI_ELECTRIC_UNIT_EMPTY
       amount: 1
 INFINITE_ELECTRIC_UNIT_FULL:
   lateInit: false
@@ -4360,49 +2935,17 @@ INFINITE_ELECTRIC_UNIT_FULL:
   item:
     name: '&a&l无尽电单元 &8(满)'
     lore:
-    - '&7可放入卸电机中卸电'
-    - '&b可储存: &9119304647J'
+      - '&7可放入卸电机中卸电'
+      - '&b可储存: &9119304647J'
     material_type: skull_hash
     material: 31a3cd9b016b1228ec01fd6f0992c64f3b9b7b29773fa46439ab3f3c8a347704
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: INFINITE_ELECTRIC_UNIT_EMPTY
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: INFINITE_ELECTRIC_UNIT_EMPTY
       amount: 1
 LIANGZI_ELECTRIC_UNIT_FULL:
   lateInit: false
@@ -4410,49 +2953,17 @@ LIANGZI_ELECTRIC_UNIT_FULL:
   item:
     name: '&a&l量子电单元 &8(满)'
     lore:
-    - '&7可放入卸电机中卸电'
-    - '&b可储存: &92147483647J'
+      - '&7可放入卸电机中卸电'
+      - '&b可储存: &92147483647J'
     material_type: skull_hash
     material: 2afeefa29bfdb3202238a2c4b8dcb750506a30d122600f88725e5aa247335460
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_CHUDIAN
   recipe:
-    1:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    2:
-      material_type: slimefun
-      material: LIANGZI_ELECTRIC_UNIT_EMPTY
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_CHUDIAN
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    7:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    8:
-      material_type: slimefun
-      material: ZHANWEIFU
-      amount: 1
-    9:
-      material_type: slimefun
-      material: ZHANWEIFU
+      material: LIANGZI_ELECTRIC_UNIT_EMPTY
       amount: 1
 NANJING_MASSACRE_MONUMENT:
   lateInit: false
@@ -4460,10 +2971,10 @@ NANJING_MASSACRE_MONUMENT:
   item:
     name: '&8&l南京大屠杀纪念碑'
     lore:
-    - '&7勿忘国耻，铭记历史'
-    - '&7勿忘那30万永远沉睡的南京同胞们'
-    - '&7勿忘战争给世界人民带来的灾难'
-    - '&81937.12.13'
+      - '&7勿忘国耻，铭记历史'
+      - '&7勿忘那30万永远沉睡的南京同胞们'
+      - '&7勿忘战争给世界人民带来的灾难'
+      - '&81937.12.13'
     material_type: skull_hash
     material: b7cab56c82cb81bdb9979a464bc9d3ba3e6722ba122cf6c52873010a2b59aefe
     amount: 1
@@ -4475,7 +2986,7 @@ HM_CAKE_BREAD:
   item:
     name: '&e&l蛋糕坯'
     lore:
-    - '&7用于制作蛋糕'
+      - '&7用于制作蛋糕'
     material_type: skull_hash
     material: 8939e624850bb3e11da37eb549423de11e60f7f5762a5deae959453e6aee4079
     amount: 1
@@ -4524,7 +3035,7 @@ HM_EMPTY_COUNTRY_BALL:
   item:
     name: '&f&l空球模板'
     lore:
-    - '&7用于制作波兰球'
+      - '&7用于制作波兰球'
     material_type: skull_hash
     material: caf039bec1fc1fb75196092b26e631f37a87dff143fc18297798d47c5eaaf
     amount: 1
@@ -4573,28 +3084,24 @@ HAIMAN_BIRTHDAY_CAKE_1:
   item:
     name: '&6&l海曼生日蛋糕'
     lore:
-    - '&7生日快乐！'
+      - '&7生日快乐！'
     material_type: skull_hash
     material: 7ef2da482579136749ae739835c793fe28e42fb0aca520a091637b46ca0ab
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_BIRTHDAY_CAKE_STOVE
   recipe:
-    2:
+    5:
       material_type: slimefun
       material: HM_CAKE_BREAD
       amount: 10
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_BIRTHDAY_CAKE_STOVE
-      amount: 1
 HAIMAN_CHINESE_DRAGON_1:
   lateInit: false
   item_group: slime_customizer_newyear
   item:
     name: '&4&l中国龙'
     lore:
-    - '&7新年快乐！'
+      - '&7新年快乐！'
     material_type: skull_hash
     material: e715a045a481cb8a39e39149020ab1440502fa1cfece6fb3ccbf53d61e49ea
     amount: 1
@@ -4643,7 +3150,7 @@ HAIMAN_TIGER_1:
   item:
     name: '&6&l虎'
     lore:
-    - '&7新年快乐！'
+      - '&7新年快乐！'
     material_type: skull_hash
     material: e060f00287e3767699ea79197eb4534345478fadf1cd53a7f81101d92
     amount: 1
@@ -4692,7 +3199,7 @@ HAIMAN_CHINA_1:
   item:
     name: '&a&l青花瓷'
     lore:
-    - '&7景德镇产'
+      - '&7景德镇产'
     material_type: skull_hash
     material: 45ca5e85c4aea608bd3443cabdf1c2bdde3b431ad3aa38fffe04a32eb7e525
     amount: 1
@@ -4741,7 +3248,7 @@ HAIMAN_CHINESE_LANTERN_1:
   item:
     name: '&4&l中国灯笼'
     lore:
-    - '&7新年快乐！'
+      - '&7新年快乐！'
     material_type: skull_hash
     material: 26283e7a88d32719304a37ede0c6a8c5dc9d9cf9b00a179cf904e8ce821312
     amount: 1
@@ -4790,7 +3297,7 @@ HAIMAN_TIGER_FURRY_1:
   item:
     name: '&c&l虎绒'
     lore:
-    - '&7一种珍奇的材料'
+      - '&7一种珍奇的材料'
     material_type: mc
     material: ORANGE_DYE
     amount: 1
@@ -4807,7 +3314,7 @@ HAIMAN_NEW_YEAR_PIECE_1:
   item:
     name: '&d&l新年碎片'
     lore:
-    - '&7破碎的年味等待愈合...'
+      - '&7破碎的年味等待愈合...'
     material_type: mc
     material: RED_DYE
     amount: 1
@@ -4856,7 +3363,7 @@ HAIMAN_NEW_YEAR_1:
   item:
     name: '&d&l新年'
     lore:
-    - '&7多少代人的梦想啊...'
+      - '&7多少代人的梦想啊...'
     material_type: skull_hash
     material: 77313f6e6652ed47d7064e83eb08ffa11b55dc5d52d6f78189701d9c2b8ec88
     amount: 1
@@ -5081,7 +3588,7 @@ CAO_TC:
   item:
     name: '&7&l机器槽填充物'
     lore:
-    - '&7用于填充不必要的输入槽与输出槽'
+      - '&7用于填充不必要的输入槽与输出槽'
     material_type: mc
     material: GRAY_STAINED_GLASS_PANE
     amount: 8
@@ -5108,16 +3615,7 @@ LIGHT_0:
     material: LIGHT_0
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    2:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIANJUHE
-      amount: 1
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIANJUHE
 LIGHT_1:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5126,12 +3624,7 @@ LIGHT_1:
     material: LIGHT_1
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_2:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5140,12 +3633,7 @@ LIGHT_2:
     material: LIGHT_2
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_3:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5154,12 +3642,7 @@ LIGHT_3:
     material: LIGHT_3
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_4:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5168,12 +3651,7 @@ LIGHT_4:
     material: LIGHT_4
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_5:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5182,12 +3660,7 @@ LIGHT_5:
     material: LIGHT_5
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_6:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5196,12 +3669,7 @@ LIGHT_6:
     material: LIGHT_6
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_7:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5210,12 +3678,7 @@ LIGHT_7:
     material: LIGHT_7
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_8:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5224,12 +3687,7 @@ LIGHT_8:
     material: LIGHT_8
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_9:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5238,12 +3696,7 @@ LIGHT_9:
     material: LIGHT_9
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_10:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5252,12 +3705,7 @@ LIGHT_10:
     material: LIGHT_10
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_11:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5266,12 +3714,7 @@ LIGHT_11:
     material: LIGHT_11
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_12:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5280,12 +3723,7 @@ LIGHT_12:
     material: LIGHT_12
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_13:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5294,12 +3732,7 @@ LIGHT_13:
     material: LIGHT_13
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 LIGHT_14:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -5308,19 +3741,14 @@ LIGHT_14:
     material: LIGHT_14
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_GUANGDIAN
-      amount: 1
+  recipe_type: HAIMAN_INFO_GUANGDIAN
 MEITANZHONGZI:
   lateInit: false
   item_group: slime_customizer_zhuangshi
   item:
     name: '&b煤炭种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5369,7 +3797,7 @@ TIEZHONGZI:
   item:
     name: '&b铁种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5418,7 +3846,7 @@ JINZHONGZI:
   item:
     name: '&b金种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5467,7 +3895,7 @@ LVBAOSHIZHONGZI:
   item:
     name: '&b绿宝石种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5516,7 +3944,7 @@ ZUANSHIZHONGZI:
   item:
     name: '&b钻石种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5565,7 +3993,7 @@ SHIYINGZHONGZI:
   item:
     name: '&b石英种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5614,7 +4042,7 @@ QINGJINSHIZHONGZI:
   item:
     name: '&b青金石种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5663,7 +4091,7 @@ HONGSHISHIZHONGZI:
   item:
     name: '&b红石种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5712,7 +4140,7 @@ TONGZHONGZI:
   item:
     name: '&b铜种子'
     lore:
-    - '&7放入矿物催生器可以收获矿物'
+      - '&7放入矿物催生器可以收获矿物'
     material_type: mc
     material: WHEAT_SEEDS
     amount: 1
@@ -5853,7 +4281,7 @@ HAIMAN_ASIA_COUNTRY:
   item:
     name: '&c&l亚洲'
     lore:
-    - '&7亚洲地区'
+      - '&7亚洲地区'
     material_type: mc
     material: ORANGE_STAINED_GLASS_PANE
     amount: 1
@@ -8505,7 +6933,7 @@ HAIMAN_EUROPE_COUNTRY:
   item:
     name: '&c&l欧洲'
     lore:
-    - '&7欧洲地区'
+      - '&7欧洲地区'
     material_type: mc
     material: WHITE_STAINED_GLASS_PANE
     amount: 1
@@ -11301,7 +9729,7 @@ HAIMAN_AFRICA_COUNTRY:
   item:
     name: '&c&l非洲'
     lore:
-    - '&7非洲地区'
+      - '&7非洲地区'
     material_type: mc
     material: BLACK_STAINED_GLASS_PANE
     amount: 1
@@ -14289,7 +12717,7 @@ HAIMAN_AMERICA_COUNTRY:
   item:
     name: '&c&l美洲'
     lore:
-    - '&7美洲地区'
+      - '&7美洲地区'
     material_type: mc
     material: YELLOW_STAINED_GLASS_PANE
     amount: 1
@@ -16173,7 +14601,7 @@ HAIMAN_OCEANIA_COUNTRY:
   item:
     name: '&c&l大洋洲'
     lore:
-    - '&7大洋洲地区'
+      - '&7大洋洲地区'
     material_type: mc
     material: GREEN_STAINED_GLASS_PANE
     amount: 1
@@ -17001,7 +15429,7 @@ HAIMAN_ANTARCTICA_COUNTRY:
   item:
     name: '&c&l南极洲'
     lore:
-    - '&7南极洲地区'
+      - '&7南极洲地区'
     material_type: mc
     material: BLUE_STAINED_GLASS_PANE
     amount: 1
@@ -17245,9 +15673,9 @@ VR_INFO:
   item:
     name: '&b&l1.RV-Pre1版本提示'
     lore:
-    - '&7请在启动器中下载愚人节版本：1.RV-Pre1'
-    - '&7下载完成后启动游戏并登陆服务器'
-    - '&7即可使用本分类中物品'
+      - '&7请在启动器中下载愚人节版本：1.RV-Pre1'
+      - '&7下载完成后启动游戏并登陆服务器'
+      - '&7即可使用本分类中物品'
     material_type: mc
     material: PAPER
     amount: 1
@@ -17399,12 +15827,7 @@ BOOK_1:
     material: BOOK_1
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
-      amount: 1
+  recipe_type: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
 BOOK_2:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -17413,12 +15836,7 @@ BOOK_2:
     material: BOOK_2
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
-      amount: 1
+  recipe_type: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
 BOOK_3:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -17427,12 +15845,7 @@ BOOK_3:
     material: BOOK_3
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
-      amount: 1
+  recipe_type: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
 BOOK_4:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -17441,12 +15854,7 @@ BOOK_4:
     material: BOOK_4
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
-      amount: 1
+  recipe_type: HAIMAN_INFO_WRITTEN_BOOK_CHANGER
 HAIMAN_COFFEE:
   lateInit: false
   item_group: slime_customizer_zhuangshi
@@ -17455,19 +15863,14 @@ HAIMAN_COFFEE:
     material: COFFEE
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
-  recipe:
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_COFFEE_MACHINE
-      amount: 1
+  recipe_type: HAIMAN_INFO_COFFEE_MACHINE
 HM_SHENQUAN_HEXIN:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&e&l神权核心'
     lore:
-    - '&7由各种神权方块拼接而成'
+      - '&7由各种神权方块拼接而成'
     material_type: skull_hash
     material: 5b10ed94080a07546a245ec837cfc5814c7658c7ef337be035a11b2e1e03ba16
     amount: 1
@@ -17516,7 +15919,7 @@ HAIMAN_INGOT:
   item:
     name: '&b&l海曼锭'
     lore:
-    - '&7一个栩栩如生的...苦力怕？'
+      - '&7一个栩栩如生的...苦力怕？'
     material_type: skull_hash
     material: 12208e6d30301bb70bf3043ac877b8bddb1590cff752a93ceae7c9d24efd67c9
     amount: 1
@@ -17565,7 +15968,7 @@ TIANXUAN_MADA:
   item:
     name: '&a&l天璇马达'
     lore:
-    - '&7由多种马达拆卸后组装而成'
+      - '&7由多种马达拆卸后组装而成'
     material_type: skull_hash
     material: f6cbd10b609a1ec82be786367e07093b1062a8d49d195d46a0ed8ea70c7793f4
     amount: 1
@@ -17614,7 +16017,7 @@ HM_HONGMENG_XINPIAN:
   item:
     name: '&c&l鸿蒙芯片'
     lore:
-    - '&7用于制作精密机器'
+      - '&7用于制作精密机器'
     material_type: skull_hash
     material: 33f2b23ba182a67ed9519dc589cc0631df7155f74fbc648a5ace901dbcadbd
     amount: 1
@@ -17663,7 +16066,7 @@ HM_HJZJ:
   item:
     name: '&b&l环境组件'
     lore:
-    - '&7由各种环境符文组成'
+      - '&7由各种环境符文组成'
     material_type: skull_hash
     material: feddaf8a6b61aaa788eecb36d9df0ecea623839a6d3643127402053dbc4a4f08
     amount: 1
@@ -17712,7 +16115,7 @@ HM_YYZJ:
   item:
     name: '&e&l音乐组件'
     lore:
-    - '&7由各种唱片组成'
+      - '&7由各种唱片组成'
     material_type: skull_hash
     material: 4c867a5723d2e0f24a7dc4a9c767a4658d12f9075d815f51a0e7f2ea75bde434
     amount: 1
@@ -17761,7 +16164,7 @@ HM_SWZJ:
   item:
     name: '&a&l生物组件'
     lore:
-    - '&7由各种生物掉落物组成'
+      - '&7由各种生物掉落物组成'
     material_type: skull_hash
     material: 647e2e5d55b6d04943519bed2557c6329e33b60b909dee8923cd88b115210
     amount: 1
@@ -17810,7 +16213,7 @@ HM_ZDZJ:
   item:
     name: '&4&l战斗组件'
     lore:
-    - '&7由各种装备组成'
+      - '&7由各种装备组成'
     material_type: skull_hash
     material: c928c4bd94ab1b6d93d100398586e4a6c35a7d7db9414dfdfb2d859ef55c8d64
     amount: 1
@@ -17859,7 +16262,7 @@ HM_FKZJ:
   item:
     name: '&d&l方块组件'
     lore:
-    - '&7由各种方块组成'
+      - '&7由各种方块组成'
     material_type: skull_hash
     material: 3cc787d2e1bd9b8f275f20f8f69ec1d1f08cffb670fe3ad8d94b9d010deb0c2a
     amount: 1
@@ -17908,7 +16311,7 @@ HM_HSZJ:
   item:
     name: '&4&l红石组件'
     lore:
-    - '&7由各种红石元件组成'
+      - '&7由各种红石元件组成'
     material_type: skull_hash
     material: 51bc0d443543cc18306b410ff7ac2e063044092465e240bc75de424a3989bb87
     amount: 1
@@ -17957,7 +16360,7 @@ HM_YSZJ:
   item:
     name: '&6&l运输组件'
     lore:
-    - '&7由运输工具组成'
+      - '&7由运输工具组成'
     material_type: skull_hash
     material: fe51ed1977be1cfb56929e81d272acb86405de528f7a6a242ff424ad6fef4ef1
     amount: 1
@@ -18006,7 +16409,7 @@ HM_ZWZJ:
   item:
     name: '&a&l植物组件'
     lore:
-    - '&7由各种植物组成'
+      - '&7由各种植物组成'
     material_type: skull_hash
     material: c3ea86015b7416aacf1b300db5fbdcd59f128a800f9f9c44be62c11921579811
     amount: 1
@@ -18055,7 +16458,7 @@ HM_DDXP:
   item:
     name: '&5&lMinecraft迭代芯片'
     lore:
-    - '&7用于更迭部分机器的版本'
+      - '&7用于更迭部分机器的版本'
     material_type: skull_hash
     material: 946120499b324639cd9a17799ea1dfff373e79afe1f0d8b5328cf47896c4775
     amount: 1
@@ -18104,7 +16507,7 @@ HM_HUOQI:
   item:
     name: '&f&l空火漆'
     lore:
-    - '&7用于印刷其它火漆'
+      - '&7用于印刷其它火漆'
     material_type: mc
     material: WHITE_DYE
     amount: 1
@@ -18153,7 +16556,7 @@ HM_XIXUEHUOQI:
   item:
     name: '&6&l吸血火漆'
     lore:
-    - '&7用于印刷吸血鬼之刀'
+      - '&7用于印刷吸血鬼之刀'
     material_type: skull_hash
     material: 52068ae754078e4dd2a008ee239b004afa9085a18c3a706ef919831414116b5e
     amount: 1
@@ -18202,7 +16605,7 @@ HM_CHUJUEHUOQI:
   item:
     name: '&6&l处决火漆'
     lore:
-    - '&7用于印刷处决之剑'
+      - '&7用于印刷处决之剑'
     material_type: skull_hash
     material: d6cc6b83763a67fcada1ea184c2d1752ad240746c6be258a73983d8b657f4bb5
     amount: 1
@@ -18251,7 +16654,7 @@ HM_BINGFENGHUOQI:
   item:
     name: '&6&l冰封火漆'
     lore:
-    - '&7用于印刷冰封之弓'
+      - '&7用于印刷冰封之弓'
     material_type: skull_hash
     material: 5da9cb6a91996face887007eb7c1c8e0dd4cefbdedf81ef46865377a3d9f2fcd
     amount: 1
@@ -18300,7 +16703,7 @@ HM_BAOZHAHUOQI:
   item:
     name: '&6&l爆炸火漆'
     lore:
-    - '&7用于印刷爆炸类武器/工具'
+      - '&7用于印刷爆炸类武器/工具'
     material_type: skull_hash
     material: d6f989a7341ba82eb01ccc1e3ba44fcbd49dde1d47ec96d9f4a8f209dd665243
     amount: 1
@@ -18349,7 +16752,7 @@ HM_DIZHENHUOQI:
   item:
     name: '&6&l地震火漆'
     lore:
-    - '&7用于印刷地震斧'
+      - '&7用于印刷地震斧'
     material_type: skull_hash
     material: 616cbae55037be6998a1a536886a4e3dab30050a5f2bf0dfaaa6a863672290da
     amount: 1
@@ -18398,7 +16801,7 @@ HM_NAINAIHUOQI:
   item:
     name: '&6&l奶奶火漆'
     lore:
-    - '&7用于印刷奶奶的拐杖'
+      - '&7用于印刷奶奶的拐杖'
     material_type: skull_hash
     material: dbc2b22444eb38bd29cbeecafa33b936f92ad1e8637bb11f84f868bf3d68a4
     amount: 1
@@ -18447,7 +16850,7 @@ HM_YEYEHUOQI:
   item:
     name: '&6&l爷爷火漆'
     lore:
-    - '&7用于印刷爷爷的拐杖'
+      - '&7用于印刷爷爷的拐杖'
     material_type: skull_hash
     material: 7bc972f7badbe931072e5c351e22ecb6e23a8c575e98c35fc8f4fbe3eab71c2c
     amount: 1
@@ -18496,7 +16899,7 @@ HM_RONGLUHUOQI:
   item:
     name: '&6&l熔炉火漆'
     lore:
-    - '&7用于印刷熔炉镐'
+      - '&7用于印刷熔炉镐'
     material_type: skull_hash
     material: d17b8b43f8c4b5cfeb919c9f8fe93f26ceb6d2b133c2ab1eb339bd6621fd309c
     amount: 1
@@ -18545,7 +16948,7 @@ HM_FAMUHUOQI:
   item:
     name: '&6&l伐木火漆'
     lore:
-    - '&7用于印刷伐木斧'
+      - '&7用于印刷伐木斧'
     material_type: skull_hash
     material: ee9bf657629852de527196960f5fbe401ae310f200c3c782115eab1a00ce2266
     amount: 1
@@ -18594,7 +16997,7 @@ HM_SHUAGUAILONGHUOQI:
   item:
     name: '&6&l刷怪笼火漆'
     lore:
-    - '&7用于印刷刷怪笼之镐'
+      - '&7用于印刷刷怪笼之镐'
     material_type: skull_hash
     material: db6bd9727abb55d5415265789d4f2984781a343c68dcaf57f554a5e9aa1cd
     amount: 1
@@ -18643,7 +17046,7 @@ HM_XUNKUANGHUOQI:
   item:
     name: '&6&l寻矿火漆'
     lore:
-    - '&7用于印刷寻矿镐'
+      - '&7用于印刷寻矿镐'
     material_type: skull_hash
     material: 686d721641d423e213aff0a61eb87217d30813cc31412752e3eb0864d6198209
     amount: 1
@@ -18692,7 +17095,7 @@ HM_KUANGMAIHUOQI:
   item:
     name: '&6&l矿脉火漆'
     lore:
-    - '&7用于印刷矿脉镐'
+      - '&7用于印刷矿脉镐'
     material_type: skull_hash
     material: 4e129bcdd718172a8e9b454a30a2d37be49ed5244576043ac0e19084a5b1ca1
     amount: 1
@@ -18741,7 +17144,7 @@ HM_PANYANHUOQI:
   item:
     name: '&6&l攀岩火漆'
     lore:
-    - '&7用于印刷攀岩镐'
+      - '&7用于印刷攀岩镐'
     material_type: skull_hash
     material: 2a643c5cca38d324bf81488db7e53f7785818cbfe20e9f732ae01fb2dac75ae6
     amount: 1
@@ -18790,7 +17193,7 @@ HM_YESHIHUOQI:
   item:
     name: '&6&l夜视火漆'
     lore:
-    - '&7用于印刷夜视眼镜'
+      - '&7用于印刷夜视眼镜'
     material_type: skull_hash
     material: ce9d49dd09ecee2a4996965514d6d301bf12870c688acb5999b6658e1dfdff85
     amount: 1
@@ -18839,7 +17242,7 @@ HM_HUANJIANGHUOQI:
   item:
     name: '&6&l缓降火漆'
     lore:
-    - '&7用于印刷降落伞'
+      - '&7用于印刷降落伞'
     material_type: skull_hash
     material: 50c13b9a7049d191508ba6758c09a91d923c4b9972052c35602af54f0c4bb55a
     amount: 1
@@ -18888,7 +17291,7 @@ HM_NONGFUHUOQI:
   item:
     name: '&6&l农夫火漆'
     lore:
-    - '&7用于印刷农夫的靴子'
+      - '&7用于印刷农夫的靴子'
     material_type: skull_hash
     material: 925a32560831c295b00527926255e608a039776f3523b92edf788149aae67d6a
     amount: 1
@@ -18937,7 +17340,7 @@ HM_QIAOCHIHUOQI:
   item:
     name: '&6&l鞘翅火漆'
     lore:
-    - '&7用于印刷鞘翅帽'
+      - '&7用于印刷鞘翅帽'
     material_type: skull_hash
     material: 850bd5a82c738ae78d0ae3f57b4071c0df40534876301640dab14a70930bbe65
     amount: 1
@@ -18986,7 +17389,7 @@ HM_JIANTAZHEHUOQI:
   item:
     name: '&6&l践踏者火漆'
     lore:
-    - '&7用于印刷践踏者之靴'
+      - '&7用于印刷践踏者之靴'
     material_type: skull_hash
     material: c4eb297a2fd00b79c5e8fdd649bbb2b2acc6a0f6c8858739b86875cd4b4444a7
     amount: 1
@@ -19035,7 +17438,7 @@ HM_MOYINGHUOQI:
   item:
     name: '&6&l末影火漆'
     lore:
-    - '&7用于印刷末影套装和末影背包'
+      - '&7用于印刷末影套装和末影背包'
     material_type: skull_hash
     material: 20baf2277cd54eb4d76e60a7b79f27adde00e0d094acaa0d874b52288a1af579
     amount: 1
@@ -19084,7 +17487,7 @@ HM_SHILAIMUHUOQI:
   item:
     name: '&6&l史莱姆火漆'
     lore:
-    - '&7用于印刷史莱姆套装'
+      - '&7用于印刷史莱姆套装'
     material_type: skull_hash
     material: 5d5b94804e64851f4e9c48ced3c1975df35b958d570df7a9fb94bf311437c91b
     amount: 1
@@ -19133,7 +17536,7 @@ HM_YINGSHIHUOQI:
   item:
     name: '&6&l萤石火漆'
     lore:
-    - '&7用于印刷萤石套装'
+      - '&7用于印刷萤石套装'
     material_type: skull_hash
     material: c3076eea20b94c8c9dd8f6d459b7930f790d43c83664fa871047d91f340d4df6
     amount: 1
@@ -19182,7 +17585,7 @@ HM_CAIHONGHUOQI:
   item:
     name: '&6&l彩虹火漆'
     lore:
-    - '&7用于印刷彩虹套装'
+      - '&7用于印刷彩虹套装'
     material_type: skull_hash
     material: 9f7c54ff7862116e65a1436620b91af58b52ab17152a1837180f3458032f5702
     amount: 1
@@ -19231,7 +17634,7 @@ HM_MIFENGHUOQI:
   item:
     name: '&6&l蜜蜂火漆'
     lore:
-    - '&7用于印刷蜜蜂套装'
+      - '&7用于印刷蜜蜂套装'
     material_type: skull_hash
     material: a1235c3dececec89f37f25abbefa227ec3a4fe73e03be9361ed473301b4e0d7b
     amount: 1
@@ -19280,7 +17683,7 @@ HM_TAIYANGNENGHUOQI:
   item:
     name: '&6&l太阳能火漆'
     lore:
-    - '&7用于印刷太阳能头盔'
+      - '&7用于印刷太阳能头盔'
     material_type: skull_hash
     material: 35dd37f729fc88133e314a552204c0fa2c0168428b353f957bf15ff24b7707e0
     amount: 1
@@ -19329,7 +17732,7 @@ HM_FANGHUAHUOQI:
   item:
     name: '&6&l防化火漆'
     lore:
-    - '&7用于印刷防化套装'
+      - '&7用于印刷防化套装'
     material_type: skull_hash
     material: 2ca29266eb6951885950895921dd681a47be73caf066ef947a23a3742c228237
     amount: 1
@@ -19378,7 +17781,7 @@ HM_XIANRENZHANGHUOQI:
   item:
     name: '&6&l仙人掌火漆'
     lore:
-    - '&7用于印刷仙人掌套装'
+      - '&7用于印刷仙人掌套装'
     material_type: skull_hash
     material: 7037ebbfe225b80077fe3f16deb63ebff723b89d69f155883581d257a45508d6
     amount: 1
@@ -19427,8 +17830,8 @@ HM_SUOLIANHUOQI:
   item:
     name: '&6&l锁链火漆'
     lore:
-    - '&7用于印刷锁链套装'
-    - '&7锁链套装的原胚为皮革套装'
+      - '&7用于印刷锁链套装'
+      - '&7锁链套装的原胚为皮革套装'
     material_type: skull_hash
     material: 6803d569ac46fbb5f4d6fc3b64539fda0848e7376f729150e5949cbbcee67870
     amount: 1
@@ -19477,7 +17880,7 @@ HM_LHBDHUOQI:
   item:
     name: '&6&l灵魂绑定火漆'
     lore:
-    - '&7用于印刷灵魂绑定套装'
+      - '&7用于印刷灵魂绑定套装'
     material_type: skull_hash
     material: 3da33acb36925bb3d1f669b02f9233327dec2c28f63a4b6d667c70edcf90aee4
     amount: 1
@@ -19526,8 +17929,8 @@ JISHIQI_DUAN:
   item:
     name: '&e&l短轴计时器'
     lore:
-    - '&7可放在牌桌的非消耗型物品槽内计时'
-    - '&7时长：5 粘液刻'
+      - '&7可放在牌桌的非消耗型物品槽内计时'
+      - '&7时长：5 粘液刻'
     material_type: skull_hash
     material: 78472a2dcc239b4a483ac44c1dbf8fdba0fca1d253eb643fa0bd93af83a373
     amount: 1
@@ -19576,8 +17979,8 @@ JISHIQI_CHANG:
   item:
     name: '&e&l长轴计时器'
     lore:
-    - '&7可放在牌桌的非消耗型物品槽内计时'
-    - '&7时长：15 粘液刻'
+      - '&7可放在牌桌的非消耗型物品槽内计时'
+      - '&7时长：15 粘液刻'
     material_type: skull_hash
     material: 85fa0a3a2d62d7d1171d48b3ae8fcb551f6faccc70cee40f44c767c3da7b785f
     amount: 1
@@ -19626,7 +18029,7 @@ TISHI_SHIJIAN:
   item:
     name: '&e&l提示'
     lore:
-    - '&7嘀嗒！时间到！'
+      - '&7嘀嗒！时间到！'
     material_type: mc
     material: PAPER
     amount: 1
@@ -19776,7 +18179,7 @@ CHUANGSHI_YIN:
   item:
     name: '&4&l创世之音'
     lore:
-    - '&7创世由此而来'
+      - '&7创世由此而来'
     material_type: skull_hash
     material: f22e40b4bfbcc0433044d86d67685f0567025904271d0a74996afbe3f9be2c0f
     amount: 1
@@ -19805,43 +18208,35 @@ HT_MODULE_1:
   item:
     name: '&5&l创世高温模块'
     lore:
-    - '&7它可以将温度升至一亿摄氏度以上'
+      - '&7它可以将温度升至一亿摄氏度以上'
     material_type: skull_hash
     material: f25a8dfe753c9c9251f0b0f6d94e9c8ffd42c1579550bf922d1862ff986c4d5
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_FENZI_5
   recipe:
     1:
       material_type: slimefun
       material: INFINITE_PANEL
       amount: 12
-    3:
+    2:
       material_type: slimefun
       material: CHUANGSHI_YIN
       amount: 6
-    5:
-      material_type: slimefun
-      material: HAIMAN_INFO_FENZI_5
-      amount: 1
 JUBIAN_MOKUAI:
   lateInit: false
   item_group: slime_customizer_material
   item:
     name: '&4&l聚变高温模块'
     lore:
-    - '&7可将温度再提升一个档次'
+      - '&7可将温度再提升一个档次'
     material_type: skull_hash
     material: 240cc89db3fe8eb643bcd58fc2c58057e33d8a2b78172664f56ddc72635dc43b
     amount: 1
   placeable: true
-  recipe_type: 'NULL'
+  recipe_type: HAIMAN_INFO_HEIDONG
   recipe:
-    2:
-      material_type: slimefun
-      material: HT_MODULE_1
-      amount: 1
     5:
       material_type: slimefun
-      material: HAIMAN_INFO_HEIDONG
+      material: HT_MODULE_1
       amount: 1
