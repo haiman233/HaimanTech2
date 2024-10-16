@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.6'
+      - '&bRelease-1.6.1'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -1288,6 +1288,9 @@ YH_MC:
       material_type: mc
       material: DIAMOND
       amount: 64
+  register:
+    conditions:
+      - version < 1.21
 H_FUEL:
   lateInit: false
   item_group: slime_customizer_material
