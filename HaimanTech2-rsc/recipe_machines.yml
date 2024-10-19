@@ -7062,7 +7062,7 @@ VERSION_HAIMAN_FLOWER_MACHINE:
   id_alias: HAIMAN_FLOWER_MACHINE
   register:
     conditions:
-      - version < 1.21
+      - version >= 1.21
 HAIMAN_PLANT_MACHINE:
   lateInit: false
   item_group: slime_customizer_farm
