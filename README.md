@@ -37,7 +37,7 @@
 非常不建议对海曼科技院的配置进行修改，因为海曼科技院会持续更新，这只会加大你的工作量
 
 ## 前置插件需求
-必须：
+前置：
 - Slimefun
 - GuizhanLibPlugin
 - SlimeCustomizer
@@ -45,6 +45,8 @@
 - InfinityExpansion
 - LiteXpansion
 - TranscEndence
+
+软前置：
 - Gastronomicon
 
 自BETA-2.0版本起，海曼科技院不再需要DynaTech，但是BETA-2.0以前的版本仍然需要安装DynaTech
