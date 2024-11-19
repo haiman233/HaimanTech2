@@ -26331,8 +26331,8 @@ VERSION_HAIMAN_RAIL_MACHINE_2:
           amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  id_alias: HAIMAN_RAIL_MACHINE_2
   register:
-  id_alias: VERSION_HAIMAN_RAIL_MACHINE_2
     conditions:
       - version >= 1.21
 HAIMAN_MINECART_MACHINE:
