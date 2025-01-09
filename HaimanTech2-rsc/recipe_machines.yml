@@ -375,7 +375,67 @@ COMPRESSION_BLOCK_MACHINE:
         1:
           material_type: mc
           material: PURPUR_BLOCK
-          amount: 4
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+HAIMAN_LOW_RESISTANCE:
+  lateInit: false
+  item_group: slime_customizer_huanbao
+  item:
+    name: '&b&l海曼牌小电阻'
+    lore:
+      - '&7是否觉得你的电太多了？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 25000 J 可存储'
+      - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_hash
+    material: d83ed217dfd497539e86ab5b898b7b3bf5a186492e24f8b37a634a7947d1180
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: mc
+      material: COOKED_COD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: mc
+      material: COOKED_COD
+      amount: 1
+  capacity: 25000
+  energyPerCraft: 25000
+  recipes:
+    '1':
+      seconds: 1200
+      input:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_RESISTANCE:
@@ -390,7 +450,7 @@ HAIMAN_RESISTANCE:
       - '&8⇨ &e⚡&7 2147483647 J 可存储'
       - '&8⇨ &e⚡&7 4294967294 J/s'
     material_type: skull_hash
-    material: dcd7a00de13ec9f3c59d7cf902d980f5d29002c0dad754acbda0f6c2b698fd05
+    material: 276bee1d96cdbc20c546b82e0e49faab7d4d93a829f425ed5deec871cd798
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -11911,7 +11971,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '2':
       seconds: 8
       input:
@@ -11923,7 +11983,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '3':
       seconds: 8
       input:
@@ -11935,7 +11995,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '4':
       seconds: 8
       input:
@@ -11947,7 +12007,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '5':
       seconds: 8
       input:
@@ -11959,7 +12019,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '6':
       seconds: 8
       input:
@@ -11971,7 +12031,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '7':
       seconds: 8
       input:
@@ -11983,7 +12043,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
     '8':
       seconds: 8
       input:
@@ -11995,7 +12055,7 @@ HAIMAN_COPPER_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: COPPER_DUST
-          amount: 32
+          amount: 64
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_IRON_DUST_PRODUCER:
@@ -12063,7 +12123,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '2':
       seconds: 8
       input:
@@ -12075,7 +12135,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '3':
       seconds: 8
       input:
@@ -12087,7 +12147,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '4':
       seconds: 8
       input:
@@ -12099,7 +12159,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '5':
       seconds: 8
       input:
@@ -12111,7 +12171,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '6':
       seconds: 8
       input:
@@ -12123,7 +12183,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '7':
       seconds: 8
       input:
@@ -12135,7 +12195,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
     '8':
       seconds: 8
       input:
@@ -12147,7 +12207,7 @@ HAIMAN_IRON_DUST_PRODUCER:
         1:
           material_type: slimefun
           material: IRON_DUST
-          amount: 32
+          amount: 64
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 CORAL_DEAD_MACHINE:
@@ -25697,7 +25757,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: white_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25709,7 +25769,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: orange_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25721,7 +25781,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: magenta_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25733,7 +25793,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: light_blue_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25745,7 +25805,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: yellow_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25757,7 +25817,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: lime_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25769,7 +25829,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: pink_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25781,7 +25841,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: gray_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25793,7 +25853,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: light_gray_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25805,7 +25865,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: cyan_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25817,7 +25877,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: purple_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25829,19 +25889,19 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: blue_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
           material: blue_carpet
           amount: 8
     '13':
-      seconds: 100
+      seconds: 111
       input:
         1:
           material_type: mc
           material: brown_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25853,7 +25913,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: green_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25865,7 +25925,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: red_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25877,7 +25937,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: black_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -25889,7 +25949,7 @@ VERSION_HAIMAN_CARPET_MACHINE:
         1:
           material_type: mc
           material: moss_carpet
-          amount: 0
+          amount: 1
       output:
         1:
           material_type: mc
@@ -27666,7 +27726,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: CHICKEN
-          amount: 5
+          amount: 3
     '2':
       seconds: 1
       input:
@@ -27678,7 +27738,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: MUTTON
-          amount: 5
+          amount: 3
     '3':
       seconds: 1
       input:
@@ -27690,7 +27750,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: PORKCHOP
-          amount: 5
+          amount: 3
     '4':
       seconds: 1
       input:
@@ -27702,8 +27762,8 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: RABBIT
-          amount: 5
-    '5':
+          amount: 3
+    '3':
       seconds: 1
       input:
         1:
@@ -27714,7 +27774,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COD
-          amount: 5
+          amount: 3
     '6':
       seconds: 1
       input:
@@ -27726,7 +27786,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: SALMON
-          amount: 5
+          amount: 3
     '7':
       seconds: 1
       input:
@@ -27738,7 +27798,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: TROPICAL_FISH
-          amount: 5
+          amount: 3
     '8':
       seconds: 1
       input:
@@ -27750,7 +27810,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: ROTTEN_FLESH
-          amount: 5
+          amount: 3
     '9':
       seconds: 1
       input:
@@ -27762,7 +27822,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: BEEF
-          amount: 5
+          amount: 3
     '10':
       seconds: 1
       input:
@@ -27774,7 +27834,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_CHICKEN
-          amount: 5
+          amount: 3
     '11':
       seconds: 1
       input:
@@ -27786,7 +27846,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_MUTTON
-          amount: 5
+          amount: 3
     '12':
       seconds: 1
       input:
@@ -27798,7 +27858,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_PORKCHOP
-          amount: 5
+          amount: 3
     '13':
       seconds: 1
       input:
@@ -27810,7 +27870,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_RABBIT
-          amount: 5
+          amount: 3
     '14':
       seconds: 1
       input:
@@ -27822,8 +27882,8 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_COD
-          amount: 5
-    '15':
+          amount: 3
+    '13':
       seconds: 1
       input:
         1:
@@ -27834,7 +27894,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_SALMON
-          amount: 5
+          amount: 3
     '16':
       seconds: 1
       input:
@@ -27846,7 +27906,7 @@ HAIMAN_MEAT_CHANGER:
         1:
           material_type: mc
           material: COOKED_BEEF
-          amount: 5
+          amount: 3
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 HAIMAN_BOTTLE_CHANGER:
@@ -29412,7 +29472,7 @@ HAIMAN_DUANZAO_MACHINE:
       amount: 1
     5:
       material_type: slimefun
-      material: LARGE_CAPACITOR
+      material: MEDIUM_CAPACITOR
       amount: 1
     6:
       material_type: slimefun
@@ -29420,15 +29480,15 @@ HAIMAN_DUANZAO_MACHINE:
       amount: 1
     7:
       material_type: slimefun
-      material: ZOT_INGOT
+      material: ADVANCED_CIRCUIT_BOARD
       amount: 1
     8:
       material_type: slimefun
-      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      material: ADVANCED_CIRCUIT_BOARD
       amount: 1
     9:
       material_type: slimefun
-      material: ZOT_INGOT
+      material: ADVANCED_CIRCUIT_BOARD
       amount: 1
   capacity: 2400
   energyPerCraft: 120
@@ -31723,6 +31783,18 @@ JIHANZHIDI:
           material_type: mc
           material: ICE
           amount: 1
+    '7':
+      seconds: 0
+      input:
+        1:
+          material_type: mc
+          material: BLUE_ICE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PACKED_ICE
+          amount: 4
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
 DIAOYUJI:
@@ -33809,66 +33881,6 @@ ERDIAOZHUANGPEI:
         1:
           material_type: mc
           material: WARPED_FUNGUS_ON_A_STICK
-          amount: 1
-  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
-  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
-HAIMAN_LOW_RESISTANCE:
-  lateInit: false
-  item_group: slime_customizer_huanbao
-  item:
-    name: '&b&l海曼牌小电阻'
-    lore:
-      - '&7是否觉得你的电太多了？'
-      - '&b机器'
-      - '&8⇨ &e⚡&7 25000 J 可存储'
-      - '&8⇨ &e⚡&7 50000 J/s'
-    material_type: skull_hash
-    material: d83ed217dfd497539e86ab5b898b7b3bf5a186492e24f8b37a634a7947d1180
-  speed: 1
-  recipe_type: ENHANCED_CRAFTING_TABLE
-  recipe:
-    1:
-      material_type: slimefun
-      material: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    2:
-      material_type: mc
-      material: COOKED_COD
-      amount: 1
-    3:
-      material_type: slimefun
-      material: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    4:
-      material_type: slimefun
-      material: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    5:
-      material_type: slimefun
-      material: SMALL_CAPACITOR
-      amount: 1
-    6:
-      material_type: slimefun
-      material: ADVANCED_CIRCUIT_BOARD
-      amount: 1
-    8:
-      material_type: mc
-      material: COOKED_COD
-      amount: 1
-  capacity: 25000
-  energyPerCraft: 25000
-  recipes:
-    '1':
-      seconds: 1200
-      input:
-        1:
-          material_type: mc
-          material: REDSTONE
-          amount: 1
-      output:
-        1:
-          material_type: mc
-          material: REDSTONE
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]

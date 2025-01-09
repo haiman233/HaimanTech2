@@ -73,8 +73,8 @@ LILY_PAD_GENERATOR:
     lore:
     - '&6用莲叶发电'
     - '&a发电机'
-    - '&8⇨ &e⚡&7 1000000 J 可存储'
-    - '&8⇨ &e⚡&7 40000 J/s'
+    - '&8⇨ &e⚡&7 100000 J 可存储'
+    - '&8⇨ &e⚡&7 30000 J/s'
     material_type: skull_hash
     material: 40ccf84be049bdc9a988bd274e70d9680381b8a5e8634995bbb876a883b4a4f2
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -115,11 +115,11 @@ LILY_PAD_GENERATOR:
       material_type: mc
       material: LILY_PAD
       amount: 1
-  capacity: 1000000
-  production: 20000
+  capacity: 100000
+  production: 15000
   fuels:
     '1':
-      seconds: 520
+      seconds: 90
       item:
         material_type: mc
         material: LILY_PAD
@@ -854,7 +854,7 @@ ADVANCED_NUCLEAR_REACTOR:
     - '&a不会爆炸'
     - '&a发电机'
     - '&8⇨ &e⚡&7 4000 J 可存储'
-    - '&8⇨ &e⚡&7 4000 J/s'
+    - '&8⇨ &e⚡&7 26000 J/s'
     material_type: skull_hash
     material: a5bec76d65a868a5be5173d3b9e1775b54046f62035c1552440ede9973a90e1
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -895,7 +895,7 @@ ADVANCED_NUCLEAR_REACTOR:
       material_type: slimefun
       material: FREEZER_2
       amount: 1
-  capacity: 4000
+  capacity: 26000
   production: 2000
   fuels:
     '1':

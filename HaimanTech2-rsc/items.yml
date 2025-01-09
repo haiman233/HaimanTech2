@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.6.4'
+      - '&bRelease-1.6.5'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -467,6 +467,23 @@ ZOT_INGOT:
       material_type: slimefun
       material: UNSTABLEINGOT3
       amount: 1
+MEITUHEJIN_KUAI:
+  lateInit: false
+  item_group: slime_customizer_material
+  item:
+    name: '&d&l镁钍合金块'
+    lore:
+      - '&7由镁钍合金压缩而成'
+    material_type: skull_hash
+    material: 13033628d1c3d33bc6034cbbf0cbb11b917c7174270b1b88b5ad440ccf2e8da8
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAG_THOR
+      amount: 36
 YASUO_SFBOOK:
   lateInit: false
   item_group: slime_customizer_material
@@ -3640,6 +3657,31 @@ CAO_TC:
       material: COBBLESTONE
       amount: 1
     3:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 1
+CAO_TC_2:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    name: '&7&l机器槽填充物'
+    lore:
+      - '&7用于填充不必要的输入槽与输出槽'
+    material_type: mc
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    amount: 8
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 1
+    2:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 1
+    4:
       material_type: mc
       material: COBBLESTONE
       amount: 1
@@ -15976,7 +16018,7 @@ HAIMAN_INGOT:
   recipe:
     1:
       material_type: slimefun
-      material: HAIMAN_NEW_YEAR_1
+      material: MEITUHEJIN_KUAI
       amount: 1
     2:
       material_type: slimefun
@@ -15984,7 +16026,7 @@ HAIMAN_INGOT:
       amount: 1
     3:
       material_type: slimefun
-      material: HAIMAN_NEW_YEAR_1
+      material: MEITUHEJIN_KUAI
       amount: 1
     4:
       material_type: slimefun
@@ -16004,7 +16046,7 @@ HAIMAN_INGOT:
       amount: 1
     8:
       material_type: slimefun
-      material: HAIMAN
+      material: HAIMAN_NEW_YEAR_1
       amount: 1
     9:
       material_type: slimefun

@@ -1589,6 +1589,7 @@ hmcl:
   items:
   - HAIMAN_INGOT
   - CREEPER_COAL_HEART
+  - MEITUHEJIN_KUAI
 jinjiecl:
   lateInit: false
   id: 110101057
@@ -1626,6 +1627,7 @@ caotianchong:
   levelCost: 1
   items:
   - CAO_TC
+  - CAO_TC_2
 ydyjjq1:
   lateInit: false
   id: 110101062
