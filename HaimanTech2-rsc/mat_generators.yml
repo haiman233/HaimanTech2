@@ -849,7 +849,7 @@ HAIMAN_NETHERITE_INGOT_MACHINE:
       material: HEATING_COIL
       amount: 1
   status: 9
-  tickRate: 3
+  tickRate: 1
   outputItem:
     material_type: mc
     material: NETHERITE_INGOT
