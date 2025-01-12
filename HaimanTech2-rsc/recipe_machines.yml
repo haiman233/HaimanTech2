@@ -27763,7 +27763,7 @@ HAIMAN_MEAT_CHANGER:
           material_type: mc
           material: RABBIT
           amount: 3
-    '3':
+    '5':
       seconds: 1
       input:
         1:
@@ -27883,7 +27883,7 @@ HAIMAN_MEAT_CHANGER:
           material_type: mc
           material: COOKED_COD
           amount: 3
-    '13':
+    '15':
       seconds: 1
       input:
         1:

@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.6.5'
+      - '&bRelease-1.6.6'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
