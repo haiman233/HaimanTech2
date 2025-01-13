@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.6.6'
+      - '&bRelease-1.7'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -18332,4 +18332,397 @@ JUBIAN_MOKUAI:
     5:
       material_type: slimefun
       material: HT_MODULE_1
+      amount: 1
+# 工具
+HM_QKJCY:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&b&l区块检测仪'
+    lore:
+      - '&7'
+      - '&f可检测以下指标'
+      - '&7'
+      - '&7区块坐标'
+      - '&7是否为史莱姆区块'
+      - '&7是否为强加载区块'
+      - '&7是否能生成生物'
+      - '&7是否已加载'
+      - '&7区块加载等级'
+      - '&7此区块被玩家居住的时间'
+    material_type: skull_hash
+    material: 6ef7777df902d451f4ff9d13b00d7dcf7f689e96b0ae4a0d5d4da81a73cd4426
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: biao
+  recipe:
+    1:
+      material_type: mc
+      material: NETHERITE_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: NETHERITE_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: NETHERITE_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: SLIME_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MULTIMETER
+      amount: 1
+    6:
+      material_type: mc
+      material: SLIME_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: RAINBOW_ZOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+HM_JKJCY:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&e&l健康检测仪'
+    lore:
+      - '&7'
+      - '&f可检测以下指标'
+      - '&7'
+      - '&7生命值'
+      - '&7饥饿值'
+      - '&7饱和度'
+      - '&7消耗值'
+      - '&7最大氧气值'
+      - '&7剩余氧气值'
+      - '&7伤害吸收量'
+      - '&7冰冻剩余时间'
+    material_type: skull_hash
+    material: 542a24152aa13ac315b271d698b82b4a7a17f10f17f0e8c495fb6f8cb39c5564
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: zhibiao
+  recipe:
+    1:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: GOLD_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: GOLDEN_APPLE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MULTIMETER
+      amount: 1
+    6:
+      material_type: mc
+      material: GOLDEN_APPLE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_WJXXJCY:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&c&l玩家信息检测仪'
+    lore:
+      - '&7'
+      - '&f可检测以下指标'
+      - '&7'
+      - '&7升级所需经验'
+      - '&7附魔种子'
+      - '&7床的位置'
+      - '&7死亡位置'
+      - '&7满饥饿值生命恢复速率'
+      - '&7半饥饿值生命恢复速率'
+      - '&7饥饿掉血速率'
+    material_type: skull_hash
+    material: 89bd1ffae94fbe1c1ab0ce6420901e1a38354f6e414475a738996d759ccfa7f2
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: zhibiao2
+  recipe:
+    1:
+      material_type: mc
+      material: DIAMOND_BLOCK
+      amount: 1
+    2:
+      material_type: mc
+      material: DIAMOND_BLOCK
+      amount: 1
+    3:
+      material_type: mc
+      material: DIAMOND_BLOCK
+      amount: 1
+    4:
+      material_type: mc
+      material: GOLDEN_APPLE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MULTIMETER
+      amount: 1
+    6:
+      material_type: mc
+      material: GOLDEN_APPLE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MACHINE_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_SEEDER:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&a&l世界种子查询器'
+    lore:
+      - '&7'
+      - '&7一次性用品'
+    material_type: skull_hash
+    material: 5f817ac0e6e139211f2bd8faaf2883df58bcce2a1507fdfd3d42888017888308
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: seed
+  recipe:
+    1:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: GPS_TRANSMITTER_4
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MULTIMETER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: GPS_TRANSMITTER_4
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+HM_KJDZT:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携锻造台'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: 651eb727bd896add55f6d6783cecd793d982500f4d9476143fe08e21ff7e3f5e
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: duanzaotai
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: SMITHING_TABLE
+      amount: 1
+HM_FUMOTAI:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携附魔台'
+    lore:
+      - '&7'
+      - '&7附魔等级取决于玩家周围的书架'
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: 28951399d0ebd0dfe87e50f0d6dee25274d93f1fbb38505ec971b601d1c2cb9
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: fumotai
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: ENCHANTING_TABLE
+      amount: 1
+HM_MOSHI:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携砂轮'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: 8e99bfa61fe552f1e6636b03fbe40f4e470c3b3cb14f70e9012813790ead568f
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: moshi
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: GRINDSTONE
+      amount: 1
+HM_QIESHIJI:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携切石机'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: d3949d0d8f6d8ae913851fc009d94610c21c451e276e89e1916f31b5a36971c
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: qieshiji
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: STONECUTTER
+      amount: 1
+HM_TIEZHEN:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携铁砧'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: 692d5df805c239022fe1b45f940882bf40b559671937dc71fbc96f630250ebc4
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: tiezhen
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: ANVIL
+      amount: 1
+HM_ZHIBUJI:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携织布机'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: 982ec7154bd30b319043e8164effdb0934d899a3b4980220f478d3758dc6455f
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: zhibuji
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: LOOM
+      amount: 1
+HM_ZHITUTAI:
+  lateInit: false
+  item_group: gongju_zhuangbei
+  item:
+    name: '&6&l便携制图台'
+    lore:
+      - '&7'
+      - '&e右键 &7打开'
+    material_type: skull_hash
+    material: d9097ca59334020e4c16d5ba36cb24580ee66c9c2f425a3b5654fdc47b8db6f6
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: zhitutai
+  recipe:
+    1:
+      material_type: mc
+      material: BOOK
+      amount: 1
+    2:
+      material_type: mc
+      material: CARTOGRAPHY_TABLE
       amount: 1
