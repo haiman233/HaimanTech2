@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.7'
+      - '&bRelease-1.7.1'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -3555,7 +3555,7 @@ HAIMAN_TIGER_AXE_1:
     material_type: saveditem
     material: 4
     amount: 1
-  placeable: true
+  placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
