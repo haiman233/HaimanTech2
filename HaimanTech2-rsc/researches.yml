@@ -1852,3 +1852,33 @@ wutouhuosai:
   levelCost: 30
   items:
   - WUTOU_HUOSAI
+jianceyi:
+  lateInit: false
+  id: 110101085
+  name: 这是大数据时代
+  levelCost: 30
+  items:
+  - HM_QKJCY
+  - HM_JKJCY
+  - HM_WJXXJCY
+shijiezhongzi:
+  lateInit: false
+  id: 110101086
+  name: “我的身份证号是”
+  levelCost: 380
+  items:
+  - HM_SEEDER
+bianxiegongju:
+  lateInit: false
+  id: 110101087
+  name: 便携工具拓展
+  levelCost: 12
+  items:
+  - HM_KJDZT
+  - HM_FUMOTAI
+  - HM_MOSHI
+  - HM_QIESHIJI
+  - HM_TIEZHEN
+  - HM_ZHIBUJI
+  - HM_ZHITUTAI
+
