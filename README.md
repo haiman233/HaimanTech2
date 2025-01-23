@@ -14,6 +14,21 @@
 ![当前版本](https://img.shields.io/github/v/release/haiman233/HaimanTech2?include_prereleases)
 ![下载数](https://img.shields.io/github/downloads/haiman233/HaimanTech2/total)
 
+## 前置插件需求
+前置：
+- Slimefun
+- GuizhanLibPlugin
+- SlimeCustomizer
+- FoxyMachines
+- InfinityExpansion
+- LiteXpansion
+- TranscEndence
+
+软前置：
+- Gastronomicon
+
+自BETA-2.0版本起，海曼科技院不再需要DynaTech，但是BETA-2.0以前的版本仍然需要安装DynaTech
+
 ## 公告
 
 1、正式版海曼科技院使用rsc即RykenSlimefunCustomizer编写，sc版的海曼科技院将不再支持（之后可能不定期上传sc版海曼科技的原稿）
@@ -37,21 +52,6 @@
 如果想禁用海曼科技院中的某个物品，建议直接在Slimefun的Items.yml配置里找到相应的物品ID然后ban掉它
 
 非常不建议对海曼科技院的配置进行修改，因为海曼科技院会持续更新，这只会加大你的工作量
-
-## 前置插件需求
-前置：
-- Slimefun
-- GuizhanLibPlugin
-- SlimeCustomizer
-- FoxyMachines
-- InfinityExpansion
-- LiteXpansion
-- TranscEndence
-
-软前置：
-- Gastronomicon
-
-自BETA-2.0版本起，海曼科技院不再需要DynaTech，但是BETA-2.0以前的版本仍然需要安装DynaTech
 
 ## 如何安装正式版海曼科技院
 
