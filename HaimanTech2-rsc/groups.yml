@@ -220,14 +220,6 @@ slime_customizer_qiu:
     material: 921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb
     name: '&6&l海曼科技院 &7- &f&l波兰球'
   parent: haimantech
-slime_customizer_food:
-  lateInit: false
-  type: sub
-  item:
-    material_type: skull_hash
-    material: 50e30e88b2d20ad06e2791c83d5a41da7bf2d2e30feecdcb8e4e1f1ab718905
-    name: '&6&l海曼科技院 &7- &e&l食物'
-  parent: haimantech
 slime_customizer_newyear:
   lateInit: false
   type: seasonal
