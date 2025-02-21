@@ -29707,8 +29707,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '2':
       seconds: 1
@@ -29723,8 +29723,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '3':
       seconds: 1
@@ -29739,8 +29739,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '4':
       seconds: 1
@@ -29755,8 +29755,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '5':
       seconds: 1
@@ -29771,8 +29771,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '6':
       seconds: 1
@@ -29787,8 +29787,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '7':
       seconds: 1
@@ -29803,8 +29803,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '8':
       seconds: 1
@@ -29819,8 +29819,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
     '9':
       seconds: 1
@@ -29835,8 +29835,8 @@ XUESHIZHIPINGZHUANGPEIJI:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: XUESHIZHIPING
+          material_type: slimefun
+          material: FILLED_FLASK_OF_KNOWLEDGE
           amount: 2
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
