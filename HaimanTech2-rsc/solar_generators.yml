@@ -410,7 +410,7 @@ MAN_MADE_UNIVERSE_PLUS:
   dayEnergy: 2147483647
   nightEnergy: 2147483647
   capacity: 2147483647
-FUZHU_GENERATOR:
+FUZHU_GENERATOR0:
   lateInit: true
   item_group: slime_customizer_generator
   item:

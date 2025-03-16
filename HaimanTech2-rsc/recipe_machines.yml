@@ -13769,7 +13769,7 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_11
           amount: 1
     '13':
-      seconds: 100
+      seconds: 40
       input:
         1:
           material_type: mc
@@ -13781,11 +13781,11 @@ MUSIC_DISC_PRODUCER:
           material: MUSIC_DISC_PIGSTEP
           amount: 1
     '14':
-      seconds: 250
+      seconds: 40
       input:
         1:
-          material_type: slimefun
-          material: FUHEBAN
+          material_type: mc
+          material: SCULK_CATALYST
           amount: 1
       output:
         1:
