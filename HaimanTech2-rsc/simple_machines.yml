@@ -1,1 +1,874 @@
-
+HM_ZJSPJGJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: GREEN_STAINED_GLASS
+    name: "&4终极 &a食品加工机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: FOOD_FABRICATOR
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: FOOD_FABRICATOR_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_MACHINE_BLOCK
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_GJFMSZHJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: BOOKSHELF
+    name: "&b高极 &e附魔书整合机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b10x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: BOOK_BINDER
+  settings:
+    capacity: 2000
+    consumption: 500
+    speed: 10
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: BOOK_BINDER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJFMSZHJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: BOOKSHELF
+    name: "&4终极 &e附魔书整合机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: BOOK_BINDER
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJFMSZHJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_GJZDTZ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: IRON_BLOCK
+    name: "&b高极 &f自动铁砧"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &7可修复百分比: 60%"
+      - "&8⇨ &e⚡ &7速度: &b10x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: AUTO_ANVIL
+  settings:
+    capacity: 2000
+    consumption: 500
+    repair_factor: 60
+    speed: 10
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: AUTO_ANVIL_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJZDTZ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: IRON_BLOCK
+    name: "&4终极 &f自动铁砧"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &7可修复百分比: 100%"
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: AUTO_ANVIL
+  settings:
+    capacity: 4000
+    consumption: 1000
+    repair_factor: 100
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJZDTZ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_GJHGJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: SMOKER
+    name: "&b高极 &e自动烘干机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b3x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: AUTO_DRIER
+  settings:
+    capacity: 2000
+    consumption: 500
+    speed: 3
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: AUTO_DRIER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJHGJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: SMOKER
+    name: "&4终极 &e自动烘干机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: AUTO_DRIER
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJHGJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_GJNZJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: SMOKER
+    name: "&b高极 &e自动酿造机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b6x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: AUTO_BREWER
+  settings:
+    capacity: 2000
+    consumption: 500
+    speed: 6
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: AUTO_BREWER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJNZJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: SMOKER
+    name: "&4终极 &e自动酿造机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: AUTO_BREWER
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJNZJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_GJLYJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: PISTON
+    name: "&b高极 &c炼油机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b8x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: REFINERY
+  settings:
+    capacity: 2000
+    consumption: 500
+    speed: 8
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: REFINERY
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJLYJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: PISTON
+    name: "&4终极 &c炼油机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: REFINERY
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJLYJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_GJQZDSJJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: HAY_BLOCK
+    name: "&b高极 &f全自动收集机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b3x"
+      - "&8⇨ &e⚡ &71000 J/s"
+      - "&8⇨&e ⚡ &72000 J 可存储"
+  type: PRODUCE_COLLECTOR
+  settings:
+    capacity: 2000
+    consumption: 500
+    speed: 3
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: PRODUCE_COLLECTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+HM_ZJQZDSJJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: HAY_BLOCK
+    name: "&4终极 &f全自动收集机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: PRODUCE_COLLECTOR
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 64
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_GJQZDSJJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_ZJSMSZJSQ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: BROWN_TERRACOTTA
+    name: "&4终极 &a树木生长加速器"
+    lore:
+      - ""
+      - "&7若此机器不工作,乃粘液科技没更新导致的"
+      - '&b机器'
+      - "&8⇨ &e⚡ &7半径: &b16x16"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: TREE_GROWTH_ACCELERATOR
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 6
+    radius: 16
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: TREE_GROWTH_ACCELERATOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_ZJDWSZJSQ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: HAY_BLOCK
+    name: "&4终极 &a动物生长加速器"
+    lore:
+      - ""
+      - "&7若此机器不工作,乃粘液科技没更新导致的"
+      - '&b机器'
+      - "&8⇨ &e⚡ &7半径: &b16x16"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: ANIMAL_GROWTH_ACCELERATOR
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 6
+    radius: 16
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ANIMAL_GROWTH_ACCELERATOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+HM_ZJZWSZJSQ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: LIME_TERRACOTTA
+    name: "&4终极 &a作物生长加速器"
+    lore:
+      - ""
+      - "&7若此机器不工作,乃粘液科技没更新导致的"
+      - '&b机器'
+      - "&8⇨ &e⚡ &7半径: &b16x16"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &74000 J 可存储"
+  type: CROP_GROWTH_ACCELERATOR
+  settings:
+    capacity: 4000
+    consumption: 1000
+    speed: 6
+    radius: 16
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: CROP_GROWTH_ACCELERATOR_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: IRIDIUM_PLATE
+      amount: 1

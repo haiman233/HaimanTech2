@@ -1861,4 +1861,40 @@ bianxiegongju:
   - HM_TIEZHEN
   - HM_ZHIBUJI
   - HM_ZHITUTAI
-
+gaojinyybjq:
+  lateInit: false
+  id: 110101088
+  name: 高级粘液原版机器
+  levelCost: 50
+  items:
+  - HM_GJFMSZHJ
+  - HM_GJZDTZ
+  - HM_GJHGJ
+  - HM_GJNZJ
+  - HM_GJLYJ
+  - HM_GJQZDSJJ
+zjnyybjq:
+  lateInit: false
+  id: 110101089
+  name: 终极粘液原版机器
+  levelCost: 110
+  items:
+  - HM_ZJSPDFQ
+  - HM_ZJSPJGJ
+  - HM_ZJFMSZHJ
+  - HM_ZJZDTZ
+  - HM_ZJHGJ
+  - HM_ZJNZJ
+  - HM_ZJLYJ
+  - HM_ZJQZDSJJ
+  - HM_ZJSMSZJSQ
+  - HM_ZJDWSZJSQ
+  - HM_ZJZWSZJSQ
+couzhengdr:
+  lateInit: false
+  id: 110101090
+  name: 凑整电容
+  levelCost: 80
+  items:
+  - HM_CZDR
+  - HM_CZDR_PLUS

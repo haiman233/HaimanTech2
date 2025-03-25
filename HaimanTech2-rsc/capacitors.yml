@@ -280,3 +280,103 @@ DITAN_DIANRONG:
       material_type: mc
       material: WHITE_CARPET
       amount: 1
+HM_CZDR:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&c&l凑整电容'
+    lore:
+    - '&7用于凑整'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1998000 J 可存储'
+    material: FLOWER_POT
+    amount: 1
+  capacity: 1998000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HM_FKZJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HM_FKZJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+HM_CZDR_PLUS:
+  lateInit: false
+  item_group: dianro
+  item:
+    name: '&c&l凑整电容 &4&lPLUS'
+    lore:
+    - '&7用于凑整'
+    - '&e电容'
+    - '&8⇨ &e⚡&7 1998000000 J 可存储'
+    material: CONDUIT
+    amount: 1
+  capacity: 1998000000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_CZDR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HM_FKZJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HM_FKZJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    8:
+      material_type: slimefun
+      material: INFINITY_CAPACITOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1

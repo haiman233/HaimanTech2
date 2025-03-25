@@ -10764,3 +10764,79 @@ CROSSBOW_MACHINE:
     45:
       material: gray_stained_glass_pane
       name: '&a'
+HM_ZJSPDFQ:
+  title: '&4终极 &a食品堆肥器'
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+      progressbar: true
+    0-8:
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    9-12:
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '13':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    14-17:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '18':
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '21':
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '26':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '27':
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '30':
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '31':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '35':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      amount: 1
+      material_type: mc
+      material: CYAN_STAINED_GLASS_PANE
+    '40':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    45-53:
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
