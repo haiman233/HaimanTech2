@@ -124,6 +124,14 @@ slime_customizer_20:
     material: 3e7889a0d3ef9df1ef6e1956bcee825fa183fd672869275c88eb385391db554
     name: '&6&l海曼科技院 &7- &6&l1.20版机器'
   parent: haimantech
+slime_customizer_21:
+  lateInit: false
+  type: sub
+  item:
+    material_type: skull_hash
+    material: ba5797a0a2859d427ddce293ba57f0c52c10f581db0800f6af786cd6a417bb61
+    name: '&6&l海曼科技院 &7- &c&l高版本机器'
+  parent: haimantech
 haiman_egg:
   lateInit: false
   type: sub

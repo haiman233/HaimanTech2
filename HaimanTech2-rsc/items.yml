@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.8'
+      - '&bRelease-1.9'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -303,6 +303,21 @@ HM_SGD:
     amount: 1
   placeable: false
   recipe_type: 'NULL'
+HM_CSFKJ:
+  lateInit: false
+  item_group: slime_customizer_yuanban
+  item:
+    name: '&f&l测试方块/测试实例方块'
+    lore:
+      - '&7该物品需要在大测试机中制作'
+    material_type: mc
+    material: TEST_BLOCK
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  register:
+    conditions:
+      - version >= 1.21.5
 HAIMAN_AMETHYST_DUST:
   lateInit: false
   item_group: slime_customizer_material
@@ -3820,6 +3835,48 @@ LIGHT_14:
     amount: 1
   placeable: true
   recipe_type: HAIMAN_INFO_GUANGDIAN
+HM_TEST_BLOCK_2:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    material_type: saveditem
+    material: TEST_BLOCK_2
+    amount: 1
+  placeable: true
+  recipe_type: HAIMAN_DACESHIJI
+  recipe:
+    5:
+      material_type: mc
+      material: TEST_BLOCK
+      amount: 1
+HM_TEST_BLOCK_3:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    material_type: saveditem
+    material: TEST_BLOCK_3
+    amount: 1
+  placeable: true
+  recipe_type: HAIMAN_DACESHIJI
+  recipe:
+    5:
+      material_type: slimefun
+      material: HM_TEST_BLOCK_2
+      amount: 1
+HM_TEST_BLOCK_4:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    material_type: saveditem
+    material: TEST_BLOCK_4
+    amount: 1
+  placeable: true
+  recipe_type: HAIMAN_DACESHIJI
+  recipe:
+    5:
+      material_type: slimefun
+      material: HM_TEST_BLOCK_3
+      amount: 1
 MEITANZHONGZI:
   lateInit: false
   item_group: slime_customizer_zhuangshi

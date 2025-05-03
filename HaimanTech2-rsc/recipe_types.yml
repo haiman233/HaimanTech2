@@ -108,3 +108,11 @@ HAIMAN_INFO_HEIDONG:
     - '&7该物品需要在&8&l人造黑洞&7中制作'
   material_type: skull_hash
   material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+HAIMAN_DACESHIJI:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&f&l大测试机'
+  lore:
+    - '&7该物品需要在&8&l大测试机&7中制作'
+  material_type: skull_hash
+  material: afdf9bd64f5befc5f815488191272a7d59ecf38744211e22a12a47134c816f1b

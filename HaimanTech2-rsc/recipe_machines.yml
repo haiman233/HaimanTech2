@@ -13490,6 +13490,165 @@ HAIMAN_BANNER_PATTERN_PRODUCER:
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version < 1.21.2
+VERSION_HAIMAN_BANNER_PATTERN_PRODUCER:
+  lateInit: false
+  item_group: slime_customizer
+  item:
+    name: '&e&l旗帜图案印刷机'
+    lore:
+      - '&7用于印刷旗帜图案'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 4800 J 可存储'
+      - '&8⇨ &e⚡&7 480 J/s'
+    material_type: skull_hash
+    material: 2de1a9fc8ddd772b3518bb955fd4dc7e83dcd54c12a357c1b2238102a15ce48c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_PLATE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: SYNTHETIC_EMERALD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: SYNTHETIC_SAPPHIRE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: SYNTHETIC_EMERALD
+      amount: 1
+  capacity: 4800
+  energyPerCraft: 240
+  recipes:
+    '1':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: OXEYE_DAISY
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FLOWER_BANNER_PATTERN
+          amount: 1
+    '2':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: ENCHANTED_GOLDEN_APPLE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: MOJANG_BANNER_PATTERN
+          amount: 1
+    '3':
+      seconds: 100
+      input:
+        1:
+          material_type: mc
+          material: GRASS_BLOCK
+          amount: 6
+      output:
+        1:
+          material_type: mc
+          material: GLOBE_BANNER_PATTERN
+          amount: 1
+    '4':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: SKULL_BANNER_PATTERN
+          amount: 1
+    '5':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: CREEPER_HEAD
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: CREEPER_BANNER_PATTERN
+          amount: 1
+    '6':
+      seconds: 200
+      input:
+        1:
+          material_type: mc
+          material: GOLD_BLOCK
+          amount: 24
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_BANNER_PATTERN
+          amount: 1
+    '7':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: BRICKS
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FIELD_MASONED_BANNER_PATTERN
+          amount: 1
+    '8':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: VINE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BORDURE_INDENTED_BANNER_PATTERN
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  id_alias: HAIMAN_BANNER_PATTERN_PRODUCER
+  register:
+    conditions:
+      - version >= 1.21.2
 HAIMAN_LUMP_PRODUCER:
   lateInit: false
   item_group: slime_customizer_yitihua
@@ -35861,6 +36020,141 @@ DANZH_MACHINE:
           amount: 8
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version < 1.21.5
+VERSION_DANZH_MACHINE:
+  lateInit: false
+  item_group: slime_customizer_19
+  item:
+    name: '&c&l转蛋机'
+    lore:
+      - '&7猜猜看这是什么蛋？'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1600 J 可存储'
+      - '&8⇨ &e⚡&7 320 J/s'
+    material_type: skull_hash
+    material: 58b30c1319eea75bae07613047bfedac17ff9b90bbf05c2801e7c2e47b0dfd1d
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    2:
+      material_type: mc
+      material: VERDANT_FROGLIGHT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+    8:
+      material_type: mc
+      material: PEARLESCENT_FROGLIGHT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: WITHER_PROOF_OBSIDIAN
+      amount: 1
+  capacity: 1600
+  energyPerCraft: 160
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_EGG
+          amount: 4
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: TURTLE_EGG
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 1
+    '3':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: FROGSPAWN
+          amount: 1
+    '4':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: FROGSPAWN
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: BLUE_EGG
+          amount: 8
+    '5':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: BLUE_EGG
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: BROWN_EGG
+          amount: 8
+    '6':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: BROWN_EGG
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: EGG
+          amount: 8
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  id_alias: DANZH_MACHINE
+  register:
+    conditions:
+      - version >= 1.21.5
 SBYQH_MACHINE:
   lateInit: false
   item_group: slime_customizer_19
@@ -44841,6 +45135,2008 @@ SWPY_15:
           amount: 1
   input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
   output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+SWPY_16:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&d&l[ver:1.21]&6&lMC生物培育箱'
+    lore:
+      - '&7可培育MC：1.20.5-1.21.1版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
+    material_type: skull_hash
+    material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_DDXP
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SWPY_15
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+  capacity: 88000
+  energyPerCraft: 22000
+  recipes:
+    '1':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PORKCHOP
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PIG_SPAWN_EGG
+          amount: 1
+    '2':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WHITE_WOOL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SHEEP_SPAWN_EGG
+          amount: 1
+    '3':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CREEPER_SPAWN_EGG
+          amount: 1
+    '4':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SPAWN_EGG
+          amount: 1
+    '5':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_SPAWN_EGG
+          amount: 1
+    '6':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SPIDER_EYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SPIDER_SPAWN_EGG
+          amount: 1
+    '7':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CHICKEN
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CHICKEN_SPAWN_EGG
+          amount: 1
+    '8':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BEEF
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: COW_SPAWN_EGG
+          amount: 1
+    '9':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GHAST_SPAWN_EGG
+          amount: 1
+    '10':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SLIME_SPAWN_EGG
+          amount: 1
+    '11':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+          amount: 1
+    '12':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: INK_SAC
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SQUID_SPAWN_EGG
+          amount: 1
+    '13':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: INFESTED_COBBLESTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SILVERFISH_SPAWN_EGG
+          amount: 1
+    '14':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ENDERMAN_SPAWN_EGG
+          amount: 1
+    '15':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RED_MUSHROOM
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: MOOSHROOM_SPAWN_EGG
+          amount: 1
+    '16':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: EMERALD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: VILLAGER_SPAWN_EGG
+          amount: 1
+    '17':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNOWBALL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SNOW_GOLEM_SPAWN_EGG
+          amount: 1
+    '18':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_SPAWN_EGG
+          amount: 1
+    '19':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CUBE_SPAWN_EGG
+          amount: 1
+    '20':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CAT_SPAWN_EGG
+          amount: 1
+    '21':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CAT_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: OCELOT_SPAWN_EGG
+          amount: 1
+    '22':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: IRON_GOLEM_SPAWN_EGG
+          amount: 1
+    '23':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLACK_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BAT_SPAWN_EGG
+          amount: 1
+    '24':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE_MEAL
+          amount: 32
+      output:
+        1:
+          material_type: mc
+          material: WOLF_SPAWN_EGG
+          amount: 1
+    '25':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WITCH_SPAWN_EGG
+          amount: 1
+    '26':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SPAWN_EGG
+          amount: 1
+    '27':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_VILLAGER_SPAWN_EGG
+          amount: 1
+    '28':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: LEATHER
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: HORSE_SPAWN_EGG
+          amount: 1
+    '29':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HORSE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: DONKEY_SPAWN_EGG
+          amount: 1
+    '30':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: DONKEY_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: MULE_SPAWN_EGG
+          amount: 1
+    '31':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_HORSE_SPAWN_EGG
+          amount: 1
+    '32':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HORSE_SPAWN_EGG
+          amount: 1
+    '33':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_SPAWN_EGG
+          amount: 1
+    '34':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GUARDIAN_SPAWN_EGG
+          amount: 1
+    '35':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GUARDIAN_SPAWN_EGG
+          amount: 32
+      output:
+        1:
+          material_type: mc
+          material: ELDER_GUARDIAN_SPAWN_EGG
+          amount: 1
+    '36':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ENDERMITE_SPAWN_EGG
+          amount: 1
+    '37':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SPIDER_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: CAVE_SPIDER_SPAWN_EGG
+          amount: 1
+    '38':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SPAWN_EGG
+          amount: 1
+    '39':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ICE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: POLAR_BEAR_SPAWN_EGG
+          amount: 1
+    '40':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SANDSTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: HUSK_SPAWN_EGG
+          amount: 1
+    '41':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNOW_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: STRAY_SPAWN_EGG
+          amount: 1
+    '42':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CARPET
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: LLAMA_SPAWN_EGG
+          amount: 1
+    '43':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TOTEM_OF_UNDYING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: EVOKER_SPAWN_EGG
+          amount: 1
+    '44':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 18
+      output:
+        1:
+          material_type: mc
+          material: VEX_SPAWN_EGG
+          amount: 1
+    '45':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_AXE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: VINDICATOR_SPAWN_EGG
+          amount: 1
+    '46':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PARROT_SPAWN_EGG
+          amount: 1
+    '47':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: COD_SPAWN_EGG
+          amount: 1
+    '48':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SALMON
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SALMON_SPAWN_EGG
+          amount: 1
+    '49':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TROPICAL_FISH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: TROPICAL_FISH_SPAWN_EGG
+          amount: 1
+    '50':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PUFFERFISH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PUFFERFISH_SPAWN_EGG
+          amount: 1
+    '51':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BOWL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SPAWN_EGG
+          amount: 1
+    '52':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: DOLPHIN_SPAWN_EGG
+          amount: 1
+    '53':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_SPAWN_EGG
+          amount: 1
+    '54':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COPPER_INGOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: DROWNED_SPAWN_EGG
+          amount: 1
+    '55':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLUE_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WANDERING_TRADER_SPAWN_EGG
+          amount: 1
+    '56':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SWEET_BERRIES
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: FOX_SPAWN_EGG
+          amount: 1
+    '57':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: LLAMA_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: TRADER_LLAMA_SPAWN_EGG
+          amount: 1
+    '58':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PANDA_SPAWN_EGG
+          amount: 1
+    '59':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CROSSBOW
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PILLAGER_SPAWN_EGG
+          amount: 1
+    '60':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PILLAGER_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: RAVAGER_SPAWN_EGG
+          amount: 1
+    '61':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HONEYCOMB
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BEE_SPAWN_EGG
+          amount: 1
+    '62':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WARPED_FUNGUS
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: STRIDER_SPAWN_EGG
+          amount: 1
+    '63':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PIG_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: HOGLIN_SPAWN_EGG
+          amount: 1
+    '64':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_SPAWN_EGG
+          amount: 1
+    '65':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PIGLIN_SPAWN_EGG
+          amount: 6
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_BRUTE_SPAWN_EGG
+          amount: 1
+    '66':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HOGLIN_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: ZOGLIN_SPAWN_EGG
+          amount: 1
+    '67':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GLOW_INK_SAC
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GLOW_SQUID_SPAWN_EGG
+          amount: 1
+    '68':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SHEEP_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: GOAT_SPAWN_EGG
+          amount: 1
+    '69':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: AXOLOTL_BUCKET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: AXOLOTL_SPAWN_EGG
+          amount: 1
+    '70':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: AMETHYST_SHARD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ALLAY_SPAWN_EGG
+          amount: 1
+    '71':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TADPOLE_BUCKET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TADPOLE_SPAWN_EGG
+          amount: 1
+    '72':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TADPOLE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: FROG_SPAWN_EGG
+          amount: 1
+    '73':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SCULK
+          amount: 64
+      output:
+        1:
+          material_type: mc
+          material: WARDEN_SPAWN_EGG
+          amount: 1
+    '74':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RED_SAND
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CAMEL_SPAWN_EGG
+          amount: 1
+    '75':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: SNIFFER_SPAWN_EGG
+          amount: 1
+    '76':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ARMADILLO_SCUTE
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: ARMADILLO_SPAWN_EGG
+          amount: 1
+    '77':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BROWN_MUSHROOM
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: BOGGED_SPAWN_EGG
+          amount: 1
+    '78':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BREEZE_ROD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BREEZE_SPAWN_EGG
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21
+SWPY_17:
+  lateInit: false
+  item_group: haiman_egg
+  item:
+    name: '&d&l[ver:1.21.4]&6&lMC生物培育箱'
+    lore:
+      - '&7可培育MC：1.21.4版本的生物'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 88000 J 可存储'
+      - '&8⇨ &e⚡&7 44000 J/s'
+    material_type: skull_hash
+    material: 2dcbba6c751dab5f2b309bc5941e8ea79877cce4256936a189811ed7ec36d25c
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_DDXP
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ANCIENT_ITEM
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: SWPY_16
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+  capacity: 88000
+  energyPerCraft: 22000
+  recipes:
+    '1':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PORKCHOP
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PIG_SPAWN_EGG
+          amount: 1
+    '2':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WHITE_WOOL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SHEEP_SPAWN_EGG
+          amount: 1
+    '3':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GUNPOWDER
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CREEPER_SPAWN_EGG
+          amount: 1
+    '4':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_SPAWN_EGG
+          amount: 1
+    '5':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ROTTEN_FLESH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_SPAWN_EGG
+          amount: 1
+    '6':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SPIDER_EYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SPIDER_SPAWN_EGG
+          amount: 1
+    '7':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CHICKEN
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CHICKEN_SPAWN_EGG
+          amount: 1
+    '8':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BEEF
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: COW_SPAWN_EGG
+          amount: 1
+    '9':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GHAST_TEAR
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GHAST_SPAWN_EGG
+          amount: 1
+    '10':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SLIME_BALL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SLIME_SPAWN_EGG
+          amount: 1
+    '11':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GOLD_INGOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+          amount: 1
+    '12':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: INK_SAC
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SQUID_SPAWN_EGG
+          amount: 1
+    '13':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: INFESTED_COBBLESTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SILVERFISH_SPAWN_EGG
+          amount: 1
+    '14':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ENDER_PEARL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ENDERMAN_SPAWN_EGG
+          amount: 1
+    '15':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RED_MUSHROOM
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: MOOSHROOM_SPAWN_EGG
+          amount: 1
+    '16':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: EMERALD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: VILLAGER_SPAWN_EGG
+          amount: 1
+    '17':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNOWBALL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SNOW_GOLEM_SPAWN_EGG
+          amount: 1
+    '18':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLAZE_ROD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BLAZE_SPAWN_EGG
+          amount: 1
+    '19':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: MAGMA_CREAM
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: MAGMA_CUBE_SPAWN_EGG
+          amount: 1
+    '20':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: YELLOW_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CAT_SPAWN_EGG
+          amount: 1
+    '21':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CAT_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: OCELOT_SPAWN_EGG
+          amount: 1
+    '22':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: IRON_GOLEM_SPAWN_EGG
+          amount: 1
+    '23':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLACK_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BAT_SPAWN_EGG
+          amount: 1
+    '24':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE_MEAL
+          amount: 32
+      output:
+        1:
+          material_type: mc
+          material: WOLF_SPAWN_EGG
+          amount: 1
+    '25':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: REDSTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WITCH_SPAWN_EGG
+          amount: 1
+    '26':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SKULL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WITHER_SKELETON_SPAWN_EGG
+          amount: 1
+    '27':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_VILLAGER_SPAWN_EGG
+          amount: 1
+    '28':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: LEATHER
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: HORSE_SPAWN_EGG
+          amount: 1
+    '29':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HORSE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: DONKEY_SPAWN_EGG
+          amount: 1
+    '30':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: DONKEY_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: MULE_SPAWN_EGG
+          amount: 1
+    '31':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BONE_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SKELETON_HORSE_SPAWN_EGG
+          amount: 1
+    '32':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIE_HEAD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ZOMBIE_HORSE_SPAWN_EGG
+          amount: 1
+    '33':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RABBIT_FOOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: RABBIT_SPAWN_EGG
+          amount: 1
+    '34':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PRISMARINE_SHARD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GUARDIAN_SPAWN_EGG
+          amount: 1
+    '35':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GUARDIAN_SPAWN_EGG
+          amount: 32
+      output:
+        1:
+          material_type: mc
+          material: ELDER_GUARDIAN_SPAWN_EGG
+          amount: 1
+    '36':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ENDER_EYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ENDERMITE_SPAWN_EGG
+          amount: 1
+    '37':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SPIDER_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: CAVE_SPIDER_SPAWN_EGG
+          amount: 1
+    '38':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SHULKER_SHELL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SHULKER_SPAWN_EGG
+          amount: 1
+    '39':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ICE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: POLAR_BEAR_SPAWN_EGG
+          amount: 1
+    '40':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SANDSTONE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: HUSK_SPAWN_EGG
+          amount: 1
+    '41':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNOW_BLOCK
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: STRAY_SPAWN_EGG
+          amount: 1
+    '42':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WHITE_CARPET
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: LLAMA_SPAWN_EGG
+          amount: 1
+    '43':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TOTEM_OF_UNDYING
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: EVOKER_SPAWN_EGG
+          amount: 1
+    '44':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_NUGGET
+          amount: 18
+      output:
+        1:
+          material_type: mc
+          material: VEX_SPAWN_EGG
+          amount: 1
+    '45':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: IRON_AXE
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: VINDICATOR_SPAWN_EGG
+          amount: 1
+    '46':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COCOA_BEANS
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PARROT_SPAWN_EGG
+          amount: 1
+    '47':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: COD_SPAWN_EGG
+          amount: 1
+    '48':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SALMON
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: SALMON_SPAWN_EGG
+          amount: 1
+    '49':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TROPICAL_FISH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: TROPICAL_FISH_SPAWN_EGG
+          amount: 1
+    '50':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PUFFERFISH
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PUFFERFISH_SPAWN_EGG
+          amount: 1
+    '51':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BOWL
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: TURTLE_SPAWN_EGG
+          amount: 1
+    '52':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: KELP
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: DOLPHIN_SPAWN_EGG
+          amount: 1
+    '53':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PHANTOM_MEMBRANE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PHANTOM_SPAWN_EGG
+          amount: 1
+    '54':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: COPPER_INGOT
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: DROWNED_SPAWN_EGG
+          amount: 1
+    '55':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BLUE_DYE
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: WANDERING_TRADER_SPAWN_EGG
+          amount: 1
+    '56':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SWEET_BERRIES
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: FOX_SPAWN_EGG
+          amount: 1
+    '57':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: LLAMA_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: TRADER_LLAMA_SPAWN_EGG
+          amount: 1
+    '58':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BAMBOO
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: PANDA_SPAWN_EGG
+          amount: 1
+    '59':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CROSSBOW
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: PILLAGER_SPAWN_EGG
+          amount: 1
+    '60':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PILLAGER_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: RAVAGER_SPAWN_EGG
+          amount: 1
+    '61':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HONEYCOMB
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BEE_SPAWN_EGG
+          amount: 1
+    '62':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: WARPED_FUNGUS
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: STRIDER_SPAWN_EGG
+          amount: 1
+    '63':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PIG_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: HOGLIN_SPAWN_EGG
+          amount: 1
+    '64':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ZOMBIFIED_PIGLIN_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_SPAWN_EGG
+          amount: 1
+    '65':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: PIGLIN_SPAWN_EGG
+          amount: 6
+      output:
+        1:
+          material_type: mc
+          material: PIGLIN_BRUTE_SPAWN_EGG
+          amount: 1
+    '66':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: HOGLIN_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: ZOGLIN_SPAWN_EGG
+          amount: 1
+    '67':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: GLOW_INK_SAC
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: GLOW_SQUID_SPAWN_EGG
+          amount: 1
+    '68':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SHEEP_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: GOAT_SPAWN_EGG
+          amount: 1
+    '69':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: AXOLOTL_BUCKET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: AXOLOTL_SPAWN_EGG
+          amount: 1
+    '70':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: AMETHYST_SHARD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: ALLAY_SPAWN_EGG
+          amount: 1
+    '71':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TADPOLE_BUCKET
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TADPOLE_SPAWN_EGG
+          amount: 1
+    '72':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: TADPOLE_SPAWN_EGG
+          amount: 2
+      output:
+        1:
+          material_type: mc
+          material: FROG_SPAWN_EGG
+          amount: 1
+    '73':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SCULK
+          amount: 64
+      output:
+        1:
+          material_type: mc
+          material: WARDEN_SPAWN_EGG
+          amount: 1
+    '74':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: RED_SAND
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CAMEL_SPAWN_EGG
+          amount: 1
+    '75':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: SNIFFER_EGG
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: SNIFFER_SPAWN_EGG
+          amount: 1
+    '76':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: ARMADILLO_SCUTE
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: ARMADILLO_SPAWN_EGG
+          amount: 1
+    '77':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BROWN_MUSHROOM
+          amount: 8
+      output:
+        1:
+          material_type: mc
+          material: BOGGED_SPAWN_EGG
+          amount: 1
+    '78':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: BREEZE_ROD
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: BREEZE_SPAWN_EGG
+          amount: 1
+    '79':
+      seconds: 15
+      input:
+        1:
+          material_type: mc
+          material: CREAKING_HEART
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: CREAKING_SPAWN_EGG
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21.4
 SWPY_BOSS:
   lateInit: false
   item_group: haiman_egg
@@ -47940,3 +50236,996 @@ VERSION_HAIMAN_PAIZHUO:
   register:
     conditions:
       - version >= 1.21
+# 高版本机器
+HAIMAN_QYYZJ:
+  lateInit: false
+  item_group: slime_customizer_21
+  item:
+    name: '&6&l犰狳压榨机'
+    lore:
+      - '&7压榨犰狳,让你的宠物穿上漂亮的盔甲'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 50 J 可存储'
+      - '&8⇨ &e⚡&7 10 J/s'
+    material_type: skull_hash
+    material: a456e2c00f61ce73d37b6b3eb003374c8685f753cd2c0103efadf95f143fd990
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: mc
+      material: STRIPPED_MANGROVE_WOOD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  capacity: 50
+  energyPerCraft: 5
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: BRUSH
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ARMADILLO_SCUTE
+          amount: 16
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.20.5
+HAIMAN_SLMSMNQ:
+  item:
+    lore:      
+      - '&7模拟试炼密室的环境，可获取试炼密室物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 60000 J/s'
+    name: §c§l试炼密室模拟器
+    amount: 1
+    material_type: skull_hash
+    material: 70fa3d8c2bad7be6196a21d43708e41454bc986a10856d604bbc2a0c21c2b91e
+  item_group: slime_customizer_21
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MAGICAL_BOOK_COVER
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MAGICAL_BOOK_COVER
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: COPPER_SINGULARITY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HOLOGRAM_PROJECTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COPPER_SINGULARITY
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+  capacity: 60000
+  energyPerCraft: 30000
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 2000
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SPAWNER
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_SPAWNER
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 2000
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_SPAWNER
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: VAULT
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 6
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: GLASS_BOTTLE
+      output:
+        '1':
+          amount: 16
+          material_type: mc
+          material: OMINOUS_BOTTLE
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 3
+      input:
+        '1':
+          amount: 32
+          material_type: mc
+          material: BLAZE_ROD
+      output:
+        '1':
+          amount: 32
+          material_type: mc
+          material: BREEZE_ROD
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 3
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: FIRE_CHARGE
+      output:
+        '1':
+          amount: 32
+          material_type: mc
+          material: WIND_CHARGE
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 400
+      input:
+        '1':
+          material_type: slimefun
+          material: REINFORCED_ALLOY_INGOT
+          amount: 48
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: HEAVY_CORE
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 10
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: COPPER_INGOT
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_KEY
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7_1414717462':
+      seconds: 20
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_KEY
+        '2':
+          amount: 8
+          material_type: mc
+          material: OMINOUS_BOTTLE
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: OMINOUS_TRIAL_KEY
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 300
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_KEY
+        '2':
+          amount: 1
+          material_type: mc
+          material: MUSIC_DISC_RELIC
+        '3':
+          amount: 1
+          material_type: mc
+          material: JUKEBOX
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MUSIC_DISC_CREATOR_MUSIC_BOX
+        '2':
+          amount: 1
+          material_type: mc
+          material: MUSIC_DISC_CREATOR
+        '3':
+          amount: 1
+          material_type: mc
+          material: MUSIC_DISC_PRECIPICE
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '9':
+      seconds: 200
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: OMINOUS_TRIAL_KEY
+        '2':
+          amount: 32
+          material_type: mc
+          material: BREEZE_ROD
+        '3':
+          amount: 32
+          material_type: mc
+          material: WIND_CHARGE
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BOLT_ARMOR_TRIM_SMITHING_TEMPLATE
+        '2':
+          amount: 1
+          material_type: mc
+          material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '10':
+      seconds: 20
+      input:
+        '1':
+          amount: 64
+          material_type: mc
+          material: PAPER
+        '2':
+          amount: 32
+          material_type: mc
+          material: BREEZE_ROD
+        '3':
+          amount: 64
+          material_type: mc
+          material: WIND_CHARGE
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: FLOW_BANNER_PATTERN
+        '2':
+          amount: 1
+          material_type: mc
+          material: GUSTER_BANNER_PATTERN
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '11':
+      seconds: 20
+      input:
+        '1':
+          amount: 64
+          material_type: mc
+          material: BRICK
+        '2':
+          amount: 32
+          material_type: mc
+          material: BREEZE_ROD
+        '3':
+          amount: 32
+          material_type: mc
+          material: WIND_CHARGE
+        '4':
+          amount: 1
+          material_type: mc
+          material: TRIAL_KEY
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: FLOW_POTTERY_SHERD
+        '2':
+          amount: 1
+          material_type: mc
+          material: GUSTER_POTTERY_SHERD
+        '3':
+          amount: 1
+          material_type: mc
+          material: SCRAPE_POTTERY_SHERD
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39,
+    45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43,
+    44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21
+HAIMAN_CBHYMNQ:
+  item:
+    lore:      
+      - '&7模拟苍白花园的环境，可获取苍白花园物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 60000 J 可存储'
+      - '&8⇨ &e⚡&7 20000 J/s'
+    name: §f§l苍白花园模拟器
+    amount: 1
+    material_type: skull_hash
+    material: 497688091cc7b0bfc0488736b7a23466840412e0812216a4c2a1e5dbb86c5172
+  item_group: slime_customizer_21
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MAGICAL_BOOK_COVER
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MAGICAL_BOOK_COVER
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HOLOGRAM_PROJECTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+  capacity: 60000
+  energyPerCraft: 10000
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: RESIN_BLOCK
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: CREAKING_HEART
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: DANDELION
+      output:
+        '1':
+          amount: 2
+          material_type: mc
+          material: CLOSED_EYEBLOSSOM
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 1
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: CLOSED_EYEBLOSSOM
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: OPEN_EYEBLOSSOM
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 1
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: OAK_SAPLING
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: PALE_OAK_SAPLING
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 1
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: OAK_WOOD
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: PALE_OAK_WOOD
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 1
+      input:
+        '1':
+          material_type: mc
+          material: OAK_LOG
+          amount: 16
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: PALE_OAK_LOG
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 1
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: OAK_LEAVES
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: PALE_OAK_LEAVES
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7_1414717462':
+      seconds: 1
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MOSS_BLOCK
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: PALE_MOSS_BLOCK
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 1
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TRIAL_KEY
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MUSIC_DISC_CREATOR_MUSIC_BOX
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '9':
+      seconds: 1
+      input:
+        '1':
+          amount: 4
+          material_type: mc
+          material: HANGING_ROOTS
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: PALE_HANGING_MOSS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '10':
+      seconds: 1
+      input:
+        '1':
+          amount: 6
+          material_type: mc
+          material: PALE_OAK_WOOD
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: RESIN_CLUMP
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39,
+    45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43,
+    44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21.4
+HAIMAN_SZZHJ:
+  lateInit: false
+  item_group: slime_customizer_21
+  item:
+    name: '&c&l树脂转换机'
+    lore:
+      - '&7将原版树脂和粘液树脂互相转换'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 5000 J 可存储'
+      - '&8⇨ &e⚡&7 200 J/s'
+    material_type: skull_hash
+    material: 430996b83126b761594885d509cff2da11cda55450c8cf60b28ddacbcf0294a1
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    2:
+      material_type: mc
+      material: RESIN_BLOCK
+      amount: 1
+    3:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+  capacity: 5000
+  energyPerCraft: 100
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: RESIN_CLUMP
+          amount: 16
+      output:
+        1:
+          material_type: slimefun
+          material: STICKY_RESIN
+          amount: 16
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21.4
+      - "hasplugin SlimyTreeTaps"
+HAIMAN_CJHJMNQ:
+  item:
+    lore:      
+      - '&7模拟春季环境，可获取春季物品'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 6000 J 可存储'
+      - '&8⇨ &e⚡&7 500 J/s'
+    name: §e§l春季环境模拟器
+    amount: 1
+    material_type: skull_hash
+    material: 3ac87820b5b9ba33aaf43607d9d31d8fd83c2f9e83995d0dbed8c20678c07355
+  item_group: slime_customizer_21
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: REINFORCED_CLOTH
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HOLOGRAM_PROJECTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ZOT_INGOT
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT
+      amount: 1
+  capacity: 6000
+  energyPerCraft: 250
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        '1':
+          amount: 64
+          material_type: mc
+          material: OAK_LEAVES
+      output:
+        '1':
+          amount: 64
+          material_type: mc
+          material: LEAF_LITTER
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: DANDELION
+      output:
+        '1':
+          amount: 16
+          material_type: mc
+          material: WILDFLOWERS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: SHORT_GRASS
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: BUSH
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 3
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: BUSH
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: FIREFLY_BUSH
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: DEAD_BUSH
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: SHORT_DRY_GRASS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 1
+      input:
+        '1':
+          material_type: mc
+          material: SHORT_DRY_GRASS
+          amount: 8
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: TALL_DRY_GRASS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 1
+      input:
+        '1':
+          amount: 4
+          material_type: mc
+          material: CACTUS
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: CACTUS_FLOWER
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7_1414717462':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: EGG
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: BLUE_EGG
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 1
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: BLUE_EGG
+      output:
+        '1':
+          amount: 8
+          material_type: mc
+          material: BROWN_EGG
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [0, 1, 2, 3, 9, 10, 11, 12, 18, 19, 20, 21, 27, 28, 29, 30, 36, 37, 38, 39,
+    45, 46, 47, 48]
+  output: [5, 6, 7, 8, 14, 15, 16, 17, 23, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43,
+    44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21.5
+HAIMAN_DACESHIJI:
+  lateInit: false
+  item_group: slime_customizer_21
+  item:
+    name: '&f&l大测试机'
+    lore:
+      - '&7啊哈哈哈哈，现在是大测试时代'
+      - '&b机器'
+      - '&8⇨ &e⚡&7 500000 J 可存储'
+      - '&8⇨ &e⚡&7 200000 J/s'
+    material_type: skull_hash
+    material: afdf9bd64f5befc5f815488191272a7d59ecf38744211e22a12a47134c816f1b
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HM_CHAOPING_CIRCUIT_BOARD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HM_SHENQUAN_HEXIN
+      amount: 1
+    6:
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MINECRAFT_SOURCE_STONE
+      amount: 1
+  capacity: 500000
+  energyPerCraft: 100000
+  recipes:
+    '1':
+      seconds: 5000
+      input:
+        1:
+          material_type: mc
+          material: STRUCTURE_BLOCK
+          amount: 4
+      output:
+        1:
+          material_type: mc
+          material: TEST_BLOCK
+          amount: 1
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: TEST_BLOCK
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_2
+          amount: 1
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_2
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_3
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_3
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_4
+          amount: 1
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: HM_TEST_BLOCK_4
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: TEST_INSTANCE_BLOCK
+          amount: 1
+  input: [0, 1, 2, 9, 10, 11, 13, 18, 19, 20, 27, 28, 29, 30, 36, 37, 38, 39, 45, 46, 47, 48]
+  output: [6, 7, 8, 15, 16, 17, 24, 25, 26, 32, 33, 34, 35, 41, 42, 43, 44, 50, 51, 52, 53]
+  register:
+    conditions:
+      - version >= 1.21.5

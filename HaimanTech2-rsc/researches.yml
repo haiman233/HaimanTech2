@@ -1672,6 +1672,9 @@ sgdpys:
   - SWPY_13
   - SWPY_14
   - SWPY_15
+  - SWPY_16
+  - SWPY_17
+
 bosspys:
   lateInit: false
   id: 110101067
@@ -1898,3 +1901,48 @@ couzhengdr:
   items:
   - HM_CZDR
   - HM_CZDR_PLUS
+qiuyuyazha:
+  lateInit: false
+  id: 110101091
+  name: 压榨犰狳
+  levelCost: 25
+  items:
+  - HAIMAN_QYYZJ
+slmsmn:
+  lateInit: false
+  id: 110101092
+  name: 试炼密室模拟
+  levelCost: 150
+  items:
+  - HAIMAN_SLMSMNQ
+cbhymn:
+  lateInit: false
+  id: 110101093
+  name: 苍白花园模拟
+  levelCost: 115
+  items:
+  - HAIMAN_CBHYMNQ
+szzhj:
+  lateInit: false
+  id: 110101094
+  name: 树脂转换
+  levelCost: 20
+  items:
+  - HAIMAN_SZZHJ
+cjhjmn:
+  lateInit: false
+  id: 110101095
+  name: 春季环境模拟
+  levelCost: 20
+  items:
+  - HAIMAN_CJHJMNQ
+daceshiji:
+  lateInit: false
+  id: 110101096
+  name: 大测试时代已经来了！
+  levelCost: 4000
+  items:
+  - HAIMAN_DACESHIJI
+  - HM_TEST_BLOCK_2
+  - HM_TEST_BLOCK_3
+  - HM_TEST_BLOCK_4
