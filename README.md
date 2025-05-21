@@ -29,6 +29,7 @@
 
 软前置：
 - Gastronomicon
+- SlimyTreeTaps
 
 自BETA-2.0版本起，海曼科技院不再需要DynaTech，但是BETA-2.0以前的版本仍然需要安装DynaTech
 
