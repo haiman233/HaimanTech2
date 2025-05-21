@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.9'
+      - '&bRelease-1.9.1'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -4300,7 +4300,7 @@ TONGZHONGZI:
       amount: 1
     5:
       material_type: mc
-      material: COPPER_ORE
+      material: WHEAT_SEEDS
       amount: 1
     6:
       material_type: mc
@@ -4317,6 +4317,55 @@ TONGZHONGZI:
     9:
       material_type: mc
       material: COPPER_ORE
+      amount: 1
+YGCHZHONGZI:
+  lateInit: false
+  item_group: slime_customizer_zhuangshi
+  item:
+    name: '&b残骸种子'
+    lore:
+      - '&7放入矿物催生器可以收获矿物'
+    material_type: mc
+    material: WHEAT_SEEDS
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    2:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    3:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    4:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    5:
+      material_type: mc
+      material: WHEAT_SEEDS
+      amount: 1
+    6:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    7:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    8:
+      material_type: mc
+      material: ANCIENT_DEBRIS
+      amount: 1
+    9:
+      material_type: mc
+      material: ANCIENT_DEBRIS
       amount: 1
 JH_3:
   lateInit: false
