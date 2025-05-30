@@ -853,8 +853,8 @@ ADVANCED_NUCLEAR_REACTOR:
     - '&f不需要冷却剂的高级反应堆'
     - '&a不会爆炸'
     - '&a发电机'
-    - '&8⇨ &e⚡&7 4000 J 可存储'
-    - '&8⇨ &e⚡&7 26000 J/s'
+    - '&8⇨ &e⚡&7 4000 J/s'
+    - '&8⇨ &e⚡&7 26000 J 可存储'
     material_type: skull_hash
     material: a5bec76d65a868a5be5173d3b9e1775b54046f62035c1552440ede9973a90e1
   recipe_type: ENHANCED_CRAFTING_TABLE

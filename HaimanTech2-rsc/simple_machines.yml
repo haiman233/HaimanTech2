@@ -56,7 +56,7 @@ HM_GJFMSZHJ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: BOOKSHELF
-    name: "&b高极 &e附魔书整合机"
+    name: "&b高级 &e附魔书整合机"
     lore:
       - ""
       - '&b机器'
@@ -164,7 +164,7 @@ HM_GJZDTZ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: IRON_BLOCK
-    name: "&b高极 &f自动铁砧"
+    name: "&b高级 &f自动铁砧"
     lore:
       - ""
       - '&b机器'
@@ -276,7 +276,7 @@ HM_GJHGJ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: SMOKER
-    name: "&b高极 &e自动烘干机"
+    name: "&b高级 &e自动烘干机"
     lore:
       - ""
       - '&b机器'
@@ -384,7 +384,7 @@ HM_GJNZJ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: SMOKER
-    name: "&b高极 &e自动酿造机"
+    name: "&b高级 &e自动酿造机"
     lore:
       - ""
       - '&b机器'
@@ -492,7 +492,7 @@ HM_GJLYJ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: PISTON
-    name: "&b高极 &c炼油机"
+    name: "&b高级 &c炼油机"
     lore:
       - ""
       - '&b机器'
@@ -600,7 +600,7 @@ HM_GJQZDSJJ:
   item_group: slime_customizer_slimefun_machine
   item:
     material: HAY_BLOCK
-    name: "&b高极 &f全自动收集机"
+    name: "&b高级 &f全自动收集机"
     lore:
       - ""
       - '&b机器'
