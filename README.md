@@ -3,9 +3,11 @@
 
 海曼科技院是通过SlimeCustomizer/RykenSlimefunCustomizer插件写成的一份配置文件，旨在完善粘液科技线，拓展新的原版玩法  
 
-安装海曼科技院正式版需要使用RykenSlimefunCustomizer，简称rsc，在此[下载RykenSlimefunCustomizer](https://builds.guizhanss.com/SlimefunReloadingProject/RykenSlimeCustomizer/main)
+最新版海曼科技院,[点此跳转海曼科技院的下载页面](https://github.com/haiman233/HaimanTech2/releases)
 
-安装海曼科技院BETA版需要使用汉化版SlimeCustomizer，简称sc，在此[下载汉化版SlimeCustomizer](https://builds.guizhanss.com/SlimefunGuguProject/SlimeCustomizer/master)
+安装海曼科技院正式版需要使用RykenSlimefunCustomizer，简称rsc，[点此下载RykenSlimefunCustomizer](https://builds.guizhanss.com/SlimefunReloadingProject/RykenSlimeCustomizer/main)
+
+安装海曼科技院BETA版需要使用汉化版SlimeCustomizer，简称sc，[点此下载汉化版SlimeCustomizer](https://builds.guizhanss.com/SlimefunGuguProject/SlimeCustomizer/master)
 
 不支持官方的SlimeCustomizer
 
