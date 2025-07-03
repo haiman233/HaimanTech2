@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.9.4'
+      - '&bRelease-1.9.5'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -1306,6 +1306,23 @@ YITOUDAIDAI:
       material_type: mc
       material: SKELETON_SKULL
       amount: 4
+TAKUYA_DONGJI:
+  lateInit: false
+  item_group: slime_customizer_zuozhe
+  item:
+    name: '&e&lTakuya_Dongji的头'
+    lore:
+      - '&7海曼科技院的材质包作者——Takuya_Dongji'
+    material_type: skull_hash
+    material: 8ed52ab0e60e9f1e8b02d9bd8fa770b29b9daa3a71b9cf67f3b218d339bc37d5
+    amount: 1
+  placeable: true
+  recipe_type: HAIMAN_INFO_HAIMAN_ADVANCE_DYING
+  recipe:
+    5:
+      material_type: mc
+      material: PAINTING
+      amount: 16
 YH_MC:
   lateInit: false
   item_group: slime_customizer_zuozhe

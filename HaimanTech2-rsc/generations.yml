@@ -1,0 +1,24 @@
+HMXC:
+  slimefun_id: "HAIMAN_STAR_DUST" 
+  areas:
+    1:
+      maxHeight: -60
+      minHeight: -62
+      most: -61
+      amount: 1
+      maxSize: 2
+      minSize: 1
+      replacement: bedrock
+      environment: NORMAL
+YGYW:
+  slimefun_id: "ANCIENT_ITEM" 
+  areas:
+    1:
+      maxHeight: 25
+      minHeight: 21
+      most: 23
+      amount: 2
+      maxSize: 1
+      minSize: 1
+      replacement: ancient_debris
+      environment: NETHER
