@@ -1,4 +1,4 @@
-id: HaimanTech2-rsc
+id: RSC_HaimanTech2
 name: HaimanTech2
 depends: []
 pluginDepends:
@@ -19,7 +19,7 @@ loadStartTexts:
 - "                  当前版本：1.9.6"
 - "                   请等待1~3分钟"
 - "             若有新版本发布，会尝试从github获取存储库"
-- " 并自动更新HaimanTech2(默认开启，你可以在rsc的config文件里关闭)"
+- " 并自动更新RSC_HaimanTech2(默认开启，你可以在rsc的config文件里关闭)"
 - "          如果长时间卡住不动请尝试挂梯子或者关闭自动更新"
 - "  Bug反馈：https://github.com/haiman233/HaimanTech2/issues"
 - "========================================================="
