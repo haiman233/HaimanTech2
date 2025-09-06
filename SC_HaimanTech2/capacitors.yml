@@ -1,0 +1,277 @@
+# 阅读wiki获取更多信息: https://slimefun-addons-wiki.guizhanss.cn/slime-customizer/Capacitors
+CHOU_CAPACITOR:
+  category: dianro
+  capacitor-name: "&c&l先辈电容"
+  capacitor-lore:
+  - "&7哼!哼啊啊啊啊!"
+  block-type: DEFAULT
+  capacity: 114514
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: GOLD_BLOCK
+      amount: 1
+    2:
+      type: VANILLA
+      id: POISONOUS_POTATO
+      amount: 1
+    3:
+      type: VANILLA
+      id: GOLD_BLOCK
+      amount: 1
+    4:
+      type: VANILLA
+      id: POISONOUS_POTATO
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: LARGE_CAPACITOR
+      amount: 1
+    6:
+      type: VANILLA
+      id: POISONOUS_POTATO
+      amount: 1
+    7:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+    8:
+      type: VANILLA
+      id: POISONOUS_POTATO
+      amount: 1
+    9:
+      type: VANILLA
+      id: IRON_BLOCK
+      amount: 1
+FEI_CAPACITOR:
+  category: dianro
+  capacitor-name: "&c&l费牌电容"
+  capacitor-lore:
+  - "&7电容量小到极点了"
+  block-type: DEFAULT
+  capacity: 1
+  item-amount: 4
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: NONE
+      id: NONE
+      amount: 1
+    '2':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '3':
+      type: NONE
+      id: NONE
+      amount: 1
+    '4':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '5':
+      type: NONE
+      id: NONE
+      amount: 1
+    '6':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '7':
+      type: NONE
+      id: NONE
+      amount: 1
+    '8':
+      type: VANILLA
+      id: DIRT
+      amount: 1
+    '9':
+      type: NONE
+      id: NONE
+      amount: 1
+ZHISHU_CAPACITOR:
+  category: dianro
+  capacitor-name: "&6&l最小质数电容"
+  capacitor-lore:
+  - "&7最小质数：2"
+  block-type: REPEATER
+  capacity: 2
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '5':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '7':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '9':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+HESHU_CAPACITOR:
+  category: dianro
+  capacitor-name: "&6&l最小合数电容"
+  capacitor-lore:
+  - "&7最小合数：4"
+  block-type: COMPARATOR
+  capacity: 4
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '2':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '3':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '4':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ZHISHU_CAPACITOR
+      amount: 1
+    '6':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '7':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+    '8':
+      type: SLIMEFUN
+      id: FEI_CAPACITOR
+      amount: 1
+    '9':
+      type: VANILLA
+      id: COPPER_INGOT
+      amount: 1
+YINGXINGDIANRONG:
+  category: dianro
+  capacitor-name: "&e&l隐形电容"
+  capacitor-lore:
+  - "&7有光，但摸不着"
+  block-type: LIGHT
+  capacity: 524288
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '2':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '3':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '4':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '7':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '8':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+    '9':
+      type: VANILLA
+      id: LIGHT
+      amount: 1
+DITAN_DIANRONG:
+  category: haiman_jiaju
+  capacitor-name: "&f&l地毯电容"
+  capacitor-lore:
+  - "&7可以完美的融入家里铺的一群地毯中"
+  block-type: WHITE_CARPET
+  capacity: 524288
+  item-amount: 1
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    '1':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '2':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '3':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '4':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '5':
+      type: SLIMEFUN
+      id: ENERGIZED_CAPACITOR
+      amount: 1
+    '6':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '7':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '8':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1
+    '9':
+      type: VANILLA
+      id: WHITE_CARPET
+      amount: 1

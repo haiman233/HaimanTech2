@@ -1,0 +1,118 @@
+HAIMAN_INFO_FENZI_3:
+  lateInit: false
+  name: '&b&l分子重组仪 &7- &6III'
+  lore:
+    - '&7该物品在&b&l分子重组仪 &7- &6III&7里制作'
+  material_type: skull_hash
+  material: 5dff8dbbab15bfbb11e23b1f50b34ef548ad9832c0bd7f5a13791adad0057e1b
+HAIMAN_INFO_FENZI_4:
+  lateInit: false
+  name: '&b&l分子重组仪 &7- &cIV'
+  lore:
+    - '&7该物品在&b&l分子重组仪 &7- &cIV&7里制作'
+  material_type: skull_hash
+  material: 57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
+HAIMAN_INFO_FENZI_5:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&b&l分子重组仪 &7- &4V'
+  lore:
+    - '&7该物品在&b&l分子重组仪 &7- &4V&7里制作'
+  material_type: skull_hash
+  material: 30a35957fce2344aa8557ba6b36187ab415249934607bbbed2a053c3a86cafc0
+HAIMAN_INFO_FENZI_32767:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&b&l分子重组仪 &7- &5xxxMMDCCLXVII'
+  lore:
+    - '&7该物品在&b&l分子重组仪 &7- &5xxxMMDCCLXVII&7里制作'
+  material_type: skull_hash
+  material: 6f89b150be9c4c5249f355f68ea0c4391300a9be1f260d750fc35a1817ad796e
+HAIMAN_INFO_FENZI_GAIZHUANG:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&9&l分子重组仪改装机'
+  lore:
+    - '&7该物品需要在&9&l分子重组仪改装机&7中改装升级'
+  material_type: skull_hash
+  material: 2afeefa29bfdb3202238a2c4b8dcb750506a30d122600f88725e5aa247335460
+HAIMAN_INFO_FENZI_YEHUAJI:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&a&l燃料液化机'
+  lore:
+    - '&7该物品需要在&a&l燃料液化机&7中制作'
+  material_type: skull_hash
+  material: 6080972b7c32da650cc86e9aad665ed8d0d48a3bdb0ba234d4fceac024c7952e
+HAIMAN_INFO_COFFEE_MACHINE:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&c&l咖啡机'
+  lore:
+    - '&7该物品需要在&c&l咖啡机&7中制作'
+  material_type: skull_hash
+  material: 4552f7375672a5737f2ab766e5d1bcbfe8e12913cc9f044b43a2123a35185665
+HAIMAN_INFO_HAIMAN_ADVANCE_DYING:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&4&l终极染坊'
+  lore:
+    - '&7该物品需要在&4&l终极染坊&7中染色'
+  material_type: skull_hash
+  material: 391255206efac82b7e5ed6ce4b1ae5669ce55d087099299811007148bd1c8ece
+HAIMAN_INFO_CHUDIAN:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&d&l储电机'
+  lore:
+    - '&7该物品需要在&d&l储电机&7中充电'
+  material_type: skull_hash
+  material: 918a00b1c5ef0ba6d83e54fcbabb6272764f165d57ce8a26a916d4192a54c966
+HAIMAN_INFO_GUANGDIANJUHE:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&e&l电光聚合机'
+  lore:
+    - '&7该物品需要在&e&l电光聚合机&7中制作'
+  material_type: skull_hash
+  material: 366335847cba9aeaffc95cb109fdf55da13c95c97326a3bf5ddc7c99ee3
+HAIMAN_INFO_GUANGDIAN:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&e&l电光升级机'
+  lore:
+    - '&7该物品需要在&e&l电光升级机&7中制作'
+  material_type: skull_hash
+  material: 59d0f51f39e08e51cc83cbec01e3ce1362c70c02edc351902af8e7a5f6e201bc
+HAIMAN_INFO_BIRTHDAY_CAKE_STOVE:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&6&l烤箱'
+  lore:
+    - '&7该物品需要在&6&l烤箱&7中烘焙'
+  material_type: skull_hash
+  material: 8f9da46d97461a1be10600cc546a9d4613e16cfb5719eeb39042e501836008ca
+HAIMAN_INFO_WRITTEN_BOOK_CHANGER:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&6&l旧书机'
+  lore:
+    - '&7该物品需要在&6&l旧书机&7中制作'
+  material_type: skull_hash
+  material: 46ee7e906686abd5ec192b079314c45f1fb8171d9e13caa4cf9f63afc2263fd5
+HAIMAN_INFO_HEIDONG:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&8&l人造黑洞'
+  lore:
+    - '&7该物品需要在&8&l人造黑洞&7中制作'
+  material_type: skull_hash
+  material: 65333ccc4075cef0de045b090a72b4fd5417f91e9e908b623fbbe48766d2aff5
+HAIMAN_DACESHIJI:
+  lateInit: false
+  item_group: sakurafun_recipe
+  name: '&f&l大测试机'
+  lore:
+    - '&7该物品需要在&8&l大测试机&7中制作'
+  material_type: skull_hash
+  material: afdf9bd64f5befc5f815488191272a7d59ecf38744211e22a12a47134c816f1b
