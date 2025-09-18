@@ -1150,14 +1150,14 @@ HM_JBCHONGDIANTAI:
     lore:
       - ""
       - '&b机器'
-      - "&8⇨ &e⚡ &7速度: &b64000x"
+      - "&8⇨ &e⚡ &7速度: &b640000x"
       - "&8⇨ &e⚡ &71000000 J/s"
       - "&8⇨&e ⚡ &710000000 J 可存储"
   type: CHARGING_BENCH
   settings:
     capacity: 10000000
     consumption: 1000000
-    speed: 64000
+    speed: 640000
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
