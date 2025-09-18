@@ -1947,3 +1947,36 @@ daceshiji:
   - HM_TEST_BLOCK_2
   - HM_TEST_BLOCK_3
   - HM_TEST_BLOCK_4
+nyybjq2:
+  lateInit: false
+  id: 110101097
+  name: 更实用且高级的粘液原版机器
+  levelCost: 75
+  items:
+  - HM_ZJDDYELIANLU
+  - HM_ZJDIANLU
+  - HM_ZJSUIKUANGJI
+  - HM_ZJDAFENJI
+  - HM_ZJBINGXIANG
+  - HM_ZJYASUOJI
+  - HM_ZJGANGUO
+  - HM_ZJJRYALC
+nyybjq3:
+  lateInit: false
+  id: 110101098
+  name: 终极改装型粘液原版机器
+  levelCost: 150
+  items:
+  - HM_CNCHONGDIANTAI
+  - HM_CNZDFMJ
+  - HM_CNZDQMJ
+
+nyybjq4:
+  lateInit: false
+  id: 110101099
+  name: 突破上限的粘液原版机器
+  levelCost: 300
+  items:
+  - HM_JBCHONGDIANTAI
+  - HM_JBZDFMJ
+  - HM_JBZDQMJ

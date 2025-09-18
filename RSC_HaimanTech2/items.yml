@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.9.7'
+      - '&bRelease-1.9.8'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -240,18 +240,6 @@ HM_LIGHT_ZS:
       - '&7该物品需要在电光聚合机和电光升级机中制作'
     material_type: mc
     material: LIGHT
-    amount: 1
-  placeable: false
-  recipe_type: 'NULL'
-HM_SHOUNADAI:
-  lateInit: false
-  item_group: slime_customizer_yuanban
-  item:
-    name: '&f&l收纳袋'
-    lore:
-      - '&7该物品需要在海曼工作台中制作'
-    material_type: mc
-    material: BUNDLE
     amount: 1
   placeable: false
   recipe_type: 'NULL'

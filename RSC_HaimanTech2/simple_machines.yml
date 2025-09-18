@@ -872,3 +872,759 @@ HM_ZJZWSZJSQ:
       material_type: slimefun
       material: IRIDIUM_PLATE
       amount: 1
+HM_ZJDDYELIANLU:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: FURNACE
+    name: "&4终极 &6电力冶炼炉"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &72666 J/s"
+      - "&8⇨&e ⚡ &726660 J 可存储"
+  type: ELECTRIC_SMELTERY
+  settings:
+    capacity: 26660
+    consumption: 2666
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_SMELTERY_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJDIANLU:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: FURNACE
+    name: "&4终极 &6电炉"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &72666 J/s"
+      - "&8⇨&e ⚡ &726660 J 可存储"
+  type: ELECTRIC_FURNACE
+  settings:
+    capacity: 26660
+    consumption: 2666
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_FURNACE_3
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJSUIKUANGJI:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: FURNACE
+    name: "&4终极 &6电力碎矿机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &73000 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+  type: ELECTRIC_ORE_GRINDER
+  settings:
+    capacity: 30000
+    consumption: 3000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJDAFENJI:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: FURNACE
+    name: "&4终极 &6电力打粉机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &72000 J/s"
+      - "&8⇨&e ⚡ &720000 J 可存储"
+  type: ELECTRIC_INGOT_PULVERIZER
+  settings:
+    capacity: 20000
+    consumption: 2000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_INGOT_PULVERIZER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_CNCHONGDIANTAI:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: CONDUIT
+    name: "&c超能 &6充电台"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b120000x"
+      - "&8⇨ &e⚡ &7100000 J/s"
+      - "&8⇨&e ⚡ &71000000 J 可存储"
+  type: CHARGING_BENCH
+  settings:
+    capacity: 1000000
+    consumption: 100000
+    speed: 120000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: INFINITY_CHARGER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_JBCHONGDIANTAI:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: CONDUIT
+    name: "&f聚变 &6充电台"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b64000x"
+      - "&8⇨ &e⚡ &71000000 J/s"
+      - "&8⇨&e ⚡ &710000000 J 可存储"
+  type: CHARGING_BENCH
+  settings:
+    capacity: 10000000
+    consumption: 1000000
+    speed: 64000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_CNCHONGDIANTAI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+HM_ZJBINGXIANG:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: LIGHT_BLUE_STAINED_GLASS
+    name: "&4终极 &6冰箱"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &73000 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+  type: FREEZER
+  settings:
+    capacity: 30000
+    consumption: 3000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: FREEZER_3
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJYASUOJI:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: STICKY_PISTON
+    name: "&4终极 &6压缩机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &73000 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+  type: ELECTRIC_PRESS
+  settings:
+    capacity: 30000
+    consumption: 3000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_PRESS_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJGANGUO:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: RED_TERRACOTTA
+    name: "&4终极 &6坩埚"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &73000 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+  type: ELECTRIC_CRUCIBLE
+  settings:
+    capacity: 30000
+    consumption: 3000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIFIED_CRUCIBLE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_ZJJRYALC:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: LIGHT_GRAY_STAINED_GLASS
+    name: "&4终极 &6加热压力舱"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b200x"
+      - "&8⇨ &e⚡ &73000 J/s"
+      - "&8⇨&e ⚡ &730000 J 可存储"
+  type: HEATED_PRESSURE_CHAMBER
+  settings:
+    capacity: 30000
+    consumption: 3000
+    speed: 200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER_2
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: FUHEBAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: MIXED_METAL_INGOT
+      amount: 1
+HM_CNZDFMJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: ENCHANTING_TABLE
+    name: "&c超能 &6自动附魔机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b1200x"
+      - "&8⇨ &e⚡ &7100000 J/s"
+      - "&8⇨&e ⚡ &71000000 J 可存储"
+  type: AUTO_ENCHANTER
+  settings:
+    capacity: 1000000
+    consumption: 100000
+    speed: 1200
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: INFINITY_ENCHANTER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+HM_JBZDFMJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: ENCHANTING_TABLE
+    name: "&f聚变 &6自动附魔机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b12000x"
+      - "&8⇨ &e⚡ &71000000 J/s"
+      - "&8⇨&e ⚡ &710000000 J 可存储"
+  type: AUTO_ENCHANTER
+  settings:
+    capacity: 10000000
+    consumption: 1000000
+    speed: 12000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_CNZDFMJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+HM_CNZDQMJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: ENCHANTING_TABLE
+    name: "&c超能 &6自动祛魔机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b1800x"
+      - "&8⇨ &e⚡ &7100000 J/s"
+      - "&8⇨&e ⚡ &71000000 J 可存储"
+  type: AUTO_DISENCHANTER
+  settings:
+    capacity: 1000000
+    consumption: 100000
+    speed: 1800
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: INFINITY_DISENCHANTER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: ULTIMATE_ENERGY_MOTOR
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+HM_JBZDQMJ:
+  item_group: slime_customizer_slimefun_machine
+  item:
+    material: ENCHANTING_TABLE
+    name: "&f聚变 &6自动祛魔机"
+    lore:
+      - ""
+      - '&b机器'
+      - "&8⇨ &e⚡ &7速度: &b36000x"
+      - "&8⇨ &e⚡ &71000000 J/s"
+      - "&8⇨&e ⚡ &710000000 J 可存储"
+  type: AUTO_DISENCHANTER
+  settings:
+    capacity: 10000000
+    consumption: 1000000
+    speed: 36000
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ARTIFICIAL_SILICON_BASED_MATERIALS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HAIMAN_INGOT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HM_CNZDQMJ
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HAIMAN_INFINITY_CONSTRUCTOR_2
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: TIANXUAN_MADA
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: DUIDIEYUANJIAN
+      amount: 1
