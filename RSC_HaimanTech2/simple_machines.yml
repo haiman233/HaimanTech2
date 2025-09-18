@@ -1340,7 +1340,7 @@ HM_ZJGANGUO:
       amount: 1
     '5':
       material_type: slimefun
-      material: ELECTRIFIED_CRUCIBLE
+      material: ELECTRIFIED_CRUCIBLE_3
       amount: 1
     '6':
       material_type: slimefun
