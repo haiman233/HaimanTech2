@@ -207,7 +207,7 @@ HIGH_VOLTAGE_TRANSMISSION_LINES:
     - '&e太阳能发电机'
     - '&8⇨ &e⚡&7 4 J/s (昼)'
     - '&8⇨ &e⚡&7 2 J/s (夜)'
-    material: CHAIN
+    material: CHAIN | IRON_CHAIN
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

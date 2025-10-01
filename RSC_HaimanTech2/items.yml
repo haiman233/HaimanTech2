@@ -21,7 +21,7 @@ VERSION_INFO:
     name: '&c&l版本号'
     lore:
       - '&f当前海曼科技院版本：'
-      - '&bRelease-1.9.8'
+      - '&bRelease-1.9.9'
       - '&7您在提issues的时候需要展示这个'
     material_type: mc
     material: PAPER
@@ -18066,7 +18066,7 @@ HM_SUOLIANHUOQI:
       amount: 1
     5:
       material_type: mc
-      material: CHAIN
+      material: CHAIN | IRON_CHAIN
       amount: 1
     6:
       material_type: slimefun

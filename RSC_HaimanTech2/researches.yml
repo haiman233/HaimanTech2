@@ -1675,6 +1675,8 @@ sgdpys:
   - SWPY_15
   - SWPY_16
   - SWPY_17
+  - SWPY_18
+  - SWPY_19
 
 bosspys:
   lateInit: false
@@ -1980,3 +1982,19 @@ nyybjq4:
   - HM_JBCHONGDIANTAI
   - HM_JBZDFMJ
   - HM_JBZDQMJ
+
+gbbcpdkj:
+  lateInit: false
+  id: 110101100
+  name: 唱片雕刻大师
+  levelCost: 30
+  items:
+  - HAIMAN_LAVACHICKENTEARS
+
+tkldkds:
+  lateInit: false
+  id: 110101101
+  name: 铜傀儡，最好的伙伴！
+  levelCost: 40
+  items:
+  - HAIMAN_TKLXDKJ
