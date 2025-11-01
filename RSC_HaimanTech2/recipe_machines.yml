@@ -51027,7 +51027,7 @@ HAIMAN_LAVACHICKENTEARS:
       amount: 1
     6:
       material_type: mc
-      material: RAW_CHICKEN
+      material: CHICKEN
       amount: 1
     7:
       material_type: slimefun
@@ -51049,7 +51049,7 @@ HAIMAN_LAVACHICKENTEARS:
       input:
         1:
           material_type: mc
-          material: RAW_CHICKEN
+          material: CHICKEN
           amount: 1
       output:
         1:
