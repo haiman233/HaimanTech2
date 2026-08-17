@@ -501,40 +501,40 @@ YASUO_SFBOOK:
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     2:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     3:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     4:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     5:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     6:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     7:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     8:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
     9:
-      material_type: saveditem
-      material: SFBOOK
+      material_type: built_in
+      material: slimefun_guide_survival
       amount: 1
 YASUO_YASUO_SFBOOK:
   lateInit: false

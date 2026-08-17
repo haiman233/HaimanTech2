@@ -24646,8 +24646,8 @@ HAIMAN_BOOK_MACHINE:
           amount: 1
       output:
         1:
-          material_type: saveditem
-          material: SFBOOK
+          material_type: built_in
+          material: slimefun_guide_survival
           amount: 1
     '10':
       seconds: 3
